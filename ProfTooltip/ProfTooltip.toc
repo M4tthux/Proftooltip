@@ -1,0 +1,17 @@
+## Interface: 11508
+## Title: ProfTooltip
+## Notes: Shows profession info on item hover (Alchemy, Engineering, Blacksmithing, Leatherworking, Tailoring, Cooking, First Aid, Enchanting, Mining)
+## Author: YourName
+## Version: 2.2
+
+db/ores.lua
+db/herbs.lua
+db/recipes_alchemy.lua
+db/recipes_engineering.lua
+db/recipes_blacksmithing.lua
+db/recipes_leatherworking.lua
+db/recipes_tailoring.lua
+db/recipes_cooking.lua
+db/recipes_first_aid.lua
+db/recipes_enchanting.lua
+ProfTooltip.lua

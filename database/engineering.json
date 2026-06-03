@@ -1,0 +1,4527 @@
+{
+  "_meta": {
+    "profession": "Engineering",
+    "game_version": "WoW Classic Era (1.15.x / interface 11508)",
+    "built": "2026-06-03",
+    "recipe_count": 164,
+    "reagents_source": "Wowhead Classic (fr.wowhead.com/classic/spell=...), reagents array parsed by engineering-scanner",
+    "notes": [
+      "Reagent IDs and quantities are VERIFIED against Wowhead Classic.",
+      "'skill' (required skill level) is NOT yet verified - carried from the old addon DB; skill_verified=false everywhere until a Wowhead pass is done.",
+      "TBC/WotLK recipes are intentionally EXCLUDED (they do not exist in Classic Era).",
+      "3 vanilla recipes absent from the scrape source carry source='addon-unverified' (reagents not yet Wowhead-checked): Arclight Spanner 6219, Fused Wiring 7191, Goblin Mortar 10577.",
+      "Keyed by OUTPUT ITEM ID (matches how the addon looks items up on tooltip hover)."
+    ]
+  },
+  "recipes": {
+    "4357": {
+      "name": "Rough Blasting Powder",
+      "spell_id": 3918,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2835,
+          "qty": 1,
+          "name": "Rough Stone"
+        }
+      ]
+    },
+    "4358": {
+      "name": "Rough Dynamite",
+      "spell_id": 3919,
+      "output_qty": 2,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4357,
+          "qty": 2,
+          "name": "Rough Blasting Powder"
+        },
+        {
+          "id": 2589,
+          "qty": 1,
+          "name": "Linen Cloth"
+        }
+      ]
+    },
+    "4359": {
+      "name": "Handful of Copper Bolts",
+      "spell_id": 3922,
+      "output_qty": 1,
+      "skill": 30,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 1,
+          "name": "Copper Bar"
+        }
+      ]
+    },
+    "4360": {
+      "name": "Rough Copper Bomb",
+      "spell_id": 3923,
+      "output_qty": 2,
+      "skill": 30,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 1,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 4359,
+          "qty": 1,
+          "name": "Handful of Copper Bolts"
+        },
+        {
+          "id": 4357,
+          "qty": 2,
+          "name": "Rough Blasting Powder"
+        },
+        {
+          "id": 2589,
+          "qty": 1,
+          "name": "Linen Cloth"
+        }
+      ]
+    },
+    "4361": {
+      "name": "Copper Tube",
+      "spell_id": 3924,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 2,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 1,
+          "name": "Weak Flux"
+        }
+      ]
+    },
+    "4362": {
+      "name": "Rough Boomstick",
+      "spell_id": 3925,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4361,
+          "qty": 1,
+          "name": "Copper Tube"
+        },
+        {
+          "id": 4359,
+          "qty": 1,
+          "name": "Handful of Copper Bolts"
+        },
+        {
+          "id": 4399,
+          "qty": 1,
+          "name": "Wooden Stock"
+        }
+      ]
+    },
+    "4363": {
+      "name": "Copper Modulator",
+      "spell_id": 3926,
+      "output_qty": 1,
+      "skill": 65,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4359,
+          "qty": 2,
+          "name": "Handful of Copper Bolts"
+        },
+        {
+          "id": 2840,
+          "qty": 1,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 2589,
+          "qty": 2,
+          "name": "Linen Cloth"
+        }
+      ]
+    },
+    "4364": {
+      "name": "Coarse Blasting Powder",
+      "spell_id": 3929,
+      "output_qty": 1,
+      "skill": 75,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2836,
+          "qty": 1,
+          "name": "Coarse Stone"
+        }
+      ]
+    },
+    "4365": {
+      "name": "Coarse Dynamite",
+      "spell_id": 3931,
+      "output_qty": 1,
+      "skill": 75,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4364,
+          "qty": 3,
+          "name": "Coarse Blasting Powder"
+        },
+        {
+          "id": 2589,
+          "qty": 1,
+          "name": "Linen Cloth"
+        }
+      ]
+    },
+    "4366": {
+      "name": "Target Dummy",
+      "spell_id": 3932,
+      "output_qty": 1,
+      "skill": 85,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4363,
+          "qty": 1,
+          "name": "Copper Modulator"
+        },
+        {
+          "id": 4359,
+          "qty": 2,
+          "name": "Handful of Copper Bolts"
+        },
+        {
+          "id": 2841,
+          "qty": 1,
+          "name": "Tin Bar"
+        },
+        {
+          "id": 2592,
+          "qty": 1,
+          "name": "Wool Cloth"
+        }
+      ]
+    },
+    "4367": {
+      "name": "Small Seaforium Charge",
+      "spell_id": 3933,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4364,
+          "qty": 2,
+          "name": "Coarse Blasting Powder"
+        },
+        {
+          "id": 4363,
+          "qty": 1,
+          "name": "Copper Modulator"
+        },
+        {
+          "id": 2318,
+          "qty": 1,
+          "name": "Light Leather"
+        },
+        {
+          "id": 159,
+          "qty": 1,
+          "name": "Refreshing Spring Water"
+        }
+      ]
+    },
+    "4368": {
+      "name": "Flying Tiger Goggles",
+      "spell_id": 3934,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 6,
+          "name": "Light Leather"
+        },
+        {
+          "id": 818,
+          "qty": 2,
+          "name": "Malachite"
+        }
+      ]
+    },
+    "4369": {
+      "name": "Deadly Blunderbuss",
+      "spell_id": 3936,
+      "output_qty": 1,
+      "skill": 105,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4361,
+          "qty": 2,
+          "name": "Copper Tube"
+        },
+        {
+          "id": 4359,
+          "qty": 4,
+          "name": "Handful of Copper Bolts"
+        },
+        {
+          "id": 4399,
+          "qty": 1,
+          "name": "Wooden Stock"
+        },
+        {
+          "id": 2319,
+          "qty": 2,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "4370": {
+      "name": "Large Copper Bomb",
+      "spell_id": 3937,
+      "output_qty": 2,
+      "skill": 105,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 3,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 4364,
+          "qty": 4,
+          "name": "Coarse Blasting Powder"
+        },
+        {
+          "id": 4404,
+          "qty": 1,
+          "name": "Silver Contact"
+        }
+      ]
+    },
+    "4371": {
+      "name": "Bronze Tube",
+      "spell_id": 3938,
+      "output_qty": 1,
+      "skill": 105,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 2,
+          "name": "Tin Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 1,
+          "name": "Weak Flux"
+        }
+      ]
+    },
+    "4372": {
+      "name": "Lovingly Crafted Boomstick",
+      "spell_id": 3939,
+      "output_qty": 1,
+      "skill": 120,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4371,
+          "qty": 2,
+          "name": "Bronze Tube"
+        },
+        {
+          "id": 4359,
+          "qty": 2,
+          "name": "Handful of Copper Bolts"
+        },
+        {
+          "id": 4400,
+          "qty": 1,
+          "name": "Heavy Stock"
+        },
+        {
+          "id": 1206,
+          "qty": 3,
+          "name": "Moss Agate"
+        }
+      ]
+    },
+    "4373": {
+      "name": "Shadow Goggles",
+      "spell_id": 3940,
+      "output_qty": 1,
+      "skill": 120,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 4,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 1210,
+          "qty": 2,
+          "name": "Tigerseye"
+        }
+      ]
+    },
+    "4374": {
+      "name": "Small Bronze Bomb",
+      "spell_id": 3941,
+      "output_qty": 1,
+      "skill": 120,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4364,
+          "qty": 4,
+          "name": "Coarse Blasting Powder"
+        },
+        {
+          "id": 2841,
+          "qty": 2,
+          "name": "Tin Bar"
+        },
+        {
+          "id": 4404,
+          "qty": 1,
+          "name": "Silver Contact"
+        },
+        {
+          "id": 2592,
+          "qty": 1,
+          "name": "Wool Cloth"
+        }
+      ]
+    },
+    "4375": {
+      "name": "Whirring Bronze Gizmo",
+      "spell_id": 3942,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 2,
+          "name": "Tin Bar"
+        },
+        {
+          "id": 2592,
+          "qty": 1,
+          "name": "Wool Cloth"
+        }
+      ]
+    },
+    "4376": {
+      "name": "Flame Deflector",
+      "spell_id": 3944,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4375,
+          "qty": 1,
+          "name": "Whirring Bronze Gizmo"
+        },
+        {
+          "id": 4402,
+          "qty": 1,
+          "name": "Small Flame Sac"
+        }
+      ]
+    },
+    "4377": {
+      "name": "Heavy Blasting Powder",
+      "spell_id": 3945,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2838,
+          "qty": 1,
+          "name": "Heavy Stone"
+        }
+      ]
+    },
+    "4378": {
+      "name": "Heavy Dynamite",
+      "spell_id": 3946,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4377,
+          "qty": 2,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 2592,
+          "qty": 1,
+          "name": "Wool Cloth"
+        }
+      ]
+    },
+    "4379": {
+      "name": "Silver-plated Shotgun",
+      "spell_id": 3949,
+      "output_qty": 1,
+      "skill": 130,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4371,
+          "qty": 2,
+          "name": "Bronze Tube"
+        },
+        {
+          "id": 4375,
+          "qty": 2,
+          "name": "Whirring Bronze Gizmo"
+        },
+        {
+          "id": 4400,
+          "qty": 1,
+          "name": "Heavy Stock"
+        },
+        {
+          "id": 2842,
+          "qty": 3,
+          "name": "Silver Bar"
+        }
+      ]
+    },
+    "4380": {
+      "name": "Big Bronze Bomb",
+      "spell_id": 3950,
+      "output_qty": 2,
+      "skill": 140,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4377,
+          "qty": 2,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 2841,
+          "qty": 3,
+          "name": "Tin Bar"
+        },
+        {
+          "id": 4404,
+          "qty": 1,
+          "name": "Silver Contact"
+        }
+      ]
+    },
+    "4381": {
+      "name": "Minor Recombobulator",
+      "spell_id": 3952,
+      "output_qty": 1,
+      "skill": 140,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4371,
+          "qty": 1,
+          "name": "Bronze Tube"
+        },
+        {
+          "id": 4375,
+          "qty": 2,
+          "name": "Whirring Bronze Gizmo"
+        },
+        {
+          "id": 2319,
+          "qty": 2,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 1206,
+          "qty": 1,
+          "name": "Moss Agate"
+        }
+      ]
+    },
+    "4382": {
+      "name": "Bronze Framework",
+      "spell_id": 3953,
+      "output_qty": 1,
+      "skill": 145,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 2,
+          "name": "Tin Bar"
+        },
+        {
+          "id": 2319,
+          "qty": 1,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 2592,
+          "qty": 1,
+          "name": "Wool Cloth"
+        }
+      ]
+    },
+    "4383": {
+      "name": "Moonsight Rifle",
+      "spell_id": 3954,
+      "output_qty": 1,
+      "skill": 145,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4371,
+          "qty": 3,
+          "name": "Bronze Tube"
+        },
+        {
+          "id": 4375,
+          "qty": 3,
+          "name": "Whirring Bronze Gizmo"
+        },
+        {
+          "id": 4400,
+          "qty": 1,
+          "name": "Heavy Stock"
+        },
+        {
+          "id": 1705,
+          "qty": 2,
+          "name": "Lesser Moonstone"
+        }
+      ]
+    },
+    "4384": {
+      "name": "Explosive Sheep",
+      "spell_id": 3955,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4382,
+          "qty": 1,
+          "name": "Bronze Framework"
+        },
+        {
+          "id": 4375,
+          "qty": 1,
+          "name": "Whirring Bronze Gizmo"
+        },
+        {
+          "id": 4377,
+          "qty": 2,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 2592,
+          "qty": 2,
+          "name": "Wool Cloth"
+        }
+      ]
+    },
+    "4385": {
+      "name": "Green Tinted Goggles",
+      "spell_id": 3956,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 4,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 1206,
+          "qty": 2,
+          "name": "Moss Agate"
+        },
+        {
+          "id": 4368,
+          "qty": 1,
+          "name": "Flying Tiger Goggles"
+        }
+      ]
+    },
+    "4386": {
+      "name": "Ice Deflector",
+      "spell_id": 3957,
+      "output_qty": 1,
+      "skill": 155,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4375,
+          "qty": 1,
+          "name": "Whirring Bronze Gizmo"
+        },
+        {
+          "id": 3829,
+          "qty": 1,
+          "name": "Frost Oil"
+        }
+      ]
+    },
+    "4387": {
+      "name": "Iron Strut",
+      "spell_id": 3958,
+      "output_qty": 1,
+      "skill": 160,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 2,
+          "name": "Iron Bar"
+        }
+      ]
+    },
+    "4388": {
+      "name": "Discombobulator Ray",
+      "spell_id": 3959,
+      "output_qty": 1,
+      "skill": 160,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4375,
+          "qty": 3,
+          "name": "Whirring Bronze Gizmo"
+        },
+        {
+          "id": 4306,
+          "qty": 2,
+          "name": "Silk Cloth"
+        },
+        {
+          "id": 1529,
+          "qty": 1,
+          "name": "Jade"
+        },
+        {
+          "id": 4371,
+          "qty": 1,
+          "name": "Bronze Tube"
+        }
+      ]
+    },
+    "4389": {
+      "name": "Gyrochronatom",
+      "spell_id": 3961,
+      "output_qty": 1,
+      "skill": 170,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 1,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 10558,
+          "qty": 1,
+          "name": "Gold Power Core"
+        }
+      ]
+    },
+    "4390": {
+      "name": "Iron Grenade",
+      "spell_id": 3962,
+      "output_qty": 2,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 1,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 4377,
+          "qty": 1,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 4306,
+          "qty": 1,
+          "name": "Silk Cloth"
+        }
+      ]
+    },
+    "4391": {
+      "name": "Compact Harvest Reaper Kit",
+      "spell_id": 3963,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4387,
+          "qty": 2,
+          "name": "Iron Strut"
+        },
+        {
+          "id": 4382,
+          "qty": 1,
+          "name": "Bronze Framework"
+        },
+        {
+          "id": 4389,
+          "qty": 2,
+          "name": "Gyrochronatom"
+        },
+        {
+          "id": 4234,
+          "qty": 4,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "4392": {
+      "name": "Advanced Target Dummy",
+      "spell_id": 3965,
+      "output_qty": 1,
+      "skill": 185,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4387,
+          "qty": 1,
+          "name": "Iron Strut"
+        },
+        {
+          "id": 4382,
+          "qty": 1,
+          "name": "Bronze Framework"
+        },
+        {
+          "id": 4389,
+          "qty": 1,
+          "name": "Gyrochronatom"
+        },
+        {
+          "id": 4234,
+          "qty": 4,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "4393": {
+      "name": "Craftsman's Monocle",
+      "spell_id": 3966,
+      "output_qty": 1,
+      "skill": 185,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 6,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 3864,
+          "qty": 2,
+          "name": "Citrine"
+        }
+      ]
+    },
+    "4394": {
+      "name": "Big Iron Bomb",
+      "spell_id": 3967,
+      "output_qty": 2,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 3,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 4377,
+          "qty": 3,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 4404,
+          "qty": 1,
+          "name": "Silver Contact"
+        }
+      ]
+    },
+    "4395": {
+      "name": "Goblin Land Mine",
+      "spell_id": 3968,
+      "output_qty": 1,
+      "skill": 195,
+      "skill_verified": false,
+      "spec": "Goblin",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4377,
+          "qty": 3,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 3575,
+          "qty": 2,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 4389,
+          "qty": 1,
+          "name": "Gyrochronatom"
+        }
+      ]
+    },
+    "4396": {
+      "name": "Mechanical Dragonling",
+      "spell_id": 3969,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4382,
+          "qty": 1,
+          "name": "Bronze Framework"
+        },
+        {
+          "id": 4387,
+          "qty": 4,
+          "name": "Iron Strut"
+        },
+        {
+          "id": 4389,
+          "qty": 4,
+          "name": "Gyrochronatom"
+        },
+        {
+          "id": 3864,
+          "qty": 2,
+          "name": "Citrine"
+        },
+        {
+          "id": 7191,
+          "qty": 1,
+          "name": "Fused Wiring"
+        }
+      ]
+    },
+    "4397": {
+      "name": "Gnomish Cloaking Device",
+      "spell_id": 3971,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4389,
+          "qty": 4,
+          "name": "Gyrochronatom"
+        },
+        {
+          "id": 1529,
+          "qty": 2,
+          "name": "Jade"
+        },
+        {
+          "id": 1705,
+          "qty": 2,
+          "name": "Lesser Moonstone"
+        },
+        {
+          "id": 3864,
+          "qty": 2,
+          "name": "Citrine"
+        },
+        {
+          "id": 7191,
+          "qty": 1,
+          "name": "Fused Wiring"
+        }
+      ]
+    },
+    "4398": {
+      "name": "Large Seaforium Charge",
+      "spell_id": 3972,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10505,
+          "qty": 2,
+          "name": "Solid Blasting Powder"
+        },
+        {
+          "id": 4234,
+          "qty": 2,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 159,
+          "qty": 1,
+          "name": "Refreshing Spring Water"
+        }
+      ]
+    },
+    "4401": {
+      "name": "Mechanical Squirrel Box",
+      "spell_id": 3928,
+      "output_qty": 1,
+      "skill": 75,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4363,
+          "qty": 1,
+          "name": "Copper Modulator"
+        },
+        {
+          "id": 4359,
+          "qty": 1,
+          "name": "Handful of Copper Bolts"
+        },
+        {
+          "id": 2840,
+          "qty": 1,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 774,
+          "qty": 2,
+          "name": "Malachite"
+        }
+      ]
+    },
+    "4403": {
+      "name": "Portable Bronze Mortar",
+      "spell_id": 3960,
+      "output_qty": 1,
+      "skill": 165,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4371,
+          "qty": 4,
+          "name": "Bronze Tube"
+        },
+        {
+          "id": 4387,
+          "qty": 1,
+          "name": "Iron Strut"
+        },
+        {
+          "id": 4377,
+          "qty": 4,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 2319,
+          "qty": 4,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "4404": {
+      "name": "Silver Contact",
+      "spell_id": 3973,
+      "output_qty": 5,
+      "skill": 90,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2842,
+          "qty": 1,
+          "name": "Silver Bar"
+        }
+      ]
+    },
+    "4405": {
+      "name": "Crude Scope",
+      "spell_id": 3977,
+      "output_qty": 1,
+      "skill": 60,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4361,
+          "qty": 1,
+          "name": "Copper Tube"
+        },
+        {
+          "id": 774,
+          "qty": 1,
+          "name": "Malachite"
+        },
+        {
+          "id": 4359,
+          "qty": 1,
+          "name": "Handful of Copper Bolts"
+        }
+      ]
+    },
+    "4406": {
+      "name": "Standard Scope",
+      "spell_id": 3978,
+      "output_qty": 1,
+      "skill": 110,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4371,
+          "qty": 1,
+          "name": "Bronze Tube"
+        },
+        {
+          "id": 1206,
+          "qty": 1,
+          "name": "Moss Agate"
+        }
+      ]
+    },
+    "4407": {
+      "name": "Accurate Scope",
+      "spell_id": 3979,
+      "output_qty": 1,
+      "skill": 180,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4371,
+          "qty": 1,
+          "name": "Bronze Tube"
+        },
+        {
+          "id": 1529,
+          "qty": 1,
+          "name": "Jade"
+        },
+        {
+          "id": 3864,
+          "qty": 1,
+          "name": "Citrine"
+        }
+      ]
+    },
+    "4852": {
+      "name": "Flash Bomb",
+      "spell_id": 8243,
+      "output_qty": 1,
+      "skill": 185,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4611,
+          "qty": 1,
+          "name": "Blue Pearl"
+        },
+        {
+          "id": 4377,
+          "qty": 1,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 4306,
+          "qty": 1,
+          "name": "Silk Cloth"
+        }
+      ]
+    },
+    "5507": {
+      "name": "Ornate Spyglass",
+      "spell_id": 6458,
+      "output_qty": 1,
+      "skill": 135,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4371,
+          "qty": 2,
+          "name": "Bronze Tube"
+        },
+        {
+          "id": 4375,
+          "qty": 2,
+          "name": "Whirring Bronze Gizmo"
+        },
+        {
+          "id": 4363,
+          "qty": 1,
+          "name": "Copper Modulator"
+        },
+        {
+          "id": 1206,
+          "qty": 1,
+          "name": "Moss Agate"
+        }
+      ]
+    },
+    "6219": {
+      "name": "Arclight Spanner",
+      "spell_id": null,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "addon-unverified",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 6,
+          "name": "Copper Bar"
+        }
+      ]
+    },
+    "6533": {
+      "name": "Aquadynamic Fish Attractor",
+      "spell_id": 9271,
+      "output_qty": 3,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 2,
+          "name": "Tin Bar"
+        },
+        {
+          "id": 6530,
+          "qty": 1,
+          "name": "Nightcrawlers"
+        },
+        {
+          "id": 4364,
+          "qty": 1,
+          "name": "Coarse Blasting Powder"
+        }
+      ]
+    },
+    "6712": {
+      "name": "Practice Lock",
+      "spell_id": 8334,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 1,
+          "name": "Tin Bar"
+        },
+        {
+          "id": 4359,
+          "qty": 2,
+          "name": "Handful of Copper Bolts"
+        },
+        {
+          "id": 2880,
+          "qty": 1,
+          "name": "Weak Flux"
+        }
+      ]
+    },
+    "6714": {
+      "name": "Ez-Thro Dynamite",
+      "spell_id": 8339,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4364,
+          "qty": 4,
+          "name": "Coarse Blasting Powder"
+        },
+        {
+          "id": 2592,
+          "qty": 1,
+          "name": "Wool Cloth"
+        }
+      ]
+    },
+    "7148": {
+      "name": "Goblin Jumper Cables",
+      "spell_id": 9273,
+      "output_qty": 1,
+      "skill": 165,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 6,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 4375,
+          "qty": 2,
+          "name": "Whirring Bronze Gizmo"
+        },
+        {
+          "id": 814,
+          "qty": 2,
+          "name": "Flask of Oil"
+        },
+        {
+          "id": 4306,
+          "qty": 2,
+          "name": "Silk Cloth"
+        },
+        {
+          "id": 1210,
+          "qty": 2,
+          "name": "Tigerseye"
+        },
+        {
+          "id": 7191,
+          "qty": 1,
+          "name": "Fused Wiring"
+        }
+      ]
+    },
+    "7189": {
+      "name": "Goblin Rocket Boots",
+      "spell_id": 8895,
+      "output_qty": 1,
+      "skill": 130,
+      "skill_verified": false,
+      "spec": "Goblin",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10026,
+          "qty": 1,
+          "name": "Bottes noires en tisse-mage"
+        },
+        {
+          "id": 10559,
+          "qty": 2,
+          "name": "Mithril Tube"
+        },
+        {
+          "id": 4234,
+          "qty": 4,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 9061,
+          "qty": 2,
+          "name": "Goblin Rocket Fuel"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        }
+      ]
+    },
+    "7191": {
+      "name": "Fused Wiring",
+      "spell_id": null,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "addon-unverified",
+      "reagents": [
+        {
+          "id": 20816,
+          "qty": 3,
+          "name": "Delicate Copper Wire"
+        },
+        {
+          "id": 7078,
+          "qty": 2,
+          "name": "Essence of Fire"
+        }
+      ]
+    },
+    "7506": {
+      "name": "Gnomish Universal Remote",
+      "spell_id": 9269,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 6,
+          "name": "Tin Bar"
+        },
+        {
+          "id": 4375,
+          "qty": 1,
+          "name": "Whirring Bronze Gizmo"
+        },
+        {
+          "id": 814,
+          "qty": 2,
+          "name": "Flask of Oil"
+        },
+        {
+          "id": 818,
+          "qty": 1,
+          "name": "Malachite"
+        },
+        {
+          "id": 774,
+          "qty": 1,
+          "name": "Malachite"
+        }
+      ]
+    },
+    "8067": {
+      "name": "Crafted Light Shot",
+      "spell_id": 3920,
+      "output_qty": 200,
+      "skill": 30,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4357,
+          "qty": 1,
+          "name": "Rough Blasting Powder"
+        },
+        {
+          "id": 2840,
+          "qty": 1,
+          "name": "Copper Bar"
+        }
+      ]
+    },
+    "8068": {
+      "name": "Crafted Heavy Shot",
+      "spell_id": 3930,
+      "output_qty": 200,
+      "skill": 75,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4364,
+          "qty": 1,
+          "name": "Coarse Blasting Powder"
+        },
+        {
+          "id": 2840,
+          "qty": 1,
+          "name": "Copper Bar"
+        }
+      ]
+    },
+    "8069": {
+      "name": "Crafted Solid Shot",
+      "spell_id": 3947,
+      "output_qty": 200,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4377,
+          "qty": 1,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 2841,
+          "qty": 1,
+          "name": "Tin Bar"
+        }
+      ]
+    },
+    "9312": {
+      "name": "Blue Firework",
+      "spell_id": 23067,
+      "output_qty": 3,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4377,
+          "qty": 1,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 4234,
+          "qty": 1,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "9313": {
+      "name": "Green Firework",
+      "spell_id": 23068,
+      "output_qty": 3,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4377,
+          "qty": 1,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 4234,
+          "qty": 1,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "9318": {
+      "name": "Red Firework",
+      "spell_id": 23066,
+      "output_qty": 3,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4377,
+          "qty": 1,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 4234,
+          "qty": 1,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "10498": {
+      "name": "Gyromatic Micro-Adjustor",
+      "spell_id": 12590,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 4,
+          "name": "Gold Ore"
+        }
+      ]
+    },
+    "10499": {
+      "name": "Bright-Eye Goggles",
+      "spell_id": 12587,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 6,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 3864,
+          "qty": 2,
+          "name": "Citrine"
+        }
+      ]
+    },
+    "10500": {
+      "name": "Fire Goggles",
+      "spell_id": 12594,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4385,
+          "qty": 1,
+          "name": "Green Tinted Goggles"
+        },
+        {
+          "id": 3864,
+          "qty": 2,
+          "name": "Citrine"
+        },
+        {
+          "id": 7068,
+          "qty": 2,
+          "name": "Elemental Fire"
+        },
+        {
+          "id": 4234,
+          "qty": 4,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "10501": {
+      "name": "Catseye Ultra Goggles",
+      "spell_id": 12607,
+      "output_qty": 1,
+      "skill": 220,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 4,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 7909,
+          "qty": 2,
+          "name": "Aquamarine"
+        },
+        {
+          "id": 10592,
+          "qty": 1,
+          "name": "Catseye Elixir"
+        }
+      ]
+    },
+    "10502": {
+      "name": "Spellpower Goggles Xtreme",
+      "spell_id": 12615,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 4,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 7910,
+          "qty": 2,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "10503": {
+      "name": "Rose Colored Goggles",
+      "spell_id": 12618,
+      "output_qty": 1,
+      "skill": 230,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 6,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 7910,
+          "qty": 2,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "10504": {
+      "name": "Green Lens",
+      "spell_id": 12622,
+      "output_qty": 1,
+      "skill": 245,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 8,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 1529,
+          "qty": 3,
+          "name": "Jade"
+        },
+        {
+          "id": 7909,
+          "qty": 3,
+          "name": "Aquamarine"
+        },
+        {
+          "id": 10286,
+          "qty": 2,
+          "name": "Heart of the Wild"
+        },
+        {
+          "id": 8153,
+          "qty": 2,
+          "name": "Purple Lotus"
+        }
+      ]
+    },
+    "10505": {
+      "name": "Solid Blasting Powder",
+      "spell_id": 12585,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7912,
+          "qty": 2,
+          "name": "Solid Stone"
+        }
+      ]
+    },
+    "10506": {
+      "name": "Deepdive Helmet",
+      "spell_id": 12617,
+      "output_qty": 1,
+      "skill": 230,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 8,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 10561,
+          "qty": 1,
+          "name": "Mithril Casing"
+        },
+        {
+          "id": 6037,
+          "qty": 1,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 818,
+          "qty": 4,
+          "name": "Malachite"
+        },
+        {
+          "id": 774,
+          "qty": 4,
+          "name": "Malachite"
+        }
+      ]
+    },
+    "10507": {
+      "name": "Solid Dynamite",
+      "spell_id": 12586,
+      "output_qty": 2,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10505,
+          "qty": 1,
+          "name": "Solid Blasting Powder"
+        },
+        {
+          "id": 4306,
+          "qty": 1,
+          "name": "Silk Cloth"
+        }
+      ]
+    },
+    "10508": {
+      "name": "Mithril Blunderbuss",
+      "spell_id": 12595,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10559,
+          "qty": 1,
+          "name": "Mithril Tube"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        },
+        {
+          "id": 4400,
+          "qty": 1,
+          "name": "Heavy Stock"
+        },
+        {
+          "id": 3860,
+          "qty": 4,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 7068,
+          "qty": 2,
+          "name": "Elemental Fire"
+        }
+      ]
+    },
+    "10510": {
+      "name": "Mithril Heavy-bore Rifle",
+      "spell_id": 12614,
+      "output_qty": 1,
+      "skill": 220,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10559,
+          "qty": 2,
+          "name": "Mithril Tube"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        },
+        {
+          "id": 4400,
+          "qty": 1,
+          "name": "Heavy Stock"
+        },
+        {
+          "id": 3860,
+          "qty": 6,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 3864,
+          "qty": 2,
+          "name": "Citrine"
+        }
+      ]
+    },
+    "10512": {
+      "name": "Hi-Impact Mithril Slugs",
+      "spell_id": 12596,
+      "output_qty": 200,
+      "skill": 210,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 1,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 10505,
+          "qty": 1,
+          "name": "Solid Blasting Powder"
+        }
+      ]
+    },
+    "10513": {
+      "name": "Mithril Gyro-Shot",
+      "spell_id": 12621,
+      "output_qty": 200,
+      "skill": 245,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 2,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 10505,
+          "qty": 2,
+          "name": "Solid Blasting Powder"
+        }
+      ]
+    },
+    "10514": {
+      "name": "Mithril Frag Bomb",
+      "spell_id": 12603,
+      "output_qty": 3,
+      "skill": 215,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10561,
+          "qty": 1,
+          "name": "Mithril Casing"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        },
+        {
+          "id": 10505,
+          "qty": 1,
+          "name": "Solid Blasting Powder"
+        }
+      ]
+    },
+    "10518": {
+      "name": "Parachute Cloak",
+      "spell_id": 12616,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4339,
+          "qty": 4,
+          "name": "Bolt of Mageweave"
+        },
+        {
+          "id": 10285,
+          "qty": 2,
+          "name": "Shadow Silk"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        },
+        {
+          "id": 10505,
+          "qty": 4,
+          "name": "Solid Blasting Powder"
+        }
+      ]
+    },
+    "10542": {
+      "name": "Goblin Mining Helmet",
+      "spell_id": 12717,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": "Goblin",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 8,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 3864,
+          "qty": 1,
+          "name": "Citrine"
+        },
+        {
+          "id": 7067,
+          "qty": 4,
+          "name": "Elemental Earth"
+        }
+      ]
+    },
+    "10543": {
+      "name": "Goblin Construction Helmet",
+      "spell_id": 12718,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": "Goblin",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 8,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 3864,
+          "qty": 1,
+          "name": "Citrine"
+        },
+        {
+          "id": 7068,
+          "qty": 4,
+          "name": "Elemental Fire"
+        }
+      ]
+    },
+    "10545": {
+      "name": "Gnomish Goggles",
+      "spell_id": 12897,
+      "output_qty": 1,
+      "skill": 210,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10500,
+          "qty": 1,
+          "name": "Fire Goggles"
+        },
+        {
+          "id": 10559,
+          "qty": 1,
+          "name": "Mithril Tube"
+        },
+        {
+          "id": 10558,
+          "qty": 2,
+          "name": "Gold Power Core"
+        },
+        {
+          "id": 8151,
+          "qty": 2,
+          "name": "Flask of Mojo"
+        },
+        {
+          "id": 4234,
+          "qty": 2,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "10546": {
+      "name": "Deadly Scope",
+      "spell_id": 12597,
+      "output_qty": 1,
+      "skill": 210,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10559,
+          "qty": 1,
+          "name": "Mithril Tube"
+        },
+        {
+          "id": 7909,
+          "qty": 2,
+          "name": "Aquamarine"
+        },
+        {
+          "id": 4304,
+          "qty": 2,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "10548": {
+      "name": "Sniper Scope",
+      "spell_id": 12620,
+      "output_qty": 1,
+      "skill": 240,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10559,
+          "qty": 1,
+          "name": "Mithril Tube"
+        },
+        {
+          "id": 7910,
+          "qty": 1,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 6037,
+          "qty": 2,
+          "name": "Truesilver Bar"
+        }
+      ]
+    },
+    "10558": {
+      "name": "Gold Power Core",
+      "spell_id": 12584,
+      "output_qty": 3,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3577,
+          "qty": 1,
+          "name": "Steel Bar"
+        }
+      ]
+    },
+    "10559": {
+      "name": "Mithril Tube",
+      "spell_id": 12589,
+      "output_qty": 1,
+      "skill": 195,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 3,
+          "name": "Mithril Bar"
+        }
+      ]
+    },
+    "10560": {
+      "name": "Unstable Trigger",
+      "spell_id": 12591,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 1,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 4338,
+          "qty": 1,
+          "name": "Mageweave Cloth"
+        },
+        {
+          "id": 10505,
+          "qty": 1,
+          "name": "Solid Blasting Powder"
+        }
+      ]
+    },
+    "10561": {
+      "name": "Mithril Casing",
+      "spell_id": 12599,
+      "output_qty": 1,
+      "skill": 215,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 3,
+          "name": "Mithril Bar"
+        }
+      ]
+    },
+    "10562": {
+      "name": "Hi-Explosive Bomb",
+      "spell_id": 12619,
+      "output_qty": 4,
+      "skill": 235,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10561,
+          "qty": 2,
+          "name": "Mithril Casing"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        },
+        {
+          "id": 10505,
+          "qty": 2,
+          "name": "Solid Blasting Powder"
+        }
+      ]
+    },
+    "10576": {
+      "name": "Mithril Mechanical Dragonling",
+      "spell_id": 12624,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 14,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 4,
+          "name": "Heart of Fire"
+        },
+        {
+          "id": 6037,
+          "qty": 4,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 9060,
+          "qty": 2,
+          "name": "Inlaid Mithril Cylinder"
+        },
+        {
+          "id": 9061,
+          "qty": 2,
+          "name": "Goblin Rocket Fuel"
+        },
+        {
+          "id": 7910,
+          "qty": 2,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "10577": {
+      "name": "Goblin Mortar",
+      "spell_id": null,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": "Goblin",
+      "source": "addon-unverified",
+      "reagents": [
+        {
+          "id": 10561,
+          "qty": 4,
+          "name": "Mithril Casing"
+        },
+        {
+          "id": 10560,
+          "qty": 2,
+          "name": "Unstable Trigger"
+        },
+        {
+          "id": 10505,
+          "qty": 4,
+          "name": "Solid Blasting Powder"
+        }
+      ]
+    },
+    "10586": {
+      "name": "The Big One",
+      "spell_id": 12754,
+      "output_qty": 2,
+      "skill": 235,
+      "skill_verified": false,
+      "spec": "Goblin",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10561,
+          "qty": 1,
+          "name": "Mithril Casing"
+        },
+        {
+          "id": 9061,
+          "qty": 1,
+          "name": "Goblin Rocket Fuel"
+        },
+        {
+          "id": 10507,
+          "qty": 6,
+          "name": "Dynamite solide"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        }
+      ]
+    },
+    "10587": {
+      "name": "Goblin Bomb Dispenser",
+      "spell_id": 12755,
+      "output_qty": 1,
+      "skill": 230,
+      "skill_verified": false,
+      "spec": "Goblin",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10561,
+          "qty": 2,
+          "name": "Mithril Casing"
+        },
+        {
+          "id": 10505,
+          "qty": 4,
+          "name": "Solid Blasting Powder"
+        },
+        {
+          "id": 6037,
+          "qty": 6,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        },
+        {
+          "id": 4407,
+          "qty": 2,
+          "name": "Lunette de précision"
+        }
+      ]
+    },
+    "10588": {
+      "name": "Goblin Rocket Helmet",
+      "spell_id": 12758,
+      "output_qty": 1,
+      "skill": 245,
+      "skill_verified": false,
+      "spec": "Goblin",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10543,
+          "qty": 1,
+          "name": "Goblin Construction Helmet"
+        },
+        {
+          "id": 9061,
+          "qty": 4,
+          "name": "Goblin Rocket Fuel"
+        },
+        {
+          "id": 3860,
+          "qty": 4,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        }
+      ]
+    },
+    "10644": {
+      "name": "Recipe: Goblin Rocket Fuel",
+      "spell_id": 12715,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10648,
+          "qty": 1,
+          "name": "Common Parchment"
+        },
+        {
+          "id": 10647,
+          "qty": 1,
+          "name": "Engineer's Ink"
+        }
+      ]
+    },
+    "10645": {
+      "name": "Gnomish Death Ray",
+      "spell_id": 12759,
+      "output_qty": 1,
+      "skill": 240,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10559,
+          "qty": 2,
+          "name": "Mithril Tube"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        },
+        {
+          "id": 12808,
+          "qty": 1,
+          "name": "Essence de non-mort"
+        },
+        {
+          "id": 7972,
+          "qty": 4,
+          "name": "Ichor of Undeath"
+        },
+        {
+          "id": 9060,
+          "qty": 1,
+          "name": "Inlaid Mithril Cylinder"
+        }
+      ]
+    },
+    "10646": {
+      "name": "Goblin Sapper Charge",
+      "spell_id": 12760,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": "Goblin",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4338,
+          "qty": 1,
+          "name": "Mageweave Cloth"
+        },
+        {
+          "id": 10505,
+          "qty": 3,
+          "name": "Solid Blasting Powder"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        }
+      ]
+    },
+    "10713": {
+      "name": "Plans: Inlaid Mithril Cylinder",
+      "spell_id": 12895,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10648,
+          "qty": 1,
+          "name": "Common Parchment"
+        },
+        {
+          "id": 10647,
+          "qty": 1,
+          "name": "Engineer's Ink"
+        }
+      ]
+    },
+    "10716": {
+      "name": "Gnomish Shrink Ray",
+      "spell_id": 12899,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10559,
+          "qty": 1,
+          "name": "Mithril Tube"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        },
+        {
+          "id": 3860,
+          "qty": 4,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 8151,
+          "qty": 4,
+          "name": "Flask of Mojo"
+        },
+        {
+          "id": 1529,
+          "qty": 2,
+          "name": "Jade"
+        }
+      ]
+    },
+    "10720": {
+      "name": "Gnomish Net-o-Matic Projector",
+      "spell_id": 12902,
+      "output_qty": 1,
+      "skill": 210,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10559,
+          "qty": 1,
+          "name": "Mithril Tube"
+        },
+        {
+          "id": 10285,
+          "qty": 2,
+          "name": "Shadow Silk"
+        },
+        {
+          "id": 4337,
+          "qty": 4,
+          "name": "Soie d'araignée épaisse"
+        },
+        {
+          "id": 10505,
+          "qty": 2,
+          "name": "Solid Blasting Powder"
+        },
+        {
+          "id": 3860,
+          "qty": 4,
+          "name": "Mithril Bar"
+        }
+      ]
+    },
+    "10721": {
+      "name": "Gnomish Harm Prevention Belt",
+      "spell_id": 12903,
+      "output_qty": 1,
+      "skill": 215,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7387,
+          "qty": 1,
+          "name": "Ceinture matte"
+        },
+        {
+          "id": 3860,
+          "qty": 4,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 2,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        },
+        {
+          "id": 7909,
+          "qty": 2,
+          "name": "Aquamarine"
+        }
+      ]
+    },
+    "10724": {
+      "name": "Gnomish Rocket Boots",
+      "spell_id": 12905,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10026,
+          "qty": 1,
+          "name": "Bottes noires en tisse-mage"
+        },
+        {
+          "id": 10559,
+          "qty": 2,
+          "name": "Mithril Tube"
+        },
+        {
+          "id": 4234,
+          "qty": 4,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 10505,
+          "qty": 8,
+          "name": "Solid Blasting Powder"
+        },
+        {
+          "id": 4389,
+          "qty": 4,
+          "name": "Gyrochronatom"
+        }
+      ]
+    },
+    "10725": {
+      "name": "Gnomish Battle Chicken",
+      "spell_id": 12906,
+      "output_qty": 1,
+      "skill": 230,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10561,
+          "qty": 1,
+          "name": "Mithril Casing"
+        },
+        {
+          "id": 6037,
+          "qty": 6,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 3860,
+          "qty": 6,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 9060,
+          "qty": 2,
+          "name": "Inlaid Mithril Cylinder"
+        },
+        {
+          "id": 10558,
+          "qty": 1,
+          "name": "Gold Power Core"
+        },
+        {
+          "id": 1529,
+          "qty": 2,
+          "name": "Jade"
+        }
+      ]
+    },
+    "10726": {
+      "name": "Gnomish Mind Control Cap",
+      "spell_id": 12907,
+      "output_qty": 1,
+      "skill": 235,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 10,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 4,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 10558,
+          "qty": 1,
+          "name": "Gold Power Core"
+        },
+        {
+          "id": 7910,
+          "qty": 2,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 4338,
+          "qty": 4,
+          "name": "Mageweave Cloth"
+        }
+      ]
+    },
+    "10727": {
+      "name": "Goblin Dragon Gun",
+      "spell_id": 12908,
+      "output_qty": 1,
+      "skill": 240,
+      "skill_verified": false,
+      "spec": "Goblin",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10559,
+          "qty": 2,
+          "name": "Mithril Tube"
+        },
+        {
+          "id": 9061,
+          "qty": 4,
+          "name": "Goblin Rocket Fuel"
+        },
+        {
+          "id": 3860,
+          "qty": 6,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 6,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        }
+      ]
+    },
+    "11590": {
+      "name": "Mechanical Repair Kit",
+      "spell_id": 15255,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 1,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 4338,
+          "qty": 1,
+          "name": "Mageweave Cloth"
+        },
+        {
+          "id": 10505,
+          "qty": 1,
+          "name": "Solid Blasting Powder"
+        }
+      ]
+    },
+    "11825": {
+      "name": "Pet Bombling",
+      "spell_id": 15628,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4394,
+          "qty": 1,
+          "name": "Big Iron Bomb"
+        },
+        {
+          "id": 7077,
+          "qty": 1,
+          "name": "Heart of Fire"
+        },
+        {
+          "id": 7191,
+          "qty": 1,
+          "name": "Fused Wiring"
+        },
+        {
+          "id": 3860,
+          "qty": 6,
+          "name": "Mithril Bar"
+        }
+      ]
+    },
+    "11826": {
+      "name": "Lil' Smoky",
+      "spell_id": 15633,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7075,
+          "qty": 1,
+          "name": "Core of Earth"
+        },
+        {
+          "id": 4389,
+          "qty": 2,
+          "name": "Gyrochronatom"
+        },
+        {
+          "id": 7191,
+          "qty": 1,
+          "name": "Fused Wiring"
+        },
+        {
+          "id": 3860,
+          "qty": 2,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 1,
+          "name": "Truesilver Bar"
+        }
+      ]
+    },
+    "15846": {
+      "name": "Salt Shaker",
+      "spell_id": 19567,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10561,
+          "qty": 1,
+          "name": "Mithril Casing"
+        },
+        {
+          "id": 12359,
+          "qty": 6,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 10558,
+          "qty": 1,
+          "name": "Gold Power Core"
+        },
+        {
+          "id": 10560,
+          "qty": 4,
+          "name": "Unstable Trigger"
+        }
+      ]
+    },
+    "15992": {
+      "name": "Dense Blasting Powder",
+      "spell_id": 19788,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12365,
+          "qty": 2,
+          "name": "Dense Stone"
+        }
+      ]
+    },
+    "15993": {
+      "name": "Thorium Grenade",
+      "spell_id": 19790,
+      "output_qty": 3,
+      "skill": 260,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 15994,
+          "qty": 1,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 12359,
+          "qty": 3,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 15992,
+          "qty": 3,
+          "name": "Dense Blasting Powder"
+        },
+        {
+          "id": 14047,
+          "qty": 3,
+          "name": "Runecloth"
+        }
+      ]
+    },
+    "15994": {
+      "name": "Thorium Widget",
+      "spell_id": 19791,
+      "output_qty": 1,
+      "skill": 260,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 3,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 14047,
+          "qty": 1,
+          "name": "Runecloth"
+        }
+      ]
+    },
+    "15995": {
+      "name": "Thorium Rifle",
+      "spell_id": 19792,
+      "output_qty": 1,
+      "skill": 260,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10559,
+          "qty": 2,
+          "name": "Mithril Tube"
+        },
+        {
+          "id": 10561,
+          "qty": 2,
+          "name": "Mithril Casing"
+        },
+        {
+          "id": 15994,
+          "qty": 2,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 12359,
+          "qty": 4,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 10546,
+          "qty": 1,
+          "name": "Deadly Scope"
+        }
+      ]
+    },
+    "15996": {
+      "name": "Lifelike Mechanical Toad",
+      "spell_id": 19793,
+      "output_qty": 1,
+      "skill": 265,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12803,
+          "qty": 1,
+          "name": "Living Essence"
+        },
+        {
+          "id": 15994,
+          "qty": 4,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 10558,
+          "qty": 1,
+          "name": "Gold Power Core"
+        },
+        {
+          "id": 8170,
+          "qty": 1,
+          "name": "Rugged Leather"
+        }
+      ]
+    },
+    "15997": {
+      "name": "Thorium Shells",
+      "spell_id": 19800,
+      "output_qty": 200,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 2,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 15992,
+          "qty": 1,
+          "name": "Dense Blasting Powder"
+        }
+      ]
+    },
+    "15999": {
+      "name": "Spellpower Goggles Xtreme Plus",
+      "spell_id": 19794,
+      "output_qty": 1,
+      "skill": 270,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10502,
+          "qty": 1,
+          "name": "Spellpower Goggles Xtreme"
+        },
+        {
+          "id": 7910,
+          "qty": 4,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 12810,
+          "qty": 2,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 14047,
+          "qty": 8,
+          "name": "Runecloth"
+        }
+      ]
+    },
+    "16000": {
+      "name": "Thorium Tube",
+      "spell_id": 19795,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 6,
+          "name": "Thorium Bar"
+        }
+      ]
+    },
+    "16004": {
+      "name": "Dark Iron Rifle",
+      "spell_id": 19796,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 16000,
+          "qty": 2,
+          "name": "Thorium Tube"
+        },
+        {
+          "id": 11371,
+          "qty": 6,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 10546,
+          "qty": 2,
+          "name": "Deadly Scope"
+        },
+        {
+          "id": 12361,
+          "qty": 2,
+          "name": "Large Opal"
+        },
+        {
+          "id": 12799,
+          "qty": 2,
+          "name": "Blue Sapphire"
+        },
+        {
+          "id": 8170,
+          "qty": 4,
+          "name": "Rugged Leather"
+        }
+      ]
+    },
+    "16005": {
+      "name": "Dark Iron Bomb",
+      "spell_id": 19799,
+      "output_qty": 3,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 15994,
+          "qty": 2,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 11371,
+          "qty": 1,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 15992,
+          "qty": 3,
+          "name": "Dense Blasting Powder"
+        },
+        {
+          "id": 14047,
+          "qty": 3,
+          "name": "Runecloth"
+        }
+      ]
+    },
+    "16006": {
+      "name": "Delicate Arcanite Converter",
+      "spell_id": 19815,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 1,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 14227,
+          "qty": 1,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "16007": {
+      "name": "Flawless Arcanite Rifle",
+      "spell_id": 19833,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 10,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 16000,
+          "qty": 2,
+          "name": "Thorium Tube"
+        },
+        {
+          "id": 7078,
+          "qty": 2,
+          "name": "Essence of Fire"
+        },
+        {
+          "id": 7076,
+          "qty": 2,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 12800,
+          "qty": 2,
+          "name": "Azerothian Diamond"
+        },
+        {
+          "id": 12810,
+          "qty": 2,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "16008": {
+      "name": "Master Engineer's Goggles",
+      "spell_id": 19825,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10500,
+          "qty": 1,
+          "name": "Fire Goggles"
+        },
+        {
+          "id": 12364,
+          "qty": 2,
+          "name": "Arcane Crystal"
+        },
+        {
+          "id": 12810,
+          "qty": 4,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "16009": {
+      "name": "Voice Amplification Modulator",
+      "spell_id": 19819,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 16006,
+          "qty": 2,
+          "name": "Delicate Arcanite Converter"
+        },
+        {
+          "id": 10558,
+          "qty": 1,
+          "name": "Gold Power Core"
+        },
+        {
+          "id": 15994,
+          "qty": 1,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 12799,
+          "qty": 1,
+          "name": "Blue Sapphire"
+        }
+      ]
+    },
+    "16022": {
+      "name": "Arcanite Dragonling",
+      "spell_id": 19830,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10576,
+          "qty": 1,
+          "name": "Petit dragon mécanique en mithril"
+        },
+        {
+          "id": 16006,
+          "qty": 8,
+          "name": "Delicate Arcanite Converter"
+        },
+        {
+          "id": 12655,
+          "qty": 10,
+          "name": "Barre de thorium enchanté"
+        },
+        {
+          "id": 15994,
+          "qty": 6,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 10558,
+          "qty": 4,
+          "name": "Gold Power Core"
+        },
+        {
+          "id": 12810,
+          "qty": 6,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "16023": {
+      "name": "Masterwork Target Dummy",
+      "spell_id": 19814,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10561,
+          "qty": 1,
+          "name": "Mithril Casing"
+        },
+        {
+          "id": 16000,
+          "qty": 1,
+          "name": "Thorium Tube"
+        },
+        {
+          "id": 15994,
+          "qty": 2,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 6037,
+          "qty": 1,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 8170,
+          "qty": 2,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 14047,
+          "qty": 4,
+          "name": "Runecloth"
+        }
+      ]
+    },
+    "16040": {
+      "name": "Arcane Bomb",
+      "spell_id": 19831,
+      "output_qty": 3,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 16006,
+          "qty": 1,
+          "name": "Delicate Arcanite Converter"
+        },
+        {
+          "id": 12359,
+          "qty": 3,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 14047,
+          "qty": 1,
+          "name": "Runecloth"
+        }
+      ]
+    },
+    "17716": {
+      "name": "Snowmaster 9000",
+      "spell_id": 21940,
+      "output_qty": 1,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 8,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 4389,
+          "qty": 4,
+          "name": "Gyrochronatom"
+        },
+        {
+          "id": 17202,
+          "qty": 4,
+          "name": "Snowball"
+        },
+        {
+          "id": 3829,
+          "qty": 1,
+          "name": "Frost Oil"
+        }
+      ]
+    },
+    "18168": {
+      "name": "Force Reactive Disk",
+      "spell_id": 22797,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 6,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 16006,
+          "qty": 2,
+          "name": "Delicate Arcanite Converter"
+        },
+        {
+          "id": 7082,
+          "qty": 8,
+          "name": "Essence of Air"
+        },
+        {
+          "id": 12803,
+          "qty": 12,
+          "name": "Living Essence"
+        },
+        {
+          "id": 7076,
+          "qty": 8,
+          "name": "Essence of Earth"
+        }
+      ]
+    },
+    "18232": {
+      "name": "Field Repair Bot 74A",
+      "spell_id": 22704,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 12,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 8170,
+          "qty": 4,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 7191,
+          "qty": 1,
+          "name": "Fused Wiring"
+        },
+        {
+          "id": 7067,
+          "qty": 2,
+          "name": "Elemental Earth"
+        },
+        {
+          "id": 7068,
+          "qty": 1,
+          "name": "Elemental Fire"
+        }
+      ]
+    },
+    "18282": {
+      "name": "Core Marksman Rifle",
+      "spell_id": 22795,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17010,
+          "qty": 4,
+          "name": "Sulfuron Ingot"
+        },
+        {
+          "id": 17011,
+          "qty": 2,
+          "name": "Lava Core"
+        },
+        {
+          "id": 12360,
+          "qty": 6,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 16006,
+          "qty": 2,
+          "name": "Delicate Arcanite Converter"
+        },
+        {
+          "id": 16000,
+          "qty": 2,
+          "name": "Thorium Tube"
+        }
+      ]
+    },
+    "18283": {
+      "name": "Biznicks 247x128 Accurascope",
+      "spell_id": 22793,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17011,
+          "qty": 2,
+          "name": "Lava Core"
+        },
+        {
+          "id": 7076,
+          "qty": 2,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 16006,
+          "qty": 4,
+          "name": "Delicate Arcanite Converter"
+        },
+        {
+          "id": 11371,
+          "qty": 6,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 16000,
+          "qty": 1,
+          "name": "Thorium Tube"
+        }
+      ]
+    },
+    "18587": {
+      "name": "Goblin Jumper Cables XL",
+      "spell_id": 23078,
+      "output_qty": 1,
+      "skill": 265,
+      "skill_verified": false,
+      "spec": "Goblin",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 15994,
+          "qty": 2,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 18631,
+          "qty": 2,
+          "name": "Truesilver Transformer"
+        },
+        {
+          "id": 7191,
+          "qty": 2,
+          "name": "Fused Wiring"
+        },
+        {
+          "id": 14227,
+          "qty": 2,
+          "name": "Ironweb Spider Silk"
+        },
+        {
+          "id": 7910,
+          "qty": 2,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "18588": {
+      "name": "Ez-Thro Dynamite II",
+      "spell_id": 23069,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10505,
+          "qty": 1,
+          "name": "Solid Blasting Powder"
+        },
+        {
+          "id": 4338,
+          "qty": 2,
+          "name": "Mageweave Cloth"
+        }
+      ]
+    },
+    "18594": {
+      "name": "Powerful Seaforium Charge",
+      "spell_id": 23080,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 15994,
+          "qty": 2,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 15992,
+          "qty": 3,
+          "name": "Dense Blasting Powder"
+        },
+        {
+          "id": 8170,
+          "qty": 2,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 159,
+          "qty": 1,
+          "name": "Refreshing Spring Water"
+        }
+      ]
+    },
+    "18631": {
+      "name": "Truesilver Transformer",
+      "spell_id": 23071,
+      "output_qty": 1,
+      "skill": 260,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6037,
+          "qty": 2,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 7067,
+          "qty": 2,
+          "name": "Elemental Earth"
+        },
+        {
+          "id": 7069,
+          "qty": 1,
+          "name": "Elemental Air"
+        }
+      ]
+    },
+    "18634": {
+      "name": "Gyrofreeze Ice Reflector",
+      "spell_id": 23077,
+      "output_qty": 1,
+      "skill": 260,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 15994,
+          "qty": 6,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 18631,
+          "qty": 2,
+          "name": "Truesilver Transformer"
+        },
+        {
+          "id": 12361,
+          "qty": 2,
+          "name": "Large Opal"
+        },
+        {
+          "id": 7078,
+          "qty": 4,
+          "name": "Essence of Fire"
+        },
+        {
+          "id": 3829,
+          "qty": 2,
+          "name": "Frost Oil"
+        },
+        {
+          "id": 13467,
+          "qty": 4,
+          "name": "Icecap"
+        }
+      ]
+    },
+    "18637": {
+      "name": "Major Recombobulator",
+      "spell_id": 23079,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 16000,
+          "qty": 2,
+          "name": "Thorium Tube"
+        },
+        {
+          "id": 18631,
+          "qty": 1,
+          "name": "Truesilver Transformer"
+        },
+        {
+          "id": 14047,
+          "qty": 2,
+          "name": "Runecloth"
+        }
+      ]
+    },
+    "18638": {
+      "name": "Hyper-Radiant Flame Reflector",
+      "spell_id": 23081,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11371,
+          "qty": 4,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 18631,
+          "qty": 3,
+          "name": "Truesilver Transformer"
+        },
+        {
+          "id": 7080,
+          "qty": 6,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 7910,
+          "qty": 4,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 12800,
+          "qty": 2,
+          "name": "Azerothian Diamond"
+        }
+      ]
+    },
+    "18639": {
+      "name": "Ultra-Flash Shadow Reflector",
+      "spell_id": 23082,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11371,
+          "qty": 8,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 18631,
+          "qty": 4,
+          "name": "Truesilver Transformer"
+        },
+        {
+          "id": 12803,
+          "qty": 6,
+          "name": "Living Essence"
+        },
+        {
+          "id": 12808,
+          "qty": 4,
+          "name": "Essence de non-mort"
+        },
+        {
+          "id": 12800,
+          "qty": 2,
+          "name": "Azerothian Diamond"
+        },
+        {
+          "id": 12799,
+          "qty": 2,
+          "name": "Blue Sapphire"
+        }
+      ]
+    },
+    "18641": {
+      "name": "Dense Dynamite",
+      "spell_id": 23070,
+      "output_qty": 2,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 15992,
+          "qty": 2,
+          "name": "Dense Blasting Powder"
+        },
+        {
+          "id": 14047,
+          "qty": 3,
+          "name": "Runecloth"
+        }
+      ]
+    },
+    "18645": {
+      "name": "Gnomish Alarm-o-Bot",
+      "spell_id": 23096,
+      "output_qty": 1,
+      "skill": 265,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 4,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 15994,
+          "qty": 2,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 8170,
+          "qty": 4,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 7910,
+          "qty": 1,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 7191,
+          "qty": 1,
+          "name": "Fused Wiring"
+        }
+      ]
+    },
+    "18660": {
+      "name": "World Enlarger",
+      "spell_id": 23129,
+      "output_qty": 1,
+      "skill": 260,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10561,
+          "qty": 1,
+          "name": "Mithril Casing"
+        },
+        {
+          "id": 15994,
+          "qty": 2,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 10558,
+          "qty": 1,
+          "name": "Gold Power Core"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        },
+        {
+          "id": 3864,
+          "qty": 1,
+          "name": "Citrine"
+        }
+      ]
+    },
+    "18984": {
+      "name": "Dimensional Ripper - Everlook",
+      "spell_id": 23486,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": "Goblin",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 10,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 18631,
+          "qty": 1,
+          "name": "Truesilver Transformer"
+        },
+        {
+          "id": 7077,
+          "qty": 4,
+          "name": "Heart of Fire"
+        },
+        {
+          "id": 7910,
+          "qty": 2,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 10586,
+          "qty": 1,
+          "name": "Le Mastoc"
+        }
+      ]
+    },
+    "18986": {
+      "name": "Ultrasafe Transporter: Gadgetzan",
+      "spell_id": 23489,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 12,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 18631,
+          "qty": 2,
+          "name": "Truesilver Transformer"
+        },
+        {
+          "id": 7075,
+          "qty": 4,
+          "name": "Core of Earth"
+        },
+        {
+          "id": 7079,
+          "qty": 2,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 7909,
+          "qty": 4,
+          "name": "Aquamarine"
+        },
+        {
+          "id": 9060,
+          "qty": 1,
+          "name": "Inlaid Mithril Cylinder"
+        }
+      ]
+    },
+    "19026": {
+      "name": "Snake Burst Firework",
+      "spell_id": 23507,
+      "output_qty": 4,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 15992,
+          "qty": 2,
+          "name": "Dense Blasting Powder"
+        },
+        {
+          "id": 14047,
+          "qty": 2,
+          "name": "Runecloth"
+        },
+        {
+          "id": 8150,
+          "qty": 1,
+          "name": "Deeprock Salt"
+        }
+      ]
+    },
+    "19998": {
+      "name": "Bloodvine Lens",
+      "spell_id": 24357,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 19726,
+          "qty": 5,
+          "name": "Bloodvine"
+        },
+        {
+          "id": 19774,
+          "qty": 5,
+          "name": "Ooze Covered Thorium Vein"
+        },
+        {
+          "id": 16006,
+          "qty": 1,
+          "name": "Delicate Arcanite Converter"
+        },
+        {
+          "id": 12804,
+          "qty": 8,
+          "name": "Powerful Mojo"
+        },
+        {
+          "id": 12810,
+          "qty": 4,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "19999": {
+      "name": "Bloodvine Goggles",
+      "spell_id": 24356,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": "Gnomish",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 19726,
+          "qty": 4,
+          "name": "Bloodvine"
+        },
+        {
+          "id": 19774,
+          "qty": 5,
+          "name": "Ooze Covered Thorium Vein"
+        },
+        {
+          "id": 16006,
+          "qty": 2,
+          "name": "Delicate Arcanite Converter"
+        },
+        {
+          "id": 12804,
+          "qty": 8,
+          "name": "Powerful Mojo"
+        },
+        {
+          "id": 12810,
+          "qty": 4,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "21277": {
+      "name": "Tranquil Mechanical Yeti",
+      "spell_id": 26011,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 15994,
+          "qty": 4,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 7079,
+          "qty": 2,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 18631,
+          "qty": 2,
+          "name": "Truesilver Transformer"
+        },
+        {
+          "id": 10558,
+          "qty": 1,
+          "name": "Gold Power Core"
+        }
+      ]
+    },
+    "21557": {
+      "name": "Small Red Rocket",
+      "spell_id": 26418,
+      "output_qty": 3,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4364,
+          "qty": 1,
+          "name": "Coarse Blasting Powder"
+        },
+        {
+          "id": 2319,
+          "qty": 1,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "21558": {
+      "name": "Small Blue Rocket",
+      "spell_id": 26416,
+      "output_qty": 3,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4364,
+          "qty": 1,
+          "name": "Coarse Blasting Powder"
+        },
+        {
+          "id": 2319,
+          "qty": 1,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "21559": {
+      "name": "Small Green Rocket",
+      "spell_id": 26417,
+      "output_qty": 3,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4364,
+          "qty": 1,
+          "name": "Coarse Blasting Powder"
+        },
+        {
+          "id": 2319,
+          "qty": 1,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "21569": {
+      "name": "Firework Launcher",
+      "spell_id": 26442,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 9060,
+          "qty": 1,
+          "name": "Inlaid Mithril Cylinder"
+        },
+        {
+          "id": 9061,
+          "qty": 1,
+          "name": "Goblin Rocket Fuel"
+        },
+        {
+          "id": 10560,
+          "qty": 1,
+          "name": "Unstable Trigger"
+        },
+        {
+          "id": 10561,
+          "qty": 1,
+          "name": "Mithril Casing"
+        }
+      ]
+    },
+    "21570": {
+      "name": "Cluster Launcher",
+      "spell_id": 26443,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 9060,
+          "qty": 4,
+          "name": "Inlaid Mithril Cylinder"
+        },
+        {
+          "id": 9061,
+          "qty": 4,
+          "name": "Goblin Rocket Fuel"
+        },
+        {
+          "id": 18631,
+          "qty": 2,
+          "name": "Truesilver Transformer"
+        },
+        {
+          "id": 10561,
+          "qty": 1,
+          "name": "Mithril Casing"
+        }
+      ]
+    },
+    "21571": {
+      "name": "Blue Rocket Cluster",
+      "spell_id": 26423,
+      "output_qty": 3,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10505,
+          "qty": 1,
+          "name": "Solid Blasting Powder"
+        },
+        {
+          "id": 4304,
+          "qty": 1,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "21574": {
+      "name": "Green Rocket Cluster",
+      "spell_id": 26424,
+      "output_qty": 3,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10505,
+          "qty": 1,
+          "name": "Solid Blasting Powder"
+        },
+        {
+          "id": 4304,
+          "qty": 1,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "21576": {
+      "name": "Red Rocket Cluster",
+      "spell_id": 26425,
+      "output_qty": 3,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10505,
+          "qty": 1,
+          "name": "Solid Blasting Powder"
+        },
+        {
+          "id": 4304,
+          "qty": 1,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "21589": {
+      "name": "Large Blue Rocket",
+      "spell_id": 26420,
+      "output_qty": 3,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4377,
+          "qty": 1,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 4234,
+          "qty": 1,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "21590": {
+      "name": "Large Green Rocket",
+      "spell_id": 26421,
+      "output_qty": 3,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4377,
+          "qty": 1,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 4234,
+          "qty": 1,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "21592": {
+      "name": "Large Red Rocket",
+      "spell_id": 26422,
+      "output_qty": 3,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4377,
+          "qty": 1,
+          "name": "Heavy Blasting Powder"
+        },
+        {
+          "id": 4234,
+          "qty": 1,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "21714": {
+      "name": "Large Blue Rocket Cluster",
+      "spell_id": 26426,
+      "output_qty": 3,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 15992,
+          "qty": 1,
+          "name": "Dense Blasting Powder"
+        },
+        {
+          "id": 8170,
+          "qty": 1,
+          "name": "Rugged Leather"
+        }
+      ]
+    },
+    "21716": {
+      "name": "Large Green Rocket Cluster",
+      "spell_id": 26427,
+      "output_qty": 3,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 15992,
+          "qty": 1,
+          "name": "Dense Blasting Powder"
+        },
+        {
+          "id": 8170,
+          "qty": 1,
+          "name": "Rugged Leather"
+        }
+      ]
+    },
+    "21718": {
+      "name": "Large Red Rocket Cluster",
+      "spell_id": 26428,
+      "output_qty": 3,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 15992,
+          "qty": 1,
+          "name": "Dense Blasting Powder"
+        },
+        {
+          "id": 8170,
+          "qty": 1,
+          "name": "Rugged Leather"
+        }
+      ]
+    },
+    "22728": {
+      "name": "Steam Tonk Controller",
+      "spell_id": 28327,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 15994,
+          "qty": 2,
+          "name": "Thorium Widget"
+        },
+        {
+          "id": 10561,
+          "qty": 1,
+          "name": "Mithril Casing"
+        },
+        {
+          "id": 10558,
+          "qty": 1,
+          "name": "Gold Power Core"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,279 @@
+-- Herb database - Source: wow-classic-items npm
+
+ProfTooltip_Herbs = {
+    [2447] = {
+        skill = 1, name = "Peacebloom",
+        uses  = {
+            "Discolored Healing Potion",
+            "Elixir of Minor Fortitude",
+            "Minor Healing Potion",
+            "Minor Rejuvenation Potion",
+            "Weak Troll's Blood Elixir",
+        },
+    },
+    [765] = {
+        skill = 1, name = "Silverleaf",
+        uses  = {
+            "Elixir of Lion's Strength",
+            "Elixir of Minor Agility",
+            "Elixir of Minor Defense",
+            "Minor Healing Potion",
+            "Minor Mana Potion",
+        },
+    },
+    [785] = {
+        skill = 50, name = "Mageroyal",
+        uses  = {
+            "Elixir of Wisdom",
+            "Lesser Mana Potion",
+            "Minor Magic Resistance Potion",
+            "Minor Mana Potion",
+            "Minor Rejuvenation Potion",
+        },
+    },
+    [2452] = {
+        skill = 50, name = "Swiftthistle",
+        uses  = {
+            "Elixir of Lesser Agility",
+            "Elixir of Minor Agility",
+            "Holy Protection Potion",
+            "Swiftness Potion",
+            "Swim Speed Potion",
+        },
+    },
+    [2450] = {
+        skill = 70, name = "Briarthorn",
+        uses  = {
+            "Elixir of Wisdom",
+            "Healing Potion",
+            "Lesser Healing Potion",
+            "Strong Troll's Blood Elixir",
+            "Swiftness Potion",
+        },
+    },
+    [3820] = {
+        skill = 85, name = "Stranglekelp",
+        uses  = {
+            "Elixir of Agility",
+            "Elixir of Defense",
+            "Elixir of Water Breathing",
+            "Free Action Potion",
+            "Lesser Mana Potion",
+            "Mana Potion",
+            "Nature Protection Potion",
+        },
+    },
+    [2453] = {
+        skill = 100, name = "Bruiseweed",
+        uses  = {
+            "Healing Potion",
+            "Holy Protection Potion",
+            "Major Troll's Blood Elixir",
+            "Potion of Curing",
+            "Strong Troll's Blood Elixir",
+        },
+    },
+    [3355] = {
+        skill = 115, name = "Wild Steelbloom",
+        uses  = {
+            "Elixir of Defense",
+            "Elixir of Fortitude",
+            "Elixir of Greater Defense",
+            "Elixir of Lesser Agility",
+            "Lesser Invisibility Potion",
+            "Minor Magic Resistance Potion",
+        },
+    },
+    [3369] = {
+        skill = 120, name = "Grave Moss",
+        uses  = {
+            "Shadow Oil",
+            "Shadow Protection Potion",
+        },
+    },
+    [3356] = {
+        skill = 125, name = "Kingsblood",
+        uses  = {
+            "Elixir of Firepower",
+            "Elixir of Ogre's Strength",
+            "Great Rage Potion",
+            "Greater Healing Potion",
+            "Mana Potion",
+            "Shadow Protection Potion",
+        },
+    },
+    [3357] = {
+        skill = 150, name = "Liferoot",
+        uses  = {
+            "Greater Healing Potion",
+            "Major Troll's Blood Elixir",
+            "Nature Protection Potion",
+        },
+    },
+    [3818] = {
+        skill = 160, name = "Fadeleaf",
+        uses  = {
+            "Catseye Elixir",
+            "Elixir of Detect Lesser Invisibility",
+            "Lesser Invisibility Potion",
+            "Shadow Oil",
+        },
+    },
+    [3821] = {
+        skill = 170, name = "Goldthorn",
+        uses  = {
+            "Arcane Elixir",
+            "Catseye Elixir",
+            "Elixir of Agility",
+            "Elixir of Fortitude",
+            "Elixir of Greater Agility",
+            "Elixir of Greater Defense",
+            "Frost Protection Potion",
+            "Greater Mana Potion",
+            "Lesser Stoneshield Potion",
+            "Oil of Immolation",
+            "Restorative Potion",
+        },
+    },
+    [8838] = {
+        skill = 170, name = "Sungrass",
+        uses  = {
+            "Elixir of Giants",
+            "Elixir of Greater Agility",
+            "Elixir of Superior Defense",
+            "Invisibility Potion",
+            "Superior Healing Potion",
+            "Superior Mana Potion",
+        },
+    },
+    [8831] = {
+        skill = 185, name = "Khadgar's Whisker",
+        uses  = {
+            "Dreamless Sleep Potion",
+            "Elixir of Greater Water Breathing",
+            "Magic Resistance Potion",
+            "Philosopher's Stone",
+            "Wildvine Potion",
+        },
+    },
+    [8839] = {
+        skill = 185, name = "Blindweed",
+        uses  = {
+            "Arcane Elixir",
+            "Elixir of Greater Intellect",
+            "Gift of Arthas",
+            "Limited Invulnerability Potion",
+            "Superior Mana Potion",
+        },
+    },
+    [8836] = {
+        skill = 195, name = "Arthas' Tears",
+        uses  = {
+            "Elixir of Detect Undead",
+            "Gift of Arthas",
+        },
+    },
+    [8846] = {
+        skill = 195, name = "Gromsblood",
+        uses  = {
+            "Elixir of Brute Force",
+            "Elixir of Demonslaying",
+            "Elixir of Detect Demon",
+            "Elixir of Giants",
+            "Flask of the Titans",
+            "Mighty Rage Potion",
+            "Mighty Troll's Blood Elixir",
+        },
+    },
+    [4625] = {
+        skill = 205, name = "Firebloom",
+        uses  = {
+            "Elixir of Greater Firepower",
+            "Goblin Rocket Fuel",
+            "Oil of Immolation",
+            "Philosopher's Stone",
+        },
+    },
+    [8153] = {
+        skill = 210, name = "Purple Lotus",
+        uses  = {
+            "Wildvine Potion",
+        },
+    },
+    [13463] = {
+        skill = 230, name = "Dreamfoil",
+        uses  = {
+            "Elixir of the Sages",
+            "Flask of Distilled Wisdom",
+            "Flask of Supreme Power",
+            "Greater Arcane Elixir",
+            "Greater Arcane Protection Potion",
+            "Greater Dreamless Sleep Potion",
+            "Greater Fire Protection Potion",
+            "Greater Frost Protection Potion",
+            "Greater Nature Protection Potion",
+            "Greater Shadow Protection Potion",
+            "Mageblood Elixir",
+            "Major Mana Potion",
+            "Major Rejuvenation Potion",
+        },
+    },
+    [13464] = {
+        skill = 230, name = "Golden Sansam",
+        uses  = {
+            "Greater Dreamless Sleep Potion",
+            "Major Healing Potion",
+            "Major Rejuvenation Potion",
+        },
+    },
+    [8845] = {
+        skill = 245, name = "Ghost Mushroom",
+        uses  = {
+            "Elixir of Demonslaying",
+            "Elixir of Shadow Power",
+            "Invisibility Potion",
+            "Limited Invulnerability Potion",
+        },
+    },
+    [13465] = {
+        skill = 250, name = "Mountain Silversage",
+        uses  = {
+            "Elixir of the Mongoose",
+            "Flask of Chromatic Resistance",
+            "Flask of Supreme Power",
+            "Greater Arcane Elixir",
+            "Living Action Potion",
+            "Major Healing Potion",
+        },
+    },
+    [13467] = {
+        skill = 260, name = "Icecap",
+        uses  = {
+            "Flask of Chromatic Resistance",
+            "Flask of Distilled Wisdom",
+            "Living Action Potion",
+            "Major Mana Potion",
+            "Purification Potion",
+        },
+    },
+    [13466] = {
+        skill = 285, name = "Plaguebloom",
+        uses  = {
+            "Elixir of Brute Force",
+            "Elixir of the Mongoose",
+            "Elixir of the Sages",
+            "Mageblood Elixir",
+            "Mighty Troll's Blood Elixir",
+            "Purification Potion",
+        },
+    },
+    [13468] = {
+        skill = 300, name = "Black Lotus",
+        uses  = {
+            "Flask of Chromatic Resistance",
+            "Flask of Distilled Wisdom",
+            "Flask of Supreme Power",
+            "Flask of the Titans",
+        },
+    },
+}
