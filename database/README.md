@@ -20,6 +20,7 @@ by hand).
 | Tailoring | `tailoring.json` | ✅ Built — 226/227 verified vs Wowhead Classic |
 | Cooking | `cooking.json` | ✅ Built — 81/82 verified vs Wowhead Classic |
 | First Aid | `first_aid.json` | ✅ Built — reagents + spell IDs verified vs Wowhead Classic (13 recipes) |
+| Enchanting | `enchanting.json` | ✅ Built — reverse index (reagent → enchants), 21 reagents / 201 uses, from Wowhead Classic + warcraft.wiki.gg |
 
 ## What "verified" means here
 
@@ -66,7 +67,13 @@ node generate.js        # convert JSON → Lua for all professions
 node sync.js            # copy addon to WoW installation folder
 ```
 
+## Enchanting — special format
+
+Enchanting produces no output item, so `enchanting.json` is a **reverse index** keyed
+by **reagent item ID** → `{ skill, name, uses: [enchant names] }`. `generate.js` detects
+this via `format: "reagent-index"` and emits the matching `ProfTooltip_Enchanting` table.
+There is no `scrape.js` path for it — the source data is maintained by hand in the JSON.
+
 ## TODO
 
 - Verify Engineering skill levels (set `skill_verified: true` once done).
-- Enchanting: not yet in JSON pipeline (uses manually written `recipes_enchanting.lua`).

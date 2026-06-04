@@ -25,6 +25,7 @@ const PROFESSIONS = {
     'Tailoring':      { json: 'tailoring.json',      luaVar: 'ProfTooltip_Tailoring',      file: 'recipes_tailoring.lua' },
     'Cooking':        { json: 'cooking.json',        luaVar: 'ProfTooltip_Cooking',        file: 'recipes_cooking.lua' },
     'First Aid':      { json: 'first_aid.json',      luaVar: 'ProfTooltip_FirstAid',       file: 'recipes_first_aid.lua' },
+    'Enchanting':     { json: 'enchanting.json',     luaVar: 'ProfTooltip_Enchanting',     file: 'recipes_enchanting.lua', format: 'reagent-index' },
 };
 
 // ── Generator ─────────────────────────────────────────────────────────────────
@@ -68,15 +69,58 @@ function generateFromJson(profName, luaVar, jsonPath, outputFile) {
     return sorted.length;
 }
 
+// ── Enchanting generator (reagent-index format) ─────────────────────────────────
+// Enchanting has no output items, so its DB is keyed by REAGENT ID → { skill, name,
+// uses }. We emit ProfTooltip_Enchanting in that same shape, sorted by skill tier.
+
+function generateEnchanting(profName, luaVar, jsonPath, outputFile) {
+    if (!fs.existsSync(jsonPath)) {
+        console.warn(`⚠️  ${profName}: ${path.basename(jsonPath)} not found`);
+        return 0;
+    }
+
+    const json = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
+    const reagents = json.reagents || {};
+    const sorted = Object.entries(reagents).sort((a, b) => (a[1].skill ?? 0) - (b[1].skill ?? 0));
+
+    const source = json._meta?.source || 'database JSON';
+    const lines = [];
+    lines.push(`-- ${profName} reagents — Source: ${source}`);
+    lines.push(`-- WoW Classic Era (Interface 11508)`);
+    lines.push(`-- Format: reagent item ID → { skill, name, uses = { list of enchants } }`);
+    lines.push('');
+    lines.push(`${luaVar} = {`);
+    lines.push('');
+
+    for (const [id, r] of sorted) {
+        lines.push(`    [${id}] = { skill = ${r.skill ?? 0}, name = "${r.name}",`);
+        lines.push(`        uses = {`);
+        for (const u of (r.uses || [])) {
+            lines.push(`            "${u}",`);
+        }
+        lines.push(`        },`);
+        lines.push(`    },`);
+    }
+
+    lines.push('}');
+
+    const outPath = path.join(OUT_DIR, outputFile);
+    fs.writeFileSync(outPath, lines.join('\n'), 'utf8');
+    console.log(`✅ ${outputFile} — ${sorted.length} reagents`);
+    return sorted.length;
+}
+
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 const target = process.argv[2];
 
 let total = 0;
-for (const [profName, { json, luaVar, file }] of Object.entries(PROFESSIONS)) {
+for (const [profName, { json, luaVar, file, format }] of Object.entries(PROFESSIONS)) {
     if (target && target !== profName) continue;
     const jsonPath = path.join(DB_DIR, json);
-    total += generateFromJson(profName, luaVar, jsonPath, file);
+    total += format === 'reagent-index'
+        ? generateEnchanting(profName, luaVar, jsonPath, file)
+        : generateFromJson(profName, luaVar, jsonPath, file);
 }
 
 console.log(`\nDone (${total} total recipes). Sync to WoW with: node sync.js`);

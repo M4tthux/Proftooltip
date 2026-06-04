@@ -1,12 +1,8 @@
--- Enchanting reagents - Source: wowhead.com/classic + warcraft.wiki.gg
--- WoW Classic Era 1.12.1 (Interface 11508)
--- Format: reagent item ID → { skill, uses = { list of enchants } }
+-- Enchanting reagents — Source: wowhead.com/classic + warcraft.wiki.gg
+-- WoW Classic Era (Interface 11508)
+-- Format: reagent item ID → { skill, name, uses = { list of enchants } }
 
 ProfTooltip_Enchanting = {
-
-    -- ══════════════════════════════════════════════════════
-    --  APPRENTICE reagents (skill 1–100)
-    -- ══════════════════════════════════════════════════════
 
     [10938] = { skill = 1, name = "Lesser Magic Essence",
         uses = {
@@ -67,11 +63,6 @@ ProfTooltip_Enchanting = {
             "Enchant 2H Weapon - Lesser Spirit",
         },
     },
-
-    -- ══════════════════════════════════════════════════════
-    --  JOURNEYMAN reagents (skill 100–150)
-    -- ══════════════════════════════════════════════════════
-
     [11082] = { skill = 100, name = "Lesser Astral Essence",
         uses = {
             "Enchant Boots - Lesser Stamina",
@@ -81,18 +72,6 @@ ProfTooltip_Enchanting = {
             "Enchant Gloves - Agility",
             "Enchant Shield - Lesser Stamina",
             "Enchant Weapon - Striking",
-        },
-    },
-    [11084] = { skill = 100, name = "Greater Astral Essence",
-        uses = {
-            "Enchant Boots - Agility",
-            "Enchant Bracer - Lesser Deflection",
-            "Enchant Bracer - Lesser Intellect",
-            "Enchant Chest - Lesser Stats",
-            "Enchant Gloves - Skinning",
-            "Enchant Weapon - Spirit",
-            "Enchant 2H Weapon - Lesser Intellect",
-            "Enchant 2H Weapon - Intellect",
         },
     },
     [11083] = { skill = 100, name = "Soul Dust",
@@ -111,6 +90,18 @@ ProfTooltip_Enchanting = {
             "Enchant 2H Weapon - Lesser Spirit",
         },
     },
+    [11084] = { skill = 100, name = "Greater Astral Essence",
+        uses = {
+            "Enchant Boots - Agility",
+            "Enchant Bracer - Lesser Deflection",
+            "Enchant Bracer - Lesser Intellect",
+            "Enchant Chest - Lesser Stats",
+            "Enchant Gloves - Skinning",
+            "Enchant Weapon - Spirit",
+            "Enchant 2H Weapon - Lesser Intellect",
+            "Enchant 2H Weapon - Intellect",
+        },
+    },
     [11138] = { skill = 100, name = "Small Glowing Shard",
         uses = {
             "Enchant Bracer - Defense",
@@ -120,20 +111,6 @@ ProfTooltip_Enchanting = {
             "Enchant 2H Weapon - Lesser Spirit",
         },
     },
-    [11139] = { skill = 150, name = "Large Glowing Shard",
-        uses = {
-            "Enchant Bracer - Greater Stamina",
-            "Enchant Gloves - Strength",
-            "Enchant Weapon - Strength",
-            "Enchant 2H Weapon - Spirit",
-            "Enchant Shield - Greater Stamina",
-        },
-    },
-
-    -- ══════════════════════════════════════════════════════
-    --  EXPERT reagents (skill 150–200)
-    -- ══════════════════════════════════════════════════════
-
     [11134] = { skill = 150, name = "Lesser Mystic Essence",
         uses = {
             "Enchant Bracer - Greater Stamina",
@@ -180,6 +157,15 @@ ProfTooltip_Enchanting = {
             "Enchant Ring - Healing",
         },
     },
+    [11139] = { skill = 150, name = "Large Glowing Shard",
+        uses = {
+            "Enchant Bracer - Greater Stamina",
+            "Enchant Gloves - Strength",
+            "Enchant Weapon - Strength",
+            "Enchant 2H Weapon - Spirit",
+            "Enchant Shield - Greater Stamina",
+        },
+    },
     [11177] = { skill = 150, name = "Small Radiant Shard",
         uses = {
             "Enchant Bracer - Greater Deflection",
@@ -192,23 +178,6 @@ ProfTooltip_Enchanting = {
             "Enchant Shield - Nature Resistance",
         },
     },
-    [11178] = { skill = 200, name = "Large Radiant Shard",
-        uses = {
-            "Enchant Cloak - Greater Agility",
-            "Enchant Cloak - Greater Defense",
-            "Enchant Cloak - Shadow Resistance",
-            "Enchant Chest - Major Stats",
-            "Enchant Bracer - Superior Strength",
-            "Enchant Gloves - Superior Agility",
-            "Enchant Shield - Greater Stamina",
-            "Enchant 2H Weapon - Superior Impact",
-        },
-    },
-
-    -- ══════════════════════════════════════════════════════
-    --  ARTISAN reagents (skill 200–300)
-    -- ══════════════════════════════════════════════════════
-
     [11176] = { skill = 200, name = "Dream Dust",
         uses = {
             "Enchant Bracer - Superior Strength",
@@ -224,6 +193,32 @@ ProfTooltip_Enchanting = {
             "Enchant 2H Weapon - Agility",
             "Enchant 2H Weapon - Superior Impact",
             "Enchant Ring - Agility",
+        },
+    },
+    [11178] = { skill = 200, name = "Large Radiant Shard",
+        uses = {
+            "Enchant Cloak - Greater Agility",
+            "Enchant Cloak - Greater Defense",
+            "Enchant Cloak - Shadow Resistance",
+            "Enchant Chest - Major Stats",
+            "Enchant Bracer - Superior Strength",
+            "Enchant Gloves - Superior Agility",
+            "Enchant Shield - Greater Stamina",
+            "Enchant 2H Weapon - Superior Impact",
+        },
+    },
+    [14343] = { skill = 200, name = "Small Brilliant Shard",
+        uses = {
+            "Enchant Bracer - Mana Regeneration",
+            "Enchant Chest - Excellent Stats",
+            "Enchant Cloak - Stealth",
+            "Enchant Cloak - Dodge",
+            "Enchant Gloves - Greater Agility",
+            "Enchant Ring - Strength",
+            "Enchant Shield - Resistance",
+            "Enchant Weapon - Icy Chill",
+            "Enchant Weapon - Spell Power",
+            "Enchant 2H Weapon - Major Spirit",
         },
     },
     [16202] = { skill = 200, name = "Lesser Eternal Essence",
@@ -260,35 +255,6 @@ ProfTooltip_Enchanting = {
             "Enchant 2H Weapon - Major Spirit",
         },
     },
-    [14343] = { skill = 200, name = "Small Brilliant Shard",
-        uses = {
-            "Enchant Bracer - Mana Regeneration",
-            "Enchant Chest - Excellent Stats",
-            "Enchant Cloak - Stealth",
-            "Enchant Cloak - Dodge",
-            "Enchant Gloves - Greater Agility",
-            "Enchant Ring - Strength",
-            "Enchant Shield - Resistance",
-            "Enchant Weapon - Icy Chill",
-            "Enchant Weapon - Spell Power",
-            "Enchant 2H Weapon - Major Spirit",
-        },
-    },
-    [16204] = { skill = 265, name = "Illusion Dust",
-        uses = {
-            "Enchant Boots - Greater Stamina",
-            "Enchant Boots - Spirit",
-            "Enchant Boots - Greater Agility",
-            "Enchant Boots - Vitality",
-            "Enchant Bracer - Superior Stamina",
-            "Enchant Chest - Greater Stats",
-            "Enchant Gloves - Riding Skill",
-            "Enchant Weapon - Crusader",
-            "Enchant Weapon - Lifestealing",
-            "Enchant Weapon - Agility",
-            "Enchant 2H Weapon - Agility",
-        },
-    },
     [14344] = { skill = 265, name = "Large Brilliant Shard",
         uses = {
             "Enchant Boots - Greater Stamina",
@@ -308,5 +274,19 @@ ProfTooltip_Enchanting = {
             "Enchant Weapon - Strength",
         },
     },
-
+    [16204] = { skill = 265, name = "Illusion Dust",
+        uses = {
+            "Enchant Boots - Greater Stamina",
+            "Enchant Boots - Spirit",
+            "Enchant Boots - Greater Agility",
+            "Enchant Boots - Vitality",
+            "Enchant Bracer - Superior Stamina",
+            "Enchant Chest - Greater Stats",
+            "Enchant Gloves - Riding Skill",
+            "Enchant Weapon - Crusader",
+            "Enchant Weapon - Lifestealing",
+            "Enchant Weapon - Agility",
+            "Enchant 2H Weapon - Agility",
+        },
+    },
 }

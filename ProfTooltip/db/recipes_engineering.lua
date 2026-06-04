@@ -1,4 +1,4 @@
--- Engineering recipes - Source: Wowhead Classic (verified JSON)
+-- Engineering recipes — Source: database JSON
 -- WoW Classic Era (Interface 11508)
 
 ProfTooltip_Engineering = {

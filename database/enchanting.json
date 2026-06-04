@@ -1,0 +1,345 @@
+{
+  "_meta": {
+    "profession": "Enchanting",
+    "game_version": "WoW Classic Era (1.15.x / interface 11508)",
+    "built": "2026-06-04",
+    "format": "reagent-index",
+    "source": "wowhead.com/classic + warcraft.wiki.gg",
+    "notes": [
+      "Enchanting differs from other professions: enchants do not produce an output item.",
+      "This DB is therefore a REVERSE index keyed by REAGENT ITEM ID → { skill, name, uses }.",
+      "'uses' is the list of enchant spell names that consume this reagent.",
+      "'skill' is the LOWEST enchant skill at which this reagent first becomes useful (tier gate).",
+      "Generated into ProfTooltip_Enchanting (db/recipes_enchanting.lua) via generate.js."
+    ]
+  },
+  "reagents": {
+    "10938": {
+      "name": "Lesser Magic Essence",
+      "skill": 1,
+      "uses": [
+        "Enchant Bracer - Minor Strength",
+        "Enchant Chest - Minor Absorption",
+        "Enchant Chest - Minor Stats",
+        "Enchant Cloak - Minor Protection",
+        "Enchant Weapon - Minor Beastslaying",
+        "Enchant Weapon - Minor Striking",
+        "Enchant Shield - Minor Stamina"
+      ]
+    },
+    "10939": {
+      "name": "Greater Magic Essence",
+      "skill": 1,
+      "uses": [
+        "Enchant Boots - Minor Stamina",
+        "Enchant Boots - Minor Agility",
+        "Enchant Bracer - Minor Agility",
+        "Enchant Chest - Health",
+        "Enchant Gloves - Mining",
+        "Enchant Gloves - Herbalism",
+        "Enchant Gloves - Fishing",
+        "Enchant Shield - Stamina",
+        "Enchant Weapon - Fiery Weapon"
+      ]
+    },
+    "10940": {
+      "name": "Strange Dust",
+      "skill": 1,
+      "uses": [
+        "Enchant Bracer - Minor Strength",
+        "Enchant Bracer - Minor Agility",
+        "Enchant Chest - Minor Absorption",
+        "Enchant Chest - Minor Stats",
+        "Enchant Chest - Health",
+        "Enchant Cloak - Minor Protection",
+        "Enchant Gloves - Minor Agility",
+        "Enchant Shield - Minor Stamina",
+        "Enchant Shield - Stamina",
+        "Enchant Weapon - Minor Beastslaying",
+        "Enchant Weapon - Minor Striking",
+        "Enchant Weapon - Lesser Striking",
+        "Enchant 2H Weapon - Lesser Intellect"
+      ]
+    },
+    "10978": {
+      "name": "Small Glimmering Shard",
+      "skill": 1,
+      "uses": [
+        "Enchant Bracer - Lesser Stamina",
+        "Enchant Chest - Lesser Absorption",
+        "Enchant Cloak - Lesser Protection",
+        "Enchant Weapon - Lesser Beastslaying",
+        "Enchant Weapon - Lesser Striking"
+      ]
+    },
+    "11085": {
+      "name": "Large Glimmering Shard",
+      "skill": 1,
+      "uses": [
+        "Enchant Bracer - Stamina",
+        "Enchant Boots - Lesser Stamina",
+        "Enchant Cloak - Lesser Agility",
+        "Enchant Weapon - Striking",
+        "Enchant 2H Weapon - Lesser Spirit"
+      ]
+    },
+    "11082": {
+      "name": "Lesser Astral Essence",
+      "skill": 100,
+      "uses": [
+        "Enchant Boots - Lesser Stamina",
+        "Enchant Boots - Lesser Agility",
+        "Enchant Bracer - Stamina",
+        "Enchant Chest - Lesser Stats",
+        "Enchant Gloves - Agility",
+        "Enchant Shield - Lesser Stamina",
+        "Enchant Weapon - Striking"
+      ]
+    },
+    "11084": {
+      "name": "Greater Astral Essence",
+      "skill": 100,
+      "uses": [
+        "Enchant Boots - Agility",
+        "Enchant Bracer - Lesser Deflection",
+        "Enchant Bracer - Lesser Intellect",
+        "Enchant Chest - Lesser Stats",
+        "Enchant Gloves - Skinning",
+        "Enchant Weapon - Spirit",
+        "Enchant 2H Weapon - Lesser Intellect",
+        "Enchant 2H Weapon - Intellect"
+      ]
+    },
+    "11083": {
+      "name": "Soul Dust",
+      "skill": 100,
+      "uses": [
+        "Enchant Boots - Agility",
+        "Enchant Boots - Lesser Stamina",
+        "Enchant Bracer - Stamina",
+        "Enchant Bracer - Lesser Deflection",
+        "Enchant Chest - Lesser Stats",
+        "Enchant Gloves - Agility",
+        "Enchant Shield - Lesser Stamina",
+        "Enchant Shield - Blocking",
+        "Enchant Weapon - Lesser Striking",
+        "Enchant Weapon - Striking",
+        "Enchant Weapon - Spirit",
+        "Enchant 2H Weapon - Lesser Spirit"
+      ]
+    },
+    "11138": {
+      "name": "Small Glowing Shard",
+      "skill": 100,
+      "uses": [
+        "Enchant Bracer - Defense",
+        "Enchant Chest - Minor Mana",
+        "Enchant Weapon - Lesser Beastslaying",
+        "Enchant Weapon - Strength",
+        "Enchant 2H Weapon - Lesser Spirit"
+      ]
+    },
+    "11139": {
+      "name": "Large Glowing Shard",
+      "skill": 150,
+      "uses": [
+        "Enchant Bracer - Greater Stamina",
+        "Enchant Gloves - Strength",
+        "Enchant Weapon - Strength",
+        "Enchant 2H Weapon - Spirit",
+        "Enchant Shield - Greater Stamina"
+      ]
+    },
+    "11134": {
+      "name": "Lesser Mystic Essence",
+      "skill": 150,
+      "uses": [
+        "Enchant Bracer - Greater Stamina",
+        "Enchant Bracer - Deflection",
+        "Enchant Chest - Lesser Mana",
+        "Enchant Gloves - Strength",
+        "Enchant Gloves - Agility",
+        "Enchant Shield - Greater Stamina",
+        "Enchant Weapon - Lesser Beastslaying",
+        "Enchant Weapon - Agility",
+        "Enchant 2H Weapon - Spirit"
+      ]
+    },
+    "11135": {
+      "name": "Greater Mystic Essence",
+      "skill": 150,
+      "uses": [
+        "Enchant Bracer - Intellect",
+        "Enchant Bracer - Deflection",
+        "Enchant Chest - Mana",
+        "Enchant Gloves - Advanced Mining",
+        "Enchant Gloves - Advanced Herbalism",
+        "Enchant Ring - Healing",
+        "Enchant Ring - Mana",
+        "Enchant Shield - Reflection",
+        "Enchant Weapon - Fiery Weapon",
+        "Enchant Weapon - Demonslaying",
+        "Enchant 2H Weapon - Agility"
+      ]
+    },
+    "11137": {
+      "name": "Vision Dust",
+      "skill": 150,
+      "uses": [
+        "Enchant Bracer - Intellect",
+        "Enchant Bracer - Greater Deflection",
+        "Enchant Chest - Major Mana",
+        "Enchant Chest - Major Stats",
+        "Enchant Cloak - Greater Defense",
+        "Enchant Cloak - Greater Agility",
+        "Enchant Gloves - Advanced Mining",
+        "Enchant Gloves - Advanced Herbalism",
+        "Enchant Shield - Reflection",
+        "Enchant Weapon - Fiery Weapon",
+        "Enchant Weapon - Demonslaying",
+        "Enchant Weapon - Unholy Weapon",
+        "Enchant 2H Weapon - Agility",
+        "Enchant Ring - Healing"
+      ]
+    },
+    "11177": {
+      "name": "Small Radiant Shard",
+      "skill": 150,
+      "uses": [
+        "Enchant Bracer - Greater Deflection",
+        "Enchant Chest - Major Mana",
+        "Enchant Weapon - Fiery Weapon",
+        "Enchant Weapon - Demonslaying",
+        "Enchant Weapon - Unholy Weapon",
+        "Enchant 2H Weapon - Agility",
+        "Enchant Shield - Frost Resistance",
+        "Enchant Shield - Nature Resistance"
+      ]
+    },
+    "11178": {
+      "name": "Large Radiant Shard",
+      "skill": 200,
+      "uses": [
+        "Enchant Cloak - Greater Agility",
+        "Enchant Cloak - Greater Defense",
+        "Enchant Cloak - Shadow Resistance",
+        "Enchant Chest - Major Stats",
+        "Enchant Bracer - Superior Strength",
+        "Enchant Gloves - Superior Agility",
+        "Enchant Shield - Greater Stamina",
+        "Enchant 2H Weapon - Superior Impact"
+      ]
+    },
+    "11176": {
+      "name": "Dream Dust",
+      "skill": 200,
+      "uses": [
+        "Enchant Bracer - Superior Strength",
+        "Enchant Bracer - Greater Intellect",
+        "Enchant Chest - Major Stats",
+        "Enchant Chest - Greater Stats",
+        "Enchant Cloak - Greater Defense",
+        "Enchant Cloak - Shadow Resistance",
+        "Enchant Gloves - Superior Agility",
+        "Enchant Gloves - Greater Strength",
+        "Enchant Shield - Greater Stamina",
+        "Enchant Weapon - Icy Chill",
+        "Enchant 2H Weapon - Agility",
+        "Enchant 2H Weapon - Superior Impact",
+        "Enchant Ring - Agility"
+      ]
+    },
+    "16202": {
+      "name": "Lesser Eternal Essence",
+      "skill": 200,
+      "uses": [
+        "Enchant Bracer - Greater Intellect",
+        "Enchant Bracer - Healing Power",
+        "Enchant Cloak - Superior Defense",
+        "Enchant Gloves - Greater Strength",
+        "Enchant Ring - Agility",
+        "Enchant Ring - Strength",
+        "Enchant Ring - Intellect",
+        "Enchant Shield - Resistance",
+        "Enchant Weapon - Icy Chill",
+        "Enchant Weapon - Unholy Weapon",
+        "Enchant 2H Weapon - Superior Striking",
+        "Enchant 2H Weapon - Ferocity"
+      ]
+    },
+    "16203": {
+      "name": "Greater Eternal Essence",
+      "skill": 200,
+      "uses": [
+        "Enchant Bracer - Healing Power",
+        "Enchant Bracer - Mana Regeneration",
+        "Enchant Chest - Excellent Stats",
+        "Enchant Cloak - Superior Defense",
+        "Enchant Cloak - Stealth",
+        "Enchant Gloves - Greater Agility",
+        "Enchant Ring - Strength",
+        "Enchant Ring - Intellect",
+        "Enchant Shield - Resistance",
+        "Enchant Weapon - Spellpower",
+        "Enchant Weapon - Spell Power",
+        "Enchant 2H Weapon - Ferocity",
+        "Enchant 2H Weapon - Major Intellect",
+        "Enchant 2H Weapon - Major Spirit"
+      ]
+    },
+    "14343": {
+      "name": "Small Brilliant Shard",
+      "skill": 200,
+      "uses": [
+        "Enchant Bracer - Mana Regeneration",
+        "Enchant Chest - Excellent Stats",
+        "Enchant Cloak - Stealth",
+        "Enchant Cloak - Dodge",
+        "Enchant Gloves - Greater Agility",
+        "Enchant Ring - Strength",
+        "Enchant Shield - Resistance",
+        "Enchant Weapon - Icy Chill",
+        "Enchant Weapon - Spell Power",
+        "Enchant 2H Weapon - Major Spirit"
+      ]
+    },
+    "16204": {
+      "name": "Illusion Dust",
+      "skill": 265,
+      "uses": [
+        "Enchant Boots - Greater Stamina",
+        "Enchant Boots - Spirit",
+        "Enchant Boots - Greater Agility",
+        "Enchant Boots - Vitality",
+        "Enchant Bracer - Superior Stamina",
+        "Enchant Chest - Greater Stats",
+        "Enchant Gloves - Riding Skill",
+        "Enchant Weapon - Crusader",
+        "Enchant Weapon - Lifestealing",
+        "Enchant Weapon - Agility",
+        "Enchant 2H Weapon - Agility"
+      ]
+    },
+    "14344": {
+      "name": "Large Brilliant Shard",
+      "skill": 265,
+      "uses": [
+        "Enchant Boots - Greater Stamina",
+        "Enchant Boots - Greater Agility",
+        "Enchant Bracer - Superior Stamina",
+        "Enchant Chest - Greater Stats",
+        "Enchant Chest - Major Health",
+        "Enchant Gloves - Greater Strength",
+        "Enchant Gloves - Greater Agility",
+        "Enchant Ring - Strength",
+        "Enchant Shield - Superior Stamina",
+        "Enchant Weapon - Crusader",
+        "Enchant Weapon - Lifestealing",
+        "Enchant Weapon - Spellpower",
+        "Enchant 2H Weapon - Major Intellect",
+        "Enchant 2H Weapon - Major Spirit",
+        "Enchant Weapon - Strength"
+      ]
+    }
+  }
+}
