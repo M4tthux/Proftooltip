@@ -1,0 +1,6551 @@
+{
+  "_meta": {
+    "profession": "Leatherworking",
+    "game_version": "WoW Classic Era (1.15.x / interface 11508)",
+    "built": "2026-06-04",
+    "recipe_count": 233,
+    "source": "Wowhead Classic XML (item pages) + wow-classic-items npm",
+    "notes": [
+      "Item list and skill levels come from wow-classic-items npm (filtered: skill≤300, itemId≤23000).",
+      "Reagent IDs, quantities, and names are VERIFIED against Wowhead Classic item XML.",
+      "Spell IDs are VERIFIED against Wowhead Classic.",
+      "Entries with source=\"npm-only\" had no Wowhead <createdBy> section.",
+      "Keyed by OUTPUT ITEM ID."
+    ]
+  },
+  "recipes": {
+    "2300": {
+      "name": "Embossed Leather Vest",
+      "spell_id": 2160,
+      "output_qty": 1,
+      "skill": 40,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 8,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 4,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "2302": {
+      "name": "Handstitched Leather Boots",
+      "spell_id": 2149,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 2,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 1,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "2303": {
+      "name": "Handstitched Leather Pants",
+      "spell_id": 2153,
+      "output_qty": 1,
+      "skill": 15,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 4,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 1,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "2304": {
+      "name": "Light Armor Kit",
+      "spell_id": 2152,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 1,
+          "name": "Light Leather"
+        }
+      ]
+    },
+    "2307": {
+      "name": "Fine Leather Boots",
+      "spell_id": 2158,
+      "output_qty": 1,
+      "skill": 90,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 7,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 2,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "2308": {
+      "name": "Fine Leather Cloak",
+      "spell_id": 2159,
+      "output_qty": 1,
+      "skill": 85,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 10,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "2309": {
+      "name": "Embossed Leather Boots",
+      "spell_id": 2161,
+      "output_qty": 1,
+      "skill": 55,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 8,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 5,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "2310": {
+      "name": "Embossed Leather Cloak",
+      "spell_id": 2162,
+      "output_qty": 1,
+      "skill": 60,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 5,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 2,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "2311": {
+      "name": "White Leather Jerkin",
+      "spell_id": 2163,
+      "output_qty": 1,
+      "skill": 60,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 8,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 2,
+          "name": "Coarse Thread"
+        },
+        {
+          "id": 2324,
+          "qty": 1,
+          "name": "Bleach"
+        }
+      ]
+    },
+    "2312": {
+      "name": "Fine Leather Gloves",
+      "spell_id": 2164,
+      "output_qty": 1,
+      "skill": 75,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4231,
+          "qty": 1,
+          "name": "Cured Light Hide"
+        },
+        {
+          "id": 2318,
+          "qty": 4,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 2,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "2313": {
+      "name": "Medium Armor Kit",
+      "spell_id": 2165,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 4,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 1,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "2314": {
+      "name": "Toughened Leather Armor",
+      "spell_id": 2166,
+      "output_qty": 1,
+      "skill": 120,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 10,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 4231,
+          "qty": 2,
+          "name": "Cured Light Hide"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "2315": {
+      "name": "Dark Leather Boots",
+      "spell_id": 2167,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 4,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        },
+        {
+          "id": 4340,
+          "qty": 1,
+          "name": "Gray Dye"
+        }
+      ]
+    },
+    "2316": {
+      "name": "Dark Leather Cloak",
+      "spell_id": 2168,
+      "output_qty": 1,
+      "skill": 110,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 8,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        },
+        {
+          "id": 4340,
+          "qty": 1,
+          "name": "Gray Dye"
+        }
+      ]
+    },
+    "2317": {
+      "name": "Dark Leather Tunic",
+      "spell_id": 2169,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 6,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        },
+        {
+          "id": 4340,
+          "qty": 1,
+          "name": "Gray Dye"
+        }
+      ]
+    },
+    "2318": {
+      "name": "Light Leather",
+      "spell_id": 2881,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2934,
+          "qty": 3,
+          "name": "Ruined Leather Scraps"
+        }
+      ]
+    },
+    "2319": {
+      "name": "Medium Leather",
+      "spell_id": 20648,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 4,
+          "name": "Light Leather"
+        }
+      ]
+    },
+    "3719": {
+      "name": "Hillman's Cloak",
+      "spell_id": 3760,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 5,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "4231": {
+      "name": "Cured Light Hide",
+      "spell_id": 3816,
+      "output_qty": 1,
+      "skill": 35,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 783,
+          "qty": 1,
+          "name": "Light Hide"
+        },
+        {
+          "id": 4289,
+          "qty": 1,
+          "name": "Salt"
+        }
+      ]
+    },
+    "4233": {
+      "name": "Cured Medium Hide",
+      "spell_id": 3817,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4232,
+          "qty": 1,
+          "name": "Medium Hide"
+        },
+        {
+          "id": 4289,
+          "qty": 1,
+          "name": "Salt"
+        }
+      ]
+    },
+    "4234": {
+      "name": "Heavy Leather",
+      "spell_id": 20649,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 5,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "4236": {
+      "name": "Cured Heavy Hide",
+      "spell_id": 3818,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4235,
+          "qty": 1,
+          "name": "Heavy Hide"
+        },
+        {
+          "id": 4289,
+          "qty": 3,
+          "name": "Salt"
+        }
+      ]
+    },
+    "4237": {
+      "name": "Handstitched Leather Belt",
+      "spell_id": 3753,
+      "output_qty": 1,
+      "skill": 25,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 6,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 1,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "4239": {
+      "name": "Embossed Leather Gloves",
+      "spell_id": 3756,
+      "output_qty": 1,
+      "skill": 55,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 3,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 2,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "4242": {
+      "name": "Embossed Leather Pants",
+      "spell_id": 3759,
+      "output_qty": 1,
+      "skill": 75,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4231,
+          "qty": 1,
+          "name": "Cured Light Hide"
+        },
+        {
+          "id": 2318,
+          "qty": 6,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 2,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "4243": {
+      "name": "Fine Leather Tunic",
+      "spell_id": 3761,
+      "output_qty": 1,
+      "skill": 85,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4231,
+          "qty": 3,
+          "name": "Cured Light Hide"
+        },
+        {
+          "id": 2318,
+          "qty": 6,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 4,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "4244": {
+      "name": "Hillman's Leather Vest",
+      "spell_id": 3762,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4243,
+          "qty": 1,
+          "name": "Fine Leather Tunic"
+        },
+        {
+          "id": 4231,
+          "qty": 2,
+          "name": "Cured Light Hide"
+        },
+        {
+          "id": 2320,
+          "qty": 2,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "4246": {
+      "name": "Fine Leather Belt",
+      "spell_id": 3763,
+      "output_qty": 1,
+      "skill": 80,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 6,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 2,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "4247": {
+      "name": "Hillman's Leather Gloves",
+      "spell_id": 3764,
+      "output_qty": 1,
+      "skill": 145,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 14,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 4,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "4248": {
+      "name": "Dark Leather Gloves",
+      "spell_id": 3765,
+      "output_qty": 1,
+      "skill": 120,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2312,
+          "qty": 1,
+          "name": "Fine Leather Gloves"
+        },
+        {
+          "id": 4233,
+          "qty": 1,
+          "name": "Cured Medium Hide"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        },
+        {
+          "id": 4340,
+          "qty": 1,
+          "name": "Gray Dye"
+        }
+      ]
+    },
+    "4249": {
+      "name": "Dark Leather Belt",
+      "spell_id": 3766,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4246,
+          "qty": 1,
+          "name": "Fine Leather Belt"
+        },
+        {
+          "id": 4233,
+          "qty": 1,
+          "name": "Cured Medium Hide"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        },
+        {
+          "id": 4340,
+          "qty": 1,
+          "name": "Gray Dye"
+        }
+      ]
+    },
+    "4250": {
+      "name": "Hillman's Belt",
+      "spell_id": 3767,
+      "output_qty": 1,
+      "skill": 120,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 8,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 3383,
+          "qty": 1,
+          "name": "Elixir of Wisdom"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "4251": {
+      "name": "Hillman's Shoulders",
+      "spell_id": 3768,
+      "output_qty": 1,
+      "skill": 130,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4233,
+          "qty": 1,
+          "name": "Cured Medium Hide"
+        },
+        {
+          "id": 2319,
+          "qty": 4,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "4252": {
+      "name": "Dark Leather Shoulders",
+      "spell_id": 3769,
+      "output_qty": 1,
+      "skill": 140,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 12,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 3390,
+          "qty": 1,
+          "name": "Elixir of Lesser Agility"
+        },
+        {
+          "id": 4340,
+          "qty": 1,
+          "name": "Gray Dye"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "4253": {
+      "name": "Toughened Leather Gloves",
+      "spell_id": 3770,
+      "output_qty": 1,
+      "skill": 135,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 4,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 4233,
+          "qty": 2,
+          "name": "Cured Medium Hide"
+        },
+        {
+          "id": 3389,
+          "qty": 2,
+          "name": "Elixir of Defense"
+        },
+        {
+          "id": 3182,
+          "qty": 2,
+          "name": "Spider's Silk"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "4254": {
+      "name": "Barbaric Gloves",
+      "spell_id": 3771,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 6,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 5637,
+          "qty": 2,
+          "name": "Large Fang"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "4255": {
+      "name": "Green Leather Armor",
+      "spell_id": 3772,
+      "output_qty": 1,
+      "skill": 155,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 9,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2605,
+          "qty": 2,
+          "name": "Green Dye"
+        },
+        {
+          "id": 2321,
+          "qty": 4,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "4256": {
+      "name": "Guardian Armor",
+      "spell_id": 3773,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4236,
+          "qty": 2,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 4234,
+          "qty": 12,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 3824,
+          "qty": 1,
+          "name": "Shadow Oil"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "4257": {
+      "name": "Green Leather Belt",
+      "spell_id": 3774,
+      "output_qty": 1,
+      "skill": 160,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4236,
+          "qty": 1,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 4234,
+          "qty": 5,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        },
+        {
+          "id": 2605,
+          "qty": 1,
+          "name": "Green Dye"
+        },
+        {
+          "id": 7071,
+          "qty": 1,
+          "name": "Iron Buckle"
+        }
+      ]
+    },
+    "4258": {
+      "name": "Guardian Belt",
+      "spell_id": 3775,
+      "output_qty": 1,
+      "skill": 170,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4236,
+          "qty": 2,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 4234,
+          "qty": 4,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        },
+        {
+          "id": 7071,
+          "qty": 1,
+          "name": "Iron Buckle"
+        }
+      ]
+    },
+    "4259": {
+      "name": "Green Leather Bracers",
+      "spell_id": 3776,
+      "output_qty": 1,
+      "skill": 180,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4236,
+          "qty": 2,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 4234,
+          "qty": 6,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2605,
+          "qty": 1,
+          "name": "Green Dye"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "4260": {
+      "name": "Guardian Leather Bracers",
+      "spell_id": 3777,
+      "output_qty": 1,
+      "skill": 195,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 6,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 4236,
+          "qty": 2,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 4291,
+          "qty": 1,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "4262": {
+      "name": "Gem-studded Leather Belt",
+      "spell_id": 3778,
+      "output_qty": 1,
+      "skill": 185,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4236,
+          "qty": 4,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 5500,
+          "qty": 2,
+          "name": "Iridescent Pearl"
+        },
+        {
+          "id": 1529,
+          "qty": 2,
+          "name": "Jade"
+        },
+        {
+          "id": 3864,
+          "qty": 1,
+          "name": "Citrine"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "4264": {
+      "name": "Barbaric Belt",
+      "spell_id": 3779,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 6,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 4236,
+          "qty": 2,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 4096,
+          "qty": 2,
+          "name": "Coarse Gorilla Hair"
+        },
+        {
+          "id": 5633,
+          "qty": 1,
+          "name": "Great Rage Potion"
+        },
+        {
+          "id": 4291,
+          "qty": 1,
+          "name": "Silken Thread"
+        },
+        {
+          "id": 7071,
+          "qty": 1,
+          "name": "Iron Buckle"
+        }
+      ]
+    },
+    "4265": {
+      "name": "Heavy Armor Kit",
+      "spell_id": 3780,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 5,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "4304": {
+      "name": "Thick Leather",
+      "spell_id": 20650,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 6,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "4455": {
+      "name": "Raptor Hide Harness",
+      "spell_id": 4096,
+      "output_qty": 1,
+      "skill": 165,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4461,
+          "qty": 6,
+          "name": "Raptor Hide"
+        },
+        {
+          "id": 4234,
+          "qty": 4,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "4456": {
+      "name": "Raptor Hide Belt",
+      "spell_id": 4097,
+      "output_qty": 1,
+      "skill": 165,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4461,
+          "qty": 4,
+          "name": "Raptor Hide"
+        },
+        {
+          "id": 4234,
+          "qty": 4,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "5081": {
+      "name": "Kodo Hide Bag",
+      "spell_id": 5244,
+      "output_qty": 1,
+      "skill": 40,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5082,
+          "qty": 3,
+          "name": "Thin Kodo Leather"
+        },
+        {
+          "id": 2318,
+          "qty": 4,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 1,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "5739": {
+      "name": "Barbaric Harness",
+      "spell_id": 6661,
+      "output_qty": 1,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 14,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        },
+        {
+          "id": 7071,
+          "qty": 1,
+          "name": "Iron Buckle"
+        }
+      ]
+    },
+    "5780": {
+      "name": "Murloc Scale Belt",
+      "spell_id": 6702,
+      "output_qty": 1,
+      "skill": 90,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5784,
+          "qty": 8,
+          "name": "Slimy Murloc Scale"
+        },
+        {
+          "id": 2318,
+          "qty": 6,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "5781": {
+      "name": "Murloc Scale Breastplate",
+      "spell_id": 6703,
+      "output_qty": 1,
+      "skill": 95,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5784,
+          "qty": 12,
+          "name": "Slimy Murloc Scale"
+        },
+        {
+          "id": 4231,
+          "qty": 1,
+          "name": "Cured Light Hide"
+        },
+        {
+          "id": 2318,
+          "qty": 8,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "5782": {
+      "name": "Thick Murloc Armor",
+      "spell_id": 6704,
+      "output_qty": 1,
+      "skill": 170,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5785,
+          "qty": 12,
+          "name": "Thick Murloc Scale"
+        },
+        {
+          "id": 4236,
+          "qty": 1,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 4234,
+          "qty": 10,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 3,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "5783": {
+      "name": "Murloc Scale Bracers",
+      "spell_id": 6705,
+      "output_qty": 1,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5785,
+          "qty": 16,
+          "name": "Thick Murloc Scale"
+        },
+        {
+          "id": 4236,
+          "qty": 1,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 4234,
+          "qty": 14,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 4291,
+          "qty": 1,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "5957": {
+      "name": "Handstitched Leather Vest",
+      "spell_id": 7126,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 3,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 1,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "5958": {
+      "name": "Fine Leather Pants",
+      "spell_id": 7133,
+      "output_qty": 1,
+      "skill": 105,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 8,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 2997,
+          "qty": 1,
+          "name": "Bolt of Woolen Cloth"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "5961": {
+      "name": "Dark Leather Pants",
+      "spell_id": 7135,
+      "output_qty": 1,
+      "skill": 115,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 12,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 4340,
+          "qty": 1,
+          "name": "Gray Dye"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "5962": {
+      "name": "Guardian Pants",
+      "spell_id": 7147,
+      "output_qty": 1,
+      "skill": 160,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 12,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 4305,
+          "qty": 2,
+          "name": "Bolt of Silk Cloth"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "5963": {
+      "name": "Barbaric Leggings",
+      "spell_id": 7149,
+      "output_qty": 1,
+      "skill": 170,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 10,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        },
+        {
+          "id": 1206,
+          "qty": 1,
+          "name": "Moss Agate"
+        }
+      ]
+    },
+    "5964": {
+      "name": "Barbaric Shoulders",
+      "spell_id": 7151,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 8,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 4236,
+          "qty": 1,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "5965": {
+      "name": "Guardian Cloak",
+      "spell_id": 7153,
+      "output_qty": 1,
+      "skill": 185,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 14,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 4305,
+          "qty": 2,
+          "name": "Bolt of Silk Cloth"
+        },
+        {
+          "id": 4291,
+          "qty": 2,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "5966": {
+      "name": "Guardian Gloves",
+      "spell_id": 7156,
+      "output_qty": 1,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 4,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 4236,
+          "qty": 1,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 4291,
+          "qty": 1,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "6466": {
+      "name": "Deviate Scale Cloak",
+      "spell_id": 7953,
+      "output_qty": 1,
+      "skill": 90,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6470,
+          "qty": 8,
+          "name": "Deviate Scale"
+        },
+        {
+          "id": 4231,
+          "qty": 1,
+          "name": "Cured Light Hide"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "6467": {
+      "name": "Deviate Scale Gloves",
+      "spell_id": 7954,
+      "output_qty": 1,
+      "skill": 105,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6471,
+          "qty": 2,
+          "name": "Perfect Deviate Scale"
+        },
+        {
+          "id": 6470,
+          "qty": 6,
+          "name": "Deviate Scale"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "6468": {
+      "name": "Deviate Scale Belt",
+      "spell_id": 7955,
+      "output_qty": 1,
+      "skill": 115,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6471,
+          "qty": 10,
+          "name": "Perfect Deviate Scale"
+        },
+        {
+          "id": 6470,
+          "qty": 10,
+          "name": "Deviate Scale"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "6709": {
+      "name": "Moonglow Vest",
+      "spell_id": 8322,
+      "output_qty": 1,
+      "skill": 90,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 6,
+          "name": "Light Leather"
+        },
+        {
+          "id": 4231,
+          "qty": 1,
+          "name": "Cured Light Hide"
+        },
+        {
+          "id": 2320,
+          "qty": 4,
+          "name": "Coarse Thread"
+        },
+        {
+          "id": 5498,
+          "qty": 1,
+          "name": "Small Lustrous Pearl"
+        }
+      ]
+    },
+    "7276": {
+      "name": "Handstitched Leather Cloak",
+      "spell_id": 9058,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 2,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 1,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "7277": {
+      "name": "Handstitched Leather Bracers",
+      "spell_id": 9059,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 2,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 3,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "7278": {
+      "name": "Light Leather Quiver",
+      "spell_id": 9060,
+      "output_qty": 1,
+      "skill": 30,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 4,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 2,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "7279": {
+      "name": "Small Leather Ammo Pouch",
+      "spell_id": 9062,
+      "output_qty": 1,
+      "skill": 30,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 3,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 4,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "7280": {
+      "name": "Rugged Leather Pants",
+      "spell_id": 9064,
+      "output_qty": 1,
+      "skill": 35,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 5,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 5,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "7281": {
+      "name": "Light Leather Bracers",
+      "spell_id": 9065,
+      "output_qty": 1,
+      "skill": 70,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 6,
+          "name": "Light Leather"
+        },
+        {
+          "id": 2320,
+          "qty": 4,
+          "name": "Coarse Thread"
+        }
+      ]
+    },
+    "7282": {
+      "name": "Light Leather Pants",
+      "spell_id": 9068,
+      "output_qty": 1,
+      "skill": 95,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2318,
+          "qty": 10,
+          "name": "Light Leather"
+        },
+        {
+          "id": 4231,
+          "qty": 1,
+          "name": "Cured Light Hide"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7283": {
+      "name": "Black Whelp Cloak",
+      "spell_id": 9070,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7286,
+          "qty": 12,
+          "name": "Black Whelp Scale"
+        },
+        {
+          "id": 2319,
+          "qty": 4,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7284": {
+      "name": "Red Whelp Gloves",
+      "spell_id": 9072,
+      "output_qty": 1,
+      "skill": 120,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7287,
+          "qty": 6,
+          "name": "Red Whelp Scale"
+        },
+        {
+          "id": 2319,
+          "qty": 4,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7285": {
+      "name": "Nimble Leather Gloves",
+      "spell_id": 9074,
+      "output_qty": 1,
+      "skill": 120,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2457,
+          "qty": 1,
+          "name": "Elixir of Minor Agility"
+        },
+        {
+          "id": 2319,
+          "qty": 6,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7348": {
+      "name": "Fletcher's Gloves",
+      "spell_id": 9145,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 8,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 5116,
+          "qty": 4,
+          "name": "Long Tail Feather"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7349": {
+      "name": "Herbalist's Gloves",
+      "spell_id": 9146,
+      "output_qty": 1,
+      "skill": 135,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 8,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 3356,
+          "qty": 4,
+          "name": "Kingsblood"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7352": {
+      "name": "Earthen Leather Shoulders",
+      "spell_id": 9147,
+      "output_qty": 1,
+      "skill": 135,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 6,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 7067,
+          "qty": 1,
+          "name": "Elemental Earth"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7358": {
+      "name": "Pilferer's Gloves",
+      "spell_id": 9148,
+      "output_qty": 1,
+      "skill": 140,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 10,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 5373,
+          "qty": 2,
+          "name": "Lucky Charm"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7359": {
+      "name": "Heavy Earthen Gloves",
+      "spell_id": 9149,
+      "output_qty": 1,
+      "skill": 145,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 12,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 7067,
+          "qty": 2,
+          "name": "Elemental Earth"
+        },
+        {
+          "id": 2997,
+          "qty": 2,
+          "name": "Bolt of Woolen Cloth"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7371": {
+      "name": "Heavy Quiver",
+      "spell_id": 9193,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 8,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7372": {
+      "name": "Heavy Leather Ammo Pouch",
+      "spell_id": 9194,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 8,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7373": {
+      "name": "Dusky Leather Leggings",
+      "spell_id": 9195,
+      "output_qty": 1,
+      "skill": 165,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 10,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2325,
+          "qty": 1,
+          "name": "Black Dye"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7374": {
+      "name": "Dusky Leather Armor",
+      "spell_id": 9196,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 10,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 3824,
+          "qty": 1,
+          "name": "Shadow Oil"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7375": {
+      "name": "Green Whelp Armor",
+      "spell_id": 9197,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7392,
+          "qty": 4,
+          "name": "Green Whelp Scale"
+        },
+        {
+          "id": 4234,
+          "qty": 10,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7377": {
+      "name": "Frost Leather Cloak",
+      "spell_id": 9198,
+      "output_qty": 1,
+      "skill": 180,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 6,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 7067,
+          "qty": 2,
+          "name": "Elemental Earth"
+        },
+        {
+          "id": 7070,
+          "qty": 2,
+          "name": "Elemental Water"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "7378": {
+      "name": "Dusky Bracers",
+      "spell_id": 9201,
+      "output_qty": 1,
+      "skill": 185,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 16,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2325,
+          "qty": 1,
+          "name": "Black Dye"
+        },
+        {
+          "id": 4291,
+          "qty": 2,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "7386": {
+      "name": "Green Whelp Bracers",
+      "spell_id": 9202,
+      "output_qty": 1,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7392,
+          "qty": 6,
+          "name": "Green Whelp Scale"
+        },
+        {
+          "id": 4234,
+          "qty": 8,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 4291,
+          "qty": 2,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "7387": {
+      "name": "Dusky Belt",
+      "spell_id": 9206,
+      "output_qty": 1,
+      "skill": 195,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 10,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 4305,
+          "qty": 2,
+          "name": "Bolt of Silk Cloth"
+        },
+        {
+          "id": 2325,
+          "qty": 2,
+          "name": "Black Dye"
+        },
+        {
+          "id": 7071,
+          "qty": 1,
+          "name": "Iron Buckle"
+        }
+      ]
+    },
+    "7390": {
+      "name": "Dusky Boots",
+      "spell_id": 9207,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 8,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 7428,
+          "qty": 2,
+          "name": "Shadowcat Hide"
+        },
+        {
+          "id": 3824,
+          "qty": 1,
+          "name": "Shadow Oil"
+        },
+        {
+          "id": 4291,
+          "qty": 2,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "7391": {
+      "name": "Swift Boots",
+      "spell_id": 9208,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 10,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2459,
+          "qty": 2,
+          "name": "Swiftness Potion"
+        },
+        {
+          "id": 4337,
+          "qty": 2,
+          "name": "Thick Spider's Silk"
+        },
+        {
+          "id": 4291,
+          "qty": 1,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "8170": {
+      "name": "Rugged Leather",
+      "spell_id": 22331,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 6,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "8172": {
+      "name": "Cured Thick Hide",
+      "spell_id": 10482,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8169,
+          "qty": 1,
+          "name": "Thick Hide"
+        },
+        {
+          "id": 8150,
+          "qty": 1,
+          "name": "Deeprock Salt"
+        }
+      ]
+    },
+    "8173": {
+      "name": "Thick Armor Kit",
+      "spell_id": 10487,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 5,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 4291,
+          "qty": 1,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "8174": {
+      "name": "Comfortable Leather Hat",
+      "spell_id": 10490,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 12,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 4236,
+          "qty": 2,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 4291,
+          "qty": 2,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "8175": {
+      "name": "Nightscape Tunic",
+      "spell_id": 10499,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 7,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 4291,
+          "qty": 2,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "8176": {
+      "name": "Nightscape Headband",
+      "spell_id": 10507,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 5,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 4291,
+          "qty": 2,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "8185": {
+      "name": "Turtle Scale Leggings",
+      "spell_id": 10556,
+      "output_qty": 1,
+      "skill": 235,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 14,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8167,
+          "qty": 28,
+          "name": "Turtle Scale"
+        },
+        {
+          "id": 8343,
+          "qty": 1,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8187": {
+      "name": "Turtle Scale Gloves",
+      "spell_id": 10509,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 6,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8167,
+          "qty": 8,
+          "name": "Turtle Scale"
+        },
+        {
+          "id": 8343,
+          "qty": 1,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8189": {
+      "name": "Turtle Scale Breastplate",
+      "spell_id": 10511,
+      "output_qty": 1,
+      "skill": 210,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 6,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8167,
+          "qty": 12,
+          "name": "Turtle Scale"
+        },
+        {
+          "id": 8343,
+          "qty": 1,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8191": {
+      "name": "Turtle Scale Helm",
+      "spell_id": 10552,
+      "output_qty": 1,
+      "skill": 230,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 14,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8167,
+          "qty": 24,
+          "name": "Turtle Scale"
+        },
+        {
+          "id": 8343,
+          "qty": 1,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8192": {
+      "name": "Nightscape Shoulders",
+      "spell_id": 10516,
+      "output_qty": 1,
+      "skill": 210,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 8,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 4338,
+          "qty": 6,
+          "name": "Mageweave Cloth"
+        },
+        {
+          "id": 4291,
+          "qty": 3,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "8193": {
+      "name": "Nightscape Pants",
+      "spell_id": 10548,
+      "output_qty": 1,
+      "skill": 230,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 14,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 4291,
+          "qty": 4,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "8197": {
+      "name": "Nightscape Boots",
+      "spell_id": 10558,
+      "output_qty": 1,
+      "skill": 235,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 16,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8343,
+          "qty": 2,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8198": {
+      "name": "Turtle Scale Bracers",
+      "spell_id": 10518,
+      "output_qty": 1,
+      "skill": 210,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 8,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8167,
+          "qty": 12,
+          "name": "Turtle Scale"
+        },
+        {
+          "id": 8343,
+          "qty": 1,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8200": {
+      "name": "Big Voodoo Robe",
+      "spell_id": 10520,
+      "output_qty": 1,
+      "skill": 215,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 10,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8151,
+          "qty": 4,
+          "name": "Flask of Mojo"
+        },
+        {
+          "id": 8343,
+          "qty": 1,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8201": {
+      "name": "Big Voodoo Mask",
+      "spell_id": 10531,
+      "output_qty": 1,
+      "skill": 220,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 8,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8151,
+          "qty": 6,
+          "name": "Flask of Mojo"
+        },
+        {
+          "id": 8343,
+          "qty": 1,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8202": {
+      "name": "Big Voodoo Pants",
+      "spell_id": 10560,
+      "output_qty": 1,
+      "skill": 240,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 10,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8152,
+          "qty": 6,
+          "name": "Flask of Big Mojo"
+        },
+        {
+          "id": 8343,
+          "qty": 2,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8203": {
+      "name": "Tough Scorpid Breastplate",
+      "spell_id": 10525,
+      "output_qty": 1,
+      "skill": 220,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 12,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8154,
+          "qty": 12,
+          "name": "Scorpid Scale"
+        },
+        {
+          "id": 4291,
+          "qty": 4,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "8204": {
+      "name": "Tough Scorpid Gloves",
+      "spell_id": 10542,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 6,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8154,
+          "qty": 8,
+          "name": "Scorpid Scale"
+        },
+        {
+          "id": 4291,
+          "qty": 2,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "8205": {
+      "name": "Tough Scorpid Bracers",
+      "spell_id": 10533,
+      "output_qty": 1,
+      "skill": 220,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 10,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8154,
+          "qty": 4,
+          "name": "Scorpid Scale"
+        },
+        {
+          "id": 4291,
+          "qty": 2,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "8206": {
+      "name": "Tough Scorpid Leggings",
+      "spell_id": 10568,
+      "output_qty": 1,
+      "skill": 245,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 14,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8154,
+          "qty": 8,
+          "name": "Scorpid Scale"
+        },
+        {
+          "id": 8343,
+          "qty": 2,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8207": {
+      "name": "Tough Scorpid Shoulders",
+      "spell_id": 10564,
+      "output_qty": 1,
+      "skill": 240,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 12,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8154,
+          "qty": 16,
+          "name": "Scorpid Scale"
+        },
+        {
+          "id": 8343,
+          "qty": 2,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8208": {
+      "name": "Tough Scorpid Helm",
+      "spell_id": 10570,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 10,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8154,
+          "qty": 20,
+          "name": "Scorpid Scale"
+        },
+        {
+          "id": 8343,
+          "qty": 2,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8209": {
+      "name": "Tough Scorpid Boots",
+      "spell_id": 10554,
+      "output_qty": 1,
+      "skill": 235,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 12,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8154,
+          "qty": 12,
+          "name": "Scorpid Scale"
+        },
+        {
+          "id": 4291,
+          "qty": 6,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "8210": {
+      "name": "Wild Leather Shoulders",
+      "spell_id": 10529,
+      "output_qty": 1,
+      "skill": 220,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 10,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8153,
+          "qty": 1,
+          "name": "Wildvine"
+        },
+        {
+          "id": 8172,
+          "qty": 1,
+          "name": "Cured Thick Hide"
+        }
+      ]
+    },
+    "8211": {
+      "name": "Wild Leather Vest",
+      "spell_id": 10544,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 12,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8153,
+          "qty": 2,
+          "name": "Wildvine"
+        },
+        {
+          "id": 8172,
+          "qty": 1,
+          "name": "Cured Thick Hide"
+        }
+      ]
+    },
+    "8212": {
+      "name": "Wild Leather Leggings",
+      "spell_id": 10572,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 16,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8153,
+          "qty": 6,
+          "name": "Wildvine"
+        },
+        {
+          "id": 8172,
+          "qty": 2,
+          "name": "Cured Thick Hide"
+        }
+      ]
+    },
+    "8213": {
+      "name": "Wild Leather Boots",
+      "spell_id": 10566,
+      "output_qty": 1,
+      "skill": 245,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 14,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8153,
+          "qty": 4,
+          "name": "Wildvine"
+        },
+        {
+          "id": 8172,
+          "qty": 2,
+          "name": "Cured Thick Hide"
+        }
+      ]
+    },
+    "8214": {
+      "name": "Wild Leather Helmet",
+      "spell_id": 10546,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 10,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8153,
+          "qty": 2,
+          "name": "Wildvine"
+        },
+        {
+          "id": 8172,
+          "qty": 1,
+          "name": "Cured Thick Hide"
+        }
+      ]
+    },
+    "8215": {
+      "name": "Wild Leather Cloak",
+      "spell_id": 10574,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 16,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8153,
+          "qty": 6,
+          "name": "Wildvine"
+        },
+        {
+          "id": 8172,
+          "qty": 2,
+          "name": "Cured Thick Hide"
+        }
+      ]
+    },
+    "8216": {
+      "name": "Big Voodoo Cloak",
+      "spell_id": 10562,
+      "output_qty": 1,
+      "skill": 240,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 14,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8152,
+          "qty": 4,
+          "name": "Flask of Big Mojo"
+        },
+        {
+          "id": 8343,
+          "qty": 2,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8217": {
+      "name": "Quickdraw Quiver",
+      "spell_id": 14930,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 12,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8172,
+          "qty": 1,
+          "name": "Cured Thick Hide"
+        },
+        {
+          "id": 8949,
+          "qty": 1,
+          "name": "Elixir of Agility"
+        },
+        {
+          "id": 4291,
+          "qty": 4,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "8218": {
+      "name": "Thick Leather Ammo Pouch",
+      "spell_id": 14932,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 10,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8172,
+          "qty": 1,
+          "name": "Cured Thick Hide"
+        },
+        {
+          "id": 8951,
+          "qty": 1,
+          "name": "Elixir of Greater Defense"
+        },
+        {
+          "id": 4291,
+          "qty": 6,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "8345": {
+      "name": "Wolfshead Helm",
+      "spell_id": 10621,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 18,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8368,
+          "qty": 2,
+          "name": "Thick Wolfhide"
+        },
+        {
+          "id": 8146,
+          "qty": 8,
+          "name": "Wicked Claw"
+        },
+        {
+          "id": 8343,
+          "qty": 4,
+          "name": "Heavy Silken Thread"
+        },
+        {
+          "id": 8172,
+          "qty": 2,
+          "name": "Cured Thick Hide"
+        }
+      ]
+    },
+    "8346": {
+      "name": "Gauntlets of the Sea",
+      "spell_id": 10630,
+      "output_qty": 1,
+      "skill": 230,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 20,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 7079,
+          "qty": 8,
+          "name": "Globe of Water"
+        },
+        {
+          "id": 7075,
+          "qty": 2,
+          "name": "Core of Earth"
+        },
+        {
+          "id": 8172,
+          "qty": 1,
+          "name": "Cured Thick Hide"
+        },
+        {
+          "id": 8343,
+          "qty": 4,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8347": {
+      "name": "Dragonscale Gauntlets",
+      "spell_id": 10619,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 24,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8165,
+          "qty": 12,
+          "name": "Worn Dragonscale"
+        },
+        {
+          "id": 8343,
+          "qty": 4,
+          "name": "Heavy Silken Thread"
+        },
+        {
+          "id": 8172,
+          "qty": 2,
+          "name": "Cured Thick Hide"
+        }
+      ]
+    },
+    "8348": {
+      "name": "Helm of Fire",
+      "spell_id": 10632,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 40,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 7077,
+          "qty": 8,
+          "name": "Heart of Fire"
+        },
+        {
+          "id": 7075,
+          "qty": 4,
+          "name": "Core of Earth"
+        },
+        {
+          "id": 8172,
+          "qty": 2,
+          "name": "Cured Thick Hide"
+        },
+        {
+          "id": 8343,
+          "qty": 4,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8349": {
+      "name": "Feathered Breastplate",
+      "spell_id": 10647,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 40,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8168,
+          "qty": 40,
+          "name": "Jet Black Feather"
+        },
+        {
+          "id": 7971,
+          "qty": 2,
+          "name": "Black Pearl"
+        },
+        {
+          "id": 8172,
+          "qty": 4,
+          "name": "Cured Thick Hide"
+        },
+        {
+          "id": 8343,
+          "qty": 4,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "8367": {
+      "name": "Dragonscale Breastplate",
+      "spell_id": 10650,
+      "output_qty": 1,
+      "skill": 255,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 40,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 8165,
+          "qty": 30,
+          "name": "Worn Dragonscale"
+        },
+        {
+          "id": 8343,
+          "qty": 4,
+          "name": "Heavy Silken Thread"
+        },
+        {
+          "id": 8172,
+          "qty": 4,
+          "name": "Cured Thick Hide"
+        }
+      ]
+    },
+    "15045": {
+      "name": "Green Dragonscale Breastplate",
+      "spell_id": 19050,
+      "output_qty": 1,
+      "skill": 260,
+      "skill_verified": false,
+      "spec": "Dragonscale",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 20,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15412,
+          "qty": 25,
+          "name": "Green Dragonscale"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15046": {
+      "name": "Green Dragonscale Leggings",
+      "spell_id": 19060,
+      "output_qty": 1,
+      "skill": 270,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 20,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15412,
+          "qty": 25,
+          "name": "Green Dragonscale"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15047": {
+      "name": "Red Dragonscale Breastplate",
+      "spell_id": 19054,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": "Dragonscale",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 40,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15414,
+          "qty": 30,
+          "name": "Red Dragonscale"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15048": {
+      "name": "Blue Dragonscale Breastplate",
+      "spell_id": 19077,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 28,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15415,
+          "qty": 30,
+          "name": "Blue Dragonscale"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15049": {
+      "name": "Blue Dragonscale Shoulders",
+      "spell_id": 19089,
+      "output_qty": 1,
+      "skill": 295,
+      "skill_verified": false,
+      "spec": "Dragonscale",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 28,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15415,
+          "qty": 30,
+          "name": "Blue Dragonscale"
+        },
+        {
+          "id": 12810,
+          "qty": 2,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15050": {
+      "name": "Black Dragonscale Breastplate",
+      "spell_id": 19085,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 40,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15416,
+          "qty": 60,
+          "name": "Black Dragonscale"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15051": {
+      "name": "Black Dragonscale Shoulders",
+      "spell_id": 19094,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": "Dragonscale",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 44,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15416,
+          "qty": 45,
+          "name": "Black Dragonscale"
+        },
+        {
+          "id": 12810,
+          "qty": 2,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15052": {
+      "name": "Black Dragonscale Leggings",
+      "spell_id": 19107,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 40,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15416,
+          "qty": 60,
+          "name": "Black Dragonscale"
+        },
+        {
+          "id": 12810,
+          "qty": 4,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15053": {
+      "name": "Volcanic Breastplate",
+      "spell_id": 19076,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": "Dragonscale",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 8,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 7078,
+          "qty": 1,
+          "name": "Essence of Fire"
+        },
+        {
+          "id": 7076,
+          "qty": 1,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15054": {
+      "name": "Volcanic Leggings",
+      "spell_id": 19059,
+      "output_qty": 1,
+      "skill": 270,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 6,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 7078,
+          "qty": 1,
+          "name": "Essence of Fire"
+        },
+        {
+          "id": 7075,
+          "qty": 1,
+          "name": "Core of Earth"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15055": {
+      "name": "Volcanic Shoulders",
+      "spell_id": 19101,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": "Dragonscale",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 10,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 7078,
+          "qty": 1,
+          "name": "Essence of Fire"
+        },
+        {
+          "id": 7076,
+          "qty": 1,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15056": {
+      "name": "Stormshroud Armor",
+      "spell_id": 19079,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 16,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 7080,
+          "qty": 3,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 7082,
+          "qty": 3,
+          "name": "Essence of Air"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15057": {
+      "name": "Stormshroud Pants",
+      "spell_id": 19067,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 16,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 7080,
+          "qty": 2,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 7082,
+          "qty": 2,
+          "name": "Essence of Air"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15058": {
+      "name": "Stormshroud Shoulders",
+      "spell_id": 19090,
+      "output_qty": 1,
+      "skill": 295,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 12,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 7080,
+          "qty": 3,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 7082,
+          "qty": 3,
+          "name": "Essence of Air"
+        },
+        {
+          "id": 12810,
+          "qty": 2,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15059": {
+      "name": "Living Breastplate",
+      "spell_id": 19095,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 16,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 12803,
+          "qty": 8,
+          "name": "Living Essence"
+        },
+        {
+          "id": 14342,
+          "qty": 2,
+          "name": "Mooncloth"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15060": {
+      "name": "Living Leggings",
+      "spell_id": 19078,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 16,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 12803,
+          "qty": 6,
+          "name": "Living Essence"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15061": {
+      "name": "Living Shoulders",
+      "spell_id": 19061,
+      "output_qty": 1,
+      "skill": 270,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 12,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 12803,
+          "qty": 4,
+          "name": "Living Essence"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15062": {
+      "name": "Devilsaur Leggings",
+      "spell_id": 19097,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 30,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15417,
+          "qty": 14,
+          "name": "Devilsaur Leather"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15063": {
+      "name": "Devilsaur Gauntlets",
+      "spell_id": 19084,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": "Elemental",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 30,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15417,
+          "qty": 8,
+          "name": "Devilsaur Leather"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15064": {
+      "name": "Warbear Harness",
+      "spell_id": 19068,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 28,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15419,
+          "qty": 12,
+          "name": "Warbear Leather"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15065": {
+      "name": "Warbear Woolies",
+      "spell_id": 19080,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": "Elemental",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 24,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15419,
+          "qty": 14,
+          "name": "Warbear Leather"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15066": {
+      "name": "Ironfeather Breastplate",
+      "spell_id": 19086,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 40,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15420,
+          "qty": 120,
+          "name": "Ironfeather"
+        },
+        {
+          "id": 1529,
+          "qty": 1,
+          "name": "Jade"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15067": {
+      "name": "Ironfeather Shoulders",
+      "spell_id": 19062,
+      "output_qty": 1,
+      "skill": 270,
+      "skill_verified": false,
+      "spec": "Elemental",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 24,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15420,
+          "qty": 80,
+          "name": "Ironfeather"
+        },
+        {
+          "id": 1529,
+          "qty": 2,
+          "name": "Jade"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15068": {
+      "name": "Frostsaber Tunic",
+      "spell_id": 19104,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 12,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15422,
+          "qty": 12,
+          "name": "Frostsaber Leather"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15069": {
+      "name": "Frostsaber Leggings",
+      "spell_id": 19074,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": "Elemental",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 6,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15422,
+          "qty": 8,
+          "name": "Frostsaber Leather"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15070": {
+      "name": "Frostsaber Gloves",
+      "spell_id": 19087,
+      "output_qty": 1,
+      "skill": 295,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 6,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15422,
+          "qty": 10,
+          "name": "Frostsaber Leather"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15071": {
+      "name": "Frostsaber Boots",
+      "spell_id": 19066,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": "Elemental",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 4,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15422,
+          "qty": 6,
+          "name": "Frostsaber Leather"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15072": {
+      "name": "Chimeric Leggings",
+      "spell_id": 19073,
+      "output_qty": 1,
+      "skill": 280,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 8,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15423,
+          "qty": 8,
+          "name": "Chimera Leather"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15073": {
+      "name": "Chimeric Boots",
+      "spell_id": 19063,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": "Tribal",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 4,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15423,
+          "qty": 8,
+          "name": "Chimera Leather"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15074": {
+      "name": "Chimeric Gloves",
+      "spell_id": 19053,
+      "output_qty": 1,
+      "skill": 265,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 6,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15423,
+          "qty": 6,
+          "name": "Chimera Leather"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15075": {
+      "name": "Chimeric Vest",
+      "spell_id": 19081,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": "Tribal",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 10,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15423,
+          "qty": 10,
+          "name": "Chimera Leather"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15076": {
+      "name": "Heavy Scorpid Vest",
+      "spell_id": 19051,
+      "output_qty": 1,
+      "skill": 265,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 6,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15408,
+          "qty": 6,
+          "name": "Heavy Scorpid Scale"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15077": {
+      "name": "Heavy Scorpid Bracers",
+      "spell_id": 19048,
+      "output_qty": 1,
+      "skill": 255,
+      "skill_verified": false,
+      "spec": "Tribal",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 4,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15408,
+          "qty": 4,
+          "name": "Heavy Scorpid Scale"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15078": {
+      "name": "Heavy Scorpid Gauntlets",
+      "spell_id": 19064,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 6,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15408,
+          "qty": 8,
+          "name": "Heavy Scorpid Scale"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15079": {
+      "name": "Heavy Scorpid Leggings",
+      "spell_id": 19075,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": "Tribal",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 8,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15408,
+          "qty": 12,
+          "name": "Heavy Scorpid Scale"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15080": {
+      "name": "Heavy Scorpid Helm",
+      "spell_id": 19088,
+      "output_qty": 1,
+      "skill": 295,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 8,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15408,
+          "qty": 12,
+          "name": "Heavy Scorpid Scale"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15081": {
+      "name": "Heavy Scorpid Shoulders",
+      "spell_id": 19100,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": "Tribal",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 14,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15408,
+          "qty": 14,
+          "name": "Heavy Scorpid Scale"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15082": {
+      "name": "Heavy Scorpid Belt",
+      "spell_id": 19070,
+      "output_qty": 1,
+      "skill": 280,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 6,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15408,
+          "qty": 8,
+          "name": "Heavy Scorpid Scale"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15083": {
+      "name": "Wicked Leather Gauntlets",
+      "spell_id": 19049,
+      "output_qty": 1,
+      "skill": 260,
+      "skill_verified": false,
+      "spec": "Tribal",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 8,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 2325,
+          "qty": 1,
+          "name": "Black Dye"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15084": {
+      "name": "Wicked Leather Bracers",
+      "spell_id": 19052,
+      "output_qty": 1,
+      "skill": 265,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 8,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 2325,
+          "qty": 1,
+          "name": "Black Dye"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15085": {
+      "name": "Wicked Leather Armor",
+      "spell_id": 19098,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": "Tribal",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 20,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14256,
+          "qty": 6,
+          "name": "Felcloth"
+        },
+        {
+          "id": 2325,
+          "qty": 4,
+          "name": "Black Dye"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15086": {
+      "name": "Wicked Leather Headband",
+      "spell_id": 19071,
+      "output_qty": 1,
+      "skill": 280,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 12,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 2325,
+          "qty": 1,
+          "name": "Black Dye"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15087": {
+      "name": "Wicked Leather Pants",
+      "spell_id": 19083,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 16,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 2325,
+          "qty": 3,
+          "name": "Black Dye"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15088": {
+      "name": "Wicked Leather Belt",
+      "spell_id": 19092,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 14,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 2325,
+          "qty": 2,
+          "name": "Black Dye"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15090": {
+      "name": "Runic Leather Armor",
+      "spell_id": 19102,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 22,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 12810,
+          "qty": 4,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 14047,
+          "qty": 16,
+          "name": "Runecloth"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15091": {
+      "name": "Runic Leather Gauntlets",
+      "spell_id": 19055,
+      "output_qty": 1,
+      "skill": 270,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 10,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 14047,
+          "qty": 6,
+          "name": "Runecloth"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15092": {
+      "name": "Runic Leather Bracers",
+      "spell_id": 19065,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 6,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 7971,
+          "qty": 1,
+          "name": "Black Pearl"
+        },
+        {
+          "id": 14047,
+          "qty": 6,
+          "name": "Runecloth"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15093": {
+      "name": "Runic Leather Belt",
+      "spell_id": 19072,
+      "output_qty": 1,
+      "skill": 280,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 12,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 14047,
+          "qty": 10,
+          "name": "Runecloth"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15094": {
+      "name": "Runic Leather Headband",
+      "spell_id": 19082,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 14,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 14047,
+          "qty": 10,
+          "name": "Runecloth"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15095": {
+      "name": "Runic Leather Pants",
+      "spell_id": 19091,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 18,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 14047,
+          "qty": 12,
+          "name": "Runecloth"
+        },
+        {
+          "id": 12810,
+          "qty": 2,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15096": {
+      "name": "Runic Leather Shoulders",
+      "spell_id": 19103,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 16,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 12810,
+          "qty": 4,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 14047,
+          "qty": 18,
+          "name": "Runecloth"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15138": {
+      "name": "Onyxia Scale Cloak",
+      "spell_id": 19093,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 15410,
+          "qty": 1,
+          "name": "Scale of Onyxia"
+        },
+        {
+          "id": 14044,
+          "qty": 1,
+          "name": "Cindercloth Cloak"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "15407": {
+      "name": "Cured Rugged Hide",
+      "spell_id": 19047,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8171,
+          "qty": 1,
+          "name": "Rugged Hide"
+        },
+        {
+          "id": 15409,
+          "qty": 1,
+          "name": "Refined Deeprock Salt"
+        }
+      ]
+    },
+    "15564": {
+      "name": "Rugged Armor Kit",
+      "spell_id": 19058,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 5,
+          "name": "Rugged Leather"
+        }
+      ]
+    },
+    "16982": {
+      "name": "Corehound Boots",
+      "spell_id": 20853,
+      "output_qty": 1,
+      "skill": 295,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17012,
+          "qty": 20,
+          "name": "Core Leather"
+        },
+        {
+          "id": 17010,
+          "qty": 6,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 17011,
+          "qty": 2,
+          "name": "Lava Core"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "16983": {
+      "name": "Molten Helm",
+      "spell_id": 20854,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17012,
+          "qty": 15,
+          "name": "Core Leather"
+        },
+        {
+          "id": 17010,
+          "qty": 3,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 17011,
+          "qty": 6,
+          "name": "Lava Core"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "16984": {
+      "name": "Black Dragonscale Boots",
+      "spell_id": 20855,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12810,
+          "qty": 6,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 15416,
+          "qty": 30,
+          "name": "Black Dragonscale"
+        },
+        {
+          "id": 17010,
+          "qty": 4,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 17011,
+          "qty": 3,
+          "name": "Lava Core"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "17721": {
+      "name": "Gloves of the Greatfather",
+      "spell_id": 21943,
+      "output_qty": 1,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 8,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 7067,
+          "qty": 4,
+          "name": "Elemental Earth"
+        },
+        {
+          "id": 4291,
+          "qty": 1,
+          "name": "Silken Thread"
+        }
+      ]
+    },
+    "18238": {
+      "name": "Shadowskin Gloves",
+      "spell_id": 22711,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4304,
+          "qty": 6,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 7428,
+          "qty": 8,
+          "name": "Shadowcat Hide"
+        },
+        {
+          "id": 7971,
+          "qty": 2,
+          "name": "Black Pearl"
+        },
+        {
+          "id": 4236,
+          "qty": 2,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 1210,
+          "qty": 4,
+          "name": "Shadowgem"
+        },
+        {
+          "id": 8343,
+          "qty": 1,
+          "name": "Heavy Silken Thread"
+        }
+      ]
+    },
+    "18251": {
+      "name": "Core Armor Kit",
+      "spell_id": 22727,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17012,
+          "qty": 3,
+          "name": "Core Leather"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "18258": {
+      "name": "Gordok Ogre Suit",
+      "spell_id": 22813,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 14048,
+          "qty": 2,
+          "name": "Bolt of Runecloth"
+        },
+        {
+          "id": 8170,
+          "qty": 4,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 18240,
+          "qty": 1,
+          "name": "Ogre Tannin"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        },
+        {
+          "id": 8170,
+          "qty": 4,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 14048,
+          "qty": 2,
+          "name": "Bolt of Runecloth"
+        },
+        {
+          "id": 18240,
+          "qty": 1,
+          "name": "Ogre Tannin"
+        },
+        {
+          "id": 14341,
+          "qty": 1,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "18504": {
+      "name": "Girdle of Insight",
+      "spell_id": 22921,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 12,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 12804,
+          "qty": 12,
+          "name": "Powerful Mojo"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 4,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "18506": {
+      "name": "Mongoose Boots",
+      "spell_id": 22922,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 12,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 7082,
+          "qty": 6,
+          "name": "Essence of Air"
+        },
+        {
+          "id": 11754,
+          "qty": 4,
+          "name": "Black Diamond"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 4,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "18508": {
+      "name": "Swift Flight Bracers",
+      "spell_id": 22923,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 12,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 18512,
+          "qty": 8,
+          "name": "Larval Acid"
+        },
+        {
+          "id": 15420,
+          "qty": 60,
+          "name": "Ironfeather"
+        },
+        {
+          "id": 15407,
+          "qty": 4,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 4,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "18509": {
+      "name": "Chromatic Cloak",
+      "spell_id": 22926,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 30,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 12607,
+          "qty": 12,
+          "name": "Brilliant Chromatic Scale"
+        },
+        {
+          "id": 15416,
+          "qty": 30,
+          "name": "Black Dragonscale"
+        },
+        {
+          "id": 15414,
+          "qty": 30,
+          "name": "Red Dragonscale"
+        },
+        {
+          "id": 15407,
+          "qty": 5,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 8,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "18510": {
+      "name": "Hide of the Wild",
+      "spell_id": 22927,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 30,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 12803,
+          "qty": 12,
+          "name": "Living Essence"
+        },
+        {
+          "id": 7080,
+          "qty": 10,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 18512,
+          "qty": 8,
+          "name": "Larval Acid"
+        },
+        {
+          "id": 15407,
+          "qty": 3,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 8,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "18511": {
+      "name": "Shifting Cloak",
+      "spell_id": 22928,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 30,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 7082,
+          "qty": 12,
+          "name": "Essence of Air"
+        },
+        {
+          "id": 12753,
+          "qty": 4,
+          "name": "Skin of Shadow"
+        },
+        {
+          "id": 12809,
+          "qty": 8,
+          "name": "Guardian Stone"
+        },
+        {
+          "id": 15407,
+          "qty": 4,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 8,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "18662": {
+      "name": "Heavy Leather Ball",
+      "spell_id": 23135,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 2,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 2321,
+          "qty": 1,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "18948": {
+      "name": "Barbaric Bracers",
+      "spell_id": 23399,
+      "output_qty": 1,
+      "skill": 155,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4234,
+          "qty": 8,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 4236,
+          "qty": 2,
+          "name": "Cured Heavy Hide"
+        },
+        {
+          "id": 5498,
+          "qty": 4,
+          "name": "Small Lustrous Pearl"
+        },
+        {
+          "id": 4461,
+          "qty": 1,
+          "name": "Raptor Hide"
+        },
+        {
+          "id": 5637,
+          "qty": 4,
+          "name": "Large Fang"
+        }
+      ]
+    },
+    "19044": {
+      "name": "Might of the Timbermaw",
+      "spell_id": 23703,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 30,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 12804,
+          "qty": 2,
+          "name": "Powerful Mojo"
+        },
+        {
+          "id": 12803,
+          "qty": 4,
+          "name": "Living Essence"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "19049": {
+      "name": "Timbermaw Brawlers",
+      "spell_id": 23704,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12810,
+          "qty": 8,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 12804,
+          "qty": 6,
+          "name": "Powerful Mojo"
+        },
+        {
+          "id": 12803,
+          "qty": 6,
+          "name": "Living Essence"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14227,
+          "qty": 2,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "19052": {
+      "name": "Dawn Treaders",
+      "spell_id": 23705,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 30,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 12809,
+          "qty": 2,
+          "name": "Guardian Stone"
+        },
+        {
+          "id": 7080,
+          "qty": 4,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "19058": {
+      "name": "Golden Mantle of the Dawn",
+      "spell_id": 23706,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12810,
+          "qty": 8,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 12803,
+          "qty": 4,
+          "name": "Living Essence"
+        },
+        {
+          "id": 12809,
+          "qty": 4,
+          "name": "Guardian Stone"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "19149": {
+      "name": "Lava Belt",
+      "spell_id": 23707,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17011,
+          "qty": 5,
+          "name": "Lava Core"
+        },
+        {
+          "id": 15407,
+          "qty": 4,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14227,
+          "qty": 4,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "19157": {
+      "name": "Chromatic Gauntlets",
+      "spell_id": 23708,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17010,
+          "qty": 5,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 17011,
+          "qty": 2,
+          "name": "Lava Core"
+        },
+        {
+          "id": 17012,
+          "qty": 4,
+          "name": "Core Leather"
+        },
+        {
+          "id": 12607,
+          "qty": 4,
+          "name": "Brilliant Chromatic Scale"
+        },
+        {
+          "id": 15407,
+          "qty": 4,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14227,
+          "qty": 4,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "19162": {
+      "name": "Corehound Belt",
+      "spell_id": 23709,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17010,
+          "qty": 8,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 17012,
+          "qty": 12,
+          "name": "Core Leather"
+        },
+        {
+          "id": 12810,
+          "qty": 10,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 15407,
+          "qty": 4,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14227,
+          "qty": 4,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "19163": {
+      "name": "Molten Belt",
+      "spell_id": 23710,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17010,
+          "qty": 2,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 17011,
+          "qty": 7,
+          "name": "Lava Core"
+        },
+        {
+          "id": 7076,
+          "qty": 6,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 15407,
+          "qty": 4,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14227,
+          "qty": 4,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "19685": {
+      "name": "Primal Batskin Jerkin",
+      "spell_id": 24121,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 19767,
+          "qty": 14,
+          "name": "Primal Bat Leather"
+        },
+        {
+          "id": 15407,
+          "qty": 5,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 12803,
+          "qty": 4,
+          "name": "Living Essence"
+        },
+        {
+          "id": 14341,
+          "qty": 4,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "19686": {
+      "name": "Primal Batskin Gloves",
+      "spell_id": 24122,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 19767,
+          "qty": 10,
+          "name": "Primal Bat Leather"
+        },
+        {
+          "id": 15407,
+          "qty": 4,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 12803,
+          "qty": 4,
+          "name": "Living Essence"
+        },
+        {
+          "id": 14341,
+          "qty": 3,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "19687": {
+      "name": "Primal Batskin Bracers",
+      "spell_id": 24123,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 19767,
+          "qty": 8,
+          "name": "Primal Bat Leather"
+        },
+        {
+          "id": 15407,
+          "qty": 3,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 12803,
+          "qty": 4,
+          "name": "Living Essence"
+        },
+        {
+          "id": 14341,
+          "qty": 3,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "19688": {
+      "name": "Blood Tiger Breastplate",
+      "spell_id": 24124,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 19768,
+          "qty": 35,
+          "name": "Primal Tiger Leather"
+        },
+        {
+          "id": 19726,
+          "qty": 2,
+          "name": "Bloodvine"
+        },
+        {
+          "id": 15407,
+          "qty": 3,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 3,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "19689": {
+      "name": "Blood Tiger Shoulders",
+      "spell_id": 24125,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 19768,
+          "qty": 25,
+          "name": "Primal Tiger Leather"
+        },
+        {
+          "id": 19726,
+          "qty": 2,
+          "name": "Bloodvine"
+        },
+        {
+          "id": 15407,
+          "qty": 3,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 3,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "20295": {
+      "name": "Blue Dragonscale Leggings",
+      "spell_id": 24654,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 28,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15415,
+          "qty": 36,
+          "name": "Blue Dragonscale"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "20296": {
+      "name": "Green Dragonscale Gauntlets",
+      "spell_id": 24655,
+      "output_qty": 1,
+      "skill": 280,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8170,
+          "qty": 20,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 15412,
+          "qty": 30,
+          "name": "Green Dragonscale"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14341,
+          "qty": 2,
+          "name": "Rune Thread"
+        }
+      ]
+    },
+    "20380": {
+      "name": "Dreamscale Breastplate",
+      "spell_id": 24703,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12810,
+          "qty": 12,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 20381,
+          "qty": 6,
+          "name": "Dreamscale"
+        },
+        {
+          "id": 12803,
+          "qty": 4,
+          "name": "Living Essence"
+        },
+        {
+          "id": 15407,
+          "qty": 4,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14227,
+          "qty": 6,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "20476": {
+      "name": "Sandstalker Bracers",
+      "spell_id": 24849,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 20501,
+          "qty": 1,
+          "name": "Heavy Silithid Carapace"
+        },
+        {
+          "id": 20498,
+          "qty": 20,
+          "name": "Silithid Chitin"
+        },
+        {
+          "id": 18512,
+          "qty": 2,
+          "name": "Larval Acid"
+        }
+      ]
+    },
+    "20477": {
+      "name": "Sandstalker Gauntlets",
+      "spell_id": 24850,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 20501,
+          "qty": 2,
+          "name": "Heavy Silithid Carapace"
+        },
+        {
+          "id": 20498,
+          "qty": 30,
+          "name": "Silithid Chitin"
+        },
+        {
+          "id": 18512,
+          "qty": 2,
+          "name": "Larval Acid"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        }
+      ]
+    },
+    "20478": {
+      "name": "Sandstalker Breastplate",
+      "spell_id": 24851,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 20501,
+          "qty": 3,
+          "name": "Heavy Silithid Carapace"
+        },
+        {
+          "id": 20498,
+          "qty": 40,
+          "name": "Silithid Chitin"
+        },
+        {
+          "id": 18512,
+          "qty": 2,
+          "name": "Larval Acid"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        }
+      ]
+    },
+    "20479": {
+      "name": "Spitfire Breastplate",
+      "spell_id": 24848,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 20500,
+          "qty": 3,
+          "name": "Light Silithid Carapace"
+        },
+        {
+          "id": 20498,
+          "qty": 40,
+          "name": "Silithid Chitin"
+        },
+        {
+          "id": 7078,
+          "qty": 2,
+          "name": "Essence of Fire"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        }
+      ]
+    },
+    "20480": {
+      "name": "Spitfire Gauntlets",
+      "spell_id": 24847,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 20500,
+          "qty": 2,
+          "name": "Light Silithid Carapace"
+        },
+        {
+          "id": 20498,
+          "qty": 30,
+          "name": "Silithid Chitin"
+        },
+        {
+          "id": 7078,
+          "qty": 2,
+          "name": "Essence of Fire"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        }
+      ]
+    },
+    "20481": {
+      "name": "Spitfire Bracers",
+      "spell_id": 24846,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 20500,
+          "qty": 1,
+          "name": "Light Silithid Carapace"
+        },
+        {
+          "id": 20498,
+          "qty": 20,
+          "name": "Silithid Chitin"
+        },
+        {
+          "id": 7078,
+          "qty": 2,
+          "name": "Essence of Fire"
+        }
+      ]
+    },
+    "20575": {
+      "name": "Black Whelp Tunic",
+      "spell_id": 24940,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2319,
+          "qty": 8,
+          "name": "Medium Leather"
+        },
+        {
+          "id": 7286,
+          "qty": 8,
+          "name": "Black Whelp Scale"
+        },
+        {
+          "id": 4231,
+          "qty": 1,
+          "name": "Cured Light Hide"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        }
+      ]
+    },
+    "21278": {
+      "name": "Stormshroud Gloves",
+      "spell_id": 26279,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12810,
+          "qty": 6,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 7080,
+          "qty": 4,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 7082,
+          "qty": 4,
+          "name": "Essence of Air"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14227,
+          "qty": 2,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "22661": {
+      "name": "Polar Tunic",
+      "spell_id": 28219,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22682,
+          "qty": 7,
+          "name": "Frozen Rune"
+        },
+        {
+          "id": 12810,
+          "qty": 16,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 7080,
+          "qty": 2,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 15407,
+          "qty": 4,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14227,
+          "qty": 4,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "22662": {
+      "name": "Polar Gloves",
+      "spell_id": 28220,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22682,
+          "qty": 5,
+          "name": "Frozen Rune"
+        },
+        {
+          "id": 12810,
+          "qty": 12,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 7080,
+          "qty": 2,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 15407,
+          "qty": 3,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14227,
+          "qty": 4,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "22663": {
+      "name": "Polar Bracers",
+      "spell_id": 28221,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22682,
+          "qty": 4,
+          "name": "Frozen Rune"
+        },
+        {
+          "id": 12810,
+          "qty": 12,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 7080,
+          "qty": 2,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14227,
+          "qty": 4,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "22664": {
+      "name": "Icy Scale Breastplate",
+      "spell_id": 28222,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22682,
+          "qty": 7,
+          "name": "Frozen Rune"
+        },
+        {
+          "id": 15408,
+          "qty": 24,
+          "name": "Heavy Scorpid Scale"
+        },
+        {
+          "id": 7080,
+          "qty": 2,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 15407,
+          "qty": 4,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14227,
+          "qty": 4,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "22665": {
+      "name": "Icy Scale Bracers",
+      "spell_id": 28224,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22682,
+          "qty": 4,
+          "name": "Frozen Rune"
+        },
+        {
+          "id": 15408,
+          "qty": 16,
+          "name": "Heavy Scorpid Scale"
+        },
+        {
+          "id": 7080,
+          "qty": 2,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14227,
+          "qty": 4,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "22666": {
+      "name": "Icy Scale Gauntlets",
+      "spell_id": 28223,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": "Tribal",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22682,
+          "qty": 5,
+          "name": "Frozen Rune"
+        },
+        {
+          "id": 15408,
+          "qty": 16,
+          "name": "Heavy Scorpid Scale"
+        },
+        {
+          "id": 7080,
+          "qty": 2,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 15407,
+          "qty": 3,
+          "name": "Cured Rugged Hide"
+        },
+        {
+          "id": 14227,
+          "qty": 4,
+          "name": "Ironweb Spider Silk"
+        }
+      ]
+    },
+    "22759": {
+      "name": "Bramblewood Helm",
+      "spell_id": 28472,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12810,
+          "qty": 12,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 19726,
+          "qty": 2,
+          "name": "Bloodvine"
+        },
+        {
+          "id": 12803,
+          "qty": 2,
+          "name": "Living Essence"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        }
+      ]
+    },
+    "22760": {
+      "name": "Bramblewood Boots",
+      "spell_id": 28473,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12810,
+          "qty": 6,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 18512,
+          "qty": 2,
+          "name": "Larval Acid"
+        },
+        {
+          "id": 12803,
+          "qty": 2,
+          "name": "Living Essence"
+        },
+        {
+          "id": 15407,
+          "qty": 2,
+          "name": "Cured Rugged Hide"
+        }
+      ]
+    },
+    "22761": {
+      "name": "Bramblewood Belt",
+      "spell_id": 28474,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12810,
+          "qty": 4,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 12803,
+          "qty": 2,
+          "name": "Living Essence"
+        },
+        {
+          "id": 15407,
+          "qty": 1,
+          "name": "Cured Rugged Hide"
+        }
+      ]
+    }
+  }
+}

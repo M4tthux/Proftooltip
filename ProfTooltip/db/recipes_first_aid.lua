@@ -1,4 +1,4 @@
--- First Aid recipes - Source: wow-classic-items npm
+-- First Aid recipes — Source: Wowhead Classic XML (item pages) + wow-classic-items npm
 -- WoW Classic Era (Interface 11508)
 
 ProfTooltip_FirstAid = {
@@ -11,6 +11,9 @@ ProfTooltip_FirstAid = {
     [2581] = { name = "Heavy Linen Bandage", skill = 40, spec = nil,
         components = {
             { id = 2589,   qty =  2, name = "Linen Cloth" },
+            { id = 18335,  qty =  2, name = "Pristine Black Diamond" },
+            { id = 18335,  qty =  2, name = "Pristine Black Diamond" },
+            { id = 18335,  qty =  2, name = "Pristine Black Diamond" },
         },
     },
     [3530] = { name = "Wool Bandage", skill = 80, spec = nil,

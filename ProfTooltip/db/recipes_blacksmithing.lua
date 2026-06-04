@@ -1,4 +1,4 @@
--- Blacksmithing recipes - Source: wow-classic-items npm
+-- Blacksmithing recipes — Source: Wowhead Classic XML (item pages) + wow-classic-items npm
 -- WoW Classic Era (Interface 11508)
 
 ProfTooltip_Blacksmithing = {
@@ -84,6 +84,7 @@ ProfTooltip_Blacksmithing = {
     [3471] = { name = "Copper Chain Vest", skill = 35, spec = nil,
         components = {
             { id = 2840,   qty =  8, name = "Copper Bar" },
+            { id = 774,    qty =  1, name = "Malachite" },
             { id = 3470,   qty =  2, name = "Rough Grinding Stone" },
         },
     },
@@ -228,6 +229,7 @@ ProfTooltip_Blacksmithing = {
     [3480] = { name = "Rough Bronze Shoulders", skill = 110, spec = nil,
         components = {
             { id = 2841,   qty =  5, name = "Bronze Bar" },
+            { id = 1210,   qty =  1, name = "Shadowgem" },
             { id = 3478,   qty =  1, name = "Coarse Grinding Stone" },
         },
     },
@@ -304,6 +306,7 @@ ProfTooltip_Blacksmithing = {
             { id = 2841,   qty = 10, name = "Bronze Bar" },
             { id = 2842,   qty =  2, name = "Silver Bar" },
             { id = 3478,   qty =  2, name = "Coarse Grinding Stone" },
+            { id = 1705,   qty =  1, name = "Lesser Moonstone" },
         },
     },
     [3482] = { name = "Silvered Bronze Boots", skill = 130, spec = nil,
@@ -364,7 +367,8 @@ ProfTooltip_Blacksmithing = {
     },
     [3484] = { name = "Green Iron Boots", skill = 145, spec = nil,
         components = {
-            { id = 3575,   qty =  6, name = "Iron Bar" },
+            { id = 3575,   qty =  4, name = "Iron Bar" },
+            { id = 1705,   qty =  2, name = "Lesser Moonstone" },
             { id = 3478,   qty =  2, name = "Coarse Grinding Stone" },
             { id = 2605,   qty =  1, name = "Green Dye" },
         },
@@ -453,6 +457,7 @@ ProfTooltip_Blacksmithing = {
         components = {
             { id = 3575,   qty =  8, name = "Iron Bar" },
             { id = 5635,   qty =  4, name = "Sharp Claw" },
+            { id = 1210,   qty =  2, name = "Shadowgem" },
             { id = 3486,   qty =  2, name = "Heavy Grinding Stone" },
         },
     },
@@ -544,6 +549,7 @@ ProfTooltip_Blacksmithing = {
         components = {
             { id = 3575,   qty = 12, name = "Iron Bar" },
             { id = 5637,   qty =  4, name = "Large Fang" },
+            { id = 818,    qty =  4, name = "Tigerseye" },
             { id = 3486,   qty =  2, name = "Heavy Grinding Stone" },
         },
     },
@@ -622,6 +628,7 @@ ProfTooltip_Blacksmithing = {
             { id = 3859,   qty = 12, name = "Steel Bar" },
             { id = 3577,   qty =  2, name = "Gold Bar" },
             { id = 3486,   qty =  4, name = "Heavy Grinding Stone" },
+            { id = 1529,   qty =  2, name = "Jade" },
         },
     },
     [3847] = { name = "Golden Scale Boots", skill = 200, spec = nil,
@@ -629,20 +636,27 @@ ProfTooltip_Blacksmithing = {
             { id = 3859,   qty = 10, name = "Steel Bar" },
             { id = 3577,   qty =  4, name = "Gold Bar" },
             { id = 3486,   qty =  4, name = "Heavy Grinding Stone" },
+            { id = 3864,   qty =  1, name = "Citrine" },
         },
     },
     [3854] = { name = "Frost Tiger Blade", skill = 200, spec = nil,
         components = {
-            { id = 3859,   qty = 12, name = "Steel Bar" },
+            { id = 3859,   qty =  8, name = "Steel Bar" },
+            { id = 3466,   qty =  2, name = "Strong Flux" },
+            { id = 3486,   qty =  2, name = "Heavy Grinding Stone" },
             { id = 1529,   qty =  2, name = "Jade" },
-            { id = 3829,   qty =  2, name = "Frost Oil" },
+            { id = 3829,   qty =  1, name = "Frost Oil" },
+            { id = 4234,   qty =  4, name = "Heavy Leather" },
         },
     },
     [3856] = { name = "Shadow Crescent Axe", skill = 200, spec = nil,
         components = {
             { id = 3859,   qty = 10, name = "Steel Bar" },
+            { id = 3466,   qty =  2, name = "Strong Flux" },
+            { id = 3486,   qty =  3, name = "Heavy Grinding Stone" },
             { id = 3864,   qty =  2, name = "Citrine" },
-            { id = 3824,   qty =  2, name = "Shadow Oil" },
+            { id = 3824,   qty =  1, name = "Shadow Oil" },
+            { id = 4234,   qty =  3, name = "Heavy Leather" },
         },
     },
     [7963] = { name = "Steel Breastplate", skill = 200, spec = nil,
@@ -703,6 +717,7 @@ ProfTooltip_Blacksmithing = {
             { id = 3859,   qty = 10, name = "Steel Bar" },
             { id = 3577,   qty =  4, name = "Gold Bar" },
             { id = 3486,   qty =  4, name = "Heavy Grinding Stone" },
+            { id = 3864,   qty =  1, name = "Citrine" },
         },
     },
     [7920] = { name = "Mithril Scale Pants", skill = 210, spec = nil,
@@ -713,6 +728,7 @@ ProfTooltip_Blacksmithing = {
     [7921] = { name = "Heavy Mithril Pants", skill = 210, spec = nil,
         components = {
             { id = 3860,   qty = 10, name = "Mithril Bar" },
+            { id = 1705,   qty =  2, name = "Lesser Moonstone" },
         },
     },
     [7941] = { name = "Heavy Mithril Axe", skill = 210, spec = nil,
@@ -726,13 +742,13 @@ ProfTooltip_Blacksmithing = {
     [7922] = { name = "Steel Plate Helm", skill = 215, spec = nil,
         components = {
             { id = 3859,   qty = 14, name = "Steel Bar" },
-            { id = 3864,   qty =  1, name = "Citrine" },
             { id = 7966,   qty =  1, name = "Solid Grinding Stone" },
         },
     },
     [7924] = { name = "Mithril Scale Bracers", skill = 215, spec = nil,
         components = {
             { id = 3860,   qty =  8, name = "Mithril Bar" },
+            { id = 3864,   qty =  2, name = "Citrine" },
         },
     },
     [7967] = { name = "Mithril Shield Spike", skill = 215, spec = nil,
@@ -747,6 +763,7 @@ ProfTooltip_Blacksmithing = {
             { id = 3860,   qty = 12, name = "Mithril Bar" },
             { id = 6037,   qty =  1, name = "Truesilver Bar" },
             { id = 7966,   qty =  1, name = "Solid Grinding Stone" },
+            { id = 7909,   qty =  1, name = "Aquamarine" },
         },
     },
     [7927] = { name = "Ornate Mithril Gloves", skill = 220, spec = nil,
@@ -820,6 +837,7 @@ ProfTooltip_Blacksmithing = {
         components = {
             { id = 3860,   qty = 14, name = "Mithril Bar" },
             { id = 4304,   qty =  4, name = "Thick Leather" },
+            { id = 3864,   qty =  4, name = "Citrine" },
         },
     },
     [7933] = { name = "Heavy Mithril Boots", skill = 235, spec = nil,
@@ -882,15 +900,16 @@ ProfTooltip_Blacksmithing = {
         components = {
             { id = 3860,   qty = 16, name = "Mithril Bar" },
             { id = 6037,   qty =  2, name = "Truesilver Bar" },
+            { id = 7971,   qty =  1, name = "Black Pearl" },
             { id = 7966,   qty =  1, name = "Solid Grinding Stone" },
         },
     },
     [7939] = { name = "Truesilver Breastplate", skill = 245, spec = nil,
         components = {
             { id = 3860,   qty = 12, name = "Mithril Bar" },
-            { id = 6037,   qty = 12, name = "Truesilver Bar" },
-            { id = 7910,   qty =  2, name = "Star Ruby" },
-            { id = 7971,   qty =  2, name = "Black Pearl" },
+            { id = 6037,   qty = 24, name = "Truesilver Bar" },
+            { id = 7910,   qty =  4, name = "Star Ruby" },
+            { id = 7971,   qty =  4, name = "Black Pearl" },
             { id = 7966,   qty =  2, name = "Solid Grinding Stone" },
         },
     },
@@ -931,11 +950,13 @@ ProfTooltip_Blacksmithing = {
         components = {
             { id = 12359,  qty = 16, name = "Thorium Bar" },
             { id = 12361,  qty =  1, name = "Blue Sapphire" },
+            { id = 11188,  qty =  4, name = "Yellow Power Crystal" },
         },
     },
     [12406] = { name = "Thorium Belt", skill = 250, spec = nil,
         components = {
-            { id = 12359,  qty =  8, name = "Thorium Bar" },
+            { id = 12359,  qty = 12, name = "Thorium Bar" },
+            { id = 11186,  qty =  4, name = "Red Power Crystal" },
         },
     },
     [12643] = { name = "Dense Weightstone", skill = 250, spec = nil,
@@ -960,7 +981,8 @@ ProfTooltip_Blacksmithing = {
     },
     [12408] = { name = "Thorium Bracers", skill = 255, spec = nil,
         components = {
-            { id = 12359,  qty =  8, name = "Thorium Bar" },
+            { id = 12359,  qty = 12, name = "Thorium Bar" },
+            { id = 11184,  qty =  4, name = "Blue Power Crystal" },
         },
     },
     [7960] = { name = "Truesilver Champion", skill = 260, spec = nil,
@@ -987,14 +1009,16 @@ ProfTooltip_Blacksmithing = {
     },
     [12424] = { name = "Imperial Plate Belt", skill = 265, spec = "Weap",
         components = {
-            { id = 12359,  qty = 10, name = "Thorium Bar" },
+            { id = 12359,  qty = 22, name = "Thorium Bar" },
             { id = 8170,   qty =  6, name = "Rugged Leather" },
+            { id = 7909,   qty =  1, name = "Aquamarine" },
         },
     },
     [12428] = { name = "Imperial Plate Shoulders", skill = 265, spec = "Weap",
         components = {
-            { id = 12359,  qty = 12, name = "Thorium Bar" },
+            { id = 12359,  qty = 24, name = "Thorium Bar" },
             { id = 8170,   qty =  6, name = "Rugged Leather" },
+            { id = 3864,   qty =  2, name = "Citrine" },
         },
     },
     [11606] = { name = "Dark Iron Mail", skill = 270, spec = nil,
@@ -1012,7 +1036,8 @@ ProfTooltip_Blacksmithing = {
     },
     [12425] = { name = "Imperial Plate Bracers", skill = 270, spec = "Arms",
         components = {
-            { id = 12359,  qty = 12, name = "Thorium Bar" },
+            { id = 12359,  qty = 20, name = "Thorium Bar" },
+            { id = 7910,   qty =  1, name = "Star Ruby" },
         },
     },
     [12624] = { name = "Wildthorn Mail", skill = 270, spec = nil,
@@ -1039,7 +1064,7 @@ ProfTooltip_Blacksmithing = {
     },
     [12773] = { name = "Ornate Thorium Handaxe", skill = 275, spec = nil,
         components = {
-            { id = 12359,  qty = 10, name = "Thorium Bar" },
+            { id = 12359,  qty = 20, name = "Thorium Bar" },
             { id = 12799,  qty =  2, name = "Large Opal" },
             { id = 12644,  qty =  2, name = "Dense Grinding Stone" },
             { id = 8170,   qty =  4, name = "Rugged Leather" },
@@ -1075,19 +1100,21 @@ ProfTooltip_Blacksmithing = {
     },
     [12409] = { name = "Thorium Boots", skill = 280, spec = nil,
         components = {
-            { id = 12359,  qty = 12, name = "Thorium Bar" },
+            { id = 12359,  qty = 20, name = "Thorium Bar" },
             { id = 8170,   qty =  8, name = "Rugged Leather" },
+            { id = 11185,  qty =  4, name = "Green Power Crystal" },
         },
     },
     [12410] = { name = "Thorium Helm", skill = 280, spec = nil,
         components = {
-            { id = 12359,  qty = 12, name = "Thorium Bar" },
+            { id = 12359,  qty = 24, name = "Thorium Bar" },
             { id = 7910,   qty =  1, name = "Star Ruby" },
+            { id = 11188,  qty =  4, name = "Yellow Power Crystal" },
         },
     },
     [12775] = { name = "Huge Thorium Battleaxe", skill = 280, spec = nil,
         components = {
-            { id = 12359,  qty = 12, name = "Thorium Bar" },
+            { id = 12359,  qty = 40, name = "Thorium Bar" },
             { id = 12644,  qty =  6, name = "Dense Grinding Stone" },
             { id = 8170,   qty =  6, name = "Rugged Leather" },
         },
@@ -1203,13 +1230,15 @@ ProfTooltip_Blacksmithing = {
     },
     [12426] = { name = "Imperial Plate Boots", skill = 295, spec = nil,
         components = {
-            { id = 12359,  qty = 18, name = "Thorium Bar" },
+            { id = 12359,  qty = 34, name = "Thorium Bar" },
+            { id = 7910,   qty =  1, name = "Star Ruby" },
+            { id = 7909,   qty =  1, name = "Aquamarine" },
         },
     },
     [12427] = { name = "Imperial Plate Helm", skill = 295, spec = "Arms",
         components = {
-            { id = 12359,  qty = 18, name = "Thorium Bar" },
-            { id = 7910,   qty =  1, name = "Star Ruby" },
+            { id = 12359,  qty = 34, name = "Thorium Bar" },
+            { id = 7910,   qty =  2, name = "Star Ruby" },
         },
     },
     [12632] = { name = "Storm Gauntlets", skill = 295, spec = nil,
@@ -1236,7 +1265,8 @@ ProfTooltip_Blacksmithing = {
     },
     [12414] = { name = "Thorium Leggings", skill = 300, spec = nil,
         components = {
-            { id = 12359,  qty = 12, name = "Thorium Bar" },
+            { id = 12359,  qty = 26, name = "Thorium Bar" },
+            { id = 11186,  qty =  4, name = "Red Power Crystal" },
         },
     },
     [12420] = { name = "Radiant Leggings", skill = 300, spec = "Arms",
@@ -1247,12 +1277,14 @@ ProfTooltip_Blacksmithing = {
     },
     [12422] = { name = "Imperial Plate Chest", skill = 300, spec = "Arms",
         components = {
-            { id = 12359,  qty = 20, name = "Thorium Bar" },
+            { id = 12359,  qty = 40, name = "Thorium Bar" },
+            { id = 7910,   qty =  2, name = "Star Ruby" },
         },
     },
     [12429] = { name = "Imperial Plate Leggings", skill = 300, spec = nil,
         components = {
-            { id = 12359,  qty = 24, name = "Thorium Bar" },
+            { id = 12359,  qty = 44, name = "Thorium Bar" },
+            { id = 7910,   qty =  2, name = "Star Ruby" },
         },
     },
     [12610] = { name = "Runic Plate Shoulders", skill = 300, spec = nil,
@@ -1332,6 +1364,7 @@ ProfTooltip_Blacksmithing = {
         components = {
             { id = 12359,  qty = 40, name = "Thorium Bar" },
             { id = 12655,  qty =  4, name = "Enchanted Thorium Bar" },
+            { id = 8168,   qty = 60, name = "Jet Black Feather" },
             { id = 12799,  qty =  6, name = "Large Opal" },
             { id = 12364,  qty =  2, name = "Huge Emerald" },
         },
@@ -1349,6 +1382,7 @@ ProfTooltip_Blacksmithing = {
         components = {
             { id = 12359,  qty = 80, name = "Thorium Bar" },
             { id = 12360,  qty = 12, name = "Arcanite Bar" },
+            { id = 8146,   qty = 40, name = "Wicked Claw" },
             { id = 12361,  qty = 10, name = "Blue Sapphire" },
             { id = 12800,  qty =  4, name = "Azerothian Diamond" },
         },
@@ -1552,6 +1586,7 @@ ProfTooltip_Blacksmithing = {
         components = {
             { id = 12359,  qty = 20, name = "Thorium Bar" },
             { id = 19774,  qty = 10, name = "Souldarite" },
+            { id = 19726,  qty =  2, name = "Bloodvine" },
             { id = 7910,   qty =  2, name = "Star Ruby" },
         },
     },
@@ -1559,6 +1594,7 @@ ProfTooltip_Blacksmithing = {
         components = {
             { id = 12359,  qty = 16, name = "Thorium Bar" },
             { id = 19774,  qty =  8, name = "Souldarite" },
+            { id = 19726,  qty =  2, name = "Bloodvine" },
             { id = 7910,   qty =  1, name = "Star Ruby" },
         },
     },
@@ -1566,6 +1602,7 @@ ProfTooltip_Blacksmithing = {
         components = {
             { id = 12359,  qty = 12, name = "Thorium Bar" },
             { id = 19774,  qty =  6, name = "Souldarite" },
+            { id = 19726,  qty =  2, name = "Bloodvine" },
             { id = 12810,  qty =  4, name = "Enchanted Leather" },
         },
     },
@@ -1720,7 +1757,7 @@ ProfTooltip_Blacksmithing = {
     },
     [22762] = { name = "Ironvine Breastplate", skill = 300, spec = nil,
         components = {
-            { id = 12655,  qty =  6, name = "Enchanted Thorium Bar" },
+            { id = 12655,  qty = 12, name = "Enchanted Thorium Bar" },
             { id = 19726,  qty =  2, name = "Bloodvine" },
             { id = 12360,  qty =  2, name = "Arcanite Bar" },
             { id = 12803,  qty =  2, name = "Living Essence" },

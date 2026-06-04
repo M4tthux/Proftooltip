@@ -1,0 +1,6723 @@
+{
+  "_meta": {
+    "profession": "Blacksmithing",
+    "game_version": "WoW Classic Era (1.15.x / interface 11508)",
+    "built": "2026-06-04",
+    "recipe_count": 240,
+    "source": "Wowhead Classic XML (item pages) + wow-classic-items npm",
+    "notes": [
+      "Item list and skill levels come from wow-classic-items npm (filtered: skill≤300, itemId≤23000).",
+      "Reagent IDs, quantities, and names are VERIFIED against Wowhead Classic item XML.",
+      "Spell IDs are VERIFIED against Wowhead Classic.",
+      "Entries with source=\"npm-only\" had no Wowhead <createdBy> section.",
+      "Keyed by OUTPUT ITEM ID."
+    ]
+  },
+  "recipes": {
+    "2844": {
+      "name": "Copper Mace",
+      "spell_id": 2737,
+      "output_qty": 1,
+      "skill": 15,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 6,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 1,
+          "name": "Weak Flux"
+        },
+        {
+          "id": 2589,
+          "qty": 2,
+          "name": "Linen Cloth"
+        }
+      ]
+    },
+    "2845": {
+      "name": "Copper Axe",
+      "spell_id": 2738,
+      "output_qty": 1,
+      "skill": 20,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 6,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 1,
+          "name": "Weak Flux"
+        },
+        {
+          "id": 2589,
+          "qty": 2,
+          "name": "Linen Cloth"
+        }
+      ]
+    },
+    "2847": {
+      "name": "Copper Shortsword",
+      "spell_id": 2739,
+      "output_qty": 1,
+      "skill": 25,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 6,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 1,
+          "name": "Weak Flux"
+        },
+        {
+          "id": 2589,
+          "qty": 2,
+          "name": "Linen Cloth"
+        }
+      ]
+    },
+    "2848": {
+      "name": "Bronze Mace",
+      "spell_id": 2740,
+      "output_qty": 1,
+      "skill": 110,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 6,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 4,
+          "name": "Weak Flux"
+        },
+        {
+          "id": 2319,
+          "qty": 1,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "2849": {
+      "name": "Bronze Axe",
+      "spell_id": 2741,
+      "output_qty": 1,
+      "skill": 115,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 7,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 4,
+          "name": "Weak Flux"
+        },
+        {
+          "id": 2319,
+          "qty": 1,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "2850": {
+      "name": "Bronze Shortsword",
+      "spell_id": 2742,
+      "output_qty": 1,
+      "skill": 120,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 5,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 4,
+          "name": "Weak Flux"
+        },
+        {
+          "id": 2319,
+          "qty": 2,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "2851": {
+      "name": "Copper Chain Belt",
+      "spell_id": 2661,
+      "output_qty": 1,
+      "skill": 35,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 6,
+          "name": "Copper Bar"
+        }
+      ]
+    },
+    "2852": {
+      "name": "Copper Chain Pants",
+      "spell_id": 2662,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 4,
+          "name": "Copper Bar"
+        }
+      ]
+    },
+    "2853": {
+      "name": "Copper Bracers",
+      "spell_id": 2663,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 2,
+          "name": "Copper Bar"
+        }
+      ]
+    },
+    "2854": {
+      "name": "Runed Copper Bracers",
+      "spell_id": 2664,
+      "output_qty": 1,
+      "skill": 90,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 10,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 3470,
+          "qty": 3,
+          "name": "Rough Grinding Stone"
+        }
+      ]
+    },
+    "2857": {
+      "name": "Runed Copper Belt",
+      "spell_id": 2666,
+      "output_qty": 1,
+      "skill": 70,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 10,
+          "name": "Copper Bar"
+        }
+      ]
+    },
+    "2862": {
+      "name": "Rough Sharpening Stone",
+      "spell_id": 2660,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2835,
+          "qty": 1,
+          "name": "Rough Stone"
+        }
+      ]
+    },
+    "2863": {
+      "name": "Coarse Sharpening Stone",
+      "spell_id": 2665,
+      "output_qty": 1,
+      "skill": 65,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2836,
+          "qty": 1,
+          "name": "Coarse Stone"
+        }
+      ]
+    },
+    "2864": {
+      "name": "Runed Copper Breastplate",
+      "spell_id": 2667,
+      "output_qty": 1,
+      "skill": 80,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 12,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 1210,
+          "qty": 1,
+          "name": "Shadowgem"
+        },
+        {
+          "id": 3470,
+          "qty": 2,
+          "name": "Rough Grinding Stone"
+        }
+      ]
+    },
+    "2865": {
+      "name": "Rough Bronze Leggings",
+      "spell_id": 2668,
+      "output_qty": 1,
+      "skill": 105,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 6,
+          "name": "Bronze Bar"
+        }
+      ]
+    },
+    "2866": {
+      "name": "Rough Bronze Cuirass",
+      "spell_id": 2670,
+      "output_qty": 1,
+      "skill": 105,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 7,
+          "name": "Bronze Bar"
+        }
+      ]
+    },
+    "2868": {
+      "name": "Patterned Bronze Bracers",
+      "spell_id": 2672,
+      "output_qty": 1,
+      "skill": 120,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 5,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        }
+      ]
+    },
+    "2869": {
+      "name": "Silvered Bronze Breastplate",
+      "spell_id": 2673,
+      "output_qty": 1,
+      "skill": 130,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 10,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 2842,
+          "qty": 2,
+          "name": "Silver Bar"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        },
+        {
+          "id": 1705,
+          "qty": 1,
+          "name": "Lesser Moonstone"
+        }
+      ]
+    },
+    "2870": {
+      "name": "Shining Silver Breastplate",
+      "spell_id": 2675,
+      "output_qty": 1,
+      "skill": 145,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 20,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 1206,
+          "qty": 2,
+          "name": "Moss Agate"
+        },
+        {
+          "id": 1705,
+          "qty": 2,
+          "name": "Lesser Moonstone"
+        },
+        {
+          "id": 5500,
+          "qty": 2,
+          "name": "Iridescent Pearl"
+        },
+        {
+          "id": 2842,
+          "qty": 4,
+          "name": "Silver Bar"
+        }
+      ]
+    },
+    "2871": {
+      "name": "Heavy Sharpening Stone",
+      "spell_id": 2674,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2838,
+          "qty": 1,
+          "name": "Heavy Stone"
+        }
+      ]
+    },
+    "3239": {
+      "name": "Rough Weightstone",
+      "spell_id": 3115,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2835,
+          "qty": 1,
+          "name": "Rough Stone"
+        },
+        {
+          "id": 2589,
+          "qty": 1,
+          "name": "Linen Cloth"
+        }
+      ]
+    },
+    "3240": {
+      "name": "Coarse Weightstone",
+      "spell_id": 3116,
+      "output_qty": 1,
+      "skill": 65,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2836,
+          "qty": 1,
+          "name": "Coarse Stone"
+        },
+        {
+          "id": 2592,
+          "qty": 1,
+          "name": "Wool Cloth"
+        }
+      ]
+    },
+    "3241": {
+      "name": "Heavy Weightstone",
+      "spell_id": 3117,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2838,
+          "qty": 1,
+          "name": "Heavy Stone"
+        },
+        {
+          "id": 2592,
+          "qty": 1,
+          "name": "Wool Cloth"
+        }
+      ]
+    },
+    "3469": {
+      "name": "Copper Chain Boots",
+      "spell_id": 3319,
+      "output_qty": 1,
+      "skill": 20,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 8,
+          "name": "Copper Bar"
+        }
+      ]
+    },
+    "3470": {
+      "name": "Rough Grinding Stone",
+      "spell_id": 3320,
+      "output_qty": 1,
+      "skill": 25,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2835,
+          "qty": 2,
+          "name": "Rough Stone"
+        }
+      ]
+    },
+    "3471": {
+      "name": "Copper Chain Vest",
+      "spell_id": 3321,
+      "output_qty": 1,
+      "skill": 35,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 8,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 774,
+          "qty": 1,
+          "name": "Malachite"
+        },
+        {
+          "id": 3470,
+          "qty": 2,
+          "name": "Rough Grinding Stone"
+        }
+      ]
+    },
+    "3472": {
+      "name": "Runed Copper Gauntlets",
+      "spell_id": 3323,
+      "output_qty": 1,
+      "skill": 40,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 8,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 3470,
+          "qty": 2,
+          "name": "Rough Grinding Stone"
+        }
+      ]
+    },
+    "3473": {
+      "name": "Runed Copper Pants",
+      "spell_id": 3324,
+      "output_qty": 1,
+      "skill": 45,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 8,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 2321,
+          "qty": 2,
+          "name": "Fine Thread"
+        },
+        {
+          "id": 3470,
+          "qty": 3,
+          "name": "Rough Grinding Stone"
+        }
+      ]
+    },
+    "3474": {
+      "name": "Gemmed Copper Gauntlets",
+      "spell_id": 3325,
+      "output_qty": 1,
+      "skill": 60,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 8,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 818,
+          "qty": 1,
+          "name": "Tigerseye"
+        },
+        {
+          "id": 774,
+          "qty": 1,
+          "name": "Malachite"
+        }
+      ]
+    },
+    "3478": {
+      "name": "Coarse Grinding Stone",
+      "spell_id": 3326,
+      "output_qty": 1,
+      "skill": 75,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2836,
+          "qty": 2,
+          "name": "Coarse Stone"
+        }
+      ]
+    },
+    "3480": {
+      "name": "Rough Bronze Shoulders",
+      "spell_id": 3328,
+      "output_qty": 1,
+      "skill": 110,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 5,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 1210,
+          "qty": 1,
+          "name": "Shadowgem"
+        },
+        {
+          "id": 3478,
+          "qty": 1,
+          "name": "Coarse Grinding Stone"
+        }
+      ]
+    },
+    "3481": {
+      "name": "Silvered Bronze Shoulders",
+      "spell_id": 3330,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 8,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 2842,
+          "qty": 2,
+          "name": "Silver Bar"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        }
+      ]
+    },
+    "3482": {
+      "name": "Silvered Bronze Boots",
+      "spell_id": 3331,
+      "output_qty": 1,
+      "skill": 130,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 6,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 2842,
+          "qty": 1,
+          "name": "Silver Bar"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        }
+      ]
+    },
+    "3483": {
+      "name": "Silvered Bronze Gauntlets",
+      "spell_id": 3333,
+      "output_qty": 1,
+      "skill": 135,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 8,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 2842,
+          "qty": 1,
+          "name": "Silver Bar"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        }
+      ]
+    },
+    "3484": {
+      "name": "Green Iron Boots",
+      "spell_id": 3334,
+      "output_qty": 1,
+      "skill": 145,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 4,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 1705,
+          "qty": 2,
+          "name": "Lesser Moonstone"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        },
+        {
+          "id": 2605,
+          "qty": 1,
+          "name": "Green Dye"
+        }
+      ]
+    },
+    "3485": {
+      "name": "Green Iron Gauntlets",
+      "spell_id": 3336,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 4,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 5498,
+          "qty": 2,
+          "name": "Small Lustrous Pearl"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        },
+        {
+          "id": 2605,
+          "qty": 1,
+          "name": "Green Dye"
+        }
+      ]
+    },
+    "3486": {
+      "name": "Heavy Grinding Stone",
+      "spell_id": 3337,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2838,
+          "qty": 3,
+          "name": "Heavy Stone"
+        }
+      ]
+    },
+    "3487": {
+      "name": "Heavy Copper Broadsword",
+      "spell_id": 3292,
+      "output_qty": 1,
+      "skill": 95,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 14,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 2,
+          "name": "Weak Flux"
+        },
+        {
+          "id": 818,
+          "qty": 2,
+          "name": "Tigerseye"
+        },
+        {
+          "id": 2319,
+          "qty": 2,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "3488": {
+      "name": "Copper Battle Axe",
+      "spell_id": 3293,
+      "output_qty": 1,
+      "skill": 35,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 12,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 2,
+          "name": "Weak Flux"
+        },
+        {
+          "id": 774,
+          "qty": 2,
+          "name": "Malachite"
+        },
+        {
+          "id": 3470,
+          "qty": 2,
+          "name": "Rough Grinding Stone"
+        },
+        {
+          "id": 2318,
+          "qty": 2,
+          "name": "Light Leather"
+        }
+      ]
+    },
+    "3489": {
+      "name": "Thick War Axe",
+      "spell_id": 3294,
+      "output_qty": 1,
+      "skill": 70,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 10,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 2,
+          "name": "Weak Flux"
+        },
+        {
+          "id": 2842,
+          "qty": 2,
+          "name": "Silver Bar"
+        },
+        {
+          "id": 3470,
+          "qty": 2,
+          "name": "Rough Grinding Stone"
+        },
+        {
+          "id": 2318,
+          "qty": 2,
+          "name": "Light Leather"
+        }
+      ]
+    },
+    "3490": {
+      "name": "Deadly Bronze Poniard",
+      "spell_id": 3295,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 4,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 1,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 2459,
+          "qty": 1,
+          "name": "Swiftness Potion"
+        },
+        {
+          "id": 1210,
+          "qty": 2,
+          "name": "Shadowgem"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        },
+        {
+          "id": 2319,
+          "qty": 2,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "3491": {
+      "name": "Heavy Bronze Mace",
+      "spell_id": 3296,
+      "output_qty": 1,
+      "skill": 130,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 8,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 1,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 1206,
+          "qty": 1,
+          "name": "Moss Agate"
+        },
+        {
+          "id": 1210,
+          "qty": 1,
+          "name": "Shadowgem"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        },
+        {
+          "id": 2319,
+          "qty": 2,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "3492": {
+      "name": "Mighty Iron Hammer",
+      "spell_id": 3297,
+      "output_qty": 1,
+      "skill": 145,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 6,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 2,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 3391,
+          "qty": 1,
+          "name": "Elixir of Ogre's Strength"
+        },
+        {
+          "id": 1705,
+          "qty": 2,
+          "name": "Lesser Moonstone"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        },
+        {
+          "id": 2319,
+          "qty": 2,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "3835": {
+      "name": "Green Iron Bracers",
+      "spell_id": 3501,
+      "output_qty": 1,
+      "skill": 165,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 6,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 2605,
+          "qty": 1,
+          "name": "Green Dye"
+        }
+      ]
+    },
+    "3836": {
+      "name": "Green Iron Helm",
+      "spell_id": 3502,
+      "output_qty": 1,
+      "skill": 170,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 12,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3864,
+          "qty": 1,
+          "name": "Citrine"
+        },
+        {
+          "id": 2605,
+          "qty": 1,
+          "name": "Green Dye"
+        }
+      ]
+    },
+    "3837": {
+      "name": "Golden Scale Coif",
+      "spell_id": 3503,
+      "output_qty": 1,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 8,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3577,
+          "qty": 2,
+          "name": "Gold Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 2,
+          "name": "Heavy Grinding Stone"
+        }
+      ]
+    },
+    "3840": {
+      "name": "Green Iron Shoulders",
+      "spell_id": 3504,
+      "output_qty": 1,
+      "skill": 160,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 7,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 1,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 2605,
+          "qty": 1,
+          "name": "Green Dye"
+        }
+      ]
+    },
+    "3841": {
+      "name": "Golden Scale Shoulders",
+      "spell_id": 3505,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 6,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3577,
+          "qty": 2,
+          "name": "Gold Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 1,
+          "name": "Heavy Grinding Stone"
+        }
+      ]
+    },
+    "3842": {
+      "name": "Green Iron Leggings",
+      "spell_id": 3506,
+      "output_qty": 1,
+      "skill": 155,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 8,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 1,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 2605,
+          "qty": 1,
+          "name": "Green Dye"
+        }
+      ]
+    },
+    "3843": {
+      "name": "Golden Scale Leggings",
+      "spell_id": 3507,
+      "output_qty": 1,
+      "skill": 170,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 10,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3577,
+          "qty": 2,
+          "name": "Gold Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 1,
+          "name": "Heavy Grinding Stone"
+        }
+      ]
+    },
+    "3844": {
+      "name": "Green Iron Hauberk",
+      "spell_id": 3508,
+      "output_qty": 1,
+      "skill": 180,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 20,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 4,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 1529,
+          "qty": 2,
+          "name": "Jade"
+        },
+        {
+          "id": 1206,
+          "qty": 2,
+          "name": "Moss Agate"
+        },
+        {
+          "id": 4255,
+          "qty": 1,
+          "name": "Green Leather Armor"
+        }
+      ]
+    },
+    "3845": {
+      "name": "Golden Scale Cuirass",
+      "spell_id": 3511,
+      "output_qty": 1,
+      "skill": 195,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 12,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3577,
+          "qty": 2,
+          "name": "Gold Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 4,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 1529,
+          "qty": 2,
+          "name": "Jade"
+        }
+      ]
+    },
+    "3846": {
+      "name": "Polished Steel Boots",
+      "spell_id": 3513,
+      "output_qty": 1,
+      "skill": 185,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 8,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3864,
+          "qty": 1,
+          "name": "Citrine"
+        },
+        {
+          "id": 1705,
+          "qty": 1,
+          "name": "Lesser Moonstone"
+        },
+        {
+          "id": 3486,
+          "qty": 2,
+          "name": "Heavy Grinding Stone"
+        }
+      ]
+    },
+    "3847": {
+      "name": "Golden Scale Boots",
+      "spell_id": 3515,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 10,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3577,
+          "qty": 4,
+          "name": "Gold Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 4,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 3864,
+          "qty": 1,
+          "name": "Citrine"
+        }
+      ]
+    },
+    "3848": {
+      "name": "Big Bronze Knife",
+      "spell_id": 3491,
+      "output_qty": 1,
+      "skill": 105,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 6,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 4,
+          "name": "Weak Flux"
+        },
+        {
+          "id": 3470,
+          "qty": 2,
+          "name": "Rough Grinding Stone"
+        },
+        {
+          "id": 818,
+          "qty": 1,
+          "name": "Tigerseye"
+        },
+        {
+          "id": 2319,
+          "qty": 1,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "3849": {
+      "name": "Hardened Iron Shortsword",
+      "spell_id": 3492,
+      "output_qty": 1,
+      "skill": 160,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 6,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 2,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 3486,
+          "qty": 1,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 1705,
+          "qty": 2,
+          "name": "Lesser Moonstone"
+        },
+        {
+          "id": 4234,
+          "qty": 3,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "3850": {
+      "name": "Jade Serpentblade",
+      "spell_id": 3493,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 8,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 2,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 3486,
+          "qty": 2,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 1529,
+          "qty": 2,
+          "name": "Jade"
+        },
+        {
+          "id": 4234,
+          "qty": 3,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "3851": {
+      "name": "Solid Iron Maul",
+      "spell_id": 3494,
+      "output_qty": 1,
+      "skill": 155,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 8,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 2,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 3486,
+          "qty": 1,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 2842,
+          "qty": 4,
+          "name": "Silver Bar"
+        },
+        {
+          "id": 4234,
+          "qty": 2,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "3852": {
+      "name": "Golden Iron Destroyer",
+      "spell_id": 3495,
+      "output_qty": 1,
+      "skill": 170,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 10,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3577,
+          "qty": 4,
+          "name": "Gold Bar"
+        },
+        {
+          "id": 1705,
+          "qty": 2,
+          "name": "Lesser Moonstone"
+        },
+        {
+          "id": 3466,
+          "qty": 2,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 4234,
+          "qty": 2,
+          "name": "Heavy Leather"
+        },
+        {
+          "id": 3486,
+          "qty": 2,
+          "name": "Heavy Grinding Stone"
+        }
+      ]
+    },
+    "3853": {
+      "name": "Moonsteel Broadsword",
+      "spell_id": 3496,
+      "output_qty": 1,
+      "skill": 180,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 8,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 2,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 3486,
+          "qty": 2,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 1705,
+          "qty": 3,
+          "name": "Lesser Moonstone"
+        },
+        {
+          "id": 4234,
+          "qty": 3,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "3854": {
+      "name": "Frost Tiger Blade",
+      "spell_id": 3497,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 8,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 2,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 3486,
+          "qty": 2,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 1529,
+          "qty": 2,
+          "name": "Jade"
+        },
+        {
+          "id": 3829,
+          "qty": 1,
+          "name": "Frost Oil"
+        },
+        {
+          "id": 4234,
+          "qty": 4,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "3855": {
+      "name": "Massive Iron Axe",
+      "spell_id": 3498,
+      "output_qty": 1,
+      "skill": 185,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 14,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 2,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 3486,
+          "qty": 2,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 3577,
+          "qty": 4,
+          "name": "Gold Bar"
+        },
+        {
+          "id": 4234,
+          "qty": 2,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "3856": {
+      "name": "Shadow Crescent Axe",
+      "spell_id": 3500,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 10,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 2,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 3486,
+          "qty": 3,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 3864,
+          "qty": 2,
+          "name": "Citrine"
+        },
+        {
+          "id": 3824,
+          "qty": 1,
+          "name": "Shadow Oil"
+        },
+        {
+          "id": 4234,
+          "qty": 3,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "5540": {
+      "name": "Pearl-handled Dagger",
+      "spell_id": 6517,
+      "output_qty": 1,
+      "skill": 110,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 6,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 1,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 5498,
+          "qty": 2,
+          "name": "Small Lustrous Pearl"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        }
+      ]
+    },
+    "5541": {
+      "name": "Iridescent Hammer",
+      "spell_id": 6518,
+      "output_qty": 1,
+      "skill": 140,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 10,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 1,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 5500,
+          "qty": 1,
+          "name": "Iridescent Pearl"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        },
+        {
+          "id": 2319,
+          "qty": 2,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "6040": {
+      "name": "Golden Scale Bracers",
+      "spell_id": 7223,
+      "output_qty": 1,
+      "skill": 185,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 5,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 2,
+          "name": "Heavy Grinding Stone"
+        }
+      ]
+    },
+    "6041": {
+      "name": "Steel Weapon Chain",
+      "spell_id": 7224,
+      "output_qty": 1,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 8,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 2,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 4234,
+          "qty": 4,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "6042": {
+      "name": "Iron Shield Spike",
+      "spell_id": 7221,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 6,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3478,
+          "qty": 4,
+          "name": "Coarse Grinding Stone"
+        }
+      ]
+    },
+    "6043": {
+      "name": "Iron Counterweight",
+      "spell_id": 7222,
+      "output_qty": 1,
+      "skill": 165,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 4,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        },
+        {
+          "id": 1705,
+          "qty": 1,
+          "name": "Lesser Moonstone"
+        }
+      ]
+    },
+    "6214": {
+      "name": "Heavy Copper Maul",
+      "spell_id": 7408,
+      "output_qty": 1,
+      "skill": 65,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 12,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 2,
+          "name": "Weak Flux"
+        },
+        {
+          "id": 2318,
+          "qty": 2,
+          "name": "Light Leather"
+        }
+      ]
+    },
+    "6338": {
+      "name": "Silver Rod",
+      "spell_id": 7818,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2842,
+          "qty": 1,
+          "name": "Silver Bar"
+        },
+        {
+          "id": 3470,
+          "qty": 2,
+          "name": "Rough Grinding Stone"
+        }
+      ]
+    },
+    "6350": {
+      "name": "Rough Bronze Boots",
+      "spell_id": 7817,
+      "output_qty": 1,
+      "skill": 95,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 6,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 3470,
+          "qty": 6,
+          "name": "Rough Grinding Stone"
+        }
+      ]
+    },
+    "6731": {
+      "name": "Ironforge Breastplate",
+      "spell_id": 8367,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 16,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 818,
+          "qty": 2,
+          "name": "Tigerseye"
+        },
+        {
+          "id": 3470,
+          "qty": 3,
+          "name": "Rough Grinding Stone"
+        }
+      ]
+    },
+    "7071": {
+      "name": "Iron Buckle",
+      "spell_id": 8768,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 1,
+          "name": "Iron Bar"
+        }
+      ]
+    },
+    "7166": {
+      "name": "Copper Dagger",
+      "spell_id": 8880,
+      "output_qty": 1,
+      "skill": 30,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 6,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 1,
+          "name": "Weak Flux"
+        },
+        {
+          "id": 3470,
+          "qty": 1,
+          "name": "Rough Grinding Stone"
+        },
+        {
+          "id": 2318,
+          "qty": 1,
+          "name": "Light Leather"
+        }
+      ]
+    },
+    "7913": {
+      "name": "Barbaric Iron Shoulders",
+      "spell_id": 9811,
+      "output_qty": 1,
+      "skill": 160,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 8,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 5635,
+          "qty": 4,
+          "name": "Sharp Claw"
+        },
+        {
+          "id": 1210,
+          "qty": 2,
+          "name": "Shadowgem"
+        },
+        {
+          "id": 3486,
+          "qty": 2,
+          "name": "Heavy Grinding Stone"
+        }
+      ]
+    },
+    "7914": {
+      "name": "Barbaric Iron Breastplate",
+      "spell_id": 9813,
+      "output_qty": 1,
+      "skill": 160,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 20,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 4,
+          "name": "Heavy Grinding Stone"
+        }
+      ]
+    },
+    "7915": {
+      "name": "Barbaric Iron Helm",
+      "spell_id": 9814,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 10,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 5637,
+          "qty": 2,
+          "name": "Large Fang"
+        },
+        {
+          "id": 5635,
+          "qty": 2,
+          "name": "Sharp Claw"
+        }
+      ]
+    },
+    "7916": {
+      "name": "Barbaric Iron Boots",
+      "spell_id": 9818,
+      "output_qty": 1,
+      "skill": 180,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 12,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 5637,
+          "qty": 4,
+          "name": "Large Fang"
+        },
+        {
+          "id": 818,
+          "qty": 4,
+          "name": "Tigerseye"
+        },
+        {
+          "id": 3486,
+          "qty": 2,
+          "name": "Heavy Grinding Stone"
+        }
+      ]
+    },
+    "7917": {
+      "name": "Barbaric Iron Gloves",
+      "spell_id": 9820,
+      "output_qty": 1,
+      "skill": 185,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 14,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 3,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 5637,
+          "qty": 2,
+          "name": "Large Fang"
+        }
+      ]
+    },
+    "7918": {
+      "name": "Heavy Mithril Shoulder",
+      "spell_id": 9926,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 8,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 4234,
+          "qty": 6,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "7919": {
+      "name": "Heavy Mithril Gauntlet",
+      "spell_id": 9928,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 6,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 4338,
+          "qty": 4,
+          "name": "Mageweave Cloth"
+        }
+      ]
+    },
+    "7920": {
+      "name": "Mithril Scale Pants",
+      "spell_id": 9931,
+      "output_qty": 1,
+      "skill": 210,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 12,
+          "name": "Mithril Bar"
+        }
+      ]
+    },
+    "7921": {
+      "name": "Heavy Mithril Pants",
+      "spell_id": 9933,
+      "output_qty": 1,
+      "skill": 210,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 10,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 1705,
+          "qty": 2,
+          "name": "Lesser Moonstone"
+        }
+      ]
+    },
+    "7922": {
+      "name": "Steel Plate Helm",
+      "spell_id": 9935,
+      "output_qty": 1,
+      "skill": 215,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 14,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        }
+      ]
+    },
+    "7924": {
+      "name": "Mithril Scale Bracers",
+      "spell_id": 9937,
+      "output_qty": 1,
+      "skill": 215,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 8,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 3864,
+          "qty": 2,
+          "name": "Citrine"
+        }
+      ]
+    },
+    "7926": {
+      "name": "Ornate Mithril Pants",
+      "spell_id": 9945,
+      "output_qty": 1,
+      "skill": 220,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 12,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 1,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        },
+        {
+          "id": 7909,
+          "qty": 1,
+          "name": "Aquamarine"
+        }
+      ]
+    },
+    "7927": {
+      "name": "Ornate Mithril Gloves",
+      "spell_id": 9950,
+      "output_qty": 1,
+      "skill": 220,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 10,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 4338,
+          "qty": 6,
+          "name": "Mageweave Cloth"
+        },
+        {
+          "id": 6037,
+          "qty": 1,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        }
+      ]
+    },
+    "7928": {
+      "name": "Ornate Mithril Shoulder",
+      "spell_id": 9952,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 12,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 1,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 4304,
+          "qty": 6,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "7929": {
+      "name": "Orcish War Leggings",
+      "spell_id": 9957,
+      "output_qty": 1,
+      "skill": 230,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 12,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 7067,
+          "qty": 1,
+          "name": "Elemental Earth"
+        }
+      ]
+    },
+    "7930": {
+      "name": "Heavy Mithril Breastplate",
+      "spell_id": 9959,
+      "output_qty": 1,
+      "skill": 230,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 16,
+          "name": "Mithril Bar"
+        }
+      ]
+    },
+    "7931": {
+      "name": "Mithril Coif",
+      "spell_id": 9961,
+      "output_qty": 1,
+      "skill": 230,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 10,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 4338,
+          "qty": 6,
+          "name": "Mageweave Cloth"
+        }
+      ]
+    },
+    "7932": {
+      "name": "Mithril Scale Shoulders",
+      "spell_id": 9966,
+      "output_qty": 1,
+      "skill": 235,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 14,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 4304,
+          "qty": 4,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 3864,
+          "qty": 4,
+          "name": "Citrine"
+        }
+      ]
+    },
+    "7933": {
+      "name": "Heavy Mithril Boots",
+      "spell_id": 9968,
+      "output_qty": 1,
+      "skill": 235,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 14,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 4304,
+          "qty": 4,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "7934": {
+      "name": "Heavy Mithril Helm",
+      "spell_id": 9970,
+      "output_qty": 1,
+      "skill": 245,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 14,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 7909,
+          "qty": 1,
+          "name": "Aquamarine"
+        }
+      ]
+    },
+    "7935": {
+      "name": "Ornate Mithril Breastplate",
+      "spell_id": 9972,
+      "output_qty": 1,
+      "skill": 240,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 16,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 6,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 1,
+          "name": "Heart of Fire"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        }
+      ]
+    },
+    "7936": {
+      "name": "Ornate Mithril Boots",
+      "spell_id": 9979,
+      "output_qty": 1,
+      "skill": 245,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 14,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 2,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 4304,
+          "qty": 4,
+          "name": "Thick Leather"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        },
+        {
+          "id": 7909,
+          "qty": 1,
+          "name": "Aquamarine"
+        }
+      ]
+    },
+    "7937": {
+      "name": "Ornate Mithril Helm",
+      "spell_id": 9980,
+      "output_qty": 1,
+      "skill": 245,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 16,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 2,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 7971,
+          "qty": 1,
+          "name": "Black Pearl"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        }
+      ]
+    },
+    "7938": {
+      "name": "Truesilver Gauntlets",
+      "spell_id": 9954,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 10,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 8,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 7909,
+          "qty": 3,
+          "name": "Aquamarine"
+        },
+        {
+          "id": 3864,
+          "qty": 3,
+          "name": "Citrine"
+        },
+        {
+          "id": 5966,
+          "qty": 1,
+          "name": "Guardian Gloves"
+        },
+        {
+          "id": 7966,
+          "qty": 2,
+          "name": "Solid Grinding Stone"
+        }
+      ]
+    },
+    "7939": {
+      "name": "Truesilver Breastplate",
+      "spell_id": 9974,
+      "output_qty": 1,
+      "skill": 245,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 12,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 24,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 7910,
+          "qty": 4,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 7971,
+          "qty": 4,
+          "name": "Black Pearl"
+        },
+        {
+          "id": 7966,
+          "qty": 2,
+          "name": "Solid Grinding Stone"
+        }
+      ]
+    },
+    "7941": {
+      "name": "Heavy Mithril Axe",
+      "spell_id": 9993,
+      "output_qty": 1,
+      "skill": 210,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 12,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 3864,
+          "qty": 2,
+          "name": "Citrine"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        },
+        {
+          "id": 4234,
+          "qty": 4,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "7942": {
+      "name": "Blue Glittering Axe",
+      "spell_id": 9995,
+      "output_qty": 1,
+      "skill": 220,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 16,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 7909,
+          "qty": 2,
+          "name": "Aquamarine"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        },
+        {
+          "id": 4304,
+          "qty": 4,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "7943": {
+      "name": "Wicked Mithril Blade",
+      "spell_id": 9997,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 14,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 4,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        },
+        {
+          "id": 4304,
+          "qty": 2,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "7944": {
+      "name": "Dazzling Mithril Rapier",
+      "spell_id": 10005,
+      "output_qty": 1,
+      "skill": 240,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 14,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 7909,
+          "qty": 1,
+          "name": "Aquamarine"
+        },
+        {
+          "id": 1705,
+          "qty": 2,
+          "name": "Lesser Moonstone"
+        },
+        {
+          "id": 1206,
+          "qty": 2,
+          "name": "Moss Agate"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        },
+        {
+          "id": 4338,
+          "qty": 2,
+          "name": "Mageweave Cloth"
+        }
+      ]
+    },
+    "7945": {
+      "name": "Big Black Mace",
+      "spell_id": 10001,
+      "output_qty": 1,
+      "skill": 230,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 16,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 7971,
+          "qty": 1,
+          "name": "Black Pearl"
+        },
+        {
+          "id": 1210,
+          "qty": 4,
+          "name": "Shadowgem"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        },
+        {
+          "id": 4304,
+          "qty": 2,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "7946": {
+      "name": "Runed Mithril Hammer",
+      "spell_id": 10009,
+      "output_qty": 1,
+      "skill": 245,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 18,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 7075,
+          "qty": 2,
+          "name": "Core of Earth"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        },
+        {
+          "id": 4304,
+          "qty": 4,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "7947": {
+      "name": "Ebon Shiv",
+      "spell_id": 10013,
+      "output_qty": 1,
+      "skill": 255,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 12,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 6,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 7910,
+          "qty": 2,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        },
+        {
+          "id": 4304,
+          "qty": 2,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "7954": {
+      "name": "The Shatterer",
+      "spell_id": 10003,
+      "output_qty": 1,
+      "skill": 235,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 24,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 7075,
+          "qty": 4,
+          "name": "Core of Earth"
+        },
+        {
+          "id": 6037,
+          "qty": 6,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 3864,
+          "qty": 5,
+          "name": "Citrine"
+        },
+        {
+          "id": 1529,
+          "qty": 5,
+          "name": "Jade"
+        },
+        {
+          "id": 7966,
+          "qty": 4,
+          "name": "Solid Grinding Stone"
+        },
+        {
+          "id": 4304,
+          "qty": 4,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "7955": {
+      "name": "Copper Claymore",
+      "spell_id": 9983,
+      "output_qty": 1,
+      "skill": 30,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 10,
+          "name": "Copper Bar"
+        },
+        {
+          "id": 2880,
+          "qty": 2,
+          "name": "Weak Flux"
+        },
+        {
+          "id": 3470,
+          "qty": 1,
+          "name": "Rough Grinding Stone"
+        },
+        {
+          "id": 2318,
+          "qty": 1,
+          "name": "Light Leather"
+        }
+      ]
+    },
+    "7956": {
+      "name": "Bronze Warhammer",
+      "spell_id": 9985,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 8,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 1,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 2319,
+          "qty": 1,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "7957": {
+      "name": "Bronze Greatsword",
+      "spell_id": 9986,
+      "output_qty": 1,
+      "skill": 130,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 12,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 2,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 2319,
+          "qty": 2,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "7958": {
+      "name": "Bronze Battle Axe",
+      "spell_id": 9987,
+      "output_qty": 1,
+      "skill": 135,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 14,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 1,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 2319,
+          "qty": 2,
+          "name": "Medium Leather"
+        }
+      ]
+    },
+    "7959": {
+      "name": "Blight",
+      "spell_id": 10011,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 28,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 7972,
+          "qty": 10,
+          "name": "Ichor of Undeath"
+        },
+        {
+          "id": 6037,
+          "qty": 10,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 7966,
+          "qty": 6,
+          "name": "Solid Grinding Stone"
+        },
+        {
+          "id": 4304,
+          "qty": 6,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "7960": {
+      "name": "Truesilver Champion",
+      "spell_id": 10015,
+      "output_qty": 1,
+      "skill": 260,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 30,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 16,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 7910,
+          "qty": 6,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 7081,
+          "qty": 4,
+          "name": "Breath of Wind"
+        },
+        {
+          "id": 7966,
+          "qty": 8,
+          "name": "Solid Grinding Stone"
+        },
+        {
+          "id": 4304,
+          "qty": 6,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "7961": {
+      "name": "Phantom Blade",
+      "spell_id": 10007,
+      "output_qty": 1,
+      "skill": 245,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 28,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 7081,
+          "qty": 6,
+          "name": "Breath of Wind"
+        },
+        {
+          "id": 6037,
+          "qty": 8,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 3823,
+          "qty": 2,
+          "name": "Lesser Invisibility Potion"
+        },
+        {
+          "id": 7909,
+          "qty": 6,
+          "name": "Aquamarine"
+        },
+        {
+          "id": 7966,
+          "qty": 4,
+          "name": "Solid Grinding Stone"
+        },
+        {
+          "id": 4304,
+          "qty": 2,
+          "name": "Thick Leather"
+        }
+      ]
+    },
+    "7963": {
+      "name": "Steel Breastplate",
+      "spell_id": 9916,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 16,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 3,
+          "name": "Heavy Grinding Stone"
+        }
+      ]
+    },
+    "7964": {
+      "name": "Solid Sharpening Stone",
+      "spell_id": 9918,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": "Arms",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7912,
+          "qty": 1,
+          "name": "Solid Stone"
+        }
+      ]
+    },
+    "7965": {
+      "name": "Solid Weightstone",
+      "spell_id": 9921,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7912,
+          "qty": 1,
+          "name": "Solid Stone"
+        },
+        {
+          "id": 4306,
+          "qty": 1,
+          "name": "Silk Cloth"
+        }
+      ]
+    },
+    "7966": {
+      "name": "Solid Grinding Stone",
+      "spell_id": 9920,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7912,
+          "qty": 4,
+          "name": "Solid Stone"
+        }
+      ]
+    },
+    "7967": {
+      "name": "Mithril Shield Spike",
+      "spell_id": 9939,
+      "output_qty": 1,
+      "skill": 215,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 4,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 2,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 7966,
+          "qty": 4,
+          "name": "Solid Grinding Stone"
+        }
+      ]
+    },
+    "7969": {
+      "name": "Mithril Spurs",
+      "spell_id": 9964,
+      "output_qty": 1,
+      "skill": 235,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 4,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 7966,
+          "qty": 3,
+          "name": "Solid Grinding Stone"
+        }
+      ]
+    },
+    "9060": {
+      "name": "Inlaid Mithril Cylinder",
+      "spell_id": 11454,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3860,
+          "qty": 5,
+          "name": "Mithril Bar"
+        },
+        {
+          "id": 3577,
+          "qty": 1,
+          "name": "Gold Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 1,
+          "name": "Truesilver Bar"
+        }
+      ]
+    },
+    "9366": {
+      "name": "Golden Scale Gauntlets",
+      "spell_id": 11643,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 10,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3577,
+          "qty": 4,
+          "name": "Gold Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 4,
+          "name": "Heavy Grinding Stone"
+        },
+        {
+          "id": 3864,
+          "qty": 1,
+          "name": "Citrine"
+        }
+      ]
+    },
+    "10421": {
+      "name": "Rough Copper Vest",
+      "spell_id": 12260,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2840,
+          "qty": 4,
+          "name": "Copper Bar"
+        }
+      ]
+    },
+    "10423": {
+      "name": "Silvered Bronze Leggings",
+      "spell_id": 12259,
+      "output_qty": 1,
+      "skill": 155,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2841,
+          "qty": 12,
+          "name": "Bronze Bar"
+        },
+        {
+          "id": 2842,
+          "qty": 4,
+          "name": "Silver Bar"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        }
+      ]
+    },
+    "11128": {
+      "name": "Golden Rod",
+      "spell_id": 14379,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3577,
+          "qty": 1,
+          "name": "Gold Bar"
+        },
+        {
+          "id": 3478,
+          "qty": 2,
+          "name": "Coarse Grinding Stone"
+        }
+      ]
+    },
+    "11144": {
+      "name": "Truesilver Rod",
+      "spell_id": 14380,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6037,
+          "qty": 1,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 1,
+          "name": "Heavy Grinding Stone"
+        }
+      ]
+    },
+    "11604": {
+      "name": "Dark Iron Plate",
+      "spell_id": 15296,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11371,
+          "qty": 20,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 8,
+          "name": "Heart of Fire"
+        }
+      ]
+    },
+    "11605": {
+      "name": "Dark Iron Shoulders",
+      "spell_id": 15295,
+      "output_qty": 1,
+      "skill": 280,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11371,
+          "qty": 6,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 1,
+          "name": "Heart of Fire"
+        }
+      ]
+    },
+    "11606": {
+      "name": "Dark Iron Mail",
+      "spell_id": 15293,
+      "output_qty": 1,
+      "skill": 270,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11371,
+          "qty": 10,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 2,
+          "name": "Heart of Fire"
+        }
+      ]
+    },
+    "11607": {
+      "name": "Dark Iron Sunderer",
+      "spell_id": 15294,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11371,
+          "qty": 26,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 4,
+          "name": "Heart of Fire"
+        }
+      ]
+    },
+    "11608": {
+      "name": "Dark Iron Pulverizer",
+      "spell_id": 15292,
+      "output_qty": 1,
+      "skill": 265,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11371,
+          "qty": 18,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 4,
+          "name": "Heart of Fire"
+        }
+      ]
+    },
+    "12259": {
+      "name": "Glinting Steel Dagger",
+      "spell_id": 15972,
+      "output_qty": 1,
+      "skill": 180,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 10,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3466,
+          "qty": 2,
+          "name": "Strong Flux"
+        },
+        {
+          "id": 1206,
+          "qty": 1,
+          "name": "Moss Agate"
+        },
+        {
+          "id": 7067,
+          "qty": 1,
+          "name": "Elemental Earth"
+        },
+        {
+          "id": 4234,
+          "qty": 1,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "12260": {
+      "name": "Searing Golden Blade",
+      "spell_id": 15973,
+      "output_qty": 1,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 10,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3577,
+          "qty": 4,
+          "name": "Gold Bar"
+        },
+        {
+          "id": 7068,
+          "qty": 2,
+          "name": "Elemental Fire"
+        },
+        {
+          "id": 4234,
+          "qty": 2,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "12404": {
+      "name": "Dense Sharpening Stone",
+      "spell_id": 16641,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12365,
+          "qty": 1,
+          "name": "Dense Stone"
+        }
+      ]
+    },
+    "12405": {
+      "name": "Thorium Armor",
+      "spell_id": 16642,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 16,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12361,
+          "qty": 1,
+          "name": "Blue Sapphire"
+        },
+        {
+          "id": 11188,
+          "qty": 4,
+          "name": "Yellow Power Crystal"
+        }
+      ]
+    },
+    "12406": {
+      "name": "Thorium Belt",
+      "spell_id": 16643,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 12,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 11186,
+          "qty": 4,
+          "name": "Red Power Crystal"
+        }
+      ]
+    },
+    "12408": {
+      "name": "Thorium Bracers",
+      "spell_id": 16644,
+      "output_qty": 1,
+      "skill": 255,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 12,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 11184,
+          "qty": 4,
+          "name": "Blue Power Crystal"
+        }
+      ]
+    },
+    "12409": {
+      "name": "Thorium Boots",
+      "spell_id": 16652,
+      "output_qty": 1,
+      "skill": 280,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 8170,
+          "qty": 8,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 11185,
+          "qty": 4,
+          "name": "Green Power Crystal"
+        }
+      ]
+    },
+    "12410": {
+      "name": "Thorium Helm",
+      "spell_id": 16653,
+      "output_qty": 1,
+      "skill": 280,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 24,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7910,
+          "qty": 1,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 11188,
+          "qty": 4,
+          "name": "Yellow Power Crystal"
+        }
+      ]
+    },
+    "12414": {
+      "name": "Thorium Leggings",
+      "spell_id": 16662,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 26,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 11186,
+          "qty": 4,
+          "name": "Red Power Crystal"
+        }
+      ]
+    },
+    "12415": {
+      "name": "Radiant Breastplate",
+      "spell_id": 16648,
+      "output_qty": 1,
+      "skill": 270,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 18,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 2,
+          "name": "Heart of Fire"
+        },
+        {
+          "id": 7910,
+          "qty": 1,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "12416": {
+      "name": "Radiant Belt",
+      "spell_id": 16645,
+      "output_qty": 1,
+      "skill": 260,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 10,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 2,
+          "name": "Heart of Fire"
+        }
+      ]
+    },
+    "12417": {
+      "name": "Radiant Circlet",
+      "spell_id": 16659,
+      "output_qty": 1,
+      "skill": 295,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 18,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 4,
+          "name": "Heart of Fire"
+        }
+      ]
+    },
+    "12418": {
+      "name": "Radiant Gloves",
+      "spell_id": 16654,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": "Arms",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 18,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 4,
+          "name": "Heart of Fire"
+        }
+      ]
+    },
+    "12419": {
+      "name": "Radiant Boots",
+      "spell_id": 16656,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": "Arms",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 14,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 4,
+          "name": "Heart of Fire"
+        }
+      ]
+    },
+    "12420": {
+      "name": "Radiant Leggings",
+      "spell_id": 16725,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": "Arms",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 4,
+          "name": "Heart of Fire"
+        }
+      ]
+    },
+    "12422": {
+      "name": "Imperial Plate Chest",
+      "spell_id": 16663,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": "Arms",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 40,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7910,
+          "qty": 2,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "12424": {
+      "name": "Imperial Plate Belt",
+      "spell_id": 16647,
+      "output_qty": 1,
+      "skill": 265,
+      "skill_verified": false,
+      "spec": "Weap",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 22,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 8170,
+          "qty": 6,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 7909,
+          "qty": 1,
+          "name": "Aquamarine"
+        }
+      ]
+    },
+    "12425": {
+      "name": "Imperial Plate Bracers",
+      "spell_id": 16649,
+      "output_qty": 1,
+      "skill": 270,
+      "skill_verified": false,
+      "spec": "Arms",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7910,
+          "qty": 1,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "12426": {
+      "name": "Imperial Plate Boots",
+      "spell_id": 16657,
+      "output_qty": 1,
+      "skill": 295,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 34,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7910,
+          "qty": 1,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 7909,
+          "qty": 1,
+          "name": "Aquamarine"
+        }
+      ]
+    },
+    "12427": {
+      "name": "Imperial Plate Helm",
+      "spell_id": 16658,
+      "output_qty": 1,
+      "skill": 295,
+      "skill_verified": false,
+      "spec": "Arms",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 34,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7910,
+          "qty": 2,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "12428": {
+      "name": "Imperial Plate Shoulders",
+      "spell_id": 16646,
+      "output_qty": 1,
+      "skill": 265,
+      "skill_verified": false,
+      "spec": "Weap",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 24,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 8170,
+          "qty": 6,
+          "name": "Rugged Leather"
+        },
+        {
+          "id": 3864,
+          "qty": 2,
+          "name": "Citrine"
+        }
+      ]
+    },
+    "12429": {
+      "name": "Imperial Plate Leggings",
+      "spell_id": 16730,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 44,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7910,
+          "qty": 2,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "12610": {
+      "name": "Runic Plate Shoulders",
+      "spell_id": 16664,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 2,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 3577,
+          "qty": 6,
+          "name": "Gold Bar"
+        }
+      ]
+    },
+    "12611": {
+      "name": "Runic Plate Boots",
+      "spell_id": 16665,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 2,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 2842,
+          "qty": 10,
+          "name": "Silver Bar"
+        }
+      ]
+    },
+    "12612": {
+      "name": "Runic Plate Helm",
+      "spell_id": 16726,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 30,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 2,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 2,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 12364,
+          "qty": 1,
+          "name": "Huge Emerald"
+        }
+      ]
+    },
+    "12613": {
+      "name": "Runic Breastplate",
+      "spell_id": 16731,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 40,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 2,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 7910,
+          "qty": 1,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "12614": {
+      "name": "Runic Plate Leggings",
+      "spell_id": 16732,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 40,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 2,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 7910,
+          "qty": 1,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "12618": {
+      "name": "Enchanted Thorium Breastplate",
+      "spell_id": 16745,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 8,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 24,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 7076,
+          "qty": 4,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 7080,
+          "qty": 4,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 12364,
+          "qty": 2,
+          "name": "Huge Emerald"
+        },
+        {
+          "id": 12800,
+          "qty": 2,
+          "name": "Azerothian Diamond"
+        }
+      ]
+    },
+    "12619": {
+      "name": "Enchanted Thorium Leggings",
+      "spell_id": 16744,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 10,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 20,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 7080,
+          "qty": 6,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 12361,
+          "qty": 2,
+          "name": "Blue Sapphire"
+        },
+        {
+          "id": 12364,
+          "qty": 1,
+          "name": "Huge Emerald"
+        }
+      ]
+    },
+    "12620": {
+      "name": "Enchanted Thorium Helm",
+      "spell_id": 16742,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 6,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 16,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 7076,
+          "qty": 6,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 12799,
+          "qty": 2,
+          "name": "Large Opal"
+        },
+        {
+          "id": 12800,
+          "qty": 1,
+          "name": "Azerothian Diamond"
+        }
+      ]
+    },
+    "12624": {
+      "name": "Wildthorn Mail",
+      "spell_id": 16650,
+      "output_qty": 1,
+      "skill": 270,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 40,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 2,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 12803,
+          "qty": 4,
+          "name": "Living Essence"
+        },
+        {
+          "id": 8153,
+          "qty": 4,
+          "name": "Wildvine"
+        },
+        {
+          "id": 12364,
+          "qty": 1,
+          "name": "Huge Emerald"
+        }
+      ]
+    },
+    "12625": {
+      "name": "Dawnbringer Shoulders",
+      "spell_id": 16660,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 4,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12364,
+          "qty": 2,
+          "name": "Huge Emerald"
+        },
+        {
+          "id": 7080,
+          "qty": 2,
+          "name": "Essence of Water"
+        }
+      ]
+    },
+    "12628": {
+      "name": "Demon Forged Breastplate",
+      "spell_id": 16667,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 40,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12662,
+          "qty": 10,
+          "name": "Demonic Rune"
+        },
+        {
+          "id": 12361,
+          "qty": 4,
+          "name": "Blue Sapphire"
+        },
+        {
+          "id": 7910,
+          "qty": 4,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "12631": {
+      "name": "Fiery Plate Gauntlets",
+      "spell_id": 16655,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 6,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 7078,
+          "qty": 2,
+          "name": "Essence of Fire"
+        },
+        {
+          "id": 7910,
+          "qty": 4,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "12632": {
+      "name": "Storm Gauntlets",
+      "spell_id": 16661,
+      "output_qty": 1,
+      "skill": 295,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 4,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 7080,
+          "qty": 4,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 12361,
+          "qty": 4,
+          "name": "Blue Sapphire"
+        }
+      ]
+    },
+    "12633": {
+      "name": "Whitesoul Helm",
+      "spell_id": 16724,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 4,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 6,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 3577,
+          "qty": 6,
+          "name": "Gold Bar"
+        },
+        {
+          "id": 12800,
+          "qty": 2,
+          "name": "Azerothian Diamond"
+        }
+      ]
+    },
+    "12636": {
+      "name": "Helm of the Great Chief",
+      "spell_id": 16728,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 40,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 4,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 8168,
+          "qty": 60,
+          "name": "Jet Black Feather"
+        },
+        {
+          "id": 12799,
+          "qty": 6,
+          "name": "Large Opal"
+        },
+        {
+          "id": 12364,
+          "qty": 2,
+          "name": "Huge Emerald"
+        }
+      ]
+    },
+    "12639": {
+      "name": "Stronghold Gauntlets",
+      "spell_id": 16741,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 15,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 20,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 7076,
+          "qty": 10,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 12361,
+          "qty": 4,
+          "name": "Blue Sapphire"
+        },
+        {
+          "id": 12799,
+          "qty": 4,
+          "name": "Large Opal"
+        }
+      ]
+    },
+    "12640": {
+      "name": "Lionheart Helm",
+      "spell_id": 16729,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 80,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 12,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 8146,
+          "qty": 40,
+          "name": "Wicked Claw"
+        },
+        {
+          "id": 12361,
+          "qty": 10,
+          "name": "Blue Sapphire"
+        },
+        {
+          "id": 12800,
+          "qty": 4,
+          "name": "Azerothian Diamond"
+        }
+      ]
+    },
+    "12641": {
+      "name": "Invulnerable Mail",
+      "spell_id": 16746,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 30,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 30,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 12364,
+          "qty": 6,
+          "name": "Huge Emerald"
+        },
+        {
+          "id": 12800,
+          "qty": 6,
+          "name": "Azerothian Diamond"
+        }
+      ]
+    },
+    "12643": {
+      "name": "Dense Weightstone",
+      "spell_id": 16640,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12365,
+          "qty": 1,
+          "name": "Dense Stone"
+        },
+        {
+          "id": 14047,
+          "qty": 1,
+          "name": "Runecloth"
+        }
+      ]
+    },
+    "12644": {
+      "name": "Dense Grinding Stone",
+      "spell_id": 16639,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12365,
+          "qty": 4,
+          "name": "Dense Stone"
+        }
+      ]
+    },
+    "12645": {
+      "name": "Thorium Shield Spike",
+      "spell_id": 16651,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 4,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12644,
+          "qty": 4,
+          "name": "Dense Grinding Stone"
+        },
+        {
+          "id": 7076,
+          "qty": 2,
+          "name": "Essence of Earth"
+        }
+      ]
+    },
+    "12773": {
+      "name": "Ornate Thorium Handaxe",
+      "spell_id": 16969,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12799,
+          "qty": 2,
+          "name": "Large Opal"
+        },
+        {
+          "id": 12644,
+          "qty": 2,
+          "name": "Dense Grinding Stone"
+        },
+        {
+          "id": 8170,
+          "qty": 4,
+          "name": "Rugged Leather"
+        }
+      ]
+    },
+    "12774": {
+      "name": "Dawn's Edge",
+      "spell_id": 16970,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 30,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 4,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 7910,
+          "qty": 4,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 12361,
+          "qty": 4,
+          "name": "Blue Sapphire"
+        },
+        {
+          "id": 12644,
+          "qty": 2,
+          "name": "Dense Grinding Stone"
+        },
+        {
+          "id": 8170,
+          "qty": 4,
+          "name": "Rugged Leather"
+        }
+      ]
+    },
+    "12775": {
+      "name": "Huge Thorium Battleaxe",
+      "spell_id": 16971,
+      "output_qty": 1,
+      "skill": 280,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 40,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12644,
+          "qty": 6,
+          "name": "Dense Grinding Stone"
+        },
+        {
+          "id": 8170,
+          "qty": 6,
+          "name": "Rugged Leather"
+        }
+      ]
+    },
+    "12776": {
+      "name": "Enchanted Battlehammer",
+      "spell_id": 16973,
+      "output_qty": 1,
+      "skill": 280,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 6,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 12364,
+          "qty": 2,
+          "name": "Huge Emerald"
+        },
+        {
+          "id": 12804,
+          "qty": 4,
+          "name": "Powerful Mojo"
+        },
+        {
+          "id": 8170,
+          "qty": 4,
+          "name": "Rugged Leather"
+        }
+      ]
+    },
+    "12777": {
+      "name": "Blazing Rapier",
+      "spell_id": 16978,
+      "output_qty": 1,
+      "skill": 280,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12655,
+          "qty": 10,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 7078,
+          "qty": 4,
+          "name": "Essence of Fire"
+        },
+        {
+          "id": 7077,
+          "qty": 4,
+          "name": "Heart of Fire"
+        },
+        {
+          "id": 12800,
+          "qty": 2,
+          "name": "Azerothian Diamond"
+        },
+        {
+          "id": 12644,
+          "qty": 2,
+          "name": "Dense Grinding Stone"
+        }
+      ]
+    },
+    "12781": {
+      "name": "Serenity",
+      "spell_id": 16983,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12655,
+          "qty": 6,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 2,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12804,
+          "qty": 4,
+          "name": "Powerful Mojo"
+        },
+        {
+          "id": 12799,
+          "qty": 2,
+          "name": "Large Opal"
+        },
+        {
+          "id": 12361,
+          "qty": 2,
+          "name": "Blue Sapphire"
+        },
+        {
+          "id": 12364,
+          "qty": 1,
+          "name": "Huge Emerald"
+        }
+      ]
+    },
+    "12782": {
+      "name": "Corruption",
+      "spell_id": 16985,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 40,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 2,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12662,
+          "qty": 16,
+          "name": "Demonic Rune"
+        },
+        {
+          "id": 12808,
+          "qty": 8,
+          "name": "Essence of Undeath"
+        },
+        {
+          "id": 12361,
+          "qty": 2,
+          "name": "Blue Sapphire"
+        },
+        {
+          "id": 12644,
+          "qty": 2,
+          "name": "Dense Grinding Stone"
+        },
+        {
+          "id": 8170,
+          "qty": 4,
+          "name": "Rugged Leather"
+        }
+      ]
+    },
+    "12783": {
+      "name": "Heartseeker",
+      "spell_id": 16995,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 10,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 10,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 12810,
+          "qty": 2,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 7910,
+          "qty": 6,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 12800,
+          "qty": 6,
+          "name": "Azerothian Diamond"
+        },
+        {
+          "id": 12799,
+          "qty": 6,
+          "name": "Large Opal"
+        },
+        {
+          "id": 12644,
+          "qty": 4,
+          "name": "Dense Grinding Stone"
+        }
+      ]
+    },
+    "12784": {
+      "name": "Arcanite Reaper",
+      "spell_id": 16994,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 20,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12810,
+          "qty": 6,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 12644,
+          "qty": 2,
+          "name": "Dense Grinding Stone"
+        }
+      ]
+    },
+    "12790": {
+      "name": "Arcanite Champion",
+      "spell_id": 16990,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 15,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12800,
+          "qty": 8,
+          "name": "Azerothian Diamond"
+        },
+        {
+          "id": 12811,
+          "qty": 1,
+          "name": "Righteous Orb"
+        },
+        {
+          "id": 12799,
+          "qty": 4,
+          "name": "Large Opal"
+        },
+        {
+          "id": 12810,
+          "qty": 8,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 12644,
+          "qty": 2,
+          "name": "Dense Grinding Stone"
+        }
+      ]
+    },
+    "12792": {
+      "name": "Volcanic Hammer",
+      "spell_id": 16984,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 30,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7077,
+          "qty": 4,
+          "name": "Heart of Fire"
+        },
+        {
+          "id": 7910,
+          "qty": 4,
+          "name": "Star Ruby"
+        },
+        {
+          "id": 8170,
+          "qty": 4,
+          "name": "Rugged Leather"
+        }
+      ]
+    },
+    "12794": {
+      "name": "Masterwork Stormhammer",
+      "spell_id": 16993,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12655,
+          "qty": 20,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 12364,
+          "qty": 8,
+          "name": "Huge Emerald"
+        },
+        {
+          "id": 12799,
+          "qty": 8,
+          "name": "Large Opal"
+        },
+        {
+          "id": 7076,
+          "qty": 6,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 12810,
+          "qty": 4,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "12796": {
+      "name": "Hammer of the Titans",
+      "spell_id": 16988,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 50,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 15,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12809,
+          "qty": 4,
+          "name": "Guardian Stone"
+        },
+        {
+          "id": 12810,
+          "qty": 6,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 7076,
+          "qty": 10,
+          "name": "Essence of Earth"
+        }
+      ]
+    },
+    "12797": {
+      "name": "Frostguard",
+      "spell_id": 16992,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 18,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12361,
+          "qty": 8,
+          "name": "Blue Sapphire"
+        },
+        {
+          "id": 12800,
+          "qty": 8,
+          "name": "Azerothian Diamond"
+        },
+        {
+          "id": 7080,
+          "qty": 4,
+          "name": "Essence of Water"
+        },
+        {
+          "id": 12644,
+          "qty": 2,
+          "name": "Dense Grinding Stone"
+        },
+        {
+          "id": 12810,
+          "qty": 4,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "12798": {
+      "name": "Annihilator",
+      "spell_id": 16991,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 40,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 12,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12808,
+          "qty": 10,
+          "name": "Essence of Undeath"
+        },
+        {
+          "id": 12364,
+          "qty": 8,
+          "name": "Huge Emerald"
+        },
+        {
+          "id": 12644,
+          "qty": 2,
+          "name": "Dense Grinding Stone"
+        },
+        {
+          "id": 12810,
+          "qty": 4,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "15869": {
+      "name": "Silver Skeleton Key",
+      "spell_id": 19666,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2842,
+          "qty": 1,
+          "name": "Silver Bar"
+        },
+        {
+          "id": 3470,
+          "qty": 1,
+          "name": "Rough Grinding Stone"
+        }
+      ]
+    },
+    "15870": {
+      "name": "Golden Skeleton Key",
+      "spell_id": 19667,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3577,
+          "qty": 1,
+          "name": "Gold Bar"
+        },
+        {
+          "id": 3486,
+          "qty": 1,
+          "name": "Heavy Grinding Stone"
+        }
+      ]
+    },
+    "15871": {
+      "name": "Truesilver Skeleton Key",
+      "spell_id": 19668,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6037,
+          "qty": 1,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 7966,
+          "qty": 1,
+          "name": "Solid Grinding Stone"
+        }
+      ]
+    },
+    "15872": {
+      "name": "Arcanite Skeleton Key",
+      "spell_id": 19669,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 1,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12644,
+          "qty": 1,
+          "name": "Dense Grinding Stone"
+        }
+      ]
+    },
+    "16206": {
+      "name": "Arcanite Rod",
+      "spell_id": 20201,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 3,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12644,
+          "qty": 1,
+          "name": "Dense Grinding Stone"
+        }
+      ]
+    },
+    "16988": {
+      "name": "Fiery Chain Shoulders",
+      "spell_id": 20873,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11371,
+          "qty": 16,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 17010,
+          "qty": 4,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 17011,
+          "qty": 5,
+          "name": "Lava Core"
+        }
+      ]
+    },
+    "16989": {
+      "name": "Fiery Chain Girdle",
+      "spell_id": 20872,
+      "output_qty": 1,
+      "skill": 295,
+      "skill_verified": false,
+      "spec": "Ham",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11371,
+          "qty": 6,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 17010,
+          "qty": 3,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 17011,
+          "qty": 3,
+          "name": "Lava Core"
+        }
+      ]
+    },
+    "17013": {
+      "name": "Dark Iron Leggings",
+      "spell_id": 20876,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11371,
+          "qty": 16,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 17010,
+          "qty": 4,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 17011,
+          "qty": 6,
+          "name": "Lava Core"
+        }
+      ]
+    },
+    "17014": {
+      "name": "Dark Iron Bracers",
+      "spell_id": 20874,
+      "output_qty": 1,
+      "skill": 295,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11371,
+          "qty": 4,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 17010,
+          "qty": 2,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 17011,
+          "qty": 2,
+          "name": "Lava Core"
+        }
+      ]
+    },
+    "17015": {
+      "name": "Dark Iron Reaver",
+      "spell_id": 20890,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11371,
+          "qty": 16,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 17010,
+          "qty": 12,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 11382,
+          "qty": 2,
+          "name": "Blood of the Mountain"
+        },
+        {
+          "id": 12810,
+          "qty": 2,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "17016": {
+      "name": "Dark Iron Destroyer",
+      "spell_id": 20897,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11371,
+          "qty": 18,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 17011,
+          "qty": 12,
+          "name": "Lava Core"
+        },
+        {
+          "id": 11382,
+          "qty": 2,
+          "name": "Blood of the Mountain"
+        },
+        {
+          "id": 12810,
+          "qty": 2,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "17193": {
+      "name": "Sulfuron Hammer",
+      "spell_id": 21161,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17203,
+          "qty": 8,
+          "name": "Sulfuron Ingot"
+        },
+        {
+          "id": 11371,
+          "qty": 20,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 50,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 7078,
+          "qty": 25,
+          "name": "Essence of Fire"
+        },
+        {
+          "id": 11382,
+          "qty": 10,
+          "name": "Blood of the Mountain"
+        },
+        {
+          "id": 17011,
+          "qty": 10,
+          "name": "Lava Core"
+        },
+        {
+          "id": 17010,
+          "qty": 10,
+          "name": "Fiery Core"
+        }
+      ]
+    },
+    "17704": {
+      "name": "Edge of Winter",
+      "spell_id": 21913,
+      "output_qty": 1,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3859,
+          "qty": 10,
+          "name": "Steel Bar"
+        },
+        {
+          "id": 3829,
+          "qty": 1,
+          "name": "Frost Oil"
+        },
+        {
+          "id": 7070,
+          "qty": 2,
+          "name": "Elemental Water"
+        },
+        {
+          "id": 7069,
+          "qty": 2,
+          "name": "Elemental Air"
+        },
+        {
+          "id": 4234,
+          "qty": 2,
+          "name": "Heavy Leather"
+        }
+      ]
+    },
+    "18262": {
+      "name": "Elemental Sharpening Stone",
+      "spell_id": 22757,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7067,
+          "qty": 2,
+          "name": "Elemental Earth"
+        },
+        {
+          "id": 12365,
+          "qty": 3,
+          "name": "Dense Stone"
+        }
+      ]
+    },
+    "19043": {
+      "name": "Heavy Timbermaw Belt",
+      "spell_id": 23628,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 12,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 7076,
+          "qty": 3,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 12803,
+          "qty": 3,
+          "name": "Living Essence"
+        }
+      ]
+    },
+    "19048": {
+      "name": "Heavy Timbermaw Boots",
+      "spell_id": 23629,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 4,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 7076,
+          "qty": 6,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 12803,
+          "qty": 6,
+          "name": "Living Essence"
+        }
+      ]
+    },
+    "19051": {
+      "name": "Girdle of the Dawn",
+      "spell_id": 23632,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 8,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 6,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 12811,
+          "qty": 1,
+          "name": "Righteous Orb"
+        }
+      ]
+    },
+    "19057": {
+      "name": "Gloves of the Dawn",
+      "spell_id": 23633,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 2,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 6037,
+          "qty": 10,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 12811,
+          "qty": 1,
+          "name": "Righteous Orb"
+        }
+      ]
+    },
+    "19148": {
+      "name": "Dark Iron Helm",
+      "spell_id": 23636,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17011,
+          "qty": 4,
+          "name": "Lava Core"
+        },
+        {
+          "id": 17010,
+          "qty": 2,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 11371,
+          "qty": 4,
+          "name": "Dark Iron Bar"
+        }
+      ]
+    },
+    "19164": {
+      "name": "Dark Iron Gauntlets",
+      "spell_id": 23637,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17011,
+          "qty": 3,
+          "name": "Lava Core"
+        },
+        {
+          "id": 17010,
+          "qty": 5,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 17012,
+          "qty": 4,
+          "name": "Core Leather"
+        },
+        {
+          "id": 11371,
+          "qty": 4,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 11382,
+          "qty": 2,
+          "name": "Blood of the Mountain"
+        }
+      ]
+    },
+    "19166": {
+      "name": "Black Amnesty",
+      "spell_id": 23638,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17011,
+          "qty": 3,
+          "name": "Lava Core"
+        },
+        {
+          "id": 17010,
+          "qty": 6,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 12360,
+          "qty": 12,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 11382,
+          "qty": 1,
+          "name": "Blood of the Mountain"
+        },
+        {
+          "id": 11371,
+          "qty": 4,
+          "name": "Dark Iron Bar"
+        }
+      ]
+    },
+    "19167": {
+      "name": "Blackfury",
+      "spell_id": 23639,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17011,
+          "qty": 5,
+          "name": "Lava Core"
+        },
+        {
+          "id": 17010,
+          "qty": 2,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 12360,
+          "qty": 16,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 11371,
+          "qty": 6,
+          "name": "Dark Iron Bar"
+        }
+      ]
+    },
+    "19168": {
+      "name": "Blackguard",
+      "spell_id": 23652,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17011,
+          "qty": 6,
+          "name": "Lava Core"
+        },
+        {
+          "id": 17010,
+          "qty": 6,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 12360,
+          "qty": 10,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 11371,
+          "qty": 6,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 12809,
+          "qty": 12,
+          "name": "Guardian Stone"
+        }
+      ]
+    },
+    "19169": {
+      "name": "Nightfall",
+      "spell_id": 23653,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17011,
+          "qty": 8,
+          "name": "Lava Core"
+        },
+        {
+          "id": 17010,
+          "qty": 5,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 12360,
+          "qty": 10,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 11371,
+          "qty": 12,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 12364,
+          "qty": 4,
+          "name": "Huge Emerald"
+        }
+      ]
+    },
+    "19170": {
+      "name": "Ebon Hand",
+      "spell_id": 23650,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17011,
+          "qty": 4,
+          "name": "Lava Core"
+        },
+        {
+          "id": 17010,
+          "qty": 7,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 12360,
+          "qty": 12,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 11371,
+          "qty": 8,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 12800,
+          "qty": 4,
+          "name": "Azerothian Diamond"
+        }
+      ]
+    },
+    "19690": {
+      "name": "Bloodsoul Breastplate",
+      "spell_id": 24136,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 19774,
+          "qty": 10,
+          "name": "Souldarite"
+        },
+        {
+          "id": 19726,
+          "qty": 2,
+          "name": "Bloodvine"
+        },
+        {
+          "id": 7910,
+          "qty": 2,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "19691": {
+      "name": "Bloodsoul Shoulders",
+      "spell_id": 24137,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 16,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 19774,
+          "qty": 8,
+          "name": "Souldarite"
+        },
+        {
+          "id": 19726,
+          "qty": 2,
+          "name": "Bloodvine"
+        },
+        {
+          "id": 7910,
+          "qty": 1,
+          "name": "Star Ruby"
+        }
+      ]
+    },
+    "19692": {
+      "name": "Bloodsoul Gauntlets",
+      "spell_id": 24138,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 12,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 19774,
+          "qty": 6,
+          "name": "Souldarite"
+        },
+        {
+          "id": 19726,
+          "qty": 2,
+          "name": "Bloodvine"
+        },
+        {
+          "id": 12810,
+          "qty": 4,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "19693": {
+      "name": "Darksoul Breastplate",
+      "spell_id": 24139,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 19774,
+          "qty": 14,
+          "name": "Souldarite"
+        },
+        {
+          "id": 12799,
+          "qty": 2,
+          "name": "Large Opal"
+        }
+      ]
+    },
+    "19694": {
+      "name": "Darksoul Leggings",
+      "spell_id": 24140,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 18,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 19774,
+          "qty": 12,
+          "name": "Souldarite"
+        },
+        {
+          "id": 12799,
+          "qty": 2,
+          "name": "Large Opal"
+        }
+      ]
+    },
+    "19695": {
+      "name": "Darksoul Shoulders",
+      "spell_id": 24141,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 16,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 19774,
+          "qty": 10,
+          "name": "Souldarite"
+        },
+        {
+          "id": 12799,
+          "qty": 1,
+          "name": "Large Opal"
+        }
+      ]
+    },
+    "20039": {
+      "name": "Dark Iron Boots",
+      "spell_id": 24399,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 17011,
+          "qty": 3,
+          "name": "Lava Core"
+        },
+        {
+          "id": 17010,
+          "qty": 3,
+          "name": "Fiery Core"
+        },
+        {
+          "id": 17012,
+          "qty": 4,
+          "name": "Core Leather"
+        },
+        {
+          "id": 11371,
+          "qty": 6,
+          "name": "Dark Iron Bar"
+        }
+      ]
+    },
+    "20549": {
+      "name": "Darkrune Gauntlets",
+      "spell_id": 24912,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 12,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 20520,
+          "qty": 6,
+          "name": "Dark Rune"
+        },
+        {
+          "id": 6037,
+          "qty": 6,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 12810,
+          "qty": 2,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "20550": {
+      "name": "Darkrune Breastplate",
+      "spell_id": 24914,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 20,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 20520,
+          "qty": 10,
+          "name": "Dark Rune"
+        },
+        {
+          "id": 6037,
+          "qty": 10,
+          "name": "Truesilver Bar"
+        }
+      ]
+    },
+    "20551": {
+      "name": "Darkrune Helm",
+      "spell_id": 24913,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 16,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 20520,
+          "qty": 8,
+          "name": "Dark Rune"
+        },
+        {
+          "id": 6037,
+          "qty": 8,
+          "name": "Truesilver Bar"
+        },
+        {
+          "id": 11754,
+          "qty": 1,
+          "name": "Black Diamond"
+        }
+      ]
+    },
+    "22191": {
+      "name": "Obsidian Mail Tunic",
+      "spell_id": 27590,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22203,
+          "qty": 15,
+          "name": "Large Obsidian Shard"
+        },
+        {
+          "id": 22202,
+          "qty": 36,
+          "name": "Small Obsidian Shard"
+        },
+        {
+          "id": 12810,
+          "qty": 12,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 12809,
+          "qty": 10,
+          "name": "Guardian Stone"
+        },
+        {
+          "id": 12800,
+          "qty": 4,
+          "name": "Azerothian Diamond"
+        }
+      ]
+    },
+    "22194": {
+      "name": "Black Grasp of the Destroyer",
+      "spell_id": 27589,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22203,
+          "qty": 8,
+          "name": "Large Obsidian Shard"
+        },
+        {
+          "id": 22202,
+          "qty": 24,
+          "name": "Small Obsidian Shard"
+        },
+        {
+          "id": 12810,
+          "qty": 8,
+          "name": "Enchanted Leather"
+        },
+        {
+          "id": 13512,
+          "qty": 1,
+          "name": "Flask of Supreme Power"
+        }
+      ]
+    },
+    "22195": {
+      "name": "Light Obsidian Belt",
+      "spell_id": 27588,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22202,
+          "qty": 14,
+          "name": "Small Obsidian Shard"
+        },
+        {
+          "id": 12810,
+          "qty": 4,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "22196": {
+      "name": "Thick Obsidian Breastplate",
+      "spell_id": 27587,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22203,
+          "qty": 18,
+          "name": "Large Obsidian Shard"
+        },
+        {
+          "id": 22202,
+          "qty": 40,
+          "name": "Small Obsidian Shard"
+        },
+        {
+          "id": 12655,
+          "qty": 12,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 7076,
+          "qty": 10,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 12364,
+          "qty": 4,
+          "name": "Huge Emerald"
+        }
+      ]
+    },
+    "22197": {
+      "name": "Heavy Obsidian Belt",
+      "spell_id": 27585,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22202,
+          "qty": 14,
+          "name": "Small Obsidian Shard"
+        },
+        {
+          "id": 12655,
+          "qty": 4,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 7076,
+          "qty": 2,
+          "name": "Essence of Earth"
+        }
+      ]
+    },
+    "22198": {
+      "name": "Jagged Obsidian Shield",
+      "spell_id": 27586,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22203,
+          "qty": 8,
+          "name": "Large Obsidian Shard"
+        },
+        {
+          "id": 22202,
+          "qty": 24,
+          "name": "Small Obsidian Shard"
+        },
+        {
+          "id": 12655,
+          "qty": 8,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 7076,
+          "qty": 4,
+          "name": "Essence of Earth"
+        }
+      ]
+    },
+    "22383": {
+      "name": "Sageblade",
+      "spell_id": 27832,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 12,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 20725,
+          "qty": 2,
+          "name": "Nexus Crystal"
+        },
+        {
+          "id": 13512,
+          "qty": 2,
+          "name": "Flask of Supreme Power"
+        },
+        {
+          "id": 12810,
+          "qty": 4,
+          "name": "Enchanted Leather"
+        }
+      ]
+    },
+    "22384": {
+      "name": "Persuader",
+      "spell_id": 27830,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 15,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 11371,
+          "qty": 10,
+          "name": "Dark Iron Bar"
+        },
+        {
+          "id": 12808,
+          "qty": 20,
+          "name": "Essence of Undeath"
+        },
+        {
+          "id": 20520,
+          "qty": 20,
+          "name": "Dark Rune"
+        },
+        {
+          "id": 15417,
+          "qty": 10,
+          "name": "Devilsaur Leather"
+        },
+        {
+          "id": 12753,
+          "qty": 2,
+          "name": "Skin of Shadow"
+        }
+      ]
+    },
+    "22385": {
+      "name": "Titanic Leggings",
+      "spell_id": 27829,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12360,
+          "qty": 12,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12655,
+          "qty": 20,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 7076,
+          "qty": 10,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 13510,
+          "qty": 2,
+          "name": "Flask of the Titans"
+        }
+      ]
+    },
+    "22669": {
+      "name": "Icebane Breastplate",
+      "spell_id": 28242,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": "Tribal",
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22682,
+          "qty": 7,
+          "name": "Frozen Rune"
+        },
+        {
+          "id": 12359,
+          "qty": 16,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 2,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 7080,
+          "qty": 4,
+          "name": "Essence of Water"
+        }
+      ]
+    },
+    "22670": {
+      "name": "Icebane Gauntlets",
+      "spell_id": 28243,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22682,
+          "qty": 5,
+          "name": "Frozen Rune"
+        },
+        {
+          "id": 12359,
+          "qty": 12,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 2,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 7080,
+          "qty": 2,
+          "name": "Essence of Water"
+        }
+      ]
+    },
+    "22671": {
+      "name": "Icebane Bracers",
+      "spell_id": 28244,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 22682,
+          "qty": 4,
+          "name": "Frozen Rune"
+        },
+        {
+          "id": 12359,
+          "qty": 12,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12360,
+          "qty": 2,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 7080,
+          "qty": 2,
+          "name": "Essence of Water"
+        }
+      ]
+    },
+    "22762": {
+      "name": "Ironvine Breastplate",
+      "spell_id": 28461,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12655,
+          "qty": 12,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 19726,
+          "qty": 2,
+          "name": "Bloodvine"
+        },
+        {
+          "id": 12360,
+          "qty": 2,
+          "name": "Arcanite Bar"
+        },
+        {
+          "id": 12803,
+          "qty": 2,
+          "name": "Living Essence"
+        }
+      ]
+    },
+    "22763": {
+      "name": "Ironvine Gloves",
+      "spell_id": 28462,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12655,
+          "qty": 8,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 19726,
+          "qty": 1,
+          "name": "Bloodvine"
+        },
+        {
+          "id": 12803,
+          "qty": 2,
+          "name": "Living Essence"
+        }
+      ]
+    },
+    "22764": {
+      "name": "Ironvine Belt",
+      "spell_id": 28463,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12655,
+          "qty": 6,
+          "name": "Enchanted Thorium Bar"
+        },
+        {
+          "id": 12803,
+          "qty": 2,
+          "name": "Living Essence"
+        }
+      ]
+    }
+  }
+}

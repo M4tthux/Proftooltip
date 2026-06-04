@@ -1,4 +1,4 @@
--- Alchemy recipes - Source: wow-classic-items npm
+-- Alchemy recipes — Source: Wowhead Classic XML (item pages) + wow-classic-items npm
 -- WoW Classic Era (Interface 11508)
 
 ProfTooltip_Alchemy = {
@@ -80,13 +80,15 @@ ProfTooltip_Alchemy = {
     },
     [5631] = { name = "Rage Potion", skill = 60, spec = nil,
         components = {
-            { id = 5635,   qty =  2, name = "Sharp Claw" },
+            { id = 5635,   qty =  1, name = "Sharp Claw" },
+            { id = 2450,   qty =  1, name = "Briarthorn" },
             { id = 3371,   qty =  1, name = "Empty Vial" },
         },
     },
     [6370] = { name = "Blackmouth Oil", skill = 80, spec = nil,
         components = {
             { id = 6358,   qty =  2, name = "Oily Blackmouth" },
+            { id = 3371,   qty =  1, name = "Empty Vial" },
         },
     },
     [3383] = { name = "Elixir of Wisdom", skill = 90, spec = nil,
@@ -169,6 +171,7 @@ ProfTooltip_Alchemy = {
     [6371] = { name = "Fire Oil", skill = 130, spec = nil,
         components = {
             { id = 6359,   qty =  2, name = "Firefin Snapper" },
+            { id = 3371,   qty =  1, name = "Empty Vial" },
         },
     },
     [6048] = { name = "Shadow Protection Potion", skill = 135, spec = nil,
@@ -250,6 +253,9 @@ ProfTooltip_Alchemy = {
     },
     [5633] = { name = "Great Rage Potion", skill = 175, spec = nil,
         components = {
+            { id = 5637,   qty =  1, name = "Large Fang" },
+            { id = 3356,   qty =  1, name = "Kingsblood" },
+            { id = 3372,   qty =  1, name = "Leaded Vial" },
             { id = 5637,   qty =  1, name = "Large Fang" },
             { id = 3356,   qty =  1, name = "Kingsblood" },
             { id = 3372,   qty =  1, name = "Leaded Vial" },
@@ -376,11 +382,13 @@ ProfTooltip_Alchemy = {
     },
     [3577] = { name = "Gold Bar", skill = 225, spec = nil,
         components = {
+            { id = 2776,   qty =  1, name = "Gold Ore" },
             { id = 3575,   qty =  1, name = "Iron Bar" },
         },
     },
     [6037] = { name = "Truesilver Bar", skill = 225, spec = nil,
         components = {
+            { id = 7911,   qty =  1, name = "Truesilver Ore" },
             { id = 3860,   qty =  1, name = "Mithril Bar" },
         },
     },
@@ -495,6 +503,7 @@ ProfTooltip_Alchemy = {
     [13423] = { name = "Stonescale Oil", skill = 250, spec = nil,
         components = {
             { id = 13422,  qty =  1, name = "Stonescale Eel" },
+            { id = 3372,   qty =  1, name = "Leaded Vial" },
         },
     },
     [21546] = { name = "Elixir of Greater Firepower", skill = 250, spec = nil,
@@ -533,6 +542,7 @@ ProfTooltip_Alchemy = {
     },
     [7076] = { name = "Essence of Earth", skill = 275, spec = nil,
         components = {
+            { id = 7078,   qty =  1, name = "Essence of Fire" },
             { id = 12803,  qty =  1, name = "Living Essence" },
         },
     },
@@ -543,6 +553,7 @@ ProfTooltip_Alchemy = {
     },
     [7080] = { name = "Essence of Water", skill = 275, spec = nil,
         components = {
+            { id = 7076,   qty =  1, name = "Essence of Earth" },
             { id = 12808,  qty =  1, name = "Essence of Undeath" },
         },
     },
@@ -604,7 +615,7 @@ ProfTooltip_Alchemy = {
     },
     [13455] = { name = "Greater Stoneshield Potion", skill = 280, spec = nil,
         components = {
-            { id = 13423,  qty =  2, name = "Stonescale Oil" },
+            { id = 13423,  qty =  3, name = "Stonescale Oil" },
             { id = 10620,  qty =  1, name = "Thorium Ore" },
             { id = 8925,   qty =  1, name = "Crystal Vial" },
         },
@@ -687,38 +698,40 @@ ProfTooltip_Alchemy = {
     },
     [13506] = { name = "Potion of Petrification", skill = 300, spec = nil,
         components = {
-            { id = 13423,  qty =  7, name = "Stonescale Oil" },
+            { id = 13423,  qty = 30, name = "Stonescale Oil" },
+            { id = 13465,  qty = 10, name = "Mountain Silversage" },
+            { id = 13468,  qty =  1, name = "Black Lotus" },
             { id = 8925,   qty =  1, name = "Crystal Vial" },
         },
     },
     [13510] = { name = "Flask of the Titans", skill = 300, spec = nil,
         components = {
-            { id = 8846,   qty =  7, name = "Gromsblood" },
-            { id = 13423,  qty =  3, name = "Stonescale Oil" },
+            { id = 8846,   qty = 30, name = "Gromsblood" },
+            { id = 13423,  qty = 10, name = "Stonescale Oil" },
             { id = 13468,  qty =  1, name = "Black Lotus" },
             { id = 8925,   qty =  1, name = "Crystal Vial" },
         },
     },
     [13511] = { name = "Flask of Distilled Wisdom", skill = 300, spec = nil,
         components = {
-            { id = 13463,  qty =  7, name = "Dreamfoil" },
-            { id = 13467,  qty =  3, name = "Icecap" },
+            { id = 13463,  qty = 30, name = "Dreamfoil" },
+            { id = 13467,  qty = 10, name = "Icecap" },
             { id = 13468,  qty =  1, name = "Black Lotus" },
             { id = 8925,   qty =  1, name = "Crystal Vial" },
         },
     },
     [13512] = { name = "Flask of Supreme Power", skill = 300, spec = nil,
         components = {
-            { id = 13463,  qty =  7, name = "Dreamfoil" },
-            { id = 13465,  qty =  3, name = "Mountain Silversage" },
+            { id = 13463,  qty = 30, name = "Dreamfoil" },
+            { id = 13465,  qty = 10, name = "Mountain Silversage" },
             { id = 13468,  qty =  1, name = "Black Lotus" },
             { id = 8925,   qty =  1, name = "Crystal Vial" },
         },
     },
     [13513] = { name = "Flask of Chromatic Resistance", skill = 300, spec = nil,
         components = {
-            { id = 13467,  qty =  7, name = "Icecap" },
-            { id = 13465,  qty =  3, name = "Mountain Silversage" },
+            { id = 13467,  qty = 30, name = "Icecap" },
+            { id = 13465,  qty = 10, name = "Mountain Silversage" },
             { id = 13468,  qty =  1, name = "Black Lotus" },
             { id = 8925,   qty =  1, name = "Crystal Vial" },
         },

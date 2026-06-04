@@ -1,0 +1,2751 @@
+{
+  "_meta": {
+    "profession": "Alchemy",
+    "game_version": "WoW Classic Era (1.15.x / interface 11508)",
+    "built": "2026-06-04",
+    "recipe_count": 108,
+    "source": "Wowhead Classic XML (item pages) + wow-classic-items npm",
+    "notes": [
+      "Item list and skill levels come from wow-classic-items npm (filtered: skill≤300, itemId≤23000).",
+      "Reagent IDs, quantities, and names are VERIFIED against Wowhead Classic item XML.",
+      "Spell IDs are VERIFIED against Wowhead Classic.",
+      "Entries with source=\"npm-only\" had no Wowhead <createdBy> section.",
+      "Keyed by OUTPUT ITEM ID."
+    ]
+  },
+  "recipes": {
+    "118": {
+      "name": "Minor Healing Potion",
+      "spell_id": 2330,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2447,
+          "qty": 1,
+          "name": "Peacebloom"
+        },
+        {
+          "id": 765,
+          "qty": 1,
+          "name": "Silverleaf"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "858": {
+      "name": "Lesser Healing Potion",
+      "spell_id": 2337,
+      "output_qty": 1,
+      "skill": 55,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 118,
+          "qty": 1,
+          "name": "Minor Healing Potion"
+        },
+        {
+          "id": 2450,
+          "qty": 1,
+          "name": "Briarthorn"
+        }
+      ]
+    },
+    "929": {
+      "name": "Healing Potion",
+      "spell_id": 3447,
+      "output_qty": 1,
+      "skill": 110,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2453,
+          "qty": 1,
+          "name": "Bruiseweed"
+        },
+        {
+          "id": 2450,
+          "qty": 1,
+          "name": "Briarthorn"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "1710": {
+      "name": "Greater Healing Potion",
+      "spell_id": 7181,
+      "output_qty": 1,
+      "skill": 155,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3357,
+          "qty": 1,
+          "name": "Liferoot"
+        },
+        {
+          "id": 3356,
+          "qty": 1,
+          "name": "Kingsblood"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "2454": {
+      "name": "Elixir of Lion's Strength",
+      "spell_id": 2329,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2449,
+          "qty": 1,
+          "name": "Earthroot"
+        },
+        {
+          "id": 765,
+          "qty": 1,
+          "name": "Silverleaf"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "2455": {
+      "name": "Minor Mana Potion",
+      "spell_id": 2331,
+      "output_qty": 1,
+      "skill": 25,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 785,
+          "qty": 1,
+          "name": "Mageroyal"
+        },
+        {
+          "id": 765,
+          "qty": 1,
+          "name": "Silverleaf"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "2456": {
+      "name": "Minor Rejuvenation Potion",
+      "spell_id": 2332,
+      "output_qty": 1,
+      "skill": 40,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 785,
+          "qty": 2,
+          "name": "Mageroyal"
+        },
+        {
+          "id": 2447,
+          "qty": 1,
+          "name": "Peacebloom"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "2457": {
+      "name": "Elixir of Minor Agility",
+      "spell_id": 3230,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2452,
+          "qty": 1,
+          "name": "Swiftthistle"
+        },
+        {
+          "id": 765,
+          "qty": 1,
+          "name": "Silverleaf"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "2458": {
+      "name": "Elixir of Minor Fortitude",
+      "spell_id": 2334,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2449,
+          "qty": 2,
+          "name": "Earthroot"
+        },
+        {
+          "id": 2447,
+          "qty": 1,
+          "name": "Peacebloom"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "2459": {
+      "name": "Swiftness Potion",
+      "spell_id": 2335,
+      "output_qty": 1,
+      "skill": 60,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2452,
+          "qty": 1,
+          "name": "Swiftthistle"
+        },
+        {
+          "id": 2450,
+          "qty": 1,
+          "name": "Briarthorn"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "3382": {
+      "name": "Weak Troll's Blood Elixir",
+      "spell_id": 3170,
+      "output_qty": 1,
+      "skill": 15,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2447,
+          "qty": 1,
+          "name": "Peacebloom"
+        },
+        {
+          "id": 2449,
+          "qty": 2,
+          "name": "Earthroot"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "3383": {
+      "name": "Elixir of Wisdom",
+      "spell_id": 3171,
+      "output_qty": 1,
+      "skill": 90,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 785,
+          "qty": 1,
+          "name": "Mageroyal"
+        },
+        {
+          "id": 2450,
+          "qty": 2,
+          "name": "Briarthorn"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "3384": {
+      "name": "Minor Magic Resistance Potion",
+      "spell_id": 3172,
+      "output_qty": 1,
+      "skill": 110,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 785,
+          "qty": 3,
+          "name": "Mageroyal"
+        },
+        {
+          "id": 3355,
+          "qty": 1,
+          "name": "Wild Steelbloom"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "3385": {
+      "name": "Lesser Mana Potion",
+      "spell_id": 3173,
+      "output_qty": 1,
+      "skill": 120,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 785,
+          "qty": 1,
+          "name": "Mageroyal"
+        },
+        {
+          "id": 3820,
+          "qty": 1,
+          "name": "Stranglekelp"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "3386": {
+      "name": "Potion of Curing",
+      "spell_id": 3174,
+      "output_qty": 1,
+      "skill": 120,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 1288,
+          "qty": 1,
+          "name": "Large Venom Sac"
+        },
+        {
+          "id": 2453,
+          "qty": 1,
+          "name": "Bruiseweed"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "3387": {
+      "name": "Limited Invulnerability Potion",
+      "spell_id": 3175,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8839,
+          "qty": 2,
+          "name": "Blindweed"
+        },
+        {
+          "id": 8845,
+          "qty": 1,
+          "name": "Ghost Mushroom"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "3388": {
+      "name": "Strong Troll's Blood Elixir",
+      "spell_id": 3176,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2453,
+          "qty": 2,
+          "name": "Bruiseweed"
+        },
+        {
+          "id": 2450,
+          "qty": 2,
+          "name": "Briarthorn"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "3389": {
+      "name": "Elixir of Defense",
+      "spell_id": 3177,
+      "output_qty": 1,
+      "skill": 130,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3355,
+          "qty": 1,
+          "name": "Wild Steelbloom"
+        },
+        {
+          "id": 3820,
+          "qty": 1,
+          "name": "Stranglekelp"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "3390": {
+      "name": "Elixir of Lesser Agility",
+      "spell_id": 2333,
+      "output_qty": 1,
+      "skill": 140,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3355,
+          "qty": 1,
+          "name": "Wild Steelbloom"
+        },
+        {
+          "id": 2452,
+          "qty": 1,
+          "name": "Swiftthistle"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "3391": {
+      "name": "Elixir of Ogre's Strength",
+      "spell_id": 3188,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2449,
+          "qty": 1,
+          "name": "Earthroot"
+        },
+        {
+          "id": 3356,
+          "qty": 1,
+          "name": "Kingsblood"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "3577": {
+      "name": "Gold Bar",
+      "spell_id": 3308,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2776,
+          "qty": 1,
+          "name": "Gold Ore"
+        },
+        {
+          "id": 3575,
+          "qty": 1,
+          "name": "Iron Bar"
+        }
+      ]
+    },
+    "3823": {
+      "name": "Lesser Invisibility Potion",
+      "spell_id": 3448,
+      "output_qty": 1,
+      "skill": 165,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3818,
+          "qty": 1,
+          "name": "Fadeleaf"
+        },
+        {
+          "id": 3355,
+          "qty": 1,
+          "name": "Wild Steelbloom"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "3824": {
+      "name": "Shadow Oil",
+      "spell_id": 3449,
+      "output_qty": 1,
+      "skill": 165,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3818,
+          "qty": 4,
+          "name": "Fadeleaf"
+        },
+        {
+          "id": 3369,
+          "qty": 4,
+          "name": "Grave Moss"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "3825": {
+      "name": "Elixir of Fortitude",
+      "spell_id": 3450,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3355,
+          "qty": 1,
+          "name": "Wild Steelbloom"
+        },
+        {
+          "id": 3821,
+          "qty": 1,
+          "name": "Goldthorn"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "3826": {
+      "name": "Major Troll's Blood Elixir",
+      "spell_id": 3451,
+      "output_qty": 1,
+      "skill": 180,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3357,
+          "qty": 1,
+          "name": "Liferoot"
+        },
+        {
+          "id": 2453,
+          "qty": 1,
+          "name": "Bruiseweed"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "3827": {
+      "name": "Mana Potion",
+      "spell_id": 3452,
+      "output_qty": 1,
+      "skill": 160,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3820,
+          "qty": 1,
+          "name": "Stranglekelp"
+        },
+        {
+          "id": 3356,
+          "qty": 1,
+          "name": "Kingsblood"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "3828": {
+      "name": "Elixir of Detect Lesser Invisibility",
+      "spell_id": 3453,
+      "output_qty": 1,
+      "skill": 195,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3358,
+          "qty": 1,
+          "name": "Khadgar's Whisker"
+        },
+        {
+          "id": 3818,
+          "qty": 1,
+          "name": "Fadeleaf"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "3829": {
+      "name": "Frost Oil",
+      "spell_id": 3454,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3358,
+          "qty": 4,
+          "name": "Khadgar's Whisker"
+        },
+        {
+          "id": 3819,
+          "qty": 2,
+          "name": "Wintersbite"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "3928": {
+      "name": "Superior Healing Potion",
+      "spell_id": 11457,
+      "output_qty": 1,
+      "skill": 215,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8838,
+          "qty": 1,
+          "name": "Sungrass"
+        },
+        {
+          "id": 3358,
+          "qty": 1,
+          "name": "Khadgar's Whisker"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "4596": {
+      "name": "Discolored Healing Potion",
+      "spell_id": 4508,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3164,
+          "qty": 1,
+          "name": "Discolored Worg Heart"
+        },
+        {
+          "id": 2447,
+          "qty": 1,
+          "name": "Peacebloom"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "4623": {
+      "name": "Lesser Stoneshield Potion",
+      "spell_id": 4942,
+      "output_qty": 1,
+      "skill": 215,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3858,
+          "qty": 1,
+          "name": "Mithril Ore"
+        },
+        {
+          "id": 3821,
+          "qty": 1,
+          "name": "Goldthorn"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "5631": {
+      "name": "Rage Potion",
+      "spell_id": 6617,
+      "output_qty": 1,
+      "skill": 60,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5635,
+          "qty": 1,
+          "name": "Sharp Claw"
+        },
+        {
+          "id": 2450,
+          "qty": 1,
+          "name": "Briarthorn"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "5633": {
+      "name": "Great Rage Potion",
+      "spell_id": 6618,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5637,
+          "qty": 1,
+          "name": "Large Fang"
+        },
+        {
+          "id": 3356,
+          "qty": 1,
+          "name": "Kingsblood"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        },
+        {
+          "id": 5637,
+          "qty": 1,
+          "name": "Large Fang"
+        },
+        {
+          "id": 3356,
+          "qty": 1,
+          "name": "Kingsblood"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "5634": {
+      "name": "Free Action Potion",
+      "spell_id": 6624,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6370,
+          "qty": 2,
+          "name": "Blackmouth Oil"
+        },
+        {
+          "id": 3820,
+          "qty": 1,
+          "name": "Stranglekelp"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "5996": {
+      "name": "Elixir of Water Breathing",
+      "spell_id": 7179,
+      "output_qty": 1,
+      "skill": 90,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3820,
+          "qty": 1,
+          "name": "Stranglekelp"
+        },
+        {
+          "id": 6370,
+          "qty": 2,
+          "name": "Blackmouth Oil"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "5997": {
+      "name": "Elixir of Minor Defense",
+      "spell_id": 7183,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 765,
+          "qty": 2,
+          "name": "Silverleaf"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "6037": {
+      "name": "Truesilver Bar",
+      "spell_id": 10098,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7911,
+          "qty": 1,
+          "name": "Truesilver Ore"
+        },
+        {
+          "id": 3860,
+          "qty": 1,
+          "name": "Mithril Bar"
+        }
+      ]
+    },
+    "6048": {
+      "name": "Shadow Protection Potion",
+      "spell_id": 7256,
+      "output_qty": 1,
+      "skill": 135,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3369,
+          "qty": 1,
+          "name": "Grave Moss"
+        },
+        {
+          "id": 3356,
+          "qty": 1,
+          "name": "Kingsblood"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "6049": {
+      "name": "Fire Protection Potion",
+      "spell_id": 7257,
+      "output_qty": 1,
+      "skill": 165,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4402,
+          "qty": 1,
+          "name": "Small Flame Sac"
+        },
+        {
+          "id": 6371,
+          "qty": 1,
+          "name": "Fire Oil"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "6050": {
+      "name": "Frost Protection Potion",
+      "spell_id": 7258,
+      "output_qty": 1,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3819,
+          "qty": 1,
+          "name": "Wintersbite"
+        },
+        {
+          "id": 3821,
+          "qty": 1,
+          "name": "Goldthorn"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "6051": {
+      "name": "Holy Protection Potion",
+      "spell_id": 7255,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2453,
+          "qty": 1,
+          "name": "Bruiseweed"
+        },
+        {
+          "id": 2452,
+          "qty": 1,
+          "name": "Swiftthistle"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "6052": {
+      "name": "Nature Protection Potion",
+      "spell_id": 7259,
+      "output_qty": 1,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3357,
+          "qty": 1,
+          "name": "Liferoot"
+        },
+        {
+          "id": 3820,
+          "qty": 1,
+          "name": "Stranglekelp"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "6149": {
+      "name": "Greater Mana Potion",
+      "spell_id": 11448,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3358,
+          "qty": 1,
+          "name": "Khadgar's Whisker"
+        },
+        {
+          "id": 3821,
+          "qty": 1,
+          "name": "Goldthorn"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "6370": {
+      "name": "Blackmouth Oil",
+      "spell_id": 7836,
+      "output_qty": 1,
+      "skill": 80,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6358,
+          "qty": 2,
+          "name": "Oily Blackmouth"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "6371": {
+      "name": "Fire Oil",
+      "spell_id": 7837,
+      "output_qty": 1,
+      "skill": 130,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6359,
+          "qty": 2,
+          "name": "Firefin Snapper"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "6372": {
+      "name": "Swim Speed Potion",
+      "spell_id": 7841,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2452,
+          "qty": 1,
+          "name": "Swiftthistle"
+        },
+        {
+          "id": 6370,
+          "qty": 1,
+          "name": "Blackmouth Oil"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "6373": {
+      "name": "Elixir of Firepower",
+      "spell_id": 7845,
+      "output_qty": 1,
+      "skill": 140,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6371,
+          "qty": 2,
+          "name": "Fire Oil"
+        },
+        {
+          "id": 3356,
+          "qty": 1,
+          "name": "Kingsblood"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "6662": {
+      "name": "Elixir of Giant Growth",
+      "spell_id": 8240,
+      "output_qty": 1,
+      "skill": 90,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6522,
+          "qty": 1,
+          "name": "Deviate Fish"
+        },
+        {
+          "id": 2449,
+          "qty": 1,
+          "name": "Earthroot"
+        },
+        {
+          "id": 3371,
+          "qty": 1,
+          "name": "Empty Vial"
+        }
+      ]
+    },
+    "7068": {
+      "name": "Elemental Fire",
+      "spell_id": 25146,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7077,
+          "qty": 1,
+          "name": "Heart of Fire"
+        }
+      ]
+    },
+    "7076": {
+      "name": "Essence of Earth",
+      "spell_id": 17560,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7078,
+          "qty": 1,
+          "name": "Essence of Fire"
+        },
+        {
+          "id": 12803,
+          "qty": 1,
+          "name": "Living Essence"
+        }
+      ]
+    },
+    "7078": {
+      "name": "Essence of Fire",
+      "spell_id": 17559,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7082,
+          "qty": 1,
+          "name": "Essence of Air"
+        }
+      ]
+    },
+    "7080": {
+      "name": "Essence of Water",
+      "spell_id": 17561,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7076,
+          "qty": 1,
+          "name": "Essence of Earth"
+        },
+        {
+          "id": 12808,
+          "qty": 1,
+          "name": "Essence of Undeath"
+        }
+      ]
+    },
+    "7082": {
+      "name": "Essence of Air",
+      "spell_id": 17562,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7080,
+          "qty": 1,
+          "name": "Essence of Water"
+        }
+      ]
+    },
+    "8949": {
+      "name": "Elixir of Agility",
+      "spell_id": 11449,
+      "output_qty": 1,
+      "skill": 185,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3820,
+          "qty": 1,
+          "name": "Stranglekelp"
+        },
+        {
+          "id": 3821,
+          "qty": 1,
+          "name": "Goldthorn"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "8951": {
+      "name": "Elixir of Greater Defense",
+      "spell_id": 11450,
+      "output_qty": 1,
+      "skill": 195,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3355,
+          "qty": 1,
+          "name": "Wild Steelbloom"
+        },
+        {
+          "id": 3821,
+          "qty": 1,
+          "name": "Goldthorn"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "8956": {
+      "name": "Oil of Immolation",
+      "spell_id": 11451,
+      "output_qty": 1,
+      "skill": 205,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4625,
+          "qty": 1,
+          "name": "Firebloom"
+        },
+        {
+          "id": 3821,
+          "qty": 1,
+          "name": "Goldthorn"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9030": {
+      "name": "Restorative Potion",
+      "spell_id": 11452,
+      "output_qty": 1,
+      "skill": 215,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7067,
+          "qty": 1,
+          "name": "Elemental Earth"
+        },
+        {
+          "id": 3821,
+          "qty": 1,
+          "name": "Goldthorn"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9036": {
+      "name": "Magic Resistance Potion",
+      "spell_id": 11453,
+      "output_qty": 1,
+      "skill": 210,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3358,
+          "qty": 1,
+          "name": "Khadgar's Whisker"
+        },
+        {
+          "id": 8831,
+          "qty": 1,
+          "name": "Purple Lotus"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9061": {
+      "name": "Goblin Rocket Fuel",
+      "spell_id": 11456,
+      "output_qty": 1,
+      "skill": 210,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4625,
+          "qty": 1,
+          "name": "Firebloom"
+        },
+        {
+          "id": 9260,
+          "qty": 1,
+          "name": "Volatile Rum"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "9088": {
+      "name": "Gift of Arthas",
+      "spell_id": 11466,
+      "output_qty": 1,
+      "skill": 240,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8836,
+          "qty": 1,
+          "name": "Arthas' Tears"
+        },
+        {
+          "id": 8839,
+          "qty": 1,
+          "name": "Blindweed"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9144": {
+      "name": "Wildvine Potion",
+      "spell_id": 11458,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8153,
+          "qty": 1,
+          "name": "Wildvine"
+        },
+        {
+          "id": 8831,
+          "qty": 1,
+          "name": "Purple Lotus"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9149": {
+      "name": "Philosopher's Stone",
+      "spell_id": 11459,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3575,
+          "qty": 4,
+          "name": "Iron Bar"
+        },
+        {
+          "id": 9262,
+          "qty": 1,
+          "name": "Black Vitriol"
+        },
+        {
+          "id": 8831,
+          "qty": 4,
+          "name": "Purple Lotus"
+        },
+        {
+          "id": 4625,
+          "qty": 4,
+          "name": "Firebloom"
+        }
+      ]
+    },
+    "9154": {
+      "name": "Elixir of Detect Undead",
+      "spell_id": 11460,
+      "output_qty": 1,
+      "skill": 230,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8836,
+          "qty": 1,
+          "name": "Arthas' Tears"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9155": {
+      "name": "Arcane Elixir",
+      "spell_id": 11461,
+      "output_qty": 1,
+      "skill": 235,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8839,
+          "qty": 1,
+          "name": "Blindweed"
+        },
+        {
+          "id": 3821,
+          "qty": 1,
+          "name": "Goldthorn"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9172": {
+      "name": "Invisibility Potion",
+      "spell_id": 11464,
+      "output_qty": 1,
+      "skill": 235,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8845,
+          "qty": 1,
+          "name": "Ghost Mushroom"
+        },
+        {
+          "id": 8838,
+          "qty": 1,
+          "name": "Sungrass"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9179": {
+      "name": "Elixir of Greater Intellect",
+      "spell_id": 11465,
+      "output_qty": 1,
+      "skill": 235,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8839,
+          "qty": 1,
+          "name": "Blindweed"
+        },
+        {
+          "id": 3358,
+          "qty": 1,
+          "name": "Khadgar's Whisker"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9187": {
+      "name": "Elixir of Greater Agility",
+      "spell_id": 11467,
+      "output_qty": 1,
+      "skill": 240,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8838,
+          "qty": 1,
+          "name": "Sungrass"
+        },
+        {
+          "id": 3821,
+          "qty": 1,
+          "name": "Goldthorn"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9197": {
+      "name": "Elixir of Dream Vision",
+      "spell_id": 11468,
+      "output_qty": 1,
+      "skill": 240,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8831,
+          "qty": 3,
+          "name": "Purple Lotus"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9206": {
+      "name": "Elixir of Giants",
+      "spell_id": 11472,
+      "output_qty": 1,
+      "skill": 245,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8838,
+          "qty": 1,
+          "name": "Sungrass"
+        },
+        {
+          "id": 8846,
+          "qty": 1,
+          "name": "Gromsblood"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9210": {
+      "name": "Ghost Dye",
+      "spell_id": 11473,
+      "output_qty": 1,
+      "skill": 245,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8845,
+          "qty": 2,
+          "name": "Ghost Mushroom"
+        },
+        {
+          "id": 4342,
+          "qty": 1,
+          "name": "Purple Dye"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9224": {
+      "name": "Elixir of Demonslaying",
+      "spell_id": 11477,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8846,
+          "qty": 1,
+          "name": "Gromsblood"
+        },
+        {
+          "id": 8845,
+          "qty": 1,
+          "name": "Ghost Mushroom"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9233": {
+      "name": "Elixir of Detect Demon",
+      "spell_id": 11478,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8846,
+          "qty": 2,
+          "name": "Gromsblood"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "9264": {
+      "name": "Elixir of Shadow Power",
+      "spell_id": 11476,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8845,
+          "qty": 3,
+          "name": "Ghost Mushroom"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "10592": {
+      "name": "Catseye Elixir",
+      "spell_id": 12609,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3821,
+          "qty": 1,
+          "name": "Goldthorn"
+        },
+        {
+          "id": 3818,
+          "qty": 1,
+          "name": "Fadeleaf"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "12190": {
+      "name": "Dreamless Sleep Potion",
+      "spell_id": 15833,
+      "output_qty": 1,
+      "skill": 230,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8831,
+          "qty": 3,
+          "name": "Purple Lotus"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "12360": {
+      "name": "Arcanite Bar",
+      "spell_id": 17187,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12359,
+          "qty": 1,
+          "name": "Thorium Bar"
+        },
+        {
+          "id": 12363,
+          "qty": 1,
+          "name": "Arcane Crystal"
+        }
+      ]
+    },
+    "12803": {
+      "name": "Living Essence",
+      "spell_id": 17566,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7076,
+          "qty": 1,
+          "name": "Essence of Earth"
+        }
+      ]
+    },
+    "12808": {
+      "name": "Essence of Undeath",
+      "spell_id": 17564,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7080,
+          "qty": 1,
+          "name": "Essence of Water"
+        }
+      ]
+    },
+    "13423": {
+      "name": "Stonescale Oil",
+      "spell_id": 17551,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13422,
+          "qty": 1,
+          "name": "Stonescale Eel"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "13442": {
+      "name": "Mighty Rage Potion",
+      "spell_id": 17552,
+      "output_qty": 1,
+      "skill": 255,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8846,
+          "qty": 3,
+          "name": "Gromsblood"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13443": {
+      "name": "Superior Mana Potion",
+      "spell_id": 17553,
+      "output_qty": 1,
+      "skill": 260,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8838,
+          "qty": 2,
+          "name": "Sungrass"
+        },
+        {
+          "id": 8839,
+          "qty": 2,
+          "name": "Blindweed"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13444": {
+      "name": "Major Mana Potion",
+      "spell_id": 17580,
+      "output_qty": 1,
+      "skill": 295,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13463,
+          "qty": 3,
+          "name": "Dreamfoil"
+        },
+        {
+          "id": 13467,
+          "qty": 2,
+          "name": "Icecap"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13445": {
+      "name": "Elixir of Superior Defense",
+      "spell_id": 17554,
+      "output_qty": 1,
+      "skill": 265,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13423,
+          "qty": 2,
+          "name": "Stonescale Oil"
+        },
+        {
+          "id": 8838,
+          "qty": 1,
+          "name": "Sungrass"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13446": {
+      "name": "Major Healing Potion",
+      "spell_id": 17556,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13464,
+          "qty": 2,
+          "name": "Golden Sansam"
+        },
+        {
+          "id": 13465,
+          "qty": 1,
+          "name": "Mountain Silversage"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13447": {
+      "name": "Elixir of the Sages",
+      "spell_id": 17555,
+      "output_qty": 1,
+      "skill": 270,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13463,
+          "qty": 1,
+          "name": "Dreamfoil"
+        },
+        {
+          "id": 13466,
+          "qty": 2,
+          "name": "Plaguebloom"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13452": {
+      "name": "Elixir of the Mongoose",
+      "spell_id": 17571,
+      "output_qty": 1,
+      "skill": 280,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13465,
+          "qty": 2,
+          "name": "Mountain Silversage"
+        },
+        {
+          "id": 13466,
+          "qty": 2,
+          "name": "Plaguebloom"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13453": {
+      "name": "Elixir of Brute Force",
+      "spell_id": 17557,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8846,
+          "qty": 2,
+          "name": "Gromsblood"
+        },
+        {
+          "id": 13466,
+          "qty": 2,
+          "name": "Plaguebloom"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13454": {
+      "name": "Greater Arcane Elixir",
+      "spell_id": 17573,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13463,
+          "qty": 3,
+          "name": "Dreamfoil"
+        },
+        {
+          "id": 13465,
+          "qty": 1,
+          "name": "Mountain Silversage"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13455": {
+      "name": "Greater Stoneshield Potion",
+      "spell_id": 17570,
+      "output_qty": 1,
+      "skill": 280,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13423,
+          "qty": 3,
+          "name": "Stonescale Oil"
+        },
+        {
+          "id": 10620,
+          "qty": 1,
+          "name": "Thorium Ore"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13456": {
+      "name": "Greater Frost Protection Potion",
+      "spell_id": 17575,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7070,
+          "qty": 1,
+          "name": "Elemental Water"
+        },
+        {
+          "id": 13463,
+          "qty": 1,
+          "name": "Dreamfoil"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13457": {
+      "name": "Greater Fire Protection Potion",
+      "spell_id": 17574,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7068,
+          "qty": 1,
+          "name": "Elemental Fire"
+        },
+        {
+          "id": 13463,
+          "qty": 1,
+          "name": "Dreamfoil"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13458": {
+      "name": "Greater Nature Protection Potion",
+      "spell_id": 17576,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7067,
+          "qty": 1,
+          "name": "Elemental Earth"
+        },
+        {
+          "id": 13463,
+          "qty": 1,
+          "name": "Dreamfoil"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13459": {
+      "name": "Greater Shadow Protection Potion",
+      "spell_id": 17578,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3824,
+          "qty": 1,
+          "name": "Shadow Oil"
+        },
+        {
+          "id": 13463,
+          "qty": 1,
+          "name": "Dreamfoil"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13461": {
+      "name": "Greater Arcane Protection Potion",
+      "spell_id": 17577,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 11176,
+          "qty": 1,
+          "name": "Dream Dust"
+        },
+        {
+          "id": 13463,
+          "qty": 1,
+          "name": "Dreamfoil"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13462": {
+      "name": "Purification Potion",
+      "spell_id": 17572,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13467,
+          "qty": 2,
+          "name": "Icecap"
+        },
+        {
+          "id": 13466,
+          "qty": 2,
+          "name": "Plaguebloom"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13506": {
+      "name": "Potion of Petrification",
+      "spell_id": 17634,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13423,
+          "qty": 30,
+          "name": "Stonescale Oil"
+        },
+        {
+          "id": 13465,
+          "qty": 10,
+          "name": "Mountain Silversage"
+        },
+        {
+          "id": 13468,
+          "qty": 1,
+          "name": "Black Lotus"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13510": {
+      "name": "Flask of the Titans",
+      "spell_id": 17635,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8846,
+          "qty": 30,
+          "name": "Gromsblood"
+        },
+        {
+          "id": 13423,
+          "qty": 10,
+          "name": "Stonescale Oil"
+        },
+        {
+          "id": 13468,
+          "qty": 1,
+          "name": "Black Lotus"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13511": {
+      "name": "Flask of Distilled Wisdom",
+      "spell_id": 17636,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13463,
+          "qty": 30,
+          "name": "Dreamfoil"
+        },
+        {
+          "id": 13467,
+          "qty": 10,
+          "name": "Icecap"
+        },
+        {
+          "id": 13468,
+          "qty": 1,
+          "name": "Black Lotus"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13512": {
+      "name": "Flask of Supreme Power",
+      "spell_id": 17637,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13463,
+          "qty": 30,
+          "name": "Dreamfoil"
+        },
+        {
+          "id": 13465,
+          "qty": 10,
+          "name": "Mountain Silversage"
+        },
+        {
+          "id": 13468,
+          "qty": 1,
+          "name": "Black Lotus"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "13513": {
+      "name": "Flask of Chromatic Resistance",
+      "spell_id": 17638,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13467,
+          "qty": 30,
+          "name": "Icecap"
+        },
+        {
+          "id": 13465,
+          "qty": 10,
+          "name": "Mountain Silversage"
+        },
+        {
+          "id": 13468,
+          "qty": 1,
+          "name": "Black Lotus"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "17708": {
+      "name": "Elixir of Frost Power",
+      "spell_id": 21923,
+      "output_qty": 1,
+      "skill": 190,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3819,
+          "qty": 2,
+          "name": "Wintersbite"
+        },
+        {
+          "id": 3358,
+          "qty": 1,
+          "name": "Khadgar's Whisker"
+        },
+        {
+          "id": 3372,
+          "qty": 1,
+          "name": "Leaded Vial"
+        }
+      ]
+    },
+    "18253": {
+      "name": "Major Rejuvenation Potion",
+      "spell_id": 22732,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 10286,
+          "qty": 1,
+          "name": "Heart of the Wild"
+        },
+        {
+          "id": 13464,
+          "qty": 4,
+          "name": "Golden Sansam"
+        },
+        {
+          "id": 13463,
+          "qty": 4,
+          "name": "Dreamfoil"
+        },
+        {
+          "id": 18256,
+          "qty": 1,
+          "name": "Imbued Vial"
+        }
+      ]
+    },
+    "18294": {
+      "name": "Elixir of Greater Water Breathing",
+      "spell_id": 22808,
+      "output_qty": 1,
+      "skill": 215,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7972,
+          "qty": 1,
+          "name": "Ichor of Undeath"
+        },
+        {
+          "id": 8831,
+          "qty": 2,
+          "name": "Purple Lotus"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "20002": {
+      "name": "Greater Dreamless Sleep Potion",
+      "spell_id": 24366,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13463,
+          "qty": 2,
+          "name": "Dreamfoil"
+        },
+        {
+          "id": 13464,
+          "qty": 1,
+          "name": "Golden Sansam"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "20004": {
+      "name": "Mighty Troll's Blood Elixir",
+      "spell_id": 24368,
+      "output_qty": 1,
+      "skill": 290,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8846,
+          "qty": 1,
+          "name": "Gromsblood"
+        },
+        {
+          "id": 13466,
+          "qty": 2,
+          "name": "Plaguebloom"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "20007": {
+      "name": "Mageblood Elixir",
+      "spell_id": 24365,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13463,
+          "qty": 1,
+          "name": "Dreamfoil"
+        },
+        {
+          "id": 13466,
+          "qty": 2,
+          "name": "Plaguebloom"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "20008": {
+      "name": "Living Action Potion",
+      "spell_id": 24367,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13467,
+          "qty": 2,
+          "name": "Icecap"
+        },
+        {
+          "id": 13465,
+          "qty": 2,
+          "name": "Mountain Silversage"
+        },
+        {
+          "id": 10286,
+          "qty": 2,
+          "name": "Heart of the Wild"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    },
+    "21546": {
+      "name": "Elixir of Greater Firepower",
+      "spell_id": 26277,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6371,
+          "qty": 3,
+          "name": "Fire Oil"
+        },
+        {
+          "id": 4625,
+          "qty": 3,
+          "name": "Firebloom"
+        },
+        {
+          "id": 8925,
+          "qty": 1,
+          "name": "Crystal Vial"
+        }
+      ]
+    }
+  }
+}

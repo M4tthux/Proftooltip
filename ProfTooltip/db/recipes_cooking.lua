@@ -1,4 +1,4 @@
--- Cooking recipes - Source: wow-classic-items npm
+-- Cooking recipes — Source: Wowhead Classic XML (item pages) + wow-classic-items npm
 -- WoW Classic Era (Interface 11508)
 
 ProfTooltip_Cooking = {
@@ -26,11 +26,13 @@ ProfTooltip_Cooking = {
     [6888] = { name = "Herb Baked Egg", skill = 1, spec = nil,
         components = {
             { id = 6889,   qty =  1, name = "Small Egg" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [12224] = { name = "Crispy Bat Wing", skill = 1, spec = nil,
         components = {
             { id = 12223,  qty =  1, name = "Meaty Bat Wing" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [17197] = { name = "Gingerbread Cookie", skill = 1, spec = nil,
@@ -42,6 +44,7 @@ ProfTooltip_Cooking = {
     [2680] = { name = "Spiced Wolf Meat", skill = 10, spec = nil,
         components = {
             { id = 2672,   qty =  1, name = "Stringy Wolf Meat" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [5472] = { name = "Kaldorei Spider Kabob", skill = 10, spec = nil,
@@ -57,11 +60,13 @@ ProfTooltip_Cooking = {
     [2888] = { name = "Beer Basted Boar Ribs", skill = 25, spec = nil,
         components = {
             { id = 2886,   qty =  1, name = "Crag Boar Rib" },
+            { id = 2894,   qty =  1, name = "Rhapsody Malt" },
         },
     },
     [5474] = { name = "Roasted Kodo Meat", skill = 35, spec = nil,
         components = {
             { id = 5467,   qty =  1, name = "Kodo Meat" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [17198] = { name = "Egg Nog", skill = 35, spec = nil,
@@ -80,6 +85,7 @@ ProfTooltip_Cooking = {
     [724] = { name = "Goretusk Liver Pie", skill = 50, spec = nil,
         components = {
             { id = 723,    qty =  1, name = "Goretusk Liver" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [2684] = { name = "Coyote Steak", skill = 50, spec = nil,
@@ -100,11 +106,13 @@ ProfTooltip_Cooking = {
     [5476] = { name = "Fillet of Frenzy", skill = 50, spec = nil,
         components = {
             { id = 5468,   qty =  1, name = "Soft Frenzy Flesh" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [5477] = { name = "Strider Stew", skill = 50, spec = nil,
         components = {
             { id = 5469,   qty =  1, name = "Strider Meat" },
+            { id = 4536,   qty =  1, name = "Shiny Red Apple" },
         },
     },
     [5525] = { name = "Boiled Clams", skill = 50, spec = nil,
@@ -116,6 +124,7 @@ ProfTooltip_Cooking = {
     [6316] = { name = "Loch Frenzy Delight", skill = 50, spec = nil,
         components = {
             { id = 6317,   qty =  1, name = "Raw Loch Frenzy" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [3220] = { name = "Blood Sausage", skill = 60, spec = nil,
@@ -146,36 +155,43 @@ ProfTooltip_Cooking = {
     [2683] = { name = "Crab Cake", skill = 75, spec = nil,
         components = {
             { id = 2674,   qty =  1, name = "Crawler Meat" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [2687] = { name = "Dry Pork Ribs", skill = 80, spec = nil,
         components = {
             { id = 2677,   qty =  1, name = "Boar Ribs" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [3662] = { name = "Crocolisk Steak", skill = 80, spec = nil,
         components = {
             { id = 2924,   qty =  1, name = "Crocolisk Meat" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [21072] = { name = "Smoked Sagefish", skill = 80, spec = nil,
         components = {
             { id = 21071,  qty =  1, name = "Raw Sagefish" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [2682] = { name = "Cooked Crab Claw", skill = 85, spec = nil,
         components = {
             { id = 2675,   qty =  1, name = "Crawler Claw" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [6657] = { name = "Savory Deviate Delight", skill = 85, spec = nil,
         components = {
             { id = 6522,   qty =  1, name = "Deviate Fish" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [3663] = { name = "Murloc Fin Soup", skill = 90, spec = nil,
         components = {
             { id = 1468,   qty =  2, name = "Murloc Fin" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [5478] = { name = "Dig Rat Stew", skill = 90, spec = nil,
@@ -187,11 +203,13 @@ ProfTooltip_Cooking = {
         components = {
             { id = 5503,   qty =  1, name = "Clam Meat" },
             { id = 1179,   qty =  1, name = "Ice Cold Milk" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [1017] = { name = "Seasoned Wolf Kabob", skill = 100, spec = nil,
         components = {
             { id = 1015,   qty =  2, name = "Lean Wolf Flank" },
+            { id = 2665,   qty =  1, name = "Stormwind Seasoning Herbs" },
         },
     },
     [1082] = { name = "Redridge Goulash", skill = 100, spec = nil,
@@ -208,71 +226,85 @@ ProfTooltip_Cooking = {
     [5479] = { name = "Crispy Lizard Tail", skill = 100, spec = nil,
         components = {
             { id = 5470,   qty =  1, name = "Thunder Lizard Tail" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [2685] = { name = "Succulent Pork Ribs", skill = 110, spec = nil,
         components = {
             { id = 2677,   qty =  2, name = "Boar Ribs" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [3666] = { name = "Gooey Spider Cake", skill = 110, spec = nil,
         components = {
             { id = 2251,   qty =  2, name = "Gooey Spider Leg" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [3726] = { name = "Big Bear Steak", skill = 110, spec = nil,
         components = {
             { id = 3730,   qty =  1, name = "Big Bear Meat" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [5480] = { name = "Lean Venison", skill = 110, spec = nil,
         components = {
             { id = 5471,   qty =  1, name = "Stag Meat" },
+            { id = 2678,   qty =  4, name = "Mild Spices" },
         },
     },
     [3664] = { name = "Crocolisk Gumbo", skill = 120, spec = nil,
         components = {
             { id = 3667,   qty =  1, name = "Tender Crocolisk Meat" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [3727] = { name = "Hot Lion Chops", skill = 125, spec = nil,
         components = {
             { id = 3731,   qty =  1, name = "Lion Meat" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [5527] = { name = "Goblin Deviled Clams", skill = 125, spec = nil,
         components = {
             { id = 5504,   qty =  1, name = "Tangy Clam Meat" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [12209] = { name = "Lean Wolf Steak", skill = 125, spec = nil,
         components = {
             { id = 1015,   qty =  1, name = "Lean Wolf Flank" },
+            { id = 2678,   qty =  1, name = "Mild Spices" },
         },
     },
     [3665] = { name = "Curiously Tasty Omelet", skill = 130, spec = nil,
         components = {
             { id = 3685,   qty =  1, name = "Raptor Egg" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [3728] = { name = "Tasty Lion Steak", skill = 150, spec = nil,
         components = {
             { id = 3731,   qty =  2, name = "Lion Meat" },
+            { id = 3713,   qty =  1, name = "Soothing Spices" },
         },
     },
     [20074] = { name = "Heavy Crocolisk Stew", skill = 150, spec = nil,
         components = {
             { id = 3667,   qty =  2, name = "Tender Crocolisk Meat" },
+            { id = 3713,   qty =  1, name = "Soothing Spices" },
         },
     },
     [3729] = { name = "Soothing Turtle Bisque", skill = 175, spec = nil,
         components = {
             { id = 3712,   qty =  1, name = "Turtle Meat" },
+            { id = 3713,   qty =  1, name = "Soothing Spices" },
         },
     },
     [4457] = { name = "Barbecued Buzzard Wing", skill = 175, spec = nil,
         components = {
             { id = 3404,   qty =  1, name = "Buzzard Wing" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [4594] = { name = "Rockscale Cod", skill = 175, spec = nil,
@@ -283,6 +315,7 @@ ProfTooltip_Cooking = {
     [6038] = { name = "Giant Clam Scorcho", skill = 175, spec = nil,
         components = {
             { id = 4655,   qty =  1, name = "Giant Clam Meat" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [8364] = { name = "Mithril Head Trout", skill = 175, spec = nil,
@@ -299,17 +332,20 @@ ProfTooltip_Cooking = {
     [12210] = { name = "Roast Raptor", skill = 175, spec = nil,
         components = {
             { id = 12184,  qty =  1, name = "Raptor Flesh" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [12212] = { name = "Jungle Stew", skill = 175, spec = nil,
         components = {
             { id = 12202,  qty =  1, name = "Tiger Meat" },
             { id = 159,    qty =  1, name = "Refreshing Spring Water" },
+            { id = 4536,   qty =  2, name = "Shiny Red Apple" },
         },
     },
     [12213] = { name = "Carrion Surprise", skill = 175, spec = nil,
         components = {
             { id = 12037,  qty =  1, name = "Mystery Meat" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [12214] = { name = "Mystery Stew", skill = 175, spec = nil,
@@ -321,22 +357,27 @@ ProfTooltip_Cooking = {
     [13851] = { name = "Hot Wolf Ribs", skill = 175, spec = nil,
         components = {
             { id = 12203,  qty =  1, name = "Red Wolf Meat" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [21217] = { name = "Sagefish Delight", skill = 175, spec = nil,
         components = {
             { id = 21153,  qty =  1, name = "Raw Greater Sagefish" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [12215] = { name = "Heavy Kodo Stew", skill = 200, spec = nil,
         components = {
             { id = 12204,  qty =  2, name = "Heavy Kodo Meat" },
+            { id = 3713,   qty =  1, name = "Soothing Spices" },
+            { id = 159,    qty =  1, name = "Refreshing Spring Water" },
         },
     },
     [12217] = { name = "Dragonbreath Chili", skill = 200, spec = nil,
         components = {
             { id = 12037,  qty =  1, name = "Mystery Meat" },
             { id = 4402,   qty =  1, name = "Small Flame Sac" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
         },
     },
     [17222] = { name = "Spider Sausage", skill = 200, spec = nil,
@@ -352,16 +393,19 @@ ProfTooltip_Cooking = {
     [12216] = { name = "Spiced Chili Crab", skill = 225, spec = nil,
         components = {
             { id = 12206,  qty =  1, name = "Tender Crab Meat" },
+            { id = 2692,   qty =  2, name = "Hot Spices" },
         },
     },
     [12218] = { name = "Monster Omelet", skill = 225, spec = nil,
         components = {
             { id = 12207,  qty =  1, name = "Giant Egg" },
+            { id = 3713,   qty =  2, name = "Soothing Spices" },
         },
     },
     [13927] = { name = "Cooked Glossy Mightfish", skill = 225, spec = nil,
         components = {
             { id = 13754,  qty =  1, name = "Raw Glossy Mightfish" },
+            { id = 3713,   qty =  1, name = "Soothing Spices" },
         },
     },
     [13930] = { name = "Filet of Redgill", skill = 225, spec = nil,
@@ -372,25 +416,32 @@ ProfTooltip_Cooking = {
     [16766] = { name = "Undermine Clam Chowder", skill = 225, spec = nil,
         components = {
             { id = 7974,   qty =  2, name = "Zesty Clam Meat" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
+            { id = 1179,   qty =  1, name = "Ice Cold Milk" },
         },
     },
     [18045] = { name = "Tender Wolf Steak", skill = 225, spec = nil,
         components = {
             { id = 12208,  qty =  1, name = "Tender Wolf Meat" },
+            { id = 3713,   qty =  1, name = "Soothing Spices" },
         },
     },
     [13928] = { name = "Grilled Squid", skill = 240, spec = nil,
         components = {
             { id = 13755,  qty =  1, name = "Winter Squid" },
+            { id = 3713,   qty =  1, name = "Soothing Spices" },
         },
     },
     [13929] = { name = "Hot Smoked Bass", skill = 240, spec = nil,
         components = {
             { id = 13756,  qty =  1, name = "Raw Summer Bass" },
+            { id = 2692,   qty =  2, name = "Hot Spices" },
         },
     },
     [13931] = { name = "Nightfin Soup", skill = 250, spec = nil,
         components = {
+            { id = 13759,  qty =  1, name = "Raw Nightfin Snapper" },
+            { id = 159,    qty =  1, name = "Refreshing Spring Water" },
             { id = 13759,  qty =  1, name = "Raw Nightfin Snapper" },
             { id = 159,    qty =  1, name = "Refreshing Spring Water" },
         },
@@ -409,28 +460,36 @@ ProfTooltip_Cooking = {
     [13934] = { name = "Mightfish Steak", skill = 275, spec = nil,
         components = {
             { id = 13893,  qty =  1, name = "Large Raw Mightfish" },
+            { id = 2692,   qty =  1, name = "Hot Spices" },
+            { id = 3713,   qty =  1, name = "Soothing Spices" },
         },
     },
     [13935] = { name = "Baked Salmon", skill = 275, spec = nil,
         components = {
             { id = 13889,  qty =  1, name = "Raw Whitescale Salmon" },
+            { id = 3713,   qty =  1, name = "Soothing Spices" },
         },
     },
     [18254] = { name = "Runn Tum Tuber Surprise", skill = 275, spec = nil,
         components = {
             { id = 18255,  qty =  1, name = "Runn Tum Tuber" },
+            { id = 3713,   qty =  1, name = "Soothing Spices" },
         },
     },
     [20452] = { name = "Smoked Desert Dumplings", skill = 285, spec = nil,
         components = {
             { id = 20424,  qty =  1, name = "Sandworm Meat" },
+            { id = 3713,   qty =  1, name = "Soothing Spices" },
         },
     },
     [21023] = { name = "Dirge's Kickin' Chimaerok Chops", skill = 300, spec = nil,
         components = {
+            { id = 2692,   qty =  1, name = "Hot Spices" },
             { id = 9061,   qty =  1, name = "Goblin Rocket Fuel" },
             { id = 8150,   qty =  1, name = "Deeprock Salt" },
             { id = 21024,  qty =  1, name = "Chimaerok Tenderloin" },
+            { id = 12207,  qty =  1, name = "Giant Egg" },
+            { id = 3713,   qty =  2, name = "Soothing Spices" },
         },
     },
 }

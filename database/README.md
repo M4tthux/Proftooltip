@@ -13,11 +13,13 @@ by hand).
 
 | Profession | File | Status |
 |---|---|---|
-| Engineering | `engineering.json` | ✅ Built — reagents verified vs Wowhead Classic. Skill levels NOT yet verified. |
-| Alchemy | `alchemy.json` | ⏳ Pending (needs a one-time Wowhead Classic pass) |
-| Blacksmithing | `blacksmithing.json` | ⏳ Pending |
-| Herbalism (herbs) | `herbs.json` | ⏳ Pending |
-| Mining (ores) | `ores.json` | ⏳ Pending |
+| Alchemy | `alchemy.json` | ✅ Built — reagents + spell IDs verified vs Wowhead Classic (108 recipes) |
+| Blacksmithing | `blacksmithing.json` | ✅ Built — reagents + spell IDs verified vs Wowhead Classic (240 recipes) |
+| Engineering | `engineering.json` | ✅ Built — reagents verified vs Wowhead Classic. Skill levels NOT yet verified. (164 recipes) |
+| Leatherworking | `leatherworking.json` | ✅ Built — reagents + spell IDs verified vs Wowhead Classic (233 recipes) |
+| Tailoring | `tailoring.json` | ✅ Built — 226/227 verified vs Wowhead Classic |
+| Cooking | `cooking.json` | ✅ Built — 81/82 verified vs Wowhead Classic |
+| First Aid | `first_aid.json` | ✅ Built — reagents + spell IDs verified vs Wowhead Classic (13 recipes) |
 
 ## What "verified" means here
 
@@ -55,8 +57,16 @@ by hand).
 - Corrected **36** engineering recipes with wrong reagents/quantities.
 - See `../ENGINEERING_DB_REPORT.md` for the full diff.
 
+## How to rebuild
+
+```bash
+node scrape.js          # fetch all professions from Wowhead Classic (1.5s/request, ~4min each)
+node scrape.js Alchemy  # fetch one profession
+node generate.js        # convert JSON → Lua for all professions
+node sync.js            # copy addon to WoW installation folder
+```
+
 ## TODO
 
-- One-time Wowhead Classic pass to build alchemy / blacksmithing / herbs / ores.
-- Verify engineering skill levels (set `skill_verified: true` once done).
-- Generator script: `*.json` → addon `ProfTooltip/db/*.lua`.
+- Verify Engineering skill levels (set `skill_verified: true` once done).
+- Enchanting: not yet in JSON pipeline (uses manually written `recipes_enchanting.lua`).

@@ -1,0 +1,1725 @@
+{
+  "_meta": {
+    "profession": "Cooking",
+    "game_version": "WoW Classic Era (1.15.x / interface 11508)",
+    "built": "2026-06-04",
+    "recipe_count": 82,
+    "source": "Wowhead Classic XML (item pages) + wow-classic-items npm",
+    "notes": [
+      "Item list and skill levels come from wow-classic-items npm (filtered: skill≤300, itemId≤23000).",
+      "Reagent IDs, quantities, and names are VERIFIED against Wowhead Classic item XML.",
+      "Spell IDs are VERIFIED against Wowhead Classic.",
+      "Entries with source=\"npm-only\" had no Wowhead <createdBy> section.",
+      "Keyed by OUTPUT ITEM ID."
+    ]
+  },
+  "recipes": {
+    "724": {
+      "name": "Goretusk Liver Pie",
+      "spell_id": 2542,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 723,
+          "qty": 1,
+          "name": "Goretusk Liver"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "733": {
+      "name": "Westfall Stew",
+      "spell_id": 2543,
+      "output_qty": 1,
+      "skill": 75,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 729,
+          "qty": 1,
+          "name": "Stringy Vulture Meat"
+        },
+        {
+          "id": 730,
+          "qty": 1,
+          "name": "Murloc Eye"
+        },
+        {
+          "id": 731,
+          "qty": 1,
+          "name": "Goretusk Snout"
+        }
+      ]
+    },
+    "787": {
+      "name": "Slitherskin Mackerel",
+      "spell_id": 7752,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6303,
+          "qty": 1,
+          "name": "Raw Slitherskin Mackerel"
+        }
+      ]
+    },
+    "1017": {
+      "name": "Seasoned Wolf Kabob",
+      "spell_id": 2549,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 1015,
+          "qty": 2,
+          "name": "Lean Wolf Flank"
+        },
+        {
+          "id": 2665,
+          "qty": 1,
+          "name": "Stormwind Seasoning Herbs"
+        }
+      ]
+    },
+    "1082": {
+      "name": "Redridge Goulash",
+      "spell_id": 2547,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 1081,
+          "qty": 1,
+          "name": "Crisp Spider Meat"
+        },
+        {
+          "id": 1080,
+          "qty": 1,
+          "name": "Tough Condor Meat"
+        }
+      ]
+    },
+    "2679": {
+      "name": "Charred Wolf Meat",
+      "spell_id": 2538,
+      "output_qty": 1,
+      "skill": 0,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2672,
+          "qty": 1,
+          "name": "Stringy Wolf Meat"
+        }
+      ]
+    },
+    "2680": {
+      "name": "Spiced Wolf Meat",
+      "spell_id": 2539,
+      "output_qty": 1,
+      "skill": 10,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2672,
+          "qty": 1,
+          "name": "Stringy Wolf Meat"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "2681": {
+      "name": "Roasted Boar Meat",
+      "spell_id": 2540,
+      "output_qty": 1,
+      "skill": 0,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 769,
+          "qty": 1,
+          "name": "Chunk of Boar Meat"
+        }
+      ]
+    },
+    "2682": {
+      "name": "Cooked Crab Claw",
+      "spell_id": 2545,
+      "output_qty": 1,
+      "skill": 85,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2675,
+          "qty": 1,
+          "name": "Crawler Claw"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "2683": {
+      "name": "Crab Cake",
+      "spell_id": 2544,
+      "output_qty": 1,
+      "skill": 75,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2674,
+          "qty": 1,
+          "name": "Crawler Meat"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "2684": {
+      "name": "Coyote Steak",
+      "spell_id": 2541,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2673,
+          "qty": 1,
+          "name": "Coyote Meat"
+        }
+      ]
+    },
+    "2685": {
+      "name": "Succulent Pork Ribs",
+      "spell_id": 2548,
+      "output_qty": 1,
+      "skill": 110,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2677,
+          "qty": 2,
+          "name": "Boar Ribs"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "2687": {
+      "name": "Dry Pork Ribs",
+      "spell_id": 2546,
+      "output_qty": 1,
+      "skill": 80,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2677,
+          "qty": 1,
+          "name": "Boar Ribs"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "2888": {
+      "name": "Beer Basted Boar Ribs",
+      "spell_id": 2795,
+      "output_qty": 1,
+      "skill": 25,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2886,
+          "qty": 1,
+          "name": "Crag Boar Rib"
+        },
+        {
+          "id": 2894,
+          "qty": 1,
+          "name": "Rhapsody Malt"
+        }
+      ]
+    },
+    "3220": {
+      "name": "Blood Sausage",
+      "spell_id": 3371,
+      "output_qty": 1,
+      "skill": 60,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3173,
+          "qty": 1,
+          "name": "Bear Meat"
+        },
+        {
+          "id": 3172,
+          "qty": 1,
+          "name": "Boar Intestines"
+        },
+        {
+          "id": 3174,
+          "qty": 1,
+          "name": "Spider Ichor"
+        }
+      ]
+    },
+    "3662": {
+      "name": "Crocolisk Steak",
+      "spell_id": 3370,
+      "output_qty": 1,
+      "skill": 80,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2924,
+          "qty": 1,
+          "name": "Crocolisk Meat"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "3663": {
+      "name": "Murloc Fin Soup",
+      "spell_id": 3372,
+      "output_qty": 1,
+      "skill": 90,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 1468,
+          "qty": 2,
+          "name": "Murloc Fin"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "3664": {
+      "name": "Crocolisk Gumbo",
+      "spell_id": 3373,
+      "output_qty": 1,
+      "skill": 120,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3667,
+          "qty": 1,
+          "name": "Tender Crocolisk Meat"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "3665": {
+      "name": "Curiously Tasty Omelet",
+      "spell_id": 3376,
+      "output_qty": 1,
+      "skill": 130,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3685,
+          "qty": 1,
+          "name": "Raptor Egg"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "3666": {
+      "name": "Gooey Spider Cake",
+      "spell_id": 3377,
+      "output_qty": 1,
+      "skill": 110,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2251,
+          "qty": 2,
+          "name": "Gooey Spider Leg"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "3726": {
+      "name": "Big Bear Steak",
+      "spell_id": 3397,
+      "output_qty": 1,
+      "skill": 110,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3730,
+          "qty": 1,
+          "name": "Big Bear Meat"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "3727": {
+      "name": "Hot Lion Chops",
+      "spell_id": 3398,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3731,
+          "qty": 1,
+          "name": "Lion Meat"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "3728": {
+      "name": "Tasty Lion Steak",
+      "spell_id": 3399,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3731,
+          "qty": 2,
+          "name": "Lion Meat"
+        },
+        {
+          "id": 3713,
+          "qty": 1,
+          "name": "Soothing Spices"
+        }
+      ]
+    },
+    "3729": {
+      "name": "Soothing Turtle Bisque",
+      "spell_id": 3400,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3712,
+          "qty": 1,
+          "name": "Turtle Meat"
+        },
+        {
+          "id": 3713,
+          "qty": 1,
+          "name": "Soothing Spices"
+        }
+      ]
+    },
+    "4457": {
+      "name": "Barbecued Buzzard Wing",
+      "spell_id": 4094,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3404,
+          "qty": 1,
+          "name": "Buzzard Wing"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "4592": {
+      "name": "Longjaw Mud Snapper",
+      "spell_id": 7753,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6289,
+          "qty": 1,
+          "name": "Raw Longjaw Mud Snapper"
+        }
+      ]
+    },
+    "4593": {
+      "name": "Bristle Whisker Catfish",
+      "spell_id": 7755,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6308,
+          "qty": 1,
+          "name": "Raw Bristle Whisker Catfish"
+        }
+      ]
+    },
+    "4594": {
+      "name": "Rockscale Cod",
+      "spell_id": 7828,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6362,
+          "qty": 1,
+          "name": "Raw Rockscale Cod"
+        }
+      ]
+    },
+    "5095": {
+      "name": "Rainbow Fin Albacore",
+      "spell_id": 7827,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6361,
+          "qty": 1,
+          "name": "Raw Rainbow Fin Albacore"
+        }
+      ]
+    },
+    "5472": {
+      "name": "Kaldorei Spider Kabob",
+      "spell_id": 6412,
+      "output_qty": 1,
+      "skill": 10,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5465,
+          "qty": 1,
+          "name": "Small Spider Leg"
+        }
+      ]
+    },
+    "5473": {
+      "name": "Scorpid Surprise",
+      "spell_id": 6413,
+      "output_qty": 1,
+      "skill": 20,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5466,
+          "qty": 1,
+          "name": "Scorpid Stinger"
+        }
+      ]
+    },
+    "5474": {
+      "name": "Roasted Kodo Meat",
+      "spell_id": 6414,
+      "output_qty": 1,
+      "skill": 35,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5467,
+          "qty": 1,
+          "name": "Kodo Meat"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "5476": {
+      "name": "Fillet of Frenzy",
+      "spell_id": 6415,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5468,
+          "qty": 1,
+          "name": "Soft Frenzy Flesh"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "5477": {
+      "name": "Strider Stew",
+      "spell_id": 6416,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5469,
+          "qty": 1,
+          "name": "Strider Meat"
+        },
+        {
+          "id": 4536,
+          "qty": 1,
+          "name": "Shiny Red Apple"
+        }
+      ]
+    },
+    "5478": {
+      "name": "Dig Rat Stew",
+      "spell_id": 6417,
+      "output_qty": 1,
+      "skill": 90,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5051,
+          "qty": 1,
+          "name": "Dig Rat"
+        }
+      ]
+    },
+    "5479": {
+      "name": "Crispy Lizard Tail",
+      "spell_id": 6418,
+      "output_qty": 1,
+      "skill": 100,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5470,
+          "qty": 1,
+          "name": "Thunder Lizard Tail"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "5480": {
+      "name": "Lean Venison",
+      "spell_id": 6419,
+      "output_qty": 1,
+      "skill": 110,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5471,
+          "qty": 1,
+          "name": "Stag Meat"
+        },
+        {
+          "id": 2678,
+          "qty": 4,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "5525": {
+      "name": "Boiled Clams",
+      "spell_id": 6499,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5503,
+          "qty": 1,
+          "name": "Clam Meat"
+        },
+        {
+          "id": 159,
+          "qty": 1,
+          "name": "Refreshing Spring Water"
+        }
+      ]
+    },
+    "5526": {
+      "name": "Clam Chowder",
+      "spell_id": 6501,
+      "output_qty": 1,
+      "skill": 90,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5503,
+          "qty": 1,
+          "name": "Clam Meat"
+        },
+        {
+          "id": 1179,
+          "qty": 1,
+          "name": "Ice Cold Milk"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "5527": {
+      "name": "Goblin Deviled Clams",
+      "spell_id": 6500,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 5504,
+          "qty": 1,
+          "name": "Tangy Clam Meat"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "6038": {
+      "name": "Giant Clam Scorcho",
+      "spell_id": 7213,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4655,
+          "qty": 1,
+          "name": "Giant Clam Meat"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "6290": {
+      "name": "Brilliant Smallfish",
+      "spell_id": 7751,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6291,
+          "qty": 1,
+          "name": "Raw Brilliant Smallfish"
+        }
+      ]
+    },
+    "6316": {
+      "name": "Loch Frenzy Delight",
+      "spell_id": 7754,
+      "output_qty": 1,
+      "skill": 50,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6317,
+          "qty": 1,
+          "name": "Raw Loch Frenzy"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "6657": {
+      "name": "Savory Deviate Delight",
+      "spell_id": 8238,
+      "output_qty": 1,
+      "skill": 85,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6522,
+          "qty": 1,
+          "name": "Deviate Fish"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "6887": {
+      "name": "Spotted Yellowtail",
+      "spell_id": 18238,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 4603,
+          "qty": 1,
+          "name": "Raw Spotted Yellowtail"
+        }
+      ]
+    },
+    "6888": {
+      "name": "Herb Baked Egg",
+      "spell_id": 8604,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6889,
+          "qty": 1,
+          "name": "Small Egg"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "6890": {
+      "name": "Smoked Bear Meat",
+      "spell_id": 8607,
+      "output_qty": 1,
+      "skill": 40,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3173,
+          "qty": 1,
+          "name": "Bear Meat"
+        }
+      ]
+    },
+    "7676": {
+      "name": "Thistle Tea",
+      "spell_id": 9513,
+      "output_qty": 1,
+      "skill": 60,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2452,
+          "qty": 1,
+          "name": "Swiftthistle"
+        },
+        {
+          "id": 159,
+          "qty": 1,
+          "name": "Refreshing Spring Water"
+        }
+      ]
+    },
+    "8364": {
+      "name": "Mithril Head Trout",
+      "spell_id": 20916,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 8365,
+          "qty": 1,
+          "name": "Raw Mithril Head Trout"
+        }
+      ]
+    },
+    "10841": {
+      "name": "Goldthorn Tea",
+      "spell_id": 13028,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3821,
+          "qty": 1,
+          "name": "Goldthorn"
+        },
+        {
+          "id": 159,
+          "qty": 1,
+          "name": "Refreshing Spring Water"
+        }
+      ]
+    },
+    "12209": {
+      "name": "Lean Wolf Steak",
+      "spell_id": 15853,
+      "output_qty": 1,
+      "skill": 125,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 1015,
+          "qty": 1,
+          "name": "Lean Wolf Flank"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "12210": {
+      "name": "Roast Raptor",
+      "spell_id": 15855,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12184,
+          "qty": 1,
+          "name": "Raptor Flesh"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "12212": {
+      "name": "Jungle Stew",
+      "spell_id": 15861,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12202,
+          "qty": 1,
+          "name": "Tiger Meat"
+        },
+        {
+          "id": 159,
+          "qty": 1,
+          "name": "Refreshing Spring Water"
+        },
+        {
+          "id": 4536,
+          "qty": 2,
+          "name": "Shiny Red Apple"
+        }
+      ]
+    },
+    "12213": {
+      "name": "Carrion Surprise",
+      "spell_id": 15863,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12037,
+          "qty": 1,
+          "name": "Mystery Meat"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "12214": {
+      "name": "Mystery Stew",
+      "spell_id": 15865,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12037,
+          "qty": 1,
+          "name": "Mystery Meat"
+        },
+        {
+          "id": 2596,
+          "qty": 1,
+          "name": "Skin of Dwarven Stout"
+        }
+      ]
+    },
+    "12215": {
+      "name": "Heavy Kodo Stew",
+      "spell_id": 15910,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12204,
+          "qty": 2,
+          "name": "Heavy Kodo Meat"
+        },
+        {
+          "id": 3713,
+          "qty": 1,
+          "name": "Soothing Spices"
+        },
+        {
+          "id": 159,
+          "qty": 1,
+          "name": "Refreshing Spring Water"
+        }
+      ]
+    },
+    "12216": {
+      "name": "Spiced Chili Crab",
+      "spell_id": 15915,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12206,
+          "qty": 1,
+          "name": "Tender Crab Meat"
+        },
+        {
+          "id": 2692,
+          "qty": 2,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "12217": {
+      "name": "Dragonbreath Chili",
+      "spell_id": 15906,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12037,
+          "qty": 1,
+          "name": "Mystery Meat"
+        },
+        {
+          "id": 4402,
+          "qty": 1,
+          "name": "Small Flame Sac"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "12218": {
+      "name": "Monster Omelet",
+      "spell_id": 15933,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12207,
+          "qty": 1,
+          "name": "Giant Egg"
+        },
+        {
+          "id": 3713,
+          "qty": 2,
+          "name": "Soothing Spices"
+        }
+      ]
+    },
+    "12224": {
+      "name": "Crispy Bat Wing",
+      "spell_id": 15935,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12223,
+          "qty": 1,
+          "name": "Meaty Bat Wing"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "13851": {
+      "name": "Hot Wolf Ribs",
+      "spell_id": 15856,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12203,
+          "qty": 1,
+          "name": "Red Wolf Meat"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "13927": {
+      "name": "Cooked Glossy Mightfish",
+      "spell_id": 18239,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13754,
+          "qty": 1,
+          "name": "Raw Glossy Mightfish"
+        },
+        {
+          "id": 3713,
+          "qty": 1,
+          "name": "Soothing Spices"
+        }
+      ]
+    },
+    "13928": {
+      "name": "Grilled Squid",
+      "spell_id": 18240,
+      "output_qty": 1,
+      "skill": 240,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13755,
+          "qty": 1,
+          "name": "Winter Squid"
+        },
+        {
+          "id": 3713,
+          "qty": 1,
+          "name": "Soothing Spices"
+        }
+      ]
+    },
+    "13929": {
+      "name": "Hot Smoked Bass",
+      "spell_id": 18242,
+      "output_qty": 1,
+      "skill": 240,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13756,
+          "qty": 1,
+          "name": "Raw Summer Bass"
+        },
+        {
+          "id": 2692,
+          "qty": 2,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "13930": {
+      "name": "Filet of Redgill",
+      "spell_id": 18241,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13758,
+          "qty": 1,
+          "name": "Raw Redgill"
+        }
+      ]
+    },
+    "13931": {
+      "name": "Nightfin Soup",
+      "spell_id": 18243,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13759,
+          "qty": 1,
+          "name": "Raw Nightfin Snapper"
+        },
+        {
+          "id": 159,
+          "qty": 1,
+          "name": "Refreshing Spring Water"
+        },
+        {
+          "id": 13759,
+          "qty": 1,
+          "name": "Raw Nightfin Snapper"
+        },
+        {
+          "id": 159,
+          "qty": 1,
+          "name": "Refreshing Spring Water"
+        }
+      ]
+    },
+    "13932": {
+      "name": "Poached Sunscale Salmon",
+      "spell_id": 18244,
+      "output_qty": 1,
+      "skill": 250,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13760,
+          "qty": 1,
+          "name": "Raw Sunscale Salmon"
+        }
+      ]
+    },
+    "13933": {
+      "name": "Lobster Stew",
+      "spell_id": 18245,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13888,
+          "qty": 1,
+          "name": "Darkclaw Lobster"
+        },
+        {
+          "id": 159,
+          "qty": 1,
+          "name": "Refreshing Spring Water"
+        }
+      ]
+    },
+    "13934": {
+      "name": "Mightfish Steak",
+      "spell_id": 18246,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13893,
+          "qty": 1,
+          "name": "Large Raw Mightfish"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        },
+        {
+          "id": 3713,
+          "qty": 1,
+          "name": "Soothing Spices"
+        }
+      ]
+    },
+    "13935": {
+      "name": "Baked Salmon",
+      "spell_id": 18247,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 13889,
+          "qty": 1,
+          "name": "Raw Whitescale Salmon"
+        },
+        {
+          "id": 3713,
+          "qty": 1,
+          "name": "Soothing Spices"
+        }
+      ]
+    },
+    "16766": {
+      "name": "Undermine Clam Chowder",
+      "spell_id": 20626,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 7974,
+          "qty": 2,
+          "name": "Zesty Clam Meat"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        },
+        {
+          "id": 1179,
+          "qty": 1,
+          "name": "Ice Cold Milk"
+        }
+      ]
+    },
+    "17197": {
+      "name": "Gingerbread Cookie",
+      "spell_id": 21143,
+      "output_qty": 1,
+      "skill": 1,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6889,
+          "qty": 1,
+          "name": "Small Egg"
+        },
+        {
+          "id": 17194,
+          "qty": 1,
+          "name": "Holiday Spices"
+        }
+      ]
+    },
+    "17198": {
+      "name": "Egg Nog",
+      "spell_id": 21144,
+      "output_qty": 1,
+      "skill": 35,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 6889,
+          "qty": 1,
+          "name": "Small Egg"
+        },
+        {
+          "id": 1179,
+          "qty": 1,
+          "name": "Ice Cold Milk"
+        },
+        {
+          "id": 17196,
+          "qty": 1,
+          "name": "Holiday Spirits"
+        },
+        {
+          "id": 17194,
+          "qty": 1,
+          "name": "Holiday Spices"
+        }
+      ]
+    },
+    "17222": {
+      "name": "Spider Sausage",
+      "spell_id": 21175,
+      "output_qty": 1,
+      "skill": 200,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12205,
+          "qty": 2,
+          "name": "White Spider Meat"
+        }
+      ]
+    },
+    "18045": {
+      "name": "Tender Wolf Steak",
+      "spell_id": 22480,
+      "output_qty": 1,
+      "skill": 225,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 12208,
+          "qty": 1,
+          "name": "Tender Wolf Meat"
+        },
+        {
+          "id": 3713,
+          "qty": 1,
+          "name": "Soothing Spices"
+        }
+      ]
+    },
+    "18254": {
+      "name": "Runn Tum Tuber Surprise",
+      "spell_id": 22761,
+      "output_qty": 1,
+      "skill": 275,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 18255,
+          "qty": 1,
+          "name": "Runn Tum Tuber"
+        },
+        {
+          "id": 3713,
+          "qty": 1,
+          "name": "Soothing Spices"
+        }
+      ]
+    },
+    "20074": {
+      "name": "Heavy Crocolisk Stew",
+      "spell_id": 24418,
+      "output_qty": 1,
+      "skill": 150,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 3667,
+          "qty": 2,
+          "name": "Tender Crocolisk Meat"
+        },
+        {
+          "id": 3713,
+          "qty": 1,
+          "name": "Soothing Spices"
+        }
+      ]
+    },
+    "20452": {
+      "name": "Smoked Desert Dumplings",
+      "spell_id": 24801,
+      "output_qty": 1,
+      "skill": 285,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 20424,
+          "qty": 1,
+          "name": "Sandworm Meat"
+        },
+        {
+          "id": 3713,
+          "qty": 1,
+          "name": "Soothing Spices"
+        }
+      ]
+    },
+    "21023": {
+      "name": "Dirge's Kickin' Chimaerok Chops",
+      "spell_id": 25659,
+      "output_qty": 1,
+      "skill": 300,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        },
+        {
+          "id": 9061,
+          "qty": 1,
+          "name": "Goblin Rocket Fuel"
+        },
+        {
+          "id": 8150,
+          "qty": 1,
+          "name": "Deeprock Salt"
+        },
+        {
+          "id": 21024,
+          "qty": 1,
+          "name": "Chimaerok Tenderloin"
+        },
+        {
+          "id": 12207,
+          "qty": 1,
+          "name": "Giant Egg"
+        },
+        {
+          "id": 3713,
+          "qty": 2,
+          "name": "Soothing Spices"
+        }
+      ]
+    },
+    "21072": {
+      "name": "Smoked Sagefish",
+      "spell_id": 25704,
+      "output_qty": 1,
+      "skill": 80,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 21071,
+          "qty": 1,
+          "name": "Raw Sagefish"
+        },
+        {
+          "id": 2678,
+          "qty": 1,
+          "name": "Mild Spices"
+        }
+      ]
+    },
+    "21217": {
+      "name": "Sagefish Delight",
+      "spell_id": 25954,
+      "output_qty": 1,
+      "skill": 175,
+      "skill_verified": false,
+      "spec": null,
+      "source": "wowhead-classic",
+      "reagents": [
+        {
+          "id": 21153,
+          "qty": 1,
+          "name": "Raw Greater Sagefish"
+        },
+        {
+          "id": 2692,
+          "qty": 1,
+          "name": "Hot Spices"
+        }
+      ]
+    },
+    "22645": {
+      "name": "Crunchy Spider Surprise",
+      "spell_id": null,
+      "output_qty": 1,
+      "skill": 60,
+      "skill_verified": false,
+      "spec": null,
+      "source": "npm-only",
+      "reagents": [
+        {
+          "id": 22644,
+          "qty": 1,
+          "name": "Crunchy Spider Leg"
+        }
+      ]
+    }
+  }
+}
