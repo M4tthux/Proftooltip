@@ -27,6 +27,7 @@ const PROFESSIONS = {
     'First Aid':      { json: 'first_aid.json',      luaVar: 'ProfTooltip_FirstAid',       file: 'recipes_first_aid.lua' },
     'Enchanting':     { json: 'enchanting.json',     luaVar: 'ProfTooltip_Enchanting',     file: 'recipes_enchanting.lua', format: 'reagent-index' },
     'Mining':         { json: 'ores.json',          luaVar: 'ProfTooltip_Ores',          file: 'ores.lua',               format: 'reagent-index' },
+    'Herbalism':      { json: 'herbs.json',         luaVar: 'ProfTooltip_Herbs',         file: 'herbs.lua',              format: 'reagent-index' },
 };
 
 // ── Generator ─────────────────────────────────────────────────────────────────

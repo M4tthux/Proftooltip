@@ -1,19 +1,11 @@
--- Herb database - Source: wow-classic-items npm
+-- Herbalism reagents — Source: addon-unverified
+-- WoW Classic Era (Interface 11508)
+-- Format: item ID → { skill, name, uses = { list of uses } }
 
 ProfTooltip_Herbs = {
-    [2447] = {
-        skill = 1, name = "Peacebloom",
-        uses  = {
-            "Discolored Healing Potion",
-            "Elixir of Minor Fortitude",
-            "Minor Healing Potion",
-            "Minor Rejuvenation Potion",
-            "Weak Troll's Blood Elixir",
-        },
-    },
-    [765] = {
-        skill = 1, name = "Silverleaf",
-        uses  = {
+
+    [765] = { skill = 1, name = "Silverleaf",
+        uses = {
             "Elixir of Lion's Strength",
             "Elixir of Minor Agility",
             "Elixir of Minor Defense",
@@ -21,9 +13,26 @@ ProfTooltip_Herbs = {
             "Minor Mana Potion",
         },
     },
-    [785] = {
-        skill = 50, name = "Mageroyal",
-        uses  = {
+    [2447] = { skill = 1, name = "Peacebloom",
+        uses = {
+            "Discolored Healing Potion",
+            "Elixir of Minor Fortitude",
+            "Minor Healing Potion",
+            "Minor Rejuvenation Potion",
+            "Weak Troll's Blood Elixir",
+        },
+    },
+    [2449] = { skill = 15, name = "Earthroot",
+        uses = {
+            "Elixir of Lion's Strength",
+            "Elixir of Minor Fortitude",
+            "Weak Troll's Blood Elixir",
+            "Elixir of Ogre's Strength",
+            "Elixir of Giant Growth",
+        },
+    },
+    [785] = { skill = 50, name = "Mageroyal",
+        uses = {
             "Elixir of Wisdom",
             "Lesser Mana Potion",
             "Minor Magic Resistance Potion",
@@ -31,9 +40,8 @@ ProfTooltip_Herbs = {
             "Minor Rejuvenation Potion",
         },
     },
-    [2452] = {
-        skill = 50, name = "Swiftthistle",
-        uses  = {
+    [2452] = { skill = 50, name = "Swiftthistle",
+        uses = {
             "Elixir of Lesser Agility",
             "Elixir of Minor Agility",
             "Holy Protection Potion",
@@ -41,9 +49,8 @@ ProfTooltip_Herbs = {
             "Swim Speed Potion",
         },
     },
-    [2450] = {
-        skill = 70, name = "Briarthorn",
-        uses  = {
+    [2450] = { skill = 70, name = "Briarthorn",
+        uses = {
             "Elixir of Wisdom",
             "Healing Potion",
             "Lesser Healing Potion",
@@ -51,9 +58,8 @@ ProfTooltip_Herbs = {
             "Swiftness Potion",
         },
     },
-    [3820] = {
-        skill = 85, name = "Stranglekelp",
-        uses  = {
+    [3820] = { skill = 85, name = "Stranglekelp",
+        uses = {
             "Elixir of Agility",
             "Elixir of Defense",
             "Elixir of Water Breathing",
@@ -63,9 +69,8 @@ ProfTooltip_Herbs = {
             "Nature Protection Potion",
         },
     },
-    [2453] = {
-        skill = 100, name = "Bruiseweed",
-        uses  = {
+    [2453] = { skill = 100, name = "Bruiseweed",
+        uses = {
             "Healing Potion",
             "Holy Protection Potion",
             "Major Troll's Blood Elixir",
@@ -73,9 +78,8 @@ ProfTooltip_Herbs = {
             "Strong Troll's Blood Elixir",
         },
     },
-    [3355] = {
-        skill = 115, name = "Wild Steelbloom",
-        uses  = {
+    [3355] = { skill = 115, name = "Wild Steelbloom",
+        uses = {
             "Elixir of Defense",
             "Elixir of Fortitude",
             "Elixir of Greater Defense",
@@ -84,16 +88,14 @@ ProfTooltip_Herbs = {
             "Minor Magic Resistance Potion",
         },
     },
-    [3369] = {
-        skill = 120, name = "Grave Moss",
-        uses  = {
+    [3369] = { skill = 120, name = "Grave Moss",
+        uses = {
             "Shadow Oil",
             "Shadow Protection Potion",
         },
     },
-    [3356] = {
-        skill = 125, name = "Kingsblood",
-        uses  = {
+    [3356] = { skill = 125, name = "Kingsblood",
+        uses = {
             "Elixir of Firepower",
             "Elixir of Ogre's Strength",
             "Great Rage Potion",
@@ -102,26 +104,23 @@ ProfTooltip_Herbs = {
             "Shadow Protection Potion",
         },
     },
-    [3357] = {
-        skill = 150, name = "Liferoot",
-        uses  = {
+    [3357] = { skill = 150, name = "Liferoot",
+        uses = {
             "Greater Healing Potion",
             "Major Troll's Blood Elixir",
             "Nature Protection Potion",
         },
     },
-    [3818] = {
-        skill = 160, name = "Fadeleaf",
-        uses  = {
+    [3818] = { skill = 160, name = "Fadeleaf",
+        uses = {
             "Catseye Elixir",
             "Elixir of Detect Lesser Invisibility",
             "Lesser Invisibility Potion",
             "Shadow Oil",
         },
     },
-    [3821] = {
-        skill = 170, name = "Goldthorn",
-        uses  = {
+    [3821] = { skill = 170, name = "Goldthorn",
+        uses = {
             "Arcane Elixir",
             "Catseye Elixir",
             "Elixir of Agility",
@@ -135,9 +134,8 @@ ProfTooltip_Herbs = {
             "Restorative Potion",
         },
     },
-    [8838] = {
-        skill = 170, name = "Sungrass",
-        uses  = {
+    [8838] = { skill = 170, name = "Sungrass",
+        uses = {
             "Elixir of Giants",
             "Elixir of Greater Agility",
             "Elixir of Superior Defense",
@@ -146,9 +144,8 @@ ProfTooltip_Herbs = {
             "Superior Mana Potion",
         },
     },
-    [8831] = {
-        skill = 185, name = "Khadgar's Whisker",
-        uses  = {
+    [3358] = { skill = 185, name = "Khadgar's Whisker",
+        uses = {
             "Dreamless Sleep Potion",
             "Elixir of Greater Water Breathing",
             "Magic Resistance Potion",
@@ -156,9 +153,8 @@ ProfTooltip_Herbs = {
             "Wildvine Potion",
         },
     },
-    [8839] = {
-        skill = 185, name = "Blindweed",
-        uses  = {
+    [8839] = { skill = 185, name = "Blindweed",
+        uses = {
             "Arcane Elixir",
             "Elixir of Greater Intellect",
             "Gift of Arthas",
@@ -166,16 +162,21 @@ ProfTooltip_Herbs = {
             "Superior Mana Potion",
         },
     },
-    [8836] = {
-        skill = 195, name = "Arthas' Tears",
-        uses  = {
+    [3819] = { skill = 195, name = "Wintersbite",
+        uses = {
+            "Frost Oil",
+            "Frost Protection Potion",
+            "Elixir of Frost Power",
+        },
+    },
+    [8836] = { skill = 195, name = "Arthas' Tears",
+        uses = {
             "Elixir of Detect Undead",
             "Gift of Arthas",
         },
     },
-    [8846] = {
-        skill = 195, name = "Gromsblood",
-        uses  = {
+    [8846] = { skill = 195, name = "Gromsblood",
+        uses = {
             "Elixir of Brute Force",
             "Elixir of Demonslaying",
             "Elixir of Detect Demon",
@@ -185,24 +186,21 @@ ProfTooltip_Herbs = {
             "Mighty Troll's Blood Elixir",
         },
     },
-    [4625] = {
-        skill = 205, name = "Firebloom",
-        uses  = {
+    [4625] = { skill = 205, name = "Firebloom",
+        uses = {
             "Elixir of Greater Firepower",
             "Goblin Rocket Fuel",
             "Oil of Immolation",
             "Philosopher's Stone",
         },
     },
-    [8153] = {
-        skill = 210, name = "Purple Lotus",
-        uses  = {
+    [8831] = { skill = 210, name = "Purple Lotus",
+        uses = {
             "Wildvine Potion",
         },
     },
-    [13463] = {
-        skill = 230, name = "Dreamfoil",
-        uses  = {
+    [13463] = { skill = 230, name = "Dreamfoil",
+        uses = {
             "Elixir of the Sages",
             "Flask of Distilled Wisdom",
             "Flask of Supreme Power",
@@ -218,26 +216,23 @@ ProfTooltip_Herbs = {
             "Major Rejuvenation Potion",
         },
     },
-    [13464] = {
-        skill = 230, name = "Golden Sansam",
-        uses  = {
+    [13464] = { skill = 230, name = "Golden Sansam",
+        uses = {
             "Greater Dreamless Sleep Potion",
             "Major Healing Potion",
             "Major Rejuvenation Potion",
         },
     },
-    [8845] = {
-        skill = 245, name = "Ghost Mushroom",
-        uses  = {
+    [8845] = { skill = 245, name = "Ghost Mushroom",
+        uses = {
             "Elixir of Demonslaying",
             "Elixir of Shadow Power",
             "Invisibility Potion",
             "Limited Invulnerability Potion",
         },
     },
-    [13465] = {
-        skill = 250, name = "Mountain Silversage",
-        uses  = {
+    [13465] = { skill = 250, name = "Mountain Silversage",
+        uses = {
             "Elixir of the Mongoose",
             "Flask of Chromatic Resistance",
             "Flask of Supreme Power",
@@ -246,9 +241,8 @@ ProfTooltip_Herbs = {
             "Major Healing Potion",
         },
     },
-    [13467] = {
-        skill = 260, name = "Icecap",
-        uses  = {
+    [13467] = { skill = 260, name = "Icecap",
+        uses = {
             "Flask of Chromatic Resistance",
             "Flask of Distilled Wisdom",
             "Living Action Potion",
@@ -256,9 +250,8 @@ ProfTooltip_Herbs = {
             "Purification Potion",
         },
     },
-    [13466] = {
-        skill = 285, name = "Plaguebloom",
-        uses  = {
+    [13466] = { skill = 285, name = "Plaguebloom",
+        uses = {
             "Elixir of Brute Force",
             "Elixir of the Mongoose",
             "Elixir of the Sages",
@@ -267,9 +260,8 @@ ProfTooltip_Herbs = {
             "Purification Potion",
         },
     },
-    [13468] = {
-        skill = 300, name = "Black Lotus",
-        uses  = {
+    [13468] = { skill = 300, name = "Black Lotus",
+        uses = {
             "Flask of Chromatic Resistance",
             "Flask of Distilled Wisdom",
             "Flask of Supreme Power",
