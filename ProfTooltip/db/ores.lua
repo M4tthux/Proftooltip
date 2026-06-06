@@ -1,163 +1,212 @@
--- ============================================================
---  ProfTooltip – Ores & Bars database
---  Source: wowhead.com/classic
---
---  Format:
---    [itemId] = { skill, name, uses = { "Profession – usage" } }
---  Ores also list what bar they smelt into.
--- ============================================================
+-- Mining reagents — Source: Item IDs + names verified one-by-one on Wowhead Classic. Mining/smelting skill thresholds are the canonical Classic Era values (cross-checked Icy Veins + zockify).
+-- WoW Classic Era (Interface 11508)
+-- Format: item ID → { skill, name, uses = { list of uses } }
 
 ProfTooltip_Ores = {
 
-    -- ── Ores ─────────────────────────────────────────────────
-
-    [2770] = {
-        skill = 1,   name = "Copper Ore",
-        uses = { "Smelts into Copper Bar", "Mining (smelting skill 1)" },
+    [774] = { skill = 1, name = "Malachite",
+        uses = {
+            "Found while mining low-level (Copper) veins",
+            "Engineering & jewelry material",
+        },
     },
-    [2771] = {
-        skill = 65,  name = "Tin Ore",
-        uses = { "Smelts into Tin Bar", "Alloyed with Copper for Bronze Bar" },
+    [818] = { skill = 1, name = "Tigerseye",
+        uses = {
+            "Found while mining low-level (Copper) veins",
+            "Engineering & jewelry material",
+        },
     },
-    [2772] = {
-        skill = 75,  name = "Iron Ore",
-        uses = { "Smelts into Iron Bar", "Blacksmithing – mid-tier armor & weapons" },
+    [2770] = { skill = 1, name = "Copper Ore",
+        uses = {
+            "Smelts into Copper Bar",
+        },
     },
-    [3858] = {
-        skill = 100, name = "Silver Ore",
-        uses = { "Smelts into Silver Bar", "Alchemy – transmutes", "Blacksmithing – jewelry" },
-    },
-    [3859] = {
-        skill = 125, name = "Gold Ore",
-        uses = { "Smelts into Gold Bar", "Alchemy – transmutes", "Engineering – Gyrochronatom" },
-    },
-    [7911] = {
-        skill = 155, name = "Mithril Ore",
-        uses = { "Smelts into Mithril Bar", "Blacksmithing – heavy armor", "Engineering – mid-tier parts" },
-    },
-    [10620] = {
-        skill = 230, name = "Thorium Ore",
-        uses = { "Smelts into Thorium Bar", "Blacksmithing – endgame gear", "Engineering – endgame parts" },
-    },
-    [11370] = {
-        skill = 230, name = "Dark Iron Ore",
-        uses = { "Smelts into Dark Iron Bar (requires Black Forge in BRD)", "Blacksmithing – Dark Iron gear" },
-    },
-    [19774] = {
-        skill = 300, name = "Ooze Covered Thorium Vein",
-        uses = { "Thorium Ore source" },
-    },
-    -- Gems from mining
-    [818]  = { skill = 1,   name = "Malachite",     uses = { "Engineering – Copper Modulator" } },
-    [1210] = { skill = 65,  name = "Tigerseye",     uses = { "Engineering – Tigerseye Band (LW)" } },
-    [1529] = { skill = 65,  name = "Jade",           uses = { "Blacksmithing – Bronze Warhammer" } },
-    [1206] = { skill = 100, name = "Moss Agate",     uses = { "Engineering – Standard Scope" } },
-    [1705] = { skill = 125, name = "Lesser Moonstone", uses = { "Blacksmithing – jewelry" } },
-    [3864] = { skill = 155, name = "Citrine",        uses = { "Blacksmithing – jewelry" } },
-    [7909] = { skill = 155, name = "Aquamarine",     uses = { "Blacksmithing – jewelry", "Alchemy – transmutes" } },
-    [12800] = { skill = 230, name = "Azerothian Diamond", uses = { "Blacksmithing – Plans: Ebon Shiv" } },
-    [12364] = { skill = 230, name = "Arcane Crystal", uses = { "Alchemy – Transmute Arcanite (with Thorium Bar)" } },
-    [12363] = { skill = 230, name = "Huge Emerald",  uses = { "Blacksmithing – Signet of the Quiet Forest" } },
-    [12799] = { skill = 230, name = "Blue Sapphire", uses = { "Blacksmithing – jewelry" } },
-    [12361] = { skill = 230, name = "Large Opal",    uses = { "Blacksmithing – jewelry" } },
-
-    -- ── Bars ─────────────────────────────────────────────────
-
-    [2840] = {
-        skill = 1,   name = "Copper Bar",
+    [2840] = { skill = 1, name = "Copper Bar",
         uses = {
             "Blacksmithing – beginner armor & weapons",
             "Engineering – Copper Tube, Bolts, Bombs",
-            "Alchemy – (Philosopher's Stone)",
         },
     },
-    [2841] = {
-        skill = 65,  name = "Tin Bar",
-        uses = { "Alloyed with Copper Bar to make Bronze Bar" },
+    [1210] = { skill = 65, name = "Shadowgem",
+        uses = {
+            "Found while mining Tin/Silver veins",
+            "Engineering – Shadow Goggles",
+            "Jewelry material",
+        },
     },
-    [2842] = {
-        skill = 65,  name = "Silver Bar",
+    [2771] = { skill = 65, name = "Tin Ore",
+        uses = {
+            "Smelts into Tin Bar",
+            "Tin + Copper Bar makes Bronze Bar",
+        },
+    },
+    [2841] = { skill = 65, name = "Bronze Bar",
+        uses = {
+            "Blacksmithing – Bronze-tier armor & weapons",
+            "Engineering – Bronze Tube, Framework, Bombs",
+        },
+    },
+    [3576] = { skill = 65, name = "Tin Bar",
+        uses = {
+            "Tin + Copper Bar makes Bronze Bar",
+        },
+    },
+    [2775] = { skill = 75, name = "Silver Ore",
+        uses = {
+            "Smelts into Silver Bar",
+        },
+    },
+    [2842] = { skill = 75, name = "Silver Bar",
         uses = {
             "Blacksmithing – Silver Skeleton Key",
             "Engineering – Silver Contact",
-            "Alchemy – Philosopher's Stone",
         },
     },
-    [2841] = {
-        skill = 65,  name = "Bronze Bar",
+    [1206] = { skill = 100, name = "Moss Agate",
         uses = {
-            "Blacksmithing – Bronze-tier armor & weapons",
-            "Engineering – Bronze Tube, Framework, Bombs",
+            "Found while mining Iron/Silver/Gold veins",
+            "Engineering – Standard Scope",
+            "Blacksmithing – jewelry",
         },
     },
-    -- Note: Bronze Bar has item ID 2841 same as Tin — Bronze is crafted, ID = 2841... 
-    -- Correct: Bronze Bar = 2841, Tin Bar = 2845
-    [2845] = {
-        skill = 65,  name = "Tin Bar",
-        uses = { "Alloyed with Copper to make Bronze Bar" },
-    },
-    [2841] = {  -- Bronze Bar correct ID
-        skill = 65,  name = "Bronze Bar",
+    [2772] = { skill = 125, name = "Iron Ore",
         uses = {
-            "Blacksmithing – Bronze-tier armor & weapons",
-            "Engineering – Bronze Tube, Framework, Bombs",
+            "Smelts into Iron Bar",
+            "Blacksmithing & Engineering material",
         },
     },
-    [3575] = {
-        skill = 75,  name = "Iron Bar",
+    [3575] = { skill = 125, name = "Iron Bar",
         uses = {
-            "Blacksmithing – Iron Shield Spike, Iron armor",
+            "Blacksmithing – Iron armor, Iron Shield Spike",
             "Engineering – Iron Grenade, Iron Strut",
-            "Alchemy – Philosopher's Stone",
         },
     },
-    [3576] = {
-        skill = 100, name = "Gold Bar",
+    [1705] = { skill = 150, name = "Lesser Moonstone",
+        uses = {
+            "Found while mining Iron/Mithril veins",
+            "Blacksmithing – jewelry",
+        },
+    },
+    [2776] = { skill = 155, name = "Gold Ore",
+        uses = {
+            "Smelts into Gold Bar",
+            "Alchemy transmutes",
+        },
+    },
+    [3577] = { skill = 155, name = "Gold Bar",
         uses = {
             "Engineering – Gyrochronatom",
-            "Alchemy – transmute material",
+            "Alchemy transmute material",
         },
     },
-    [3577] = {
-        skill = 125, name = "Steel Bar",
+    [3859] = { skill = 165, name = "Steel Bar",
         uses = {
+            "Made from 1 Iron Bar + 1 Coal",
             "Blacksmithing – Steel-tier weapons & armor",
             "Engineering – Gyromatic Micro-Adjustor",
         },
     },
-    [3860] = {
-        skill = 155, name = "Mithril Bar",
+    [1529] = { skill = 175, name = "Jade",
         uses = {
-            "Blacksmithing – Mithril armor & weapons, Mithril Spurs",
+            "Found while mining Mithril/Truesilver veins",
+            "Blacksmithing & Engineering material",
+        },
+    },
+    [3858] = { skill = 175, name = "Mithril Ore",
+        uses = {
+            "Smelts into Mithril Bar",
+            "Blacksmithing & Engineering material",
+        },
+    },
+    [3860] = { skill = 175, name = "Mithril Bar",
+        uses = {
+            "Blacksmithing – Mithril armor & weapons",
             "Engineering – Mithril Tube, Casing, Unstable Trigger",
         },
     },
-    [6037] = {
-        skill = 155, name = "Truesilver Bar",
+    [3864] = { skill = 175, name = "Citrine",
         uses = {
-            "Blacksmithing – Truesilver armor, Champion's Bracers",
+            "Found while mining Mithril/Truesilver veins",
+            "Blacksmithing & Engineering material",
+        },
+    },
+    [6037] = { skill = 230, name = "Truesilver Bar",
+        uses = {
+            "Blacksmithing – Truesilver armor",
             "Engineering – Truesilver Transformer",
         },
     },
-    [12359] = {
-        skill = 230, name = "Thorium Bar",
+    [7911] = { skill = 230, name = "Truesilver Ore",
         uses = {
-            "Blacksmithing – endgame armor, Arcanite rebar",
-            "Engineering – Thorium Widget, Thorium Tube, Thorium Shells",
-            "Alchemy – Transmute Arcanite (with Arcane Crystal)",
+            "Smelts into Truesilver Bar",
+            "Blacksmithing & Engineering material",
         },
     },
-    [11371] = {
-        skill = 230, name = "Dark Iron Bar",
+    [11370] = { skill = 230, name = "Dark Iron Ore",
+        uses = {
+            "Smelts into Dark Iron Bar (Black Forge in Blackrock Depths)",
+            "Blacksmithing – Dark Iron gear",
+        },
+    },
+    [11371] = { skill = 230, name = "Dark Iron Bar",
         uses = {
             "Blacksmithing – Dark Iron gear (requires Thorium Brotherhood rep)",
         },
     },
-    [12360] = {
-        skill = 300, name = "Arcanite Bar",
+    [7909] = { skill = 250, name = "Aquamarine",
         uses = {
-            "Blacksmithing – Arcanite Reaper, Sulfuron Hammer components",
-            "Engineering – Force Reactive Disk",
+            "Found while mining Thorium veins",
+            "Blacksmithing – jewelry",
+            "Alchemy transmutes",
+        },
+    },
+    [7910] = { skill = 250, name = "Star Ruby",
+        uses = {
+            "Found while mining Thorium veins",
+            "Blacksmithing & Engineering material",
+        },
+    },
+    [10620] = { skill = 250, name = "Thorium Ore",
+        uses = {
+            "Smelts into Thorium Bar",
+            "Blacksmithing & Engineering endgame material",
+        },
+    },
+    [12359] = { skill = 250, name = "Thorium Bar",
+        uses = {
+            "Blacksmithing – endgame armor",
+            "Engineering – Thorium Widget, Tube, Shells",
+            "Alchemy – Transmute Arcanite (with Arcane Crystal)",
+        },
+    },
+    [12361] = { skill = 275, name = "Blue Sapphire",
+        uses = {
+            "Found while mining Rich Thorium veins",
+            "Blacksmithing – jewelry",
+        },
+    },
+    [12363] = { skill = 275, name = "Huge Emerald",
+        uses = {
+            "Found while mining Rich Thorium veins",
+            "Blacksmithing – Signet of the Quiet Forest",
+        },
+    },
+    [12364] = { skill = 275, name = "Arcane Crystal",
+        uses = {
+            "Found while mining Rich Thorium veins",
+            "Alchemy – Transmute Arcanite (with Thorium Bar)",
+        },
+    },
+    [12799] = { skill = 275, name = "Large Opal",
+        uses = {
+            "Found while mining Rich Thorium veins",
+            "Blacksmithing – jewelry",
+        },
+    },
+    [12800] = { skill = 275, name = "Azerothian Diamond",
+        uses = {
+            "Found while mining Rich Thorium veins",
+            "Blacksmithing – Ebon Shiv",
         },
     },
 }

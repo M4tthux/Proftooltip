@@ -26,6 +26,7 @@ const PROFESSIONS = {
     'Cooking':        { json: 'cooking.json',        luaVar: 'ProfTooltip_Cooking',        file: 'recipes_cooking.lua' },
     'First Aid':      { json: 'first_aid.json',      luaVar: 'ProfTooltip_FirstAid',       file: 'recipes_first_aid.lua' },
     'Enchanting':     { json: 'enchanting.json',     luaVar: 'ProfTooltip_Enchanting',     file: 'recipes_enchanting.lua', format: 'reagent-index' },
+    'Mining':         { json: 'ores.json',          luaVar: 'ProfTooltip_Ores',          file: 'ores.lua',               format: 'reagent-index' },
 };
 
 // ── Generator ─────────────────────────────────────────────────────────────────
@@ -87,7 +88,7 @@ function generateEnchanting(profName, luaVar, jsonPath, outputFile) {
     const lines = [];
     lines.push(`-- ${profName} reagents — Source: ${source}`);
     lines.push(`-- WoW Classic Era (Interface 11508)`);
-    lines.push(`-- Format: reagent item ID → { skill, name, uses = { list of enchants } }`);
+    lines.push(`-- Format: item ID → { skill, name, uses = { list of uses } }`);
     lines.push('');
     lines.push(`${luaVar} = {`);
     lines.push('');

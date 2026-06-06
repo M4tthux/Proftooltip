@@ -21,6 +21,7 @@ by hand).
 | Cooking | `cooking.json` | ✅ Built — 81/82 verified vs Wowhead Classic |
 | First Aid | `first_aid.json` | ✅ Built — reagents + spell IDs verified vs Wowhead Classic (13 recipes) |
 | Enchanting | `enchanting.json` | ✅ Built — reverse index (reagent → enchants), 21 reagents / 201 uses, from Wowhead Classic + warcraft.wiki.gg |
+| Mining | `ores.json` | ✅ Built — item-index (ore/bar/gem → uses), 34 entries. Item IDs verified on Wowhead Classic; skill levels are canonical Classic values (Icy Veins + zockify). Rebuilt 2026-06-05 from the broken hand-written ores.lua. |
 
 ## What "verified" means here
 
@@ -74,6 +75,17 @@ by **reagent item ID** → `{ skill, name, uses: [enchant names] }`. `generate.j
 this via `format: "reagent-index"` and emits the matching `ProfTooltip_Enchanting` table.
 There is no `scrape.js` path for it — the source data is maintained by hand in the JSON.
 
+## Mining — special format
+
+Like Enchanting, `ores.json` is an **item index** keyed by item ID →
+`{ skill, name, uses }`, mixing ores, smelted bars and mined gems. `generate.js`
+emits `ProfTooltip_Ores` via the same `format: "reagent-index"` path. There is no
+`scrape.js` route — the data is maintained by hand in the JSON. The addon shows
+`Mining (skill X+)`: for an ore that is the level to mine the vein, for a bar the
+level to smelt it. Arcanite Bar is intentionally excluded (Alchemy transmute, not
+mined/smelted). Herbs (`herbs.lua`) are still hand-written Lua, not yet promoted.
+
 ## TODO
 
 - Verify Engineering skill levels (set `skill_verified: true` once done).
+- Promote Herbs to a `herbs.json` source like Mining, then add it to `generate.js`.
