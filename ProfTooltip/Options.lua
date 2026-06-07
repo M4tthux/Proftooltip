@@ -21,8 +21,8 @@ local sub = panel:CreateFontString(nil, "ARTWORK", "GameFontHighlightSmall")
 sub:SetPoint("TOPLEFT", title, "BOTTOMLEFT", 0, -6)
 sub:SetWidth(520)
 sub:SetJustifyH("LEFT")
-sub:SetText("Active ou désactive l'affichage de chaque métier dans les infobulles. " ..
-            "Décocher un métier le retire des tooltips (les données restent en mémoire).")
+sub:SetText("Enable or disable each profession's lines in item tooltips. " ..
+            "Unchecking a profession hides it from tooltips (data still loads).")
 
 local checks = {}
 
@@ -49,13 +49,13 @@ end
 
 -- Construction de la liste (depuis ProfTooltip_ProfList défini dans le fichier principal)
 local y = -64
-Header("Métiers de craft", 16, y) ; y = y - 24
+Header("Crafting professions", 16, y) ; y = y - 24
 for _, p in ipairs(ProfTooltip_ProfList.craft) do
     MakeCheck(p.key, p.label, 24, y) ; y = y - 26
 end
 
 y = y - 14
-Header("Récolte / réactifs", 16, y) ; y = y - 24
+Header("Gathering / reagents", 16, y) ; y = y - 24
 for _, p in ipairs(ProfTooltip_ProfList.gather) do
     MakeCheck(p.key, p.label, 24, y) ; y = y - 26
 end
@@ -78,17 +78,17 @@ local function SetAll(val)
     RefreshChecks()
 end
 
--- Boutons Tout activer / Tout désactiver
+-- Enable all / Disable all buttons
 local enableAll = CreateFrame("Button", nil, panel, "UIPanelButtonTemplate")
 enableAll:SetSize(130, 22)
 enableAll:SetPoint("TOPLEFT", 24, y - 12)
-enableAll:SetText("Tout activer")
+enableAll:SetText("Enable all")
 enableAll:SetScript("OnClick", function() SetAll(true) end)
 
 local disableAll = CreateFrame("Button", nil, panel, "UIPanelButtonTemplate")
 disableAll:SetSize(130, 22)
 disableAll:SetPoint("LEFT", enableAll, "RIGHT", 10, 0)
-disableAll:SetText("Tout désactiver")
+disableAll:SetText("Disable all")
 disableAll:SetScript("OnClick", function() SetAll(false) end)
 
 panel:SetScript("OnShow", RefreshChecks)

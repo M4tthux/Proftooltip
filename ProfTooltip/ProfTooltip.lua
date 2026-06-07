@@ -25,21 +25,21 @@ local DEFAULTS = {
     Herbalism = true, Mining = true, Enchanting = true,
 }
 
--- Liste partagée avec Options.lua (libellés FR, sections du panneau)
+-- Liste partagée avec Options.lua (libellés du panneau d'options)
 ProfTooltip_ProfList = {
     craft = {
-        { key = "Alchemy",        label = "Alchimie" },
-        { key = "Engineering",    label = "Ingénierie" },
-        { key = "Blacksmithing",  label = "Forge" },
-        { key = "Leatherworking", label = "Travail du cuir" },
-        { key = "Tailoring",      label = "Couture" },
-        { key = "Cooking",        label = "Cuisine" },
-        { key = "FirstAid",       label = "Premiers soins" },
+        { key = "Alchemy",        label = "Alchemy" },
+        { key = "Engineering",    label = "Engineering" },
+        { key = "Blacksmithing",  label = "Blacksmithing" },
+        { key = "Leatherworking", label = "Leatherworking" },
+        { key = "Tailoring",      label = "Tailoring" },
+        { key = "Cooking",        label = "Cooking" },
+        { key = "FirstAid",       label = "First Aid" },
     },
     gather = {
-        { key = "Herbalism",  label = "Herboristerie" },
-        { key = "Mining",     label = "Minage" },
-        { key = "Enchanting", label = "Réactifs d'enchantement" },
+        { key = "Herbalism",  label = "Herbalism" },
+        { key = "Mining",     label = "Mining" },
+        { key = "Enchanting", label = "Enchanting reagents" },
     },
 }
 
@@ -256,15 +256,15 @@ end
 GameTooltip:HookScript("OnTooltipSetItem", OnTooltipSetItem)
 ItemRefTooltip:HookScript("OnTooltipSetItem", OnTooltipSetItem)
 
-print(GOLD .. ADDON .. " v2.3" .. R .. " loaded.  " .. GRAY .. "/pt" .. R .. " pour les options.")
+print(GOLD .. ADDON .. " v2.3" .. R .. " loaded.  " .. GRAY .. "/pt" .. R .. " for options.")
 
--- ── Commande : /pt → ouvre le panneau d'options ───────────────
+-- ── Command : /pt → open the options panel ────────────────────
 SLASH_PROFTOOLTIP1 = "/pt"
 SlashCmdList["PROFTOOLTIP"] = function()
     if ProfTooltip_OpenOptions then
         ProfTooltip_OpenOptions()
     else
-        print(GOLD .. ADDON .. R .. ": panneau d'options indisponible.")
+        print(GOLD .. ADDON .. R .. ": options panel unavailable.")
     end
 end
 
