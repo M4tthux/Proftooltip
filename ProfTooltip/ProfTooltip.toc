@@ -2,7 +2,8 @@
 ## Title: ProfTooltip
 ## Notes: Shows profession info on item hover (Alchemy, Engineering, Blacksmithing, Leatherworking, Tailoring, Cooking, First Aid, Enchanting, Mining)
 ## Author: YourName
-## Version: 2.2
+## Version: 2.3
+## SavedVariables: ProfTooltipDB
 
 db/ores.lua
 db/herbs.lua
@@ -15,3 +16,4 @@ db/recipes_cooking.lua
 db/recipes_first_aid.lua
 db/recipes_enchanting.lua
 ProfTooltip.lua
+Options.lua

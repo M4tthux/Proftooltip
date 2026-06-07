@@ -15,6 +15,59 @@ if toc < 11200 or toc >= 20000 then
     return
 end
 
+-- ── Réglages : activation par métier ─────────────────────────
+-- Par défaut TOUT est activé. Les choix sont mémorisés dans la
+-- SavedVariable ProfTooltipDB (déclarée dans le .toc).
+
+local DEFAULTS = {
+    Alchemy = true, Engineering = true, Blacksmithing = true,
+    Leatherworking = true, Tailoring = true, Cooking = true, FirstAid = true,
+    Herbalism = true, Mining = true, Enchanting = true,
+}
+
+-- Liste partagée avec Options.lua (libellés FR, sections du panneau)
+ProfTooltip_ProfList = {
+    craft = {
+        { key = "Alchemy",        label = "Alchimie" },
+        { key = "Engineering",    label = "Ingénierie" },
+        { key = "Blacksmithing",  label = "Forge" },
+        { key = "Leatherworking", label = "Travail du cuir" },
+        { key = "Tailoring",      label = "Couture" },
+        { key = "Cooking",        label = "Cuisine" },
+        { key = "FirstAid",       label = "Premiers soins" },
+    },
+    gather = {
+        { key = "Herbalism",  label = "Herboristerie" },
+        { key = "Mining",     label = "Minage" },
+        { key = "Enchanting", label = "Réactifs d'enchantement" },
+    },
+}
+
+local function InitDB()
+    ProfTooltipDB = ProfTooltipDB or {}
+    ProfTooltipDB.enabled = ProfTooltipDB.enabled or {}
+    for k, v in pairs(DEFAULTS) do
+        if ProfTooltipDB.enabled[k] == nil then
+            ProfTooltipDB.enabled[k] = v
+        end
+    end
+end
+
+-- Renvoie true si le métier doit s'afficher (par défaut oui).
+local function IsEnabled(key)
+    if not ProfTooltipDB or not ProfTooltipDB.enabled then return true end
+    return ProfTooltipDB.enabled[key] ~= false
+end
+
+local initFrame = CreateFrame("Frame")
+initFrame:RegisterEvent("ADDON_LOADED")
+initFrame:SetScript("OnEvent", function(self, _, name)
+    if name == ADDON then
+        InitDB()
+        self:UnregisterEvent("ADDON_LOADED")
+    end
+end)
+
 -- ── Colors ───────────────────────────────────────────────────
 local GOLD   = "|cFFFFD700"
 local GREEN  = "|cFF69FF6E"
@@ -134,25 +187,25 @@ local function OnTooltipSetItem(tooltip)
     if not id then return end
 
     -- 1. Gather (herbes, minerais, enchanting reagents)
-    AddHerbLines(tooltip, id)
-    AddOreLines(tooltip, id)
-    AddEnchantingLines(tooltip, id)
+    if IsEnabled("Herbalism")  then AddHerbLines(tooltip, id)       end
+    if IsEnabled("Mining")     then AddOreLines(tooltip, id)        end
+    if IsEnabled("Enchanting") then AddEnchantingLines(tooltip, id) end
 
     -- 2. Alchemy
     local alch = ProfTooltip_Alchemy and ProfTooltip_Alchemy[id]
-    if alch then
+    if alch and IsEnabled("Alchemy") then
         RenderRecipe(tooltip, alch, BLUE, "Alchemy")
     end
 
     -- 3. Engineering
     local eng = ProfTooltip_Engineering and ProfTooltip_Engineering[id]
-    if eng then
+    if eng and IsEnabled("Engineering") then
         RenderRecipe(tooltip, eng, ORANGE, "Engineering")
     end
 
     -- 4. Blacksmithing (remapper les codes de spé en noms lisibles)
     local bs = ProfTooltip_Blacksmithing and ProfTooltip_Blacksmithing[id]
-    if bs then
+    if bs and IsEnabled("Blacksmithing") then
         local specMap = {
             Arms = "Armorsmith", Weap = "Weaponsmith",
             Ham  = "Hammersmith", Axe = "Axesmith", Swd = "Swordsmith",
@@ -167,7 +220,7 @@ local function OnTooltipSetItem(tooltip)
 
     -- 5. Leatherworking
     local lw = ProfTooltip_Leatherworking and ProfTooltip_Leatherworking[id]
-    if lw then
+    if lw and IsEnabled("Leatherworking") then
         local specMap = {
             Dragonscale = "Dragonscale LW",
             Elemental   = "Elemental LW",
@@ -183,19 +236,19 @@ local function OnTooltipSetItem(tooltip)
 
     -- 6. Tailoring
     local tail = ProfTooltip_Tailoring and ProfTooltip_Tailoring[id]
-    if tail then
+    if tail and IsEnabled("Tailoring") then
         RenderRecipe(tooltip, tail, PURPLE, "Tailoring")
     end
 
     -- 7. Cooking
     local cook = ProfTooltip_Cooking and ProfTooltip_Cooking[id]
-    if cook then
+    if cook and IsEnabled("Cooking") then
         RenderRecipe(tooltip, cook, FOOD, "Cooking")
     end
 
     -- 8. First Aid
     local aid = ProfTooltip_FirstAid and ProfTooltip_FirstAid[id]
-    if aid then
+    if aid and IsEnabled("FirstAid") then
         RenderRecipe(tooltip, aid, GREEN, "First Aid")
     end
 end
@@ -203,7 +256,17 @@ end
 GameTooltip:HookScript("OnTooltipSetItem", OnTooltipSetItem)
 ItemRefTooltip:HookScript("OnTooltipSetItem", OnTooltipSetItem)
 
-print(GOLD .. ADDON .. " v2.2" .. R .. " loaded.")
+print(GOLD .. ADDON .. " v2.3" .. R .. " loaded.  " .. GRAY .. "/pt" .. R .. " pour les options.")
+
+-- ── Commande : /pt → ouvre le panneau d'options ───────────────
+SLASH_PROFTOOLTIP1 = "/pt"
+SlashCmdList["PROFTOOLTIP"] = function()
+    if ProfTooltip_OpenOptions then
+        ProfTooltip_OpenOptions()
+    else
+        print(GOLD .. ADDON .. R .. ": panneau d'options indisponible.")
+    end
+end
 
 -- ── Commande debug : /ptid ────────────────────────────────────
 -- Survole un item puis tape /ptid pour voir son ID dans le chat.
