@@ -1,7 +1,7 @@
 ## Interface: 11508
 ## Title: ProfTooltip
 ## Notes: Shows profession info on item hover (Alchemy, Engineering, Blacksmithing, Leatherworking, Tailoring, Cooking, First Aid, Enchanting, Mining)
-## Author: YourName
+## Author: Balleck
 ## Version: 2.3
 ## SavedVariables: ProfTooltipDB
 
