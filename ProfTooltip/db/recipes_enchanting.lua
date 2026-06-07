@@ -1,6 +1,6 @@
 -- Enchanting reagents — Source: wowhead.com/classic + warcraft.wiki.gg
 -- WoW Classic Era (Interface 11508)
--- Format: reagent item ID → { skill, name, uses = { list of enchants } }
+-- Format: item ID → { skill, name, uses = { list of uses } }
 
 ProfTooltip_Enchanting = {
 

@@ -216,6 +216,12 @@ ProfTooltip_Alchemy = {
             { id = 3372,   qty =  1, name = "Leaded Vial" },
         },
     },
+    [3577] = { name = "Gold Bar", skill = 155, spec = nil,
+        components = {
+            { id = 2776,   qty =  1, name = "Gold Ore" },
+            { id = 3575,   qty =  1, name = "Iron Bar" },
+        },
+    },
     [3827] = { name = "Mana Potion", skill = 160, spec = nil,
         components = {
             { id = 3820,   qty =  1, name = "Stranglekelp" },
@@ -380,18 +386,6 @@ ProfTooltip_Alchemy = {
             { id = 8925,   qty =  1, name = "Crystal Vial" },
         },
     },
-    [3577] = { name = "Gold Bar", skill = 225, spec = nil,
-        components = {
-            { id = 2776,   qty =  1, name = "Gold Ore" },
-            { id = 3575,   qty =  1, name = "Iron Bar" },
-        },
-    },
-    [6037] = { name = "Truesilver Bar", skill = 225, spec = nil,
-        components = {
-            { id = 7911,   qty =  1, name = "Truesilver Ore" },
-            { id = 3860,   qty =  1, name = "Mithril Bar" },
-        },
-    },
     [9144] = { name = "Wildvine Potion", skill = 225, spec = nil,
         components = {
             { id = 8153,   qty =  1, name = "Wildvine" },
@@ -405,6 +399,12 @@ ProfTooltip_Alchemy = {
             { id = 9262,   qty =  1, name = "Black Vitriol" },
             { id = 8831,   qty =  4, name = "Purple Lotus" },
             { id = 4625,   qty =  4, name = "Firebloom" },
+        },
+    },
+    [6037] = { name = "Truesilver Bar", skill = 230, spec = nil,
+        components = {
+            { id = 7911,   qty =  1, name = "Truesilver Ore" },
+            { id = 3860,   qty =  1, name = "Mithril Bar" },
         },
     },
     [9154] = { name = "Elixir of Detect Undead", skill = 230, spec = nil,

@@ -11,7 +11,13 @@
       "Spell IDs are VERIFIED against Wowhead Classic.",
       "Entries with source=\"npm-only\" had no Wowhead <createdBy> section.",
       "Keyed by OUTPUT ITEM ID."
-    ]
+    ],
+    "skill_verification": {
+      "method": "Wowhead Classic spell XML learnedat",
+      "verified_count": 13,
+      "unverified_count": 0,
+      "corrections": 0
+    }
   },
   "recipes": {
     "1251": {
@@ -19,7 +25,7 @@
       "spell_id": 3275,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -28,14 +34,15 @@
           "qty": 1,
           "name": "Linen Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2581": {
       "name": "Heavy Linen Bandage",
       "spell_id": 3276,
       "output_qty": 1,
       "skill": 40,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -59,14 +66,15 @@
           "qty": 2,
           "name": "Pristine Black Diamond"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3530": {
       "name": "Wool Bandage",
       "spell_id": 3277,
       "output_qty": 1,
       "skill": 80,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -75,14 +83,15 @@
           "qty": 1,
           "name": "Wool Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3531": {
       "name": "Heavy Wool Bandage",
       "spell_id": 3278,
       "output_qty": 1,
       "skill": 115,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -91,14 +100,15 @@
           "qty": 2,
           "name": "Wool Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6450": {
       "name": "Silk Bandage",
       "spell_id": 7928,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -107,14 +117,15 @@
           "qty": 1,
           "name": "Silk Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6451": {
       "name": "Heavy Silk Bandage",
       "spell_id": 7929,
       "output_qty": 1,
       "skill": 180,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -123,14 +134,15 @@
           "qty": 2,
           "name": "Silk Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6452": {
       "name": "Anti-Venom",
       "spell_id": 7934,
       "output_qty": 1,
       "skill": 80,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -139,14 +151,15 @@
           "qty": 1,
           "name": "Small Venom Sac"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6453": {
       "name": "Strong Anti-Venom",
       "spell_id": 7935,
       "output_qty": 1,
       "skill": 130,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -155,14 +168,15 @@
           "qty": 1,
           "name": "Large Venom Sac"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "8544": {
       "name": "Mageweave Bandage",
       "spell_id": 10840,
       "output_qty": 1,
       "skill": 210,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -171,14 +185,15 @@
           "qty": 1,
           "name": "Mageweave Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "8545": {
       "name": "Heavy Mageweave Bandage",
       "spell_id": 10841,
       "output_qty": 1,
       "skill": 240,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -187,14 +202,15 @@
           "qty": 2,
           "name": "Mageweave Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14529": {
       "name": "Runecloth Bandage",
       "spell_id": 18629,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -203,14 +219,15 @@
           "qty": 1,
           "name": "Runecloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14530": {
       "name": "Heavy Runecloth Bandage",
       "spell_id": 18630,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -219,14 +236,15 @@
           "qty": 2,
           "name": "Runecloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19440": {
       "name": "Powerful Anti-Venom",
       "spell_id": 23787,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -235,7 +253,8 @@
           "qty": 1,
           "name": "Huge Venom Sac"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     }
   }
 }

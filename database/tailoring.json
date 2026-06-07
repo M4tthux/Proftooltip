@@ -11,7 +11,13 @@
       "Spell IDs are VERIFIED against Wowhead Classic.",
       "Entries with source=\"npm-only\" had no Wowhead <createdBy> section.",
       "Keyed by OUTPUT ITEM ID."
-    ]
+    ],
+    "skill_verification": {
+      "method": "Wowhead Classic spell XML learnedat",
+      "verified_count": 226,
+      "unverified_count": 1,
+      "corrections": 0
+    }
   },
   "recipes": {
     "2568": {
@@ -19,7 +25,7 @@
       "spell_id": 2385,
       "output_qty": 1,
       "skill": 10,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -33,14 +39,15 @@
           "qty": 1,
           "name": "Coarse Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2569": {
       "name": "Linen Boots",
       "spell_id": 2386,
       "output_qty": 1,
       "skill": 65,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -59,14 +66,15 @@
           "qty": 1,
           "name": "Light Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2570": {
       "name": "Linen Cloak",
       "spell_id": 2387,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -80,14 +88,15 @@
           "qty": 1,
           "name": "Coarse Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2572": {
       "name": "Red Linen Robe",
       "spell_id": 2389,
       "output_qty": 1,
       "skill": 40,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -106,14 +115,15 @@
           "qty": 2,
           "name": "Red Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2575": {
       "name": "Red Linen Shirt",
       "spell_id": 2392,
       "output_qty": 1,
       "skill": 40,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -132,14 +142,15 @@
           "qty": 1,
           "name": "Red Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2576": {
       "name": "White Linen Shirt",
       "spell_id": 2393,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -158,14 +169,15 @@
           "qty": 1,
           "name": "Bleach"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2577": {
       "name": "Blue Linen Shirt",
       "spell_id": 2394,
       "output_qty": 1,
       "skill": 40,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -184,14 +196,15 @@
           "qty": 1,
           "name": "Blue Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2578": {
       "name": "Barbaric Linen Vest",
       "spell_id": 2395,
       "output_qty": 1,
       "skill": 70,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -210,14 +223,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2579": {
       "name": "Green Linen Shirt",
       "spell_id": 2396,
       "output_qty": 1,
       "skill": 70,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -236,14 +250,15 @@
           "qty": 1,
           "name": "Green Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2580": {
       "name": "Reinforced Linen Cape",
       "spell_id": 2397,
       "output_qty": 1,
       "skill": 60,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -257,14 +272,15 @@
           "qty": 3,
           "name": "Coarse Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2582": {
       "name": "Green Woolen Vest",
       "spell_id": 2399,
       "output_qty": 1,
       "skill": 85,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -283,14 +299,15 @@
           "qty": 1,
           "name": "Green Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2583": {
       "name": "Woolen Boots",
       "spell_id": 2401,
       "output_qty": 1,
       "skill": 95,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -309,14 +326,15 @@
           "qty": 2,
           "name": "Light Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2584": {
       "name": "Woolen Cape",
       "spell_id": 2402,
       "output_qty": 1,
       "skill": 75,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -330,14 +348,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2585": {
       "name": "Gray Woolen Robe",
       "spell_id": 2403,
       "output_qty": 1,
       "skill": 105,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -356,14 +375,15 @@
           "qty": 1,
           "name": "Gray Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2587": {
       "name": "Gray Woolen Shirt",
       "spell_id": 2406,
       "output_qty": 1,
       "skill": 100,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -382,14 +402,15 @@
           "qty": 1,
           "name": "Gray Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2996": {
       "name": "Bolt of Linen Cloth",
       "spell_id": 2963,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -398,14 +419,15 @@
           "qty": 2,
           "name": "Linen Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2997": {
       "name": "Bolt of Woolen Cloth",
       "spell_id": 2964,
       "output_qty": 1,
       "skill": 75,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -414,14 +436,15 @@
           "qty": 3,
           "name": "Wool Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4238": {
       "name": "Linen Bag",
       "spell_id": 3755,
       "output_qty": 1,
       "skill": 45,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -435,14 +458,15 @@
           "qty": 3,
           "name": "Coarse Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4240": {
       "name": "Woolen Bag",
       "spell_id": 3757,
       "output_qty": 1,
       "skill": 80,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -456,14 +480,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4241": {
       "name": "Green Woolen Bag",
       "spell_id": 3758,
       "output_qty": 1,
       "skill": 95,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -482,14 +507,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4245": {
       "name": "Small Silk Pack",
       "spell_id": 3813,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -508,14 +534,15 @@
           "qty": 3,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4305": {
       "name": "Bolt of Silk Cloth",
       "spell_id": 3839,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -524,14 +551,15 @@
           "qty": 4,
           "name": "Silk Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4307": {
       "name": "Heavy Linen Gloves",
       "spell_id": 3840,
       "output_qty": 1,
       "skill": 35,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -545,14 +573,15 @@
           "qty": 1,
           "name": "Coarse Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4308": {
       "name": "Green Linen Bracers",
       "spell_id": 3841,
       "output_qty": 1,
       "skill": 60,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -571,14 +600,15 @@
           "qty": 1,
           "name": "Green Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4309": {
       "name": "Handstitched Linen Britches",
       "spell_id": 3842,
       "output_qty": 1,
       "skill": 70,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -592,14 +622,15 @@
           "qty": 2,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4310": {
       "name": "Heavy Woolen Gloves",
       "spell_id": 3843,
       "output_qty": 1,
       "skill": 85,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -613,14 +644,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4311": {
       "name": "Heavy Woolen Cloak",
       "spell_id": 3844,
       "output_qty": 1,
       "skill": 100,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -639,14 +671,15 @@
           "qty": 2,
           "name": "Small Lustrous Pearl"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4312": {
       "name": "Soft-soled Linen Boots",
       "spell_id": 3845,
       "output_qty": 1,
       "skill": 80,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -665,14 +698,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4313": {
       "name": "Red Woolen Boots",
       "spell_id": 3847,
       "output_qty": 1,
       "skill": 95,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -696,14 +730,15 @@
           "qty": 2,
           "name": "Red Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4314": {
       "name": "Double-stitched Woolen Shoulders",
       "spell_id": 3848,
       "output_qty": 1,
       "skill": 110,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -717,14 +752,15 @@
           "qty": 2,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4315": {
       "name": "Reinforced Woolen Shoulders",
       "spell_id": 3849,
       "output_qty": 1,
       "skill": 120,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -743,14 +779,15 @@
           "qty": 2,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4316": {
       "name": "Heavy Woolen Pants",
       "spell_id": 3850,
       "output_qty": 1,
       "skill": 110,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -764,14 +801,15 @@
           "qty": 4,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4317": {
       "name": "Phoenix Pants",
       "spell_id": 3851,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -790,14 +828,15 @@
           "qty": 3,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4318": {
       "name": "Gloves of Meditation",
       "spell_id": 3852,
       "output_qty": 1,
       "skill": 130,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -816,14 +855,15 @@
           "qty": 1,
           "name": "Elixir of Wisdom"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4319": {
       "name": "Azure Silk Gloves",
       "spell_id": 3854,
       "output_qty": 1,
       "skill": 145,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -847,14 +887,15 @@
           "qty": 2,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4320": {
       "name": "Spidersilk Boots",
       "spell_id": 3855,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -878,14 +919,15 @@
           "qty": 2,
           "name": "Iridescent Pearl"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4321": {
       "name": "Spider Silk Slippers",
       "spell_id": 3856,
       "output_qty": 1,
       "skill": 140,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -904,14 +946,15 @@
           "qty": 2,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4322": {
       "name": "Enchanter's Cowl",
       "spell_id": 3857,
       "output_qty": 1,
       "skill": 165,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -930,14 +973,15 @@
           "qty": 2,
           "name": "Thick Spider's Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4323": {
       "name": "Shadow Hood",
       "spell_id": 3858,
       "output_qty": 1,
       "skill": 170,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -956,14 +1000,15 @@
           "qty": 1,
           "name": "Shadow Oil"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4324": {
       "name": "Azure Silk Vest",
       "spell_id": 3859,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -977,14 +1022,15 @@
           "qty": 4,
           "name": "Blue Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4325": {
       "name": "Boots of the Enchanter",
       "spell_id": 3860,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1003,14 +1049,15 @@
           "qty": 2,
           "name": "Thick Spider's Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4326": {
       "name": "Long Silken Cloak",
       "spell_id": 3861,
       "output_qty": 1,
       "skill": 185,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1029,14 +1076,15 @@
           "qty": 1,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4327": {
       "name": "Icy Cloak",
       "spell_id": 3862,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1060,14 +1108,15 @@
           "qty": 2,
           "name": "Thick Spider's Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4328": {
       "name": "Spider Belt",
       "spell_id": 3863,
       "output_qty": 1,
       "skill": 180,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1086,14 +1135,15 @@
           "qty": 1,
           "name": "Iron Buckle"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4329": {
       "name": "Star Belt",
       "spell_id": 3864,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1122,14 +1172,15 @@
           "qty": 1,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4330": {
       "name": "Stylish Red Shirt",
       "spell_id": 3866,
       "output_qty": 1,
       "skill": 110,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1148,14 +1199,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4331": {
       "name": "Phoenix Gloves",
       "spell_id": 3868,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1179,14 +1231,15 @@
           "qty": 2,
           "name": "Bleach"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4332": {
       "name": "Bright Yellow Shirt",
       "spell_id": 3869,
       "output_qty": 1,
       "skill": 135,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1205,14 +1258,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4333": {
       "name": "Dark Silk Shirt",
       "spell_id": 3870,
       "output_qty": 1,
       "skill": 155,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1231,14 +1285,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4334": {
       "name": "Formal White Shirt",
       "spell_id": 3871,
       "output_qty": 1,
       "skill": 170,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1257,14 +1312,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4335": {
       "name": "Rich Purple Silk Shirt",
       "spell_id": 3872,
       "output_qty": 1,
       "skill": 185,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1283,14 +1339,15 @@
           "qty": 1,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4336": {
       "name": "Black Swashbuckler's Shirt",
       "spell_id": 3873,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1309,14 +1366,15 @@
           "qty": 1,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4339": {
       "name": "Bolt of Mageweave",
       "spell_id": 3865,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1325,14 +1383,15 @@
           "qty": 5,
           "name": "Mageweave Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4343": {
       "name": "Brown Linen Pants",
       "spell_id": 3914,
       "output_qty": 1,
       "skill": 30,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1346,14 +1405,15 @@
           "qty": 1,
           "name": "Coarse Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4344": {
       "name": "Brown Linen Shirt",
       "spell_id": 3915,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1367,14 +1427,15 @@
           "qty": 1,
           "name": "Coarse Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5542": {
       "name": "Pearl-clasped Cloak",
       "spell_id": 6521,
       "output_qty": 1,
       "skill": 90,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1393,14 +1454,15 @@
           "qty": 1,
           "name": "Small Lustrous Pearl"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5762": {
       "name": "Red Linen Bag",
       "spell_id": 6686,
       "output_qty": 1,
       "skill": 70,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1419,14 +1481,15 @@
           "qty": 1,
           "name": "Red Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5763": {
       "name": "Red Woolen Bag",
       "spell_id": 6688,
       "output_qty": 1,
       "skill": 115,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1445,14 +1508,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5764": {
       "name": "Green Silk Pack",
       "spell_id": 6693,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1476,14 +1540,15 @@
           "qty": 1,
           "name": "Green Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5765": {
       "name": "Black Silk Pack",
       "spell_id": 6695,
       "output_qty": 1,
       "skill": 185,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1502,14 +1567,15 @@
           "qty": 4,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5766": {
       "name": "Lesser Wizard's Robe",
       "spell_id": 6690,
       "output_qty": 1,
       "skill": 135,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1528,14 +1594,15 @@
           "qty": 2,
           "name": "Spider's Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5770": {
       "name": "Robes of Arcana",
       "spell_id": 6692,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1554,14 +1621,15 @@
           "qty": 2,
           "name": "Spider's Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6238": {
       "name": "Brown Linen Robe",
       "spell_id": 7623,
       "output_qty": 1,
       "skill": 30,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1575,14 +1643,15 @@
           "qty": 1,
           "name": "Coarse Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6239": {
       "name": "Red Linen Vest",
       "spell_id": 7629,
       "output_qty": 1,
       "skill": 55,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1601,14 +1670,15 @@
           "qty": 1,
           "name": "Red Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6240": {
       "name": "Blue Linen Vest",
       "spell_id": 7630,
       "output_qty": 1,
       "skill": 55,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1627,14 +1697,15 @@
           "qty": 1,
           "name": "Blue Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6241": {
       "name": "White Linen Robe",
       "spell_id": 7624,
       "output_qty": 1,
       "skill": 30,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1653,14 +1724,15 @@
           "qty": 1,
           "name": "Bleach"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6242": {
       "name": "Blue Linen Robe",
       "spell_id": 7633,
       "output_qty": 1,
       "skill": 70,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1679,14 +1751,15 @@
           "qty": 2,
           "name": "Blue Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6263": {
       "name": "Blue Overalls",
       "spell_id": 7639,
       "output_qty": 1,
       "skill": 100,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1705,14 +1778,15 @@
           "qty": 2,
           "name": "Blue Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6264": {
       "name": "Greater Adept's Robe",
       "spell_id": 7643,
       "output_qty": 1,
       "skill": 115,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1731,14 +1805,15 @@
           "qty": 3,
           "name": "Red Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6384": {
       "name": "Stylish Blue Shirt",
       "spell_id": 7892,
       "output_qty": 1,
       "skill": 120,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1762,14 +1837,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6385": {
       "name": "Stylish Green Shirt",
       "spell_id": 7893,
       "output_qty": 1,
       "skill": 120,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1793,14 +1869,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6786": {
       "name": "Simple Dress",
       "spell_id": 8465,
       "output_qty": 1,
       "skill": 40,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1824,14 +1901,15 @@
           "qty": 1,
           "name": "Bleach"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6787": {
       "name": "White Woolen Dress",
       "spell_id": 8467,
       "output_qty": 1,
       "skill": 110,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1850,14 +1928,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6795": {
       "name": "White Swashbuckler's Shirt",
       "spell_id": 8483,
       "output_qty": 1,
       "skill": 160,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1876,14 +1955,15 @@
           "qty": 1,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6796": {
       "name": "Red Swashbuckler's Shirt",
       "spell_id": 8489,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1902,35 +1982,15 @@
           "qty": 1,
           "name": "Silken Thread"
         }
-      ]
-    },
-    "6836": {
-      "name": "Dress Shoes",
-      "spell_id": null,
-      "output_qty": 1,
-      "skill": 250,
-      "skill_verified": false,
-      "spec": null,
-      "source": "npm-only",
-      "reagents": [
-        {
-          "id": 4339,
-          "qty": 4,
-          "name": "Bolt of Mageweave"
-        },
-        {
-          "id": 4304,
-          "qty": 2,
-          "name": "Thick Leather"
-        }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7026": {
       "name": "Linen Belt",
       "spell_id": 8776,
       "output_qty": 1,
       "skill": 15,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1944,14 +2004,15 @@
           "qty": 1,
           "name": "Coarse Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7046": {
       "name": "Azure Silk Pants",
       "spell_id": 8758,
       "output_qty": 1,
       "skill": 140,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1970,14 +2031,15 @@
           "qty": 3,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7047": {
       "name": "Hands of Darkness",
       "spell_id": 8780,
       "output_qty": 1,
       "skill": 145,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2001,14 +2063,15 @@
           "qty": 2,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7048": {
       "name": "Azure Silk Hood",
       "spell_id": 8760,
       "output_qty": 1,
       "skill": 145,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2027,14 +2090,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7049": {
       "name": "Truefaith Gloves",
       "spell_id": 8782,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2058,14 +2122,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7050": {
       "name": "Silk Headband",
       "spell_id": 8762,
       "output_qty": 1,
       "skill": 160,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2079,14 +2144,15 @@
           "qty": 2,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7051": {
       "name": "Earthen Vest",
       "spell_id": 8764,
       "output_qty": 1,
       "skill": 170,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2105,14 +2171,15 @@
           "qty": 2,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7052": {
       "name": "Azure Silk Belt",
       "spell_id": 8766,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2141,14 +2208,15 @@
           "qty": 1,
           "name": "Iron Buckle"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7053": {
       "name": "Azure Silk Cloak",
       "spell_id": 8786,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2167,14 +2235,15 @@
           "qty": 2,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7054": {
       "name": "Robe of Power",
       "spell_id": 8770,
       "output_qty": 1,
       "skill": 190,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2208,14 +2277,15 @@
           "qty": 2,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7055": {
       "name": "Crimson Silk Belt",
       "spell_id": 8772,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2239,14 +2309,15 @@
           "qty": 1,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7056": {
       "name": "Crimson Silk Cloak",
       "spell_id": 8789,
       "output_qty": 1,
       "skill": 180,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2270,14 +2341,15 @@
           "qty": 1,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7057": {
       "name": "Green Silken Shoulders",
       "spell_id": 8774,
       "output_qty": 1,
       "skill": 180,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2291,14 +2363,15 @@
           "qty": 2,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7058": {
       "name": "Crimson Silk Vest",
       "spell_id": 8791,
       "output_qty": 1,
       "skill": 185,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2317,14 +2390,15 @@
           "qty": 2,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7059": {
       "name": "Crimson Silk Shoulders",
       "spell_id": 8793,
       "output_qty": 1,
       "skill": 190,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2348,14 +2422,15 @@
           "qty": 2,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7060": {
       "name": "Azure Shoulders",
       "spell_id": 8795,
       "output_qty": 1,
       "skill": 190,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2379,14 +2454,15 @@
           "qty": 2,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7061": {
       "name": "Earthen Silk Belt",
       "spell_id": 8797,
       "output_qty": 1,
       "skill": 195,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2415,14 +2491,15 @@
           "qty": 2,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7062": {
       "name": "Crimson Silk Pantaloons",
       "spell_id": 8799,
       "output_qty": 1,
       "skill": 195,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2441,14 +2518,15 @@
           "qty": 2,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7063": {
       "name": "Crimson Silk Robe",
       "spell_id": 8802,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2477,14 +2555,15 @@
           "qty": 1,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7064": {
       "name": "Crimson Silk Gloves",
       "spell_id": 8804,
       "output_qty": 1,
       "skill": 210,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2518,14 +2597,15 @@
           "qty": 2,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7065": {
       "name": "Green Silk Armor",
       "spell_id": 8784,
       "output_qty": 1,
       "skill": 165,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2544,14 +2624,15 @@
           "qty": 1,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9998": {
       "name": "Black Mageweave Vest",
       "spell_id": 12048,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2565,14 +2646,15 @@
           "qty": 3,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9999": {
       "name": "Black Mageweave Leggings",
       "spell_id": 12049,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2586,14 +2668,15 @@
           "qty": 3,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10001": {
       "name": "Black Mageweave Robe",
       "spell_id": 12050,
       "output_qty": 1,
       "skill": 210,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2607,14 +2690,15 @@
           "qty": 1,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10002": {
       "name": "Shadoweave Pants",
       "spell_id": 12052,
       "output_qty": 1,
       "skill": 210,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2633,14 +2717,15 @@
           "qty": 1,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10003": {
       "name": "Black Mageweave Gloves",
       "spell_id": 12053,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2654,14 +2739,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10004": {
       "name": "Shadoweave Robe",
       "spell_id": 12055,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2680,14 +2766,15 @@
           "qty": 1,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10007": {
       "name": "Red Mageweave Vest",
       "spell_id": 12056,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2706,14 +2793,15 @@
           "qty": 1,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10008": {
       "name": "White Bandit Mask",
       "spell_id": 12059,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2732,14 +2820,15 @@
           "qty": 1,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10009": {
       "name": "Red Mageweave Pants",
       "spell_id": 12060,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2758,14 +2847,15 @@
           "qty": 1,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10018": {
       "name": "Red Mageweave Gloves",
       "spell_id": 12066,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2784,14 +2874,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10019": {
       "name": "Dreamweave Gloves",
       "spell_id": 12067,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2815,14 +2906,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10021": {
       "name": "Dreamweave Vest",
       "spell_id": 12070,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2846,14 +2938,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10023": {
       "name": "Shadoweave Gloves",
       "spell_id": 12071,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2872,14 +2965,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10024": {
       "name": "Black Mageweave Headband",
       "spell_id": 12072,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2893,14 +2987,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10025": {
       "name": "Shadoweave Mask",
       "spell_id": 12086,
       "output_qty": 1,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2919,14 +3014,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10026": {
       "name": "Black Mageweave Boots",
       "spell_id": 12073,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2945,14 +3041,15 @@
           "qty": 2,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10027": {
       "name": "Black Mageweave Shoulders",
       "spell_id": 12074,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2966,14 +3063,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10028": {
       "name": "Shadoweave Shoulders",
       "spell_id": 12076,
       "output_qty": 1,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2992,14 +3090,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10029": {
       "name": "Red Mageweave Shoulders",
       "spell_id": 12078,
       "output_qty": 1,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3018,14 +3117,15 @@
           "qty": 3,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10030": {
       "name": "Admiral's Hat",
       "spell_id": 12081,
       "output_qty": 1,
       "skill": 240,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3044,14 +3144,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10031": {
       "name": "Shadoweave Boots",
       "spell_id": 12082,
       "output_qty": 1,
       "skill": 240,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3075,14 +3176,15 @@
           "qty": 2,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10033": {
       "name": "Red Mageweave Headband",
       "spell_id": 12084,
       "output_qty": 1,
       "skill": 240,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3101,14 +3203,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10034": {
       "name": "Tuxedo Shirt",
       "spell_id": 12085,
       "output_qty": 1,
       "skill": 240,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3122,14 +3225,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10035": {
       "name": "Tuxedo Pants",
       "spell_id": 12089,
       "output_qty": 1,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3143,14 +3247,15 @@
           "qty": 3,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10036": {
       "name": "Tuxedo Jacket",
       "spell_id": 12093,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3164,14 +3269,15 @@
           "qty": 3,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10040": {
       "name": "White Wedding Dress",
       "spell_id": 12091,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3190,14 +3296,15 @@
           "qty": 1,
           "name": "Bleach"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10041": {
       "name": "Dreamweave Circlet",
       "spell_id": 12092,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3231,14 +3338,15 @@
           "qty": 1,
           "name": "Jade"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10042": {
       "name": "Cindercloth Robe",
       "spell_id": 12069,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3257,14 +3365,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10044": {
       "name": "Cindercloth Boots",
       "spell_id": 12088,
       "output_qty": 1,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3288,14 +3397,15 @@
           "qty": 2,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10045": {
       "name": "Simple Linen Pants",
       "spell_id": 12044,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3309,14 +3419,15 @@
           "qty": 1,
           "name": "Coarse Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10046": {
       "name": "Simple Linen Boots",
       "spell_id": 12045,
       "output_qty": 1,
       "skill": 20,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3335,14 +3446,15 @@
           "qty": 1,
           "name": "Coarse Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10047": {
       "name": "Simple Kilt",
       "spell_id": 12046,
       "output_qty": 1,
       "skill": 75,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3356,14 +3468,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10048": {
       "name": "Colorful Kilt",
       "spell_id": 12047,
       "output_qty": 1,
       "skill": 120,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3382,14 +3495,15 @@
           "qty": 1,
           "name": "Fine Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10050": {
       "name": "Mageweave Bag",
       "spell_id": 12065,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3403,14 +3517,15 @@
           "qty": 2,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10051": {
       "name": "Red Mageweave Bag",
       "spell_id": 12079,
       "output_qty": 1,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3429,14 +3544,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10052": {
       "name": "Orange Martial Shirt",
       "spell_id": 12064,
       "output_qty": 1,
       "skill": 220,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3455,14 +3571,15 @@
           "qty": 1,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10053": {
       "name": "Simple Black Dress",
       "spell_id": 12077,
       "output_qty": 1,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3486,14 +3603,15 @@
           "qty": 1,
           "name": "Bleach"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10054": {
       "name": "Lavender Mageweave Shirt",
       "spell_id": 12075,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3512,14 +3630,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10055": {
       "name": "Pink Mageweave Shirt",
       "spell_id": 12080,
       "output_qty": 1,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3538,14 +3657,15 @@
           "qty": 1,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10056": {
       "name": "Orange Mageweave Shirt",
       "spell_id": 12061,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3564,14 +3684,15 @@
           "qty": 1,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13856": {
       "name": "Runecloth Belt",
       "spell_id": 18402,
       "output_qty": 1,
       "skill": 255,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3585,14 +3706,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13857": {
       "name": "Runecloth Tunic",
       "spell_id": 18407,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3611,14 +3733,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13858": {
       "name": "Runecloth Robe",
       "spell_id": 18406,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3637,14 +3760,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13860": {
       "name": "Runecloth Cloak",
       "spell_id": 18409,
       "output_qty": 1,
       "skill": 265,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3663,14 +3787,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13863": {
       "name": "Runecloth Gloves",
       "spell_id": 18417,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3689,14 +3814,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13864": {
       "name": "Runecloth Boots",
       "spell_id": 18423,
       "output_qty": 1,
       "skill": 280,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3720,14 +3846,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13865": {
       "name": "Runecloth Pants",
       "spell_id": 18438,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3746,14 +3873,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13866": {
       "name": "Runecloth Headband",
       "spell_id": 18444,
       "output_qty": 1,
       "skill": 295,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3772,14 +3900,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13867": {
       "name": "Runecloth Shoulders",
       "spell_id": 18449,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3803,14 +3932,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13868": {
       "name": "Frostweave Robe",
       "spell_id": 18404,
       "output_qty": 1,
       "skill": 255,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3829,14 +3959,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13869": {
       "name": "Frostweave Tunic",
       "spell_id": 18403,
       "output_qty": 1,
       "skill": 255,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3855,14 +3986,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13870": {
       "name": "Frostweave Gloves",
       "spell_id": 18411,
       "output_qty": 1,
       "skill": 265,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3881,14 +4013,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13871": {
       "name": "Frostweave Pants",
       "spell_id": 18424,
       "output_qty": 1,
       "skill": 280,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3907,14 +4040,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14042": {
       "name": "Cindercloth Vest",
       "spell_id": 18408,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3933,14 +4067,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14043": {
       "name": "Cindercloth Gloves",
       "spell_id": 18412,
       "output_qty": 1,
       "skill": 270,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3959,14 +4094,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14044": {
       "name": "Cindercloth Cloak",
       "spell_id": 18418,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3985,14 +4121,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14045": {
       "name": "Cindercloth Pants",
       "spell_id": 18434,
       "output_qty": 1,
       "skill": 280,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4011,14 +4148,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14046": {
       "name": "Runecloth Bag",
       "spell_id": 18405,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4037,14 +4175,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14048": {
       "name": "Bolt of Runecloth",
       "spell_id": 18401,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4053,14 +4192,15 @@
           "qty": 5,
           "name": "Runecloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14100": {
       "name": "Brightcloth Robe",
       "spell_id": 18414,
       "output_qty": 1,
       "skill": 270,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4079,14 +4219,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14101": {
       "name": "Brightcloth Gloves",
       "spell_id": 18415,
       "output_qty": 1,
       "skill": 270,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4105,14 +4246,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14103": {
       "name": "Brightcloth Cloak",
       "spell_id": 18420,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4131,14 +4273,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14104": {
       "name": "Brightcloth Pants",
       "spell_id": 18439,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4162,14 +4305,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14106": {
       "name": "Felcloth Robe",
       "spell_id": 18451,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4193,14 +4337,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14107": {
       "name": "Felcloth Pants",
       "spell_id": 18419,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4219,14 +4364,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14108": {
       "name": "Felcloth Boots",
       "spell_id": 18437,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4250,14 +4396,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14111": {
       "name": "Felcloth Hood",
       "spell_id": 18442,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4276,14 +4423,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14112": {
       "name": "Felcloth Shoulders",
       "spell_id": 18453,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4312,14 +4460,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14128": {
       "name": "Wizardweave Robe",
       "spell_id": 18446,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4338,14 +4487,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14130": {
       "name": "Wizardweave Turban",
       "spell_id": 18450,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4369,14 +4519,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14132": {
       "name": "Wizardweave Leggings",
       "spell_id": 18421,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4395,14 +4546,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14134": {
       "name": "Cloak of Fire",
       "spell_id": 18422,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4431,14 +4583,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14136": {
       "name": "Robe of Winter Night",
       "spell_id": 18436,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4467,14 +4620,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14137": {
       "name": "Mooncloth Leggings",
       "spell_id": 18440,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4493,14 +4647,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14138": {
       "name": "Mooncloth Vest",
       "spell_id": 18447,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4519,14 +4674,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14139": {
       "name": "Mooncloth Shoulders",
       "spell_id": 18448,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4545,14 +4701,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14140": {
       "name": "Mooncloth Circlet",
       "spell_id": 18452,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4581,14 +4738,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14141": {
       "name": "Ghostweave Vest",
       "spell_id": 18416,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4612,14 +4770,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14142": {
       "name": "Ghostweave Gloves",
       "spell_id": 18413,
       "output_qty": 1,
       "skill": 270,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4643,14 +4802,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14143": {
       "name": "Ghostweave Belt",
       "spell_id": 18410,
       "output_qty": 1,
       "skill": 265,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4674,14 +4834,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14144": {
       "name": "Ghostweave Pants",
       "spell_id": 18441,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4700,14 +4861,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14146": {
       "name": "Gloves of Spell Mastery",
       "spell_id": 18454,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4746,14 +4908,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14152": {
       "name": "Robe of the Archmage",
       "spell_id": 18457,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4787,14 +4950,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14153": {
       "name": "Robe of the Void",
       "spell_id": 18458,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4828,14 +4992,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14154": {
       "name": "Truefaith Vestments",
       "spell_id": 18456,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4869,14 +5034,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14155": {
       "name": "Mooncloth Bag",
       "spell_id": 18445,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4895,14 +5061,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14156": {
       "name": "Bottomless Bag",
       "spell_id": 18455,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4931,14 +5098,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "14342": {
       "name": "Mooncloth",
       "spell_id": 18560,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4947,14 +5115,15 @@
           "qty": 2,
           "name": "Felcloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "15802": {
       "name": "Mooncloth Boots",
       "spell_id": 19435,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4978,14 +5147,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16979": {
       "name": "Flarecore Gloves",
       "spell_id": 20849,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5014,14 +5184,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16980": {
       "name": "Flarecore Mantle",
       "spell_id": 20848,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5050,14 +5221,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "17723": {
       "name": "Green Holiday Shirt",
       "spell_id": 21945,
       "output_qty": 1,
       "skill": 190,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5076,14 +5248,15 @@
           "qty": 1,
           "name": "Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18258": {
       "name": "Gordok Ogre Suit",
       "spell_id": 22813,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5127,14 +5300,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18263": {
       "name": "Flarecore Wraps",
       "spell_id": 22759,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5163,14 +5337,15 @@
           "qty": 4,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18405": {
       "name": "Belt of the Archmage",
       "spell_id": 22866,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5209,14 +5384,15 @@
           "qty": 6,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18407": {
       "name": "Felcloth Gloves",
       "spell_id": 22867,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5245,14 +5421,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18408": {
       "name": "Inferno Gloves",
       "spell_id": 22868,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5276,14 +5453,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18409": {
       "name": "Mooncloth Gloves",
       "spell_id": 22869,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5307,14 +5485,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18413": {
       "name": "Cloak of Warding",
       "spell_id": 22870,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5338,14 +5517,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18486": {
       "name": "Mooncloth Robe",
       "spell_id": 22902,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5369,14 +5549,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19047": {
       "name": "Wisdom of the Timbermaw",
       "spell_id": 23662,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5400,14 +5581,15 @@
           "qty": 2,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19050": {
       "name": "Mantle of the Timbermaw",
       "spell_id": 23663,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5431,14 +5613,15 @@
           "qty": 2,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19056": {
       "name": "Argent Boots",
       "spell_id": 23664,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5467,14 +5650,15 @@
           "qty": 2,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19059": {
       "name": "Argent Shoulders",
       "spell_id": 23665,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5493,14 +5677,15 @@
           "qty": 2,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19156": {
       "name": "Flarecore Robe",
       "spell_id": 23666,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5529,14 +5714,15 @@
           "qty": 4,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19165": {
       "name": "Flarecore Leggings",
       "spell_id": 23667,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5565,14 +5751,15 @@
           "qty": 4,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19682": {
       "name": "Bloodvine Vest",
       "spell_id": 24091,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5601,14 +5788,15 @@
           "qty": 2,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19683": {
       "name": "Bloodvine Leggings",
       "spell_id": 24092,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5637,14 +5825,15 @@
           "qty": 2,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19684": {
       "name": "Bloodvine Boots",
       "spell_id": 24093,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5673,14 +5862,15 @@
           "qty": 4,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "20537": {
       "name": "Runed Stygian Boots",
       "spell_id": 24903,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5709,14 +5899,15 @@
           "qty": 2,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "20538": {
       "name": "Runed Stygian Leggings",
       "spell_id": 24901,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5740,14 +5931,15 @@
           "qty": 2,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "20539": {
       "name": "Runed Stygian Belt",
       "spell_id": 24902,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5776,14 +5968,15 @@
           "qty": 2,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21154": {
       "name": "Festival Dress",
       "spell_id": 26403,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5807,14 +6000,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21340": {
       "name": "Soul Pouch",
       "spell_id": 26085,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5838,14 +6032,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21341": {
       "name": "Felcloth Bag",
       "spell_id": 26086,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5869,14 +6064,15 @@
           "qty": 4,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21342": {
       "name": "Core Felcloth Bag",
       "spell_id": 26087,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5905,14 +6101,15 @@
           "qty": 4,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21542": {
       "name": "Festival Suit",
       "spell_id": 26407,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5936,14 +6133,15 @@
           "qty": 1,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22246": {
       "name": "Enchanted Mageweave Pouch",
       "spell_id": 27658,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5962,14 +6160,15 @@
           "qty": 2,
           "name": "Heavy Silken Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22248": {
       "name": "Enchanted Runecloth Bag",
       "spell_id": 27659,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5988,14 +6187,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22249": {
       "name": "Big Bag of Enchantment",
       "spell_id": 27660,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6019,14 +6219,15 @@
           "qty": 4,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22251": {
       "name": "Cenarion Herb Bag",
       "spell_id": 27724,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6050,14 +6251,15 @@
           "qty": 2,
           "name": "Rune Thread"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22252": {
       "name": "Satchel of Cenarius",
       "spell_id": 27725,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6081,14 +6283,15 @@
           "qty": 4,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22652": {
       "name": "Glacial Vest",
       "spell_id": 28207,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6112,14 +6315,15 @@
           "qty": 8,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22654": {
       "name": "Glacial Gloves",
       "spell_id": 28205,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6143,14 +6347,15 @@
           "qty": 4,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22655": {
       "name": "Glacial Wrists",
       "spell_id": 28209,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6174,14 +6379,15 @@
           "qty": 4,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22658": {
       "name": "Glacial Cloak",
       "spell_id": 28208,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6205,14 +6411,15 @@
           "qty": 4,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22660": {
       "name": "Gaea's Embrace",
       "spell_id": 28210,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6236,14 +6443,15 @@
           "qty": 4,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22756": {
       "name": "Sylvan Vest",
       "spell_id": 28480,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6267,14 +6475,15 @@
           "qty": 2,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22757": {
       "name": "Sylvan Crown",
       "spell_id": 28481,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6298,14 +6507,15 @@
           "qty": 2,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22758": {
       "name": "Sylvan Shoulders",
       "spell_id": 28482,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6324,7 +6534,8 @@
           "qty": 2,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     }
   }
 }

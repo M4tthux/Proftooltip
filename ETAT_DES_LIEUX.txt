@@ -1,0 +1,148 @@
+════════════════════════════════════════════════════════════════════════
+  ProfTooltip — ÉTAT DES LIEUX
+  Pourquoi un addon qui marche déjà prend autant de temps à « finaliser »
+  Rédigé le 2026-06-07
+════════════════════════════════════════════════════════════════════════
+
+
+1. LE PLUS IMPORTANT D'ABORD
+─────────────────────────────
+L'addon FONCTIONNE. Il n'a jamais été cassé. En jeu, les tooltips
+s'affichent correctement : ingrédients, quantités, noms d'objets — tout
+ça est juste.
+
+Le travail en cours n'est PAS une réparation. C'est un AUDIT de fiabilité
+sur un seul champ : le « niveau de métier requis » (skill) affiché dans
+chaque tooltip. On vérifie que le nombre affiché (ex. « Heavy Wool Bandage
+— requiert Premiers Soins 115 ») est bien le bon.
+
+Conséquence directe : la grande majorité de ce travail ne CHANGE RIEN à
+l'addon. Le seul effet visible, c'est quand l'audit trouve un nombre faux
+et le corrige. Exemple : sur 108 recettes d'Alchimie vérifiées une par une,
+2 nombres étaient faux. Les 106 autres étaient déjà bons.
+
+
+2. POURQUOI C'EST LONG
+───────────────────────
+Deux raisons, toutes les deux indépendantes de l'addon lui-même :
+
+a) LA RÈGLE « ne jamais inventer une donnée de jeu »
+   Pour WoW, on s'interdit de remplir un chiffre « de mémoire ». Chaque
+   niveau de skill doit être confirmé sur une source fiable. Il y a ~1067
+   recettes réparties sur 7 métiers. Donc ~1067 vérifications à faire.
+
+b) WOWHEAD BLOQUE LE SCRAPING EN MASSE
+   Wowhead (la base de données de référence) renvoie une erreur « 403 »
+   (anti-robot) dès qu'on enchaîne trop de requêtes vite (~400 d'affilée).
+   On est donc obligés de ralentir volontairement à ~3-4 requêtes/seconde,
+   avec des pauses. D'où des minutes d'attente, pas des secondes.
+
+   C'est ÇA, le vrai goulot d'étranglement. Pas la complexité du code.
+
+
+3. D'OÙ VIENNENT LES DONNÉES (les sources)
+───────────────────────────────────────────
+Il y a deux briques de données, qui ne servent pas à la même chose :
+
+• Le paquet npm « wow-classic-items »  (déjà dans node_modules)
+  → fait autorité sur : ID d'objet, nom, ingrédients (réactifs) et
+    quantités. C'est lui qui a construit la base au départ.
+  → il fournit AUSSI un niveau de skill, MAIS celui-ci n'avait jamais été
+    recoupé avec une 2e source. C'est exactement ce qu'on audite.
+
+• Wowhead Classic — pages de sorts (spell)
+  → champ « learnedat » = le niveau exact auquel on apprend la recette.
+    C'est la SOURCE DE VÉRITÉ pour le skill. On compare le chiffre npm à
+    ce « learnedat » : identique = validé ; différent = corrigé.
+
+• Pour la cueillette/minage (ores déjà fait, herbes en cours)
+  → ces métiers n'ont pas de « learnedat » (pas de recette, on ramasse).
+    Les niveaux viennent des valeurs canoniques Classic recoupées entre
+    Wowhead, Icy Veins et zockify.
+
+
+4. À QUOI SERT WARCRAFTTAVERN (et pourquoi on n'en a plus besoin)
+──────────────────────────────────────────────────────────────────
+warcrafttavern.com est un site de guides/base de données WoW Classic.
+
+La session PRÉCÉDENTE pensait qu'il faudrait que tu ailles copier-coller
+à la main des tableaux de skill depuis warcrafttavern. Pourquoi ? Parce
+qu'à l'époque on croyait que :
+  - Wowhead affichait le skill uniquement en JavaScript (illisible par un
+    script), et
+  - l'accès web direct était bloqué (403).
+Donc warcrafttavern était envisagé comme la source « de secours » que tu
+fournirais manuellement.
+
+CETTE SESSION a trouvé mieux : les pages de sorts Wowhead exposent en fait
+le « learnedat » dans le code de la page, parfaitement lisible par un
+script. Résultat :
+  → la vérification est maintenant AUTOMATIQUE,
+  → tu n'as RIEN à copier-coller,
+  → warcrafttavern n'est PLUS nécessaire.
+
+C'est le déblocage principal de la session : le « blocage sur source
+externe » noté la dernière fois n'existe plus.
+
+
+5. LA FAUSSE ALERTE DE LA DERNIÈRE SESSION
+────────────────────────────────────────────
+La session précédente avait noté « 18 recettes d'ingénierie sur 24 sont
+fausses » et avait conclu que les données étaient pourries. C'était une
+ERREUR DE COMPARAISON : on comparait nos chiffres à un GUIDE DE LEVELING
+(un guide te dit « fabrique ça de 125 à 150 pour monter vite » = une
+fourchette de rentabilité), alors que nous, on stocke le « niveau requis
+pour apprendre la recette » = un seul chiffre. Ce sont deux choses
+différentes. Les données n'étaient donc pas fausses : on les comparait à
+la mauvaise référence.
+
+
+6. CE QUI A ÉTÉ FAIT (session 2026-06-07 — TERMINÉE)
+──────────────────────────────────────────────────────
+  - Découverte de la source automatique (Wowhead learnedat) → fin du blocage.
+  - Script de vérification déterministe (verify_skills.js), idempotent.
+  - 7 métiers de craft vérifiés UN PAR UN contre Wowhead : 1063/1065 recettes.
+
+  CHIFFRES CORRIGÉS (les seuls réellement faux sur ~1067) :
+    • Alchimie  — Gold Bar 225→155, Truesilver Bar 225→230
+    • Ingénierie — Goblin Rocket Boots 130→225, Goblin Mortar 205→225
+    • (Arclight Spanner confirmé à 50 via la fiche Wowhead)
+    → 5 corrections au total. Tout le reste était déjà juste.
+
+  ENTRÉES SUPPRIMÉES (mauvaises données, pas du Classic Era) :
+    • Dress Shoes (tailoring) — objet réel mais NON fabricable (fausse
+      recette injectée par le paquet npm).
+    • Crunchy Spider Surprise (cooking) — objet 22645 + son réactif 22644
+      « Item not found » sur Wowhead Classic = contamination Cataclysm.
+
+  2 recettes laissées NON vérifiées, honnêtement signalées (pas inventées) :
+    • Fused Wiring (ingénierie) — id de sort de recette introuvable sur
+      Wowhead ; skill 275 conservé du npm, marqué non vérifié.
+    • Heavy Leather Ball (travail du cuir) — la fiche Wowhead n'expose
+      aucun « learnedat » ; skill 150 conservé (cohérent npm), non vérifié.
+
+  - Herbes (cueillette) : pas de recette donc pas de « learnedat » à
+    vérifier. IDs d'objet vérifiés (npm), niveaux de cueillette = valeurs
+    canoniques Classic (même base que ores.json). État final assumé.
+
+  - Fichiers Lua régénérés (node generate.js) — 1149 entrées au total.
+
+RESTE (optionnel, non bloquant) :
+  - node sync.js  → recopier l'addon dans le dossier WoW (si tu veux
+    tester en jeu).
+  - git push      → envoyer les commits vers origin (jamais poussé pour
+    l'instant ; le dépôt tourne en local).
+
+NOTE TECHNIQUE IMPORTANTE :
+  Le champ « skill_verified » est une étiquette de SUIVI. Il ne sort PAS
+  dans le Lua généré (generate.js n'écrit que name/skill/spec/components).
+  Autrement dit, tout cet audit ne modifie l'addon QUE via les rares
+  corrections de chiffres qu'il trouve. Le reste, c'est de l'assurance
+  qualité invisible en jeu.
+
+
+7. EN UNE PHRASE
+──────────────────
+On ne « répare » pas un truc cassé : on certifie, un par un et sans
+inventer, ~1067 niveaux de métier contre Wowhead — et la lenteur vient
+uniquement du fait que Wowhead nous bride pour empêcher le scraping massif.

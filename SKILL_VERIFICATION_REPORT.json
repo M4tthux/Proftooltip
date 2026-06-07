@@ -1,0 +1,35 @@
+{
+  "generated": "2026-06-07T10:12:05.060Z",
+  "professions": [
+    {
+      "profession": "engineering",
+      "total": 164,
+      "verified_this_run": 2,
+      "corrections": [],
+      "unresolved": [
+        {
+          "itemId": "6219",
+          "name": "Arclight Spanner",
+          "spell_id": null,
+          "reason": "no_spell_id"
+        },
+        {
+          "itemId": "7191",
+          "name": "Fused Wiring",
+          "spell_id": null,
+          "reason": "no_spell_id"
+        },
+        {
+          "itemId": "10577",
+          "name": "Goblin Mortar",
+          "spell_id": null,
+          "reason": "no_spell_id"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "corrections": 0,
+    "unresolved": 3
+  }
+}

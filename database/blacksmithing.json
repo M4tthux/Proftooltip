@@ -11,7 +11,13 @@
       "Spell IDs are VERIFIED against Wowhead Classic.",
       "Entries with source=\"npm-only\" had no Wowhead <createdBy> section.",
       "Keyed by OUTPUT ITEM ID."
-    ]
+    ],
+    "skill_verification": {
+      "method": "Wowhead Classic spell XML learnedat",
+      "verified_count": 240,
+      "unverified_count": 0,
+      "corrections": 0
+    }
   },
   "recipes": {
     "2844": {
@@ -19,7 +25,7 @@
       "spell_id": 2737,
       "output_qty": 1,
       "skill": 15,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -38,14 +44,15 @@
           "qty": 2,
           "name": "Linen Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2845": {
       "name": "Copper Axe",
       "spell_id": 2738,
       "output_qty": 1,
       "skill": 20,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -64,14 +71,15 @@
           "qty": 2,
           "name": "Linen Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2847": {
       "name": "Copper Shortsword",
       "spell_id": 2739,
       "output_qty": 1,
       "skill": 25,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -90,14 +98,15 @@
           "qty": 2,
           "name": "Linen Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2848": {
       "name": "Bronze Mace",
       "spell_id": 2740,
       "output_qty": 1,
       "skill": 110,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -116,14 +125,15 @@
           "qty": 1,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2849": {
       "name": "Bronze Axe",
       "spell_id": 2741,
       "output_qty": 1,
       "skill": 115,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -142,14 +152,15 @@
           "qty": 1,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2850": {
       "name": "Bronze Shortsword",
       "spell_id": 2742,
       "output_qty": 1,
       "skill": 120,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -168,14 +179,15 @@
           "qty": 2,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2851": {
       "name": "Copper Chain Belt",
       "spell_id": 2661,
       "output_qty": 1,
       "skill": 35,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -184,14 +196,15 @@
           "qty": 6,
           "name": "Copper Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2852": {
       "name": "Copper Chain Pants",
       "spell_id": 2662,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -200,14 +213,15 @@
           "qty": 4,
           "name": "Copper Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2853": {
       "name": "Copper Bracers",
       "spell_id": 2663,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -216,14 +230,15 @@
           "qty": 2,
           "name": "Copper Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2854": {
       "name": "Runed Copper Bracers",
       "spell_id": 2664,
       "output_qty": 1,
       "skill": 90,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -237,14 +252,15 @@
           "qty": 3,
           "name": "Rough Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2857": {
       "name": "Runed Copper Belt",
       "spell_id": 2666,
       "output_qty": 1,
       "skill": 70,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -253,14 +269,15 @@
           "qty": 10,
           "name": "Copper Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2862": {
       "name": "Rough Sharpening Stone",
       "spell_id": 2660,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -269,14 +286,15 @@
           "qty": 1,
           "name": "Rough Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2863": {
       "name": "Coarse Sharpening Stone",
       "spell_id": 2665,
       "output_qty": 1,
       "skill": 65,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -285,14 +303,15 @@
           "qty": 1,
           "name": "Coarse Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2864": {
       "name": "Runed Copper Breastplate",
       "spell_id": 2667,
       "output_qty": 1,
       "skill": 80,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -311,14 +330,15 @@
           "qty": 2,
           "name": "Rough Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2865": {
       "name": "Rough Bronze Leggings",
       "spell_id": 2668,
       "output_qty": 1,
       "skill": 105,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -327,14 +347,15 @@
           "qty": 6,
           "name": "Bronze Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2866": {
       "name": "Rough Bronze Cuirass",
       "spell_id": 2670,
       "output_qty": 1,
       "skill": 105,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -343,14 +364,15 @@
           "qty": 7,
           "name": "Bronze Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2868": {
       "name": "Patterned Bronze Bracers",
       "spell_id": 2672,
       "output_qty": 1,
       "skill": 120,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -364,14 +386,15 @@
           "qty": 2,
           "name": "Coarse Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2869": {
       "name": "Silvered Bronze Breastplate",
       "spell_id": 2673,
       "output_qty": 1,
       "skill": 130,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -395,14 +418,15 @@
           "qty": 1,
           "name": "Lesser Moonstone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2870": {
       "name": "Shining Silver Breastplate",
       "spell_id": 2675,
       "output_qty": 1,
       "skill": 145,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -431,14 +455,15 @@
           "qty": 4,
           "name": "Silver Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2871": {
       "name": "Heavy Sharpening Stone",
       "spell_id": 2674,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -447,14 +472,15 @@
           "qty": 1,
           "name": "Heavy Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3239": {
       "name": "Rough Weightstone",
       "spell_id": 3115,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -468,14 +494,15 @@
           "qty": 1,
           "name": "Linen Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3240": {
       "name": "Coarse Weightstone",
       "spell_id": 3116,
       "output_qty": 1,
       "skill": 65,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -489,14 +516,15 @@
           "qty": 1,
           "name": "Wool Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3241": {
       "name": "Heavy Weightstone",
       "spell_id": 3117,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -510,14 +538,15 @@
           "qty": 1,
           "name": "Wool Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3469": {
       "name": "Copper Chain Boots",
       "spell_id": 3319,
       "output_qty": 1,
       "skill": 20,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -526,14 +555,15 @@
           "qty": 8,
           "name": "Copper Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3470": {
       "name": "Rough Grinding Stone",
       "spell_id": 3320,
       "output_qty": 1,
       "skill": 25,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -542,14 +572,15 @@
           "qty": 2,
           "name": "Rough Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3471": {
       "name": "Copper Chain Vest",
       "spell_id": 3321,
       "output_qty": 1,
       "skill": 35,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -568,14 +599,15 @@
           "qty": 2,
           "name": "Rough Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3472": {
       "name": "Runed Copper Gauntlets",
       "spell_id": 3323,
       "output_qty": 1,
       "skill": 40,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -589,14 +621,15 @@
           "qty": 2,
           "name": "Rough Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3473": {
       "name": "Runed Copper Pants",
       "spell_id": 3324,
       "output_qty": 1,
       "skill": 45,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -615,14 +648,15 @@
           "qty": 3,
           "name": "Rough Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3474": {
       "name": "Gemmed Copper Gauntlets",
       "spell_id": 3325,
       "output_qty": 1,
       "skill": 60,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -641,14 +675,15 @@
           "qty": 1,
           "name": "Malachite"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3478": {
       "name": "Coarse Grinding Stone",
       "spell_id": 3326,
       "output_qty": 1,
       "skill": 75,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -657,14 +692,15 @@
           "qty": 2,
           "name": "Coarse Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3480": {
       "name": "Rough Bronze Shoulders",
       "spell_id": 3328,
       "output_qty": 1,
       "skill": 110,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -683,14 +719,15 @@
           "qty": 1,
           "name": "Coarse Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3481": {
       "name": "Silvered Bronze Shoulders",
       "spell_id": 3330,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -709,14 +746,15 @@
           "qty": 2,
           "name": "Coarse Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3482": {
       "name": "Silvered Bronze Boots",
       "spell_id": 3331,
       "output_qty": 1,
       "skill": 130,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -735,14 +773,15 @@
           "qty": 2,
           "name": "Coarse Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3483": {
       "name": "Silvered Bronze Gauntlets",
       "spell_id": 3333,
       "output_qty": 1,
       "skill": 135,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -761,14 +800,15 @@
           "qty": 2,
           "name": "Coarse Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3484": {
       "name": "Green Iron Boots",
       "spell_id": 3334,
       "output_qty": 1,
       "skill": 145,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -792,14 +832,15 @@
           "qty": 1,
           "name": "Green Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3485": {
       "name": "Green Iron Gauntlets",
       "spell_id": 3336,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -823,14 +864,15 @@
           "qty": 1,
           "name": "Green Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3486": {
       "name": "Heavy Grinding Stone",
       "spell_id": 3337,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -839,14 +881,15 @@
           "qty": 3,
           "name": "Heavy Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3487": {
       "name": "Heavy Copper Broadsword",
       "spell_id": 3292,
       "output_qty": 1,
       "skill": 95,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -870,14 +913,15 @@
           "qty": 2,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3488": {
       "name": "Copper Battle Axe",
       "spell_id": 3293,
       "output_qty": 1,
       "skill": 35,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -906,14 +950,15 @@
           "qty": 2,
           "name": "Light Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3489": {
       "name": "Thick War Axe",
       "spell_id": 3294,
       "output_qty": 1,
       "skill": 70,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -942,14 +987,15 @@
           "qty": 2,
           "name": "Light Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3490": {
       "name": "Deadly Bronze Poniard",
       "spell_id": 3295,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -983,14 +1029,15 @@
           "qty": 2,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3491": {
       "name": "Heavy Bronze Mace",
       "spell_id": 3296,
       "output_qty": 1,
       "skill": 130,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1024,14 +1071,15 @@
           "qty": 2,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3492": {
       "name": "Mighty Iron Hammer",
       "spell_id": 3297,
       "output_qty": 1,
       "skill": 145,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1065,14 +1113,15 @@
           "qty": 2,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3835": {
       "name": "Green Iron Bracers",
       "spell_id": 3501,
       "output_qty": 1,
       "skill": 165,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1086,14 +1135,15 @@
           "qty": 1,
           "name": "Green Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3836": {
       "name": "Green Iron Helm",
       "spell_id": 3502,
       "output_qty": 1,
       "skill": 170,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1112,14 +1162,15 @@
           "qty": 1,
           "name": "Green Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3837": {
       "name": "Golden Scale Coif",
       "spell_id": 3503,
       "output_qty": 1,
       "skill": 190,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1138,14 +1189,15 @@
           "qty": 2,
           "name": "Heavy Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3840": {
       "name": "Green Iron Shoulders",
       "spell_id": 3504,
       "output_qty": 1,
       "skill": 160,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1164,14 +1216,15 @@
           "qty": 1,
           "name": "Green Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3841": {
       "name": "Golden Scale Shoulders",
       "spell_id": 3505,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1190,14 +1243,15 @@
           "qty": 1,
           "name": "Heavy Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3842": {
       "name": "Green Iron Leggings",
       "spell_id": 3506,
       "output_qty": 1,
       "skill": 155,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1216,14 +1270,15 @@
           "qty": 1,
           "name": "Green Dye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3843": {
       "name": "Golden Scale Leggings",
       "spell_id": 3507,
       "output_qty": 1,
       "skill": 170,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1242,14 +1297,15 @@
           "qty": 1,
           "name": "Heavy Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3844": {
       "name": "Green Iron Hauberk",
       "spell_id": 3508,
       "output_qty": 1,
       "skill": 180,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1278,14 +1334,15 @@
           "qty": 1,
           "name": "Green Leather Armor"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3845": {
       "name": "Golden Scale Cuirass",
       "spell_id": 3511,
       "output_qty": 1,
       "skill": 195,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1309,14 +1366,15 @@
           "qty": 2,
           "name": "Jade"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3846": {
       "name": "Polished Steel Boots",
       "spell_id": 3513,
       "output_qty": 1,
       "skill": 185,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1340,14 +1398,15 @@
           "qty": 2,
           "name": "Heavy Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3847": {
       "name": "Golden Scale Boots",
       "spell_id": 3515,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1371,14 +1430,15 @@
           "qty": 1,
           "name": "Citrine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3848": {
       "name": "Big Bronze Knife",
       "spell_id": 3491,
       "output_qty": 1,
       "skill": 105,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1407,14 +1467,15 @@
           "qty": 1,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3849": {
       "name": "Hardened Iron Shortsword",
       "spell_id": 3492,
       "output_qty": 1,
       "skill": 160,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1443,14 +1504,15 @@
           "qty": 3,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3850": {
       "name": "Jade Serpentblade",
       "spell_id": 3493,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1479,14 +1541,15 @@
           "qty": 3,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3851": {
       "name": "Solid Iron Maul",
       "spell_id": 3494,
       "output_qty": 1,
       "skill": 155,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1515,14 +1578,15 @@
           "qty": 2,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3852": {
       "name": "Golden Iron Destroyer",
       "spell_id": 3495,
       "output_qty": 1,
       "skill": 170,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1556,14 +1620,15 @@
           "qty": 2,
           "name": "Heavy Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3853": {
       "name": "Moonsteel Broadsword",
       "spell_id": 3496,
       "output_qty": 1,
       "skill": 180,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1592,14 +1657,15 @@
           "qty": 3,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3854": {
       "name": "Frost Tiger Blade",
       "spell_id": 3497,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1633,14 +1699,15 @@
           "qty": 4,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3855": {
       "name": "Massive Iron Axe",
       "spell_id": 3498,
       "output_qty": 1,
       "skill": 185,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1669,14 +1736,15 @@
           "qty": 2,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3856": {
       "name": "Shadow Crescent Axe",
       "spell_id": 3500,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1710,14 +1778,15 @@
           "qty": 3,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5540": {
       "name": "Pearl-handled Dagger",
       "spell_id": 6517,
       "output_qty": 1,
       "skill": 110,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1741,14 +1810,15 @@
           "qty": 2,
           "name": "Coarse Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5541": {
       "name": "Iridescent Hammer",
       "spell_id": 6518,
       "output_qty": 1,
       "skill": 140,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1777,14 +1847,15 @@
           "qty": 2,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6040": {
       "name": "Golden Scale Bracers",
       "spell_id": 7223,
       "output_qty": 1,
       "skill": 185,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1798,14 +1869,15 @@
           "qty": 2,
           "name": "Heavy Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6041": {
       "name": "Steel Weapon Chain",
       "spell_id": 7224,
       "output_qty": 1,
       "skill": 190,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1824,14 +1896,15 @@
           "qty": 4,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6042": {
       "name": "Iron Shield Spike",
       "spell_id": 7221,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1845,14 +1918,15 @@
           "qty": 4,
           "name": "Coarse Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6043": {
       "name": "Iron Counterweight",
       "spell_id": 7222,
       "output_qty": 1,
       "skill": 165,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1871,14 +1945,15 @@
           "qty": 1,
           "name": "Lesser Moonstone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6214": {
       "name": "Heavy Copper Maul",
       "spell_id": 7408,
       "output_qty": 1,
       "skill": 65,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1897,14 +1972,15 @@
           "qty": 2,
           "name": "Light Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6338": {
       "name": "Silver Rod",
       "spell_id": 7818,
       "output_qty": 1,
       "skill": 100,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1918,14 +1994,15 @@
           "qty": 2,
           "name": "Rough Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6350": {
       "name": "Rough Bronze Boots",
       "spell_id": 7817,
       "output_qty": 1,
       "skill": 95,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1939,14 +2016,15 @@
           "qty": 6,
           "name": "Rough Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6731": {
       "name": "Ironforge Breastplate",
       "spell_id": 8367,
       "output_qty": 1,
       "skill": 100,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1965,14 +2043,15 @@
           "qty": 3,
           "name": "Rough Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7071": {
       "name": "Iron Buckle",
       "spell_id": 8768,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1981,14 +2060,15 @@
           "qty": 1,
           "name": "Iron Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7166": {
       "name": "Copper Dagger",
       "spell_id": 8880,
       "output_qty": 1,
       "skill": 30,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2012,14 +2092,15 @@
           "qty": 1,
           "name": "Light Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7913": {
       "name": "Barbaric Iron Shoulders",
       "spell_id": 9811,
       "output_qty": 1,
       "skill": 160,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2043,14 +2124,15 @@
           "qty": 2,
           "name": "Heavy Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7914": {
       "name": "Barbaric Iron Breastplate",
       "spell_id": 9813,
       "output_qty": 1,
       "skill": 160,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2064,14 +2146,15 @@
           "qty": 4,
           "name": "Heavy Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7915": {
       "name": "Barbaric Iron Helm",
       "spell_id": 9814,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2090,14 +2173,15 @@
           "qty": 2,
           "name": "Sharp Claw"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7916": {
       "name": "Barbaric Iron Boots",
       "spell_id": 9818,
       "output_qty": 1,
       "skill": 180,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2121,14 +2205,15 @@
           "qty": 2,
           "name": "Heavy Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7917": {
       "name": "Barbaric Iron Gloves",
       "spell_id": 9820,
       "output_qty": 1,
       "skill": 185,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2147,14 +2232,15 @@
           "qty": 2,
           "name": "Large Fang"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7918": {
       "name": "Heavy Mithril Shoulder",
       "spell_id": 9926,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2168,14 +2254,15 @@
           "qty": 6,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7919": {
       "name": "Heavy Mithril Gauntlet",
       "spell_id": 9928,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2189,14 +2276,15 @@
           "qty": 4,
           "name": "Mageweave Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7920": {
       "name": "Mithril Scale Pants",
       "spell_id": 9931,
       "output_qty": 1,
       "skill": 210,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2205,14 +2293,15 @@
           "qty": 12,
           "name": "Mithril Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7921": {
       "name": "Heavy Mithril Pants",
       "spell_id": 9933,
       "output_qty": 1,
       "skill": 210,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2226,14 +2315,15 @@
           "qty": 2,
           "name": "Lesser Moonstone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7922": {
       "name": "Steel Plate Helm",
       "spell_id": 9935,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2247,14 +2337,15 @@
           "qty": 1,
           "name": "Solid Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7924": {
       "name": "Mithril Scale Bracers",
       "spell_id": 9937,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2268,14 +2359,15 @@
           "qty": 2,
           "name": "Citrine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7926": {
       "name": "Ornate Mithril Pants",
       "spell_id": 9945,
       "output_qty": 1,
       "skill": 220,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2299,14 +2391,15 @@
           "qty": 1,
           "name": "Aquamarine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7927": {
       "name": "Ornate Mithril Gloves",
       "spell_id": 9950,
       "output_qty": 1,
       "skill": 220,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2330,14 +2423,15 @@
           "qty": 1,
           "name": "Solid Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7928": {
       "name": "Ornate Mithril Shoulder",
       "spell_id": 9952,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2356,14 +2450,15 @@
           "qty": 6,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7929": {
       "name": "Orcish War Leggings",
       "spell_id": 9957,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2377,14 +2472,15 @@
           "qty": 1,
           "name": "Elemental Earth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7930": {
       "name": "Heavy Mithril Breastplate",
       "spell_id": 9959,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2393,14 +2489,15 @@
           "qty": 16,
           "name": "Mithril Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7931": {
       "name": "Mithril Coif",
       "spell_id": 9961,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2414,14 +2511,15 @@
           "qty": 6,
           "name": "Mageweave Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7932": {
       "name": "Mithril Scale Shoulders",
       "spell_id": 9966,
       "output_qty": 1,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2440,14 +2538,15 @@
           "qty": 4,
           "name": "Citrine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7933": {
       "name": "Heavy Mithril Boots",
       "spell_id": 9968,
       "output_qty": 1,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2461,14 +2560,15 @@
           "qty": 4,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7934": {
       "name": "Heavy Mithril Helm",
       "spell_id": 9970,
       "output_qty": 1,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2482,14 +2582,15 @@
           "qty": 1,
           "name": "Aquamarine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7935": {
       "name": "Ornate Mithril Breastplate",
       "spell_id": 9972,
       "output_qty": 1,
       "skill": 240,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2513,14 +2614,15 @@
           "qty": 1,
           "name": "Solid Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7936": {
       "name": "Ornate Mithril Boots",
       "spell_id": 9979,
       "output_qty": 1,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2549,14 +2651,15 @@
           "qty": 1,
           "name": "Aquamarine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7937": {
       "name": "Ornate Mithril Helm",
       "spell_id": 9980,
       "output_qty": 1,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2580,14 +2683,15 @@
           "qty": 1,
           "name": "Solid Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7938": {
       "name": "Truesilver Gauntlets",
       "spell_id": 9954,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2621,14 +2725,15 @@
           "qty": 2,
           "name": "Solid Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7939": {
       "name": "Truesilver Breastplate",
       "spell_id": 9974,
       "output_qty": 1,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2657,14 +2762,15 @@
           "qty": 2,
           "name": "Solid Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7941": {
       "name": "Heavy Mithril Axe",
       "spell_id": 9993,
       "output_qty": 1,
       "skill": 210,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2688,14 +2794,15 @@
           "qty": 4,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7942": {
       "name": "Blue Glittering Axe",
       "spell_id": 9995,
       "output_qty": 1,
       "skill": 220,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2719,14 +2826,15 @@
           "qty": 4,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7943": {
       "name": "Wicked Mithril Blade",
       "spell_id": 9997,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2750,14 +2858,15 @@
           "qty": 2,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7944": {
       "name": "Dazzling Mithril Rapier",
       "spell_id": 10005,
       "output_qty": 1,
       "skill": 240,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2791,14 +2900,15 @@
           "qty": 2,
           "name": "Mageweave Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7945": {
       "name": "Big Black Mace",
       "spell_id": 10001,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2827,14 +2937,15 @@
           "qty": 2,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7946": {
       "name": "Runed Mithril Hammer",
       "spell_id": 10009,
       "output_qty": 1,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2858,14 +2969,15 @@
           "qty": 4,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7947": {
       "name": "Ebon Shiv",
       "spell_id": 10013,
       "output_qty": 1,
       "skill": 255,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2894,14 +3006,15 @@
           "qty": 2,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7954": {
       "name": "The Shatterer",
       "spell_id": 10003,
       "output_qty": 1,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2940,14 +3053,15 @@
           "qty": 4,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7955": {
       "name": "Copper Claymore",
       "spell_id": 9983,
       "output_qty": 1,
       "skill": 30,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2971,14 +3085,15 @@
           "qty": 1,
           "name": "Light Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7956": {
       "name": "Bronze Warhammer",
       "spell_id": 9985,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2997,14 +3112,15 @@
           "qty": 1,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7957": {
       "name": "Bronze Greatsword",
       "spell_id": 9986,
       "output_qty": 1,
       "skill": 130,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3023,14 +3139,15 @@
           "qty": 2,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7958": {
       "name": "Bronze Battle Axe",
       "spell_id": 9987,
       "output_qty": 1,
       "skill": 135,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3049,14 +3166,15 @@
           "qty": 2,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7959": {
       "name": "Blight",
       "spell_id": 10011,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3085,14 +3203,15 @@
           "qty": 6,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7960": {
       "name": "Truesilver Champion",
       "spell_id": 10015,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3126,14 +3245,15 @@
           "qty": 6,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7961": {
       "name": "Phantom Blade",
       "spell_id": 10007,
       "output_qty": 1,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3172,14 +3292,15 @@
           "qty": 2,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7963": {
       "name": "Steel Breastplate",
       "spell_id": 9916,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3193,14 +3314,15 @@
           "qty": 3,
           "name": "Heavy Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7964": {
       "name": "Solid Sharpening Stone",
       "spell_id": 9918,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Arms",
       "source": "wowhead-classic",
       "reagents": [
@@ -3209,14 +3331,15 @@
           "qty": 1,
           "name": "Solid Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7965": {
       "name": "Solid Weightstone",
       "spell_id": 9921,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3230,14 +3353,15 @@
           "qty": 1,
           "name": "Silk Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7966": {
       "name": "Solid Grinding Stone",
       "spell_id": 9920,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3246,14 +3370,15 @@
           "qty": 4,
           "name": "Solid Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7967": {
       "name": "Mithril Shield Spike",
       "spell_id": 9939,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3272,14 +3397,15 @@
           "qty": 4,
           "name": "Solid Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7969": {
       "name": "Mithril Spurs",
       "spell_id": 9964,
       "output_qty": 1,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3293,14 +3419,15 @@
           "qty": 3,
           "name": "Solid Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9060": {
       "name": "Inlaid Mithril Cylinder",
       "spell_id": 11454,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3319,14 +3446,15 @@
           "qty": 1,
           "name": "Truesilver Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9366": {
       "name": "Golden Scale Gauntlets",
       "spell_id": 11643,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3350,14 +3478,15 @@
           "qty": 1,
           "name": "Citrine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10421": {
       "name": "Rough Copper Vest",
       "spell_id": 12260,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3366,14 +3495,15 @@
           "qty": 4,
           "name": "Copper Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10423": {
       "name": "Silvered Bronze Leggings",
       "spell_id": 12259,
       "output_qty": 1,
       "skill": 155,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3392,14 +3522,15 @@
           "qty": 2,
           "name": "Coarse Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "11128": {
       "name": "Golden Rod",
       "spell_id": 14379,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3413,14 +3544,15 @@
           "qty": 2,
           "name": "Coarse Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "11144": {
       "name": "Truesilver Rod",
       "spell_id": 14380,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3434,14 +3566,15 @@
           "qty": 1,
           "name": "Heavy Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "11604": {
       "name": "Dark Iron Plate",
       "spell_id": 15296,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3455,14 +3588,15 @@
           "qty": 8,
           "name": "Heart of Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "11605": {
       "name": "Dark Iron Shoulders",
       "spell_id": 15295,
       "output_qty": 1,
       "skill": 280,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3476,14 +3610,15 @@
           "qty": 1,
           "name": "Heart of Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "11606": {
       "name": "Dark Iron Mail",
       "spell_id": 15293,
       "output_qty": 1,
       "skill": 270,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3497,14 +3632,15 @@
           "qty": 2,
           "name": "Heart of Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "11607": {
       "name": "Dark Iron Sunderer",
       "spell_id": 15294,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3518,14 +3654,15 @@
           "qty": 4,
           "name": "Heart of Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "11608": {
       "name": "Dark Iron Pulverizer",
       "spell_id": 15292,
       "output_qty": 1,
       "skill": 265,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3539,14 +3676,15 @@
           "qty": 4,
           "name": "Heart of Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12259": {
       "name": "Glinting Steel Dagger",
       "spell_id": 15972,
       "output_qty": 1,
       "skill": 180,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3575,14 +3713,15 @@
           "qty": 1,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12260": {
       "name": "Searing Golden Blade",
       "spell_id": 15973,
       "output_qty": 1,
       "skill": 190,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3606,14 +3745,15 @@
           "qty": 2,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12404": {
       "name": "Dense Sharpening Stone",
       "spell_id": 16641,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3622,14 +3762,15 @@
           "qty": 1,
           "name": "Dense Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12405": {
       "name": "Thorium Armor",
       "spell_id": 16642,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3648,14 +3789,15 @@
           "qty": 4,
           "name": "Yellow Power Crystal"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12406": {
       "name": "Thorium Belt",
       "spell_id": 16643,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3669,14 +3811,15 @@
           "qty": 4,
           "name": "Red Power Crystal"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12408": {
       "name": "Thorium Bracers",
       "spell_id": 16644,
       "output_qty": 1,
       "skill": 255,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3690,14 +3833,15 @@
           "qty": 4,
           "name": "Blue Power Crystal"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12409": {
       "name": "Thorium Boots",
       "spell_id": 16652,
       "output_qty": 1,
       "skill": 280,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3716,14 +3860,15 @@
           "qty": 4,
           "name": "Green Power Crystal"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12410": {
       "name": "Thorium Helm",
       "spell_id": 16653,
       "output_qty": 1,
       "skill": 280,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3742,14 +3887,15 @@
           "qty": 4,
           "name": "Yellow Power Crystal"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12414": {
       "name": "Thorium Leggings",
       "spell_id": 16662,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3763,14 +3909,15 @@
           "qty": 4,
           "name": "Red Power Crystal"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12415": {
       "name": "Radiant Breastplate",
       "spell_id": 16648,
       "output_qty": 1,
       "skill": 270,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3789,14 +3936,15 @@
           "qty": 1,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12416": {
       "name": "Radiant Belt",
       "spell_id": 16645,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3810,14 +3958,15 @@
           "qty": 2,
           "name": "Heart of Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12417": {
       "name": "Radiant Circlet",
       "spell_id": 16659,
       "output_qty": 1,
       "skill": 295,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3831,14 +3980,15 @@
           "qty": 4,
           "name": "Heart of Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12418": {
       "name": "Radiant Gloves",
       "spell_id": 16654,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Arms",
       "source": "wowhead-classic",
       "reagents": [
@@ -3852,14 +4002,15 @@
           "qty": 4,
           "name": "Heart of Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12419": {
       "name": "Radiant Boots",
       "spell_id": 16656,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Arms",
       "source": "wowhead-classic",
       "reagents": [
@@ -3873,14 +4024,15 @@
           "qty": 4,
           "name": "Heart of Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12420": {
       "name": "Radiant Leggings",
       "spell_id": 16725,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Arms",
       "source": "wowhead-classic",
       "reagents": [
@@ -3894,14 +4046,15 @@
           "qty": 4,
           "name": "Heart of Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12422": {
       "name": "Imperial Plate Chest",
       "spell_id": 16663,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Arms",
       "source": "wowhead-classic",
       "reagents": [
@@ -3915,14 +4068,15 @@
           "qty": 2,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12424": {
       "name": "Imperial Plate Belt",
       "spell_id": 16647,
       "output_qty": 1,
       "skill": 265,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Weap",
       "source": "wowhead-classic",
       "reagents": [
@@ -3941,14 +4095,15 @@
           "qty": 1,
           "name": "Aquamarine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12425": {
       "name": "Imperial Plate Bracers",
       "spell_id": 16649,
       "output_qty": 1,
       "skill": 270,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Arms",
       "source": "wowhead-classic",
       "reagents": [
@@ -3962,14 +4117,15 @@
           "qty": 1,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12426": {
       "name": "Imperial Plate Boots",
       "spell_id": 16657,
       "output_qty": 1,
       "skill": 295,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3988,14 +4144,15 @@
           "qty": 1,
           "name": "Aquamarine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12427": {
       "name": "Imperial Plate Helm",
       "spell_id": 16658,
       "output_qty": 1,
       "skill": 295,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Arms",
       "source": "wowhead-classic",
       "reagents": [
@@ -4009,14 +4166,15 @@
           "qty": 2,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12428": {
       "name": "Imperial Plate Shoulders",
       "spell_id": 16646,
       "output_qty": 1,
       "skill": 265,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Weap",
       "source": "wowhead-classic",
       "reagents": [
@@ -4035,14 +4193,15 @@
           "qty": 2,
           "name": "Citrine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12429": {
       "name": "Imperial Plate Leggings",
       "spell_id": 16730,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4056,14 +4215,15 @@
           "qty": 2,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12610": {
       "name": "Runic Plate Shoulders",
       "spell_id": 16664,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4082,14 +4242,15 @@
           "qty": 6,
           "name": "Gold Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12611": {
       "name": "Runic Plate Boots",
       "spell_id": 16665,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4108,14 +4269,15 @@
           "qty": 10,
           "name": "Silver Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12612": {
       "name": "Runic Plate Helm",
       "spell_id": 16726,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4139,14 +4301,15 @@
           "qty": 1,
           "name": "Huge Emerald"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12613": {
       "name": "Runic Breastplate",
       "spell_id": 16731,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4165,14 +4328,15 @@
           "qty": 1,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12614": {
       "name": "Runic Plate Leggings",
       "spell_id": 16732,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4191,14 +4355,15 @@
           "qty": 1,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12618": {
       "name": "Enchanted Thorium Breastplate",
       "spell_id": 16745,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4232,14 +4397,15 @@
           "qty": 2,
           "name": "Azerothian Diamond"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12619": {
       "name": "Enchanted Thorium Leggings",
       "spell_id": 16744,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4268,14 +4434,15 @@
           "qty": 1,
           "name": "Huge Emerald"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12620": {
       "name": "Enchanted Thorium Helm",
       "spell_id": 16742,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4304,14 +4471,15 @@
           "qty": 1,
           "name": "Azerothian Diamond"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12624": {
       "name": "Wildthorn Mail",
       "spell_id": 16650,
       "output_qty": 1,
       "skill": 270,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4340,14 +4508,15 @@
           "qty": 1,
           "name": "Huge Emerald"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12625": {
       "name": "Dawnbringer Shoulders",
       "spell_id": 16660,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4371,14 +4540,15 @@
           "qty": 2,
           "name": "Essence of Water"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12628": {
       "name": "Demon Forged Breastplate",
       "spell_id": 16667,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4402,14 +4572,15 @@
           "qty": 4,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12631": {
       "name": "Fiery Plate Gauntlets",
       "spell_id": 16655,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4433,14 +4604,15 @@
           "qty": 4,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12632": {
       "name": "Storm Gauntlets",
       "spell_id": 16661,
       "output_qty": 1,
       "skill": 295,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4464,14 +4636,15 @@
           "qty": 4,
           "name": "Blue Sapphire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12633": {
       "name": "Whitesoul Helm",
       "spell_id": 16724,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4500,14 +4673,15 @@
           "qty": 2,
           "name": "Azerothian Diamond"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12636": {
       "name": "Helm of the Great Chief",
       "spell_id": 16728,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4536,14 +4710,15 @@
           "qty": 2,
           "name": "Huge Emerald"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12639": {
       "name": "Stronghold Gauntlets",
       "spell_id": 16741,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4572,14 +4747,15 @@
           "qty": 4,
           "name": "Large Opal"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12640": {
       "name": "Lionheart Helm",
       "spell_id": 16729,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4608,14 +4784,15 @@
           "qty": 4,
           "name": "Azerothian Diamond"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12641": {
       "name": "Invulnerable Mail",
       "spell_id": 16746,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4639,14 +4816,15 @@
           "qty": 6,
           "name": "Azerothian Diamond"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12643": {
       "name": "Dense Weightstone",
       "spell_id": 16640,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4660,14 +4838,15 @@
           "qty": 1,
           "name": "Runecloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12644": {
       "name": "Dense Grinding Stone",
       "spell_id": 16639,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4676,14 +4855,15 @@
           "qty": 4,
           "name": "Dense Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12645": {
       "name": "Thorium Shield Spike",
       "spell_id": 16651,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4702,14 +4882,15 @@
           "qty": 2,
           "name": "Essence of Earth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12773": {
       "name": "Ornate Thorium Handaxe",
       "spell_id": 16969,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4733,14 +4914,15 @@
           "qty": 4,
           "name": "Rugged Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12774": {
       "name": "Dawn's Edge",
       "spell_id": 16970,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4774,14 +4956,15 @@
           "qty": 4,
           "name": "Rugged Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12775": {
       "name": "Huge Thorium Battleaxe",
       "spell_id": 16971,
       "output_qty": 1,
       "skill": 280,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4800,14 +4983,15 @@
           "qty": 6,
           "name": "Rugged Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12776": {
       "name": "Enchanted Battlehammer",
       "spell_id": 16973,
       "output_qty": 1,
       "skill": 280,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4836,14 +5020,15 @@
           "qty": 4,
           "name": "Rugged Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12777": {
       "name": "Blazing Rapier",
       "spell_id": 16978,
       "output_qty": 1,
       "skill": 280,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4872,14 +5057,15 @@
           "qty": 2,
           "name": "Dense Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12781": {
       "name": "Serenity",
       "spell_id": 16983,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4913,14 +5099,15 @@
           "qty": 1,
           "name": "Huge Emerald"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12782": {
       "name": "Corruption",
       "spell_id": 16985,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4959,14 +5146,15 @@
           "qty": 4,
           "name": "Rugged Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12783": {
       "name": "Heartseeker",
       "spell_id": 16995,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5005,14 +5193,15 @@
           "qty": 4,
           "name": "Dense Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12784": {
       "name": "Arcanite Reaper",
       "spell_id": 16994,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5031,14 +5220,15 @@
           "qty": 2,
           "name": "Dense Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12790": {
       "name": "Arcanite Champion",
       "spell_id": 16990,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5072,14 +5262,15 @@
           "qty": 2,
           "name": "Dense Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12792": {
       "name": "Volcanic Hammer",
       "spell_id": 16984,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5103,14 +5294,15 @@
           "qty": 4,
           "name": "Rugged Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12794": {
       "name": "Masterwork Stormhammer",
       "spell_id": 16993,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5139,14 +5331,15 @@
           "qty": 4,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12796": {
       "name": "Hammer of the Titans",
       "spell_id": 16988,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5175,14 +5368,15 @@
           "qty": 10,
           "name": "Essence of Earth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12797": {
       "name": "Frostguard",
       "spell_id": 16992,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5216,14 +5410,15 @@
           "qty": 4,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12798": {
       "name": "Annihilator",
       "spell_id": 16991,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5257,14 +5452,15 @@
           "qty": 4,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "15869": {
       "name": "Silver Skeleton Key",
       "spell_id": 19666,
       "output_qty": 1,
       "skill": 100,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5278,14 +5474,15 @@
           "qty": 1,
           "name": "Rough Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "15870": {
       "name": "Golden Skeleton Key",
       "spell_id": 19667,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5299,14 +5496,15 @@
           "qty": 1,
           "name": "Heavy Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "15871": {
       "name": "Truesilver Skeleton Key",
       "spell_id": 19668,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5320,14 +5518,15 @@
           "qty": 1,
           "name": "Solid Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "15872": {
       "name": "Arcanite Skeleton Key",
       "spell_id": 19669,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5341,14 +5540,15 @@
           "qty": 1,
           "name": "Dense Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16206": {
       "name": "Arcanite Rod",
       "spell_id": 20201,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5362,14 +5562,15 @@
           "qty": 1,
           "name": "Dense Grinding Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16988": {
       "name": "Fiery Chain Shoulders",
       "spell_id": 20873,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5388,14 +5589,15 @@
           "qty": 5,
           "name": "Lava Core"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16989": {
       "name": "Fiery Chain Girdle",
       "spell_id": 20872,
       "output_qty": 1,
       "skill": 295,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Ham",
       "source": "wowhead-classic",
       "reagents": [
@@ -5414,14 +5616,15 @@
           "qty": 3,
           "name": "Lava Core"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "17013": {
       "name": "Dark Iron Leggings",
       "spell_id": 20876,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5440,14 +5643,15 @@
           "qty": 6,
           "name": "Lava Core"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "17014": {
       "name": "Dark Iron Bracers",
       "spell_id": 20874,
       "output_qty": 1,
       "skill": 295,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5466,14 +5670,15 @@
           "qty": 2,
           "name": "Lava Core"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "17015": {
       "name": "Dark Iron Reaver",
       "spell_id": 20890,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5497,14 +5702,15 @@
           "qty": 2,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "17016": {
       "name": "Dark Iron Destroyer",
       "spell_id": 20897,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5528,14 +5734,15 @@
           "qty": 2,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "17193": {
       "name": "Sulfuron Hammer",
       "spell_id": 21161,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5574,14 +5781,15 @@
           "qty": 10,
           "name": "Fiery Core"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "17704": {
       "name": "Edge of Winter",
       "spell_id": 21913,
       "output_qty": 1,
       "skill": 190,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5610,14 +5818,15 @@
           "qty": 2,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18262": {
       "name": "Elemental Sharpening Stone",
       "spell_id": 22757,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5631,14 +5840,15 @@
           "qty": 3,
           "name": "Dense Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19043": {
       "name": "Heavy Timbermaw Belt",
       "spell_id": 23628,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5657,14 +5867,15 @@
           "qty": 3,
           "name": "Living Essence"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19048": {
       "name": "Heavy Timbermaw Boots",
       "spell_id": 23629,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5683,14 +5894,15 @@
           "qty": 6,
           "name": "Living Essence"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19051": {
       "name": "Girdle of the Dawn",
       "spell_id": 23632,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5709,14 +5921,15 @@
           "qty": 1,
           "name": "Righteous Orb"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19057": {
       "name": "Gloves of the Dawn",
       "spell_id": 23633,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5735,14 +5948,15 @@
           "qty": 1,
           "name": "Righteous Orb"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19148": {
       "name": "Dark Iron Helm",
       "spell_id": 23636,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5761,14 +5975,15 @@
           "qty": 4,
           "name": "Dark Iron Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19164": {
       "name": "Dark Iron Gauntlets",
       "spell_id": 23637,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5797,14 +6012,15 @@
           "qty": 2,
           "name": "Blood of the Mountain"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19166": {
       "name": "Black Amnesty",
       "spell_id": 23638,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5833,14 +6049,15 @@
           "qty": 4,
           "name": "Dark Iron Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19167": {
       "name": "Blackfury",
       "spell_id": 23639,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5864,14 +6081,15 @@
           "qty": 6,
           "name": "Dark Iron Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19168": {
       "name": "Blackguard",
       "spell_id": 23652,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5900,14 +6118,15 @@
           "qty": 12,
           "name": "Guardian Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19169": {
       "name": "Nightfall",
       "spell_id": 23653,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5936,14 +6155,15 @@
           "qty": 4,
           "name": "Huge Emerald"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19170": {
       "name": "Ebon Hand",
       "spell_id": 23650,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -5972,14 +6192,15 @@
           "qty": 4,
           "name": "Azerothian Diamond"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19690": {
       "name": "Bloodsoul Breastplate",
       "spell_id": 24136,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6003,14 +6224,15 @@
           "qty": 2,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19691": {
       "name": "Bloodsoul Shoulders",
       "spell_id": 24137,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6034,14 +6256,15 @@
           "qty": 1,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19692": {
       "name": "Bloodsoul Gauntlets",
       "spell_id": 24138,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6065,14 +6288,15 @@
           "qty": 4,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19693": {
       "name": "Darksoul Breastplate",
       "spell_id": 24139,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6091,14 +6315,15 @@
           "qty": 2,
           "name": "Large Opal"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19694": {
       "name": "Darksoul Leggings",
       "spell_id": 24140,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6117,14 +6342,15 @@
           "qty": 2,
           "name": "Large Opal"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19695": {
       "name": "Darksoul Shoulders",
       "spell_id": 24141,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6143,14 +6369,15 @@
           "qty": 1,
           "name": "Large Opal"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "20039": {
       "name": "Dark Iron Boots",
       "spell_id": 24399,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6174,14 +6401,15 @@
           "qty": 6,
           "name": "Dark Iron Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "20549": {
       "name": "Darkrune Gauntlets",
       "spell_id": 24912,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6205,14 +6433,15 @@
           "qty": 2,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "20550": {
       "name": "Darkrune Breastplate",
       "spell_id": 24914,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6231,14 +6460,15 @@
           "qty": 10,
           "name": "Truesilver Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "20551": {
       "name": "Darkrune Helm",
       "spell_id": 24913,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6262,14 +6492,15 @@
           "qty": 1,
           "name": "Black Diamond"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22191": {
       "name": "Obsidian Mail Tunic",
       "spell_id": 27590,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6298,14 +6529,15 @@
           "qty": 4,
           "name": "Azerothian Diamond"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22194": {
       "name": "Black Grasp of the Destroyer",
       "spell_id": 27589,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6329,14 +6561,15 @@
           "qty": 1,
           "name": "Flask of Supreme Power"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22195": {
       "name": "Light Obsidian Belt",
       "spell_id": 27588,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6350,14 +6583,15 @@
           "qty": 4,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22196": {
       "name": "Thick Obsidian Breastplate",
       "spell_id": 27587,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6386,14 +6620,15 @@
           "qty": 4,
           "name": "Huge Emerald"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22197": {
       "name": "Heavy Obsidian Belt",
       "spell_id": 27585,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6412,14 +6647,15 @@
           "qty": 2,
           "name": "Essence of Earth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22198": {
       "name": "Jagged Obsidian Shield",
       "spell_id": 27586,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6443,14 +6679,15 @@
           "qty": 4,
           "name": "Essence of Earth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22383": {
       "name": "Sageblade",
       "spell_id": 27832,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6474,14 +6711,15 @@
           "qty": 4,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22384": {
       "name": "Persuader",
       "spell_id": 27830,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6515,14 +6753,15 @@
           "qty": 2,
           "name": "Skin of Shadow"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22385": {
       "name": "Titanic Leggings",
       "spell_id": 27829,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6546,14 +6785,15 @@
           "qty": 2,
           "name": "Flask of the Titans"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22669": {
       "name": "Icebane Breastplate",
       "spell_id": 28242,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Tribal",
       "source": "wowhead-classic",
       "reagents": [
@@ -6577,14 +6817,15 @@
           "qty": 4,
           "name": "Essence of Water"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22670": {
       "name": "Icebane Gauntlets",
       "spell_id": 28243,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6608,14 +6849,15 @@
           "qty": 2,
           "name": "Essence of Water"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22671": {
       "name": "Icebane Bracers",
       "spell_id": 28244,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6639,14 +6881,15 @@
           "qty": 2,
           "name": "Essence of Water"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22762": {
       "name": "Ironvine Breastplate",
       "spell_id": 28461,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6670,14 +6913,15 @@
           "qty": 2,
           "name": "Living Essence"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22763": {
       "name": "Ironvine Gloves",
       "spell_id": 28462,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6696,14 +6940,15 @@
           "qty": 2,
           "name": "Living Essence"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22764": {
       "name": "Ironvine Belt",
       "spell_id": 28463,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -6717,7 +6962,8 @@
           "qty": 2,
           "name": "Living Essence"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     }
   }
 }

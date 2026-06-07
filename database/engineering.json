@@ -11,7 +11,13 @@
       "TBC/WotLK recipes are intentionally EXCLUDED (they do not exist in Classic Era).",
       "3 vanilla recipes absent from the scrape source carry source='addon-unverified' (reagents not yet Wowhead-checked): Arclight Spanner 6219, Fused Wiring 7191, Goblin Mortar 10577.",
       "Keyed by OUTPUT ITEM ID (matches how the addon looks items up on tooltip hover)."
-    ]
+    ],
+    "skill_verification": {
+      "method": "Wowhead Classic spell XML learnedat",
+      "verified_count": 161,
+      "unverified_count": 3,
+      "corrections": 0
+    }
   },
   "recipes": {
     "4357": {
@@ -19,7 +25,7 @@
       "spell_id": 3918,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -28,14 +34,15 @@
           "qty": 1,
           "name": "Rough Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4358": {
       "name": "Rough Dynamite",
       "spell_id": 3919,
       "output_qty": 2,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -49,14 +56,15 @@
           "qty": 1,
           "name": "Linen Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4359": {
       "name": "Handful of Copper Bolts",
       "spell_id": 3922,
       "output_qty": 1,
       "skill": 30,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -65,14 +73,15 @@
           "qty": 1,
           "name": "Copper Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4360": {
       "name": "Rough Copper Bomb",
       "spell_id": 3923,
       "output_qty": 2,
       "skill": 30,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -96,14 +105,15 @@
           "qty": 1,
           "name": "Linen Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4361": {
       "name": "Copper Tube",
       "spell_id": 3924,
       "output_qty": 1,
       "skill": 50,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -117,14 +127,15 @@
           "qty": 1,
           "name": "Weak Flux"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4362": {
       "name": "Rough Boomstick",
       "spell_id": 3925,
       "output_qty": 1,
       "skill": 50,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -143,14 +154,15 @@
           "qty": 1,
           "name": "Wooden Stock"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4363": {
       "name": "Copper Modulator",
       "spell_id": 3926,
       "output_qty": 1,
       "skill": 65,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -169,14 +181,15 @@
           "qty": 2,
           "name": "Linen Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4364": {
       "name": "Coarse Blasting Powder",
       "spell_id": 3929,
       "output_qty": 1,
       "skill": 75,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -185,14 +198,15 @@
           "qty": 1,
           "name": "Coarse Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4365": {
       "name": "Coarse Dynamite",
       "spell_id": 3931,
       "output_qty": 1,
       "skill": 75,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -206,14 +220,15 @@
           "qty": 1,
           "name": "Linen Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4366": {
       "name": "Target Dummy",
       "spell_id": 3932,
       "output_qty": 1,
       "skill": 85,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -237,14 +252,15 @@
           "qty": 1,
           "name": "Wool Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4367": {
       "name": "Small Seaforium Charge",
       "spell_id": 3933,
       "output_qty": 1,
       "skill": 100,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -268,14 +284,15 @@
           "qty": 1,
           "name": "Refreshing Spring Water"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4368": {
       "name": "Flying Tiger Goggles",
       "spell_id": 3934,
       "output_qty": 1,
       "skill": 100,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -289,14 +306,15 @@
           "qty": 2,
           "name": "Malachite"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4369": {
       "name": "Deadly Blunderbuss",
       "spell_id": 3936,
       "output_qty": 1,
       "skill": 105,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -320,14 +338,15 @@
           "qty": 2,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4370": {
       "name": "Large Copper Bomb",
       "spell_id": 3937,
       "output_qty": 2,
       "skill": 105,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -346,14 +365,15 @@
           "qty": 1,
           "name": "Silver Contact"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4371": {
       "name": "Bronze Tube",
       "spell_id": 3938,
       "output_qty": 1,
       "skill": 105,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -367,14 +387,15 @@
           "qty": 1,
           "name": "Weak Flux"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4372": {
       "name": "Lovingly Crafted Boomstick",
       "spell_id": 3939,
       "output_qty": 1,
       "skill": 120,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -398,14 +419,15 @@
           "qty": 3,
           "name": "Moss Agate"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4373": {
       "name": "Shadow Goggles",
       "spell_id": 3940,
       "output_qty": 1,
       "skill": 120,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -419,14 +441,15 @@
           "qty": 2,
           "name": "Tigerseye"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4374": {
       "name": "Small Bronze Bomb",
       "spell_id": 3941,
       "output_qty": 1,
       "skill": 120,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -450,14 +473,15 @@
           "qty": 1,
           "name": "Wool Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4375": {
       "name": "Whirring Bronze Gizmo",
       "spell_id": 3942,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -471,14 +495,15 @@
           "qty": 1,
           "name": "Wool Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4376": {
       "name": "Flame Deflector",
       "spell_id": 3944,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -492,14 +517,15 @@
           "qty": 1,
           "name": "Small Flame Sac"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4377": {
       "name": "Heavy Blasting Powder",
       "spell_id": 3945,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -508,14 +534,15 @@
           "qty": 1,
           "name": "Heavy Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4378": {
       "name": "Heavy Dynamite",
       "spell_id": 3946,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -529,14 +556,15 @@
           "qty": 1,
           "name": "Wool Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4379": {
       "name": "Silver-plated Shotgun",
       "spell_id": 3949,
       "output_qty": 1,
       "skill": 130,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -560,14 +588,15 @@
           "qty": 3,
           "name": "Silver Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4380": {
       "name": "Big Bronze Bomb",
       "spell_id": 3950,
       "output_qty": 2,
       "skill": 140,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -586,14 +615,15 @@
           "qty": 1,
           "name": "Silver Contact"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4381": {
       "name": "Minor Recombobulator",
       "spell_id": 3952,
       "output_qty": 1,
       "skill": 140,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -617,14 +647,15 @@
           "qty": 1,
           "name": "Moss Agate"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4382": {
       "name": "Bronze Framework",
       "spell_id": 3953,
       "output_qty": 1,
       "skill": 145,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -643,14 +674,15 @@
           "qty": 1,
           "name": "Wool Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4383": {
       "name": "Moonsight Rifle",
       "spell_id": 3954,
       "output_qty": 1,
       "skill": 145,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -674,14 +706,15 @@
           "qty": 2,
           "name": "Lesser Moonstone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4384": {
       "name": "Explosive Sheep",
       "spell_id": 3955,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -705,14 +738,15 @@
           "qty": 2,
           "name": "Wool Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4385": {
       "name": "Green Tinted Goggles",
       "spell_id": 3956,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -731,14 +765,15 @@
           "qty": 1,
           "name": "Flying Tiger Goggles"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4386": {
       "name": "Ice Deflector",
       "spell_id": 3957,
       "output_qty": 1,
       "skill": 155,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -752,14 +787,15 @@
           "qty": 1,
           "name": "Frost Oil"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4387": {
       "name": "Iron Strut",
       "spell_id": 3958,
       "output_qty": 1,
       "skill": 160,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -768,14 +804,15 @@
           "qty": 2,
           "name": "Iron Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4388": {
       "name": "Discombobulator Ray",
       "spell_id": 3959,
       "output_qty": 1,
       "skill": 160,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -799,14 +836,15 @@
           "qty": 1,
           "name": "Bronze Tube"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4389": {
       "name": "Gyrochronatom",
       "spell_id": 3961,
       "output_qty": 1,
       "skill": 170,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -820,14 +858,15 @@
           "qty": 1,
           "name": "Gold Power Core"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4390": {
       "name": "Iron Grenade",
       "spell_id": 3962,
       "output_qty": 2,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -846,14 +885,15 @@
           "qty": 1,
           "name": "Silk Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4391": {
       "name": "Compact Harvest Reaper Kit",
       "spell_id": 3963,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -877,14 +917,15 @@
           "qty": 4,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4392": {
       "name": "Advanced Target Dummy",
       "spell_id": 3965,
       "output_qty": 1,
       "skill": 185,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -908,14 +949,15 @@
           "qty": 4,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4393": {
       "name": "Craftsman's Monocle",
       "spell_id": 3966,
       "output_qty": 1,
       "skill": 185,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -929,14 +971,15 @@
           "qty": 2,
           "name": "Citrine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4394": {
       "name": "Big Iron Bomb",
       "spell_id": 3967,
       "output_qty": 2,
       "skill": 190,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -955,14 +998,15 @@
           "qty": 1,
           "name": "Silver Contact"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4395": {
       "name": "Goblin Land Mine",
       "spell_id": 3968,
       "output_qty": 1,
       "skill": 195,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Goblin",
       "source": "wowhead-classic",
       "reagents": [
@@ -981,14 +1025,15 @@
           "qty": 1,
           "name": "Gyrochronatom"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4396": {
       "name": "Mechanical Dragonling",
       "spell_id": 3969,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1017,14 +1062,15 @@
           "qty": 1,
           "name": "Fused Wiring"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4397": {
       "name": "Gnomish Cloaking Device",
       "spell_id": 3971,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -1053,14 +1099,15 @@
           "qty": 1,
           "name": "Fused Wiring"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4398": {
       "name": "Large Seaforium Charge",
       "spell_id": 3972,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1079,14 +1126,15 @@
           "qty": 1,
           "name": "Refreshing Spring Water"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4401": {
       "name": "Mechanical Squirrel Box",
       "spell_id": 3928,
       "output_qty": 1,
       "skill": 75,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1110,14 +1158,15 @@
           "qty": 2,
           "name": "Malachite"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4403": {
       "name": "Portable Bronze Mortar",
       "spell_id": 3960,
       "output_qty": 1,
       "skill": 165,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1141,14 +1190,15 @@
           "qty": 4,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4404": {
       "name": "Silver Contact",
       "spell_id": 3973,
       "output_qty": 5,
       "skill": 90,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1157,14 +1207,15 @@
           "qty": 1,
           "name": "Silver Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4405": {
       "name": "Crude Scope",
       "spell_id": 3977,
       "output_qty": 1,
       "skill": 60,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1183,14 +1234,15 @@
           "qty": 1,
           "name": "Handful of Copper Bolts"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4406": {
       "name": "Standard Scope",
       "spell_id": 3978,
       "output_qty": 1,
       "skill": 110,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1204,14 +1256,15 @@
           "qty": 1,
           "name": "Moss Agate"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4407": {
       "name": "Accurate Scope",
       "spell_id": 3979,
       "output_qty": 1,
       "skill": 180,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1230,14 +1283,15 @@
           "qty": 1,
           "name": "Citrine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4852": {
       "name": "Flash Bomb",
       "spell_id": 8243,
       "output_qty": 1,
       "skill": 185,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1256,14 +1310,15 @@
           "qty": 1,
           "name": "Silk Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5507": {
       "name": "Ornate Spyglass",
       "spell_id": 6458,
       "output_qty": 1,
       "skill": 135,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1287,14 +1342,15 @@
           "qty": 1,
           "name": "Moss Agate"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6219": {
       "name": "Arclight Spanner",
       "spell_id": null,
       "output_qty": 1,
       "skill": 50,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "addon-unverified",
       "reagents": [
@@ -1303,14 +1359,15 @@
           "qty": 6,
           "name": "Copper Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-requires"
     },
     "6533": {
       "name": "Aquadynamic Fish Attractor",
       "spell_id": 9271,
       "output_qty": 3,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1329,14 +1386,15 @@
           "qty": 1,
           "name": "Coarse Blasting Powder"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6712": {
       "name": "Practice Lock",
       "spell_id": 8334,
       "output_qty": 1,
       "skill": 100,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1355,14 +1413,15 @@
           "qty": 1,
           "name": "Weak Flux"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6714": {
       "name": "Ez-Thro Dynamite",
       "spell_id": 8339,
       "output_qty": 1,
       "skill": 100,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1376,14 +1435,15 @@
           "qty": 1,
           "name": "Wool Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7148": {
       "name": "Goblin Jumper Cables",
       "spell_id": 9273,
       "output_qty": 1,
       "skill": 165,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1417,14 +1477,15 @@
           "qty": 1,
           "name": "Fused Wiring"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7189": {
       "name": "Goblin Rocket Boots",
       "spell_id": 8895,
       "output_qty": 1,
-      "skill": 130,
-      "skill_verified": false,
+      "skill": 225,
+      "skill_verified": true,
       "spec": "Goblin",
       "source": "wowhead-classic",
       "reagents": [
@@ -1453,7 +1514,8 @@
           "qty": 1,
           "name": "Unstable Trigger"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7191": {
       "name": "Fused Wiring",
@@ -1474,14 +1536,16 @@
           "qty": 2,
           "name": "Essence of Fire"
         }
-      ]
+      ],
+      "skill_source": "npm-unverified",
+      "skill_note": "Wowhead recipe spell id not resolvable; skill 275 carried from wow-classic-items npm, not cross-checked."
     },
     "7506": {
       "name": "Gnomish Universal Remote",
       "spell_id": 9269,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -1510,14 +1574,15 @@
           "qty": 1,
           "name": "Malachite"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "8067": {
       "name": "Crafted Light Shot",
       "spell_id": 3920,
       "output_qty": 200,
       "skill": 30,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1531,14 +1596,15 @@
           "qty": 1,
           "name": "Copper Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "8068": {
       "name": "Crafted Heavy Shot",
       "spell_id": 3930,
       "output_qty": 200,
       "skill": 75,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1552,14 +1618,15 @@
           "qty": 1,
           "name": "Copper Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "8069": {
       "name": "Crafted Solid Shot",
       "spell_id": 3947,
       "output_qty": 200,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1573,14 +1640,15 @@
           "qty": 1,
           "name": "Tin Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9312": {
       "name": "Blue Firework",
       "spell_id": 23067,
       "output_qty": 3,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1594,14 +1662,15 @@
           "qty": 1,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9313": {
       "name": "Green Firework",
       "spell_id": 23068,
       "output_qty": 3,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1615,14 +1684,15 @@
           "qty": 1,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9318": {
       "name": "Red Firework",
       "spell_id": 23066,
       "output_qty": 3,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1636,14 +1706,15 @@
           "qty": 1,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10498": {
       "name": "Gyromatic Micro-Adjustor",
       "spell_id": 12590,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1652,14 +1723,15 @@
           "qty": 4,
           "name": "Gold Ore"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10499": {
       "name": "Bright-Eye Goggles",
       "spell_id": 12587,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1673,14 +1745,15 @@
           "qty": 2,
           "name": "Citrine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10500": {
       "name": "Fire Goggles",
       "spell_id": 12594,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1704,14 +1777,15 @@
           "qty": 4,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10501": {
       "name": "Catseye Ultra Goggles",
       "spell_id": 12607,
       "output_qty": 1,
       "skill": 220,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -1730,14 +1804,15 @@
           "qty": 1,
           "name": "Catseye Elixir"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10502": {
       "name": "Spellpower Goggles Xtreme",
       "spell_id": 12615,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -1751,14 +1826,15 @@
           "qty": 2,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10503": {
       "name": "Rose Colored Goggles",
       "spell_id": 12618,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -1772,14 +1848,15 @@
           "qty": 2,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10504": {
       "name": "Green Lens",
       "spell_id": 12622,
       "output_qty": 1,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -1808,14 +1885,15 @@
           "qty": 2,
           "name": "Purple Lotus"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10505": {
       "name": "Solid Blasting Powder",
       "spell_id": 12585,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1824,14 +1902,15 @@
           "qty": 2,
           "name": "Solid Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10506": {
       "name": "Deepdive Helmet",
       "spell_id": 12617,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1860,14 +1939,15 @@
           "qty": 4,
           "name": "Malachite"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10507": {
       "name": "Solid Dynamite",
       "spell_id": 12586,
       "output_qty": 2,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1881,14 +1961,15 @@
           "qty": 1,
           "name": "Silk Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10508": {
       "name": "Mithril Blunderbuss",
       "spell_id": 12595,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1917,14 +1998,15 @@
           "qty": 2,
           "name": "Elemental Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10510": {
       "name": "Mithril Heavy-bore Rifle",
       "spell_id": 12614,
       "output_qty": 1,
       "skill": 220,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1953,14 +2035,15 @@
           "qty": 2,
           "name": "Citrine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10512": {
       "name": "Hi-Impact Mithril Slugs",
       "spell_id": 12596,
       "output_qty": 200,
       "skill": 210,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1974,14 +2057,15 @@
           "qty": 1,
           "name": "Solid Blasting Powder"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10513": {
       "name": "Mithril Gyro-Shot",
       "spell_id": 12621,
       "output_qty": 200,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1995,14 +2079,15 @@
           "qty": 2,
           "name": "Solid Blasting Powder"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10514": {
       "name": "Mithril Frag Bomb",
       "spell_id": 12603,
       "output_qty": 3,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2021,14 +2106,15 @@
           "qty": 1,
           "name": "Solid Blasting Powder"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10518": {
       "name": "Parachute Cloak",
       "spell_id": 12616,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2052,14 +2138,15 @@
           "qty": 4,
           "name": "Solid Blasting Powder"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10542": {
       "name": "Goblin Mining Helmet",
       "spell_id": 12717,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Goblin",
       "source": "wowhead-classic",
       "reagents": [
@@ -2078,14 +2165,15 @@
           "qty": 4,
           "name": "Elemental Earth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10543": {
       "name": "Goblin Construction Helmet",
       "spell_id": 12718,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Goblin",
       "source": "wowhead-classic",
       "reagents": [
@@ -2104,14 +2192,15 @@
           "qty": 4,
           "name": "Elemental Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10545": {
       "name": "Gnomish Goggles",
       "spell_id": 12897,
       "output_qty": 1,
       "skill": 210,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -2140,14 +2229,15 @@
           "qty": 2,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10546": {
       "name": "Deadly Scope",
       "spell_id": 12597,
       "output_qty": 1,
       "skill": 210,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2166,14 +2256,15 @@
           "qty": 2,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10548": {
       "name": "Sniper Scope",
       "spell_id": 12620,
       "output_qty": 1,
       "skill": 240,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2192,14 +2283,15 @@
           "qty": 2,
           "name": "Truesilver Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10558": {
       "name": "Gold Power Core",
       "spell_id": 12584,
       "output_qty": 3,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2208,14 +2300,15 @@
           "qty": 1,
           "name": "Steel Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10559": {
       "name": "Mithril Tube",
       "spell_id": 12589,
       "output_qty": 1,
       "skill": 195,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2224,14 +2317,15 @@
           "qty": 3,
           "name": "Mithril Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10560": {
       "name": "Unstable Trigger",
       "spell_id": 12591,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2250,14 +2344,15 @@
           "qty": 1,
           "name": "Solid Blasting Powder"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10561": {
       "name": "Mithril Casing",
       "spell_id": 12599,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2266,14 +2361,15 @@
           "qty": 3,
           "name": "Mithril Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10562": {
       "name": "Hi-Explosive Bomb",
       "spell_id": 12619,
       "output_qty": 4,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2292,14 +2388,15 @@
           "qty": 2,
           "name": "Solid Blasting Powder"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10576": {
       "name": "Mithril Mechanical Dragonling",
       "spell_id": 12624,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2333,14 +2430,15 @@
           "qty": 2,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10577": {
       "name": "Goblin Mortar",
-      "spell_id": null,
+      "spell_id": 12716,
       "output_qty": 1,
-      "skill": 205,
-      "skill_verified": false,
+      "skill": 225,
+      "skill_verified": true,
       "spec": "Goblin",
       "source": "addon-unverified",
       "reagents": [
@@ -2359,14 +2457,15 @@
           "qty": 4,
           "name": "Solid Blasting Powder"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10586": {
       "name": "The Big One",
       "spell_id": 12754,
       "output_qty": 2,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Goblin",
       "source": "wowhead-classic",
       "reagents": [
@@ -2390,14 +2489,15 @@
           "qty": 1,
           "name": "Unstable Trigger"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10587": {
       "name": "Goblin Bomb Dispenser",
       "spell_id": 12755,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Goblin",
       "source": "wowhead-classic",
       "reagents": [
@@ -2426,14 +2526,15 @@
           "qty": 2,
           "name": "Lunette de précision"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10588": {
       "name": "Goblin Rocket Helmet",
       "spell_id": 12758,
       "output_qty": 1,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Goblin",
       "source": "wowhead-classic",
       "reagents": [
@@ -2457,14 +2558,15 @@
           "qty": 1,
           "name": "Unstable Trigger"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10644": {
       "name": "Recipe: Goblin Rocket Fuel",
       "spell_id": 12715,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2478,14 +2580,15 @@
           "qty": 1,
           "name": "Engineer's Ink"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10645": {
       "name": "Gnomish Death Ray",
       "spell_id": 12759,
       "output_qty": 1,
       "skill": 240,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -2514,14 +2617,15 @@
           "qty": 1,
           "name": "Inlaid Mithril Cylinder"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10646": {
       "name": "Goblin Sapper Charge",
       "spell_id": 12760,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Goblin",
       "source": "wowhead-classic",
       "reagents": [
@@ -2540,14 +2644,15 @@
           "qty": 1,
           "name": "Unstable Trigger"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10713": {
       "name": "Plans: Inlaid Mithril Cylinder",
       "spell_id": 12895,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2561,14 +2666,15 @@
           "qty": 1,
           "name": "Engineer's Ink"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10716": {
       "name": "Gnomish Shrink Ray",
       "spell_id": 12899,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -2597,14 +2703,15 @@
           "qty": 2,
           "name": "Jade"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10720": {
       "name": "Gnomish Net-o-Matic Projector",
       "spell_id": 12902,
       "output_qty": 1,
       "skill": 210,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -2633,14 +2740,15 @@
           "qty": 4,
           "name": "Mithril Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10721": {
       "name": "Gnomish Harm Prevention Belt",
       "spell_id": 12903,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -2669,14 +2777,15 @@
           "qty": 2,
           "name": "Aquamarine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10724": {
       "name": "Gnomish Rocket Boots",
       "spell_id": 12905,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -2705,14 +2814,15 @@
           "qty": 4,
           "name": "Gyrochronatom"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10725": {
       "name": "Gnomish Battle Chicken",
       "spell_id": 12906,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -2746,14 +2856,15 @@
           "qty": 2,
           "name": "Jade"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10726": {
       "name": "Gnomish Mind Control Cap",
       "spell_id": 12907,
       "output_qty": 1,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -2782,14 +2893,15 @@
           "qty": 4,
           "name": "Mageweave Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10727": {
       "name": "Goblin Dragon Gun",
       "spell_id": 12908,
       "output_qty": 1,
       "skill": 240,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Goblin",
       "source": "wowhead-classic",
       "reagents": [
@@ -2818,14 +2930,15 @@
           "qty": 1,
           "name": "Unstable Trigger"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "11590": {
       "name": "Mechanical Repair Kit",
       "spell_id": 15255,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2844,14 +2957,15 @@
           "qty": 1,
           "name": "Solid Blasting Powder"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "11825": {
       "name": "Pet Bombling",
       "spell_id": 15628,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2875,14 +2989,15 @@
           "qty": 6,
           "name": "Mithril Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "11826": {
       "name": "Lil' Smoky",
       "spell_id": 15633,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2911,14 +3026,15 @@
           "qty": 1,
           "name": "Truesilver Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "15846": {
       "name": "Salt Shaker",
       "spell_id": 19567,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2942,14 +3058,15 @@
           "qty": 4,
           "name": "Unstable Trigger"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "15992": {
       "name": "Dense Blasting Powder",
       "spell_id": 19788,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2958,14 +3075,15 @@
           "qty": 2,
           "name": "Dense Stone"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "15993": {
       "name": "Thorium Grenade",
       "spell_id": 19790,
       "output_qty": 3,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2989,14 +3107,15 @@
           "qty": 3,
           "name": "Runecloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "15994": {
       "name": "Thorium Widget",
       "spell_id": 19791,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3010,14 +3129,15 @@
           "qty": 1,
           "name": "Runecloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "15995": {
       "name": "Thorium Rifle",
       "spell_id": 19792,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3046,14 +3166,15 @@
           "qty": 1,
           "name": "Deadly Scope"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "15996": {
       "name": "Lifelike Mechanical Toad",
       "spell_id": 19793,
       "output_qty": 1,
       "skill": 265,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3077,14 +3198,15 @@
           "qty": 1,
           "name": "Rugged Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "15997": {
       "name": "Thorium Shells",
       "spell_id": 19800,
       "output_qty": 200,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3098,14 +3220,15 @@
           "qty": 1,
           "name": "Dense Blasting Powder"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "15999": {
       "name": "Spellpower Goggles Xtreme Plus",
       "spell_id": 19794,
       "output_qty": 1,
       "skill": 270,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -3129,14 +3252,15 @@
           "qty": 8,
           "name": "Runecloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16000": {
       "name": "Thorium Tube",
       "spell_id": 19795,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3145,14 +3269,15 @@
           "qty": 6,
           "name": "Thorium Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16004": {
       "name": "Dark Iron Rifle",
       "spell_id": 19796,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3186,14 +3311,15 @@
           "qty": 4,
           "name": "Rugged Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16005": {
       "name": "Dark Iron Bomb",
       "spell_id": 19799,
       "output_qty": 3,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3217,14 +3343,15 @@
           "qty": 3,
           "name": "Runecloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16006": {
       "name": "Delicate Arcanite Converter",
       "spell_id": 19815,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3238,14 +3365,15 @@
           "qty": 1,
           "name": "Ironweb Spider Silk"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16007": {
       "name": "Flawless Arcanite Rifle",
       "spell_id": 19833,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3279,14 +3407,15 @@
           "qty": 2,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16008": {
       "name": "Master Engineer's Goggles",
       "spell_id": 19825,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3305,14 +3434,15 @@
           "qty": 4,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16009": {
       "name": "Voice Amplification Modulator",
       "spell_id": 19819,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3336,14 +3466,15 @@
           "qty": 1,
           "name": "Blue Sapphire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16022": {
       "name": "Arcanite Dragonling",
       "spell_id": 19830,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3377,14 +3508,15 @@
           "qty": 6,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16023": {
       "name": "Masterwork Target Dummy",
       "spell_id": 19814,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3418,14 +3550,15 @@
           "qty": 4,
           "name": "Runecloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "16040": {
       "name": "Arcane Bomb",
       "spell_id": 19831,
       "output_qty": 3,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3444,14 +3577,15 @@
           "qty": 1,
           "name": "Runecloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "17716": {
       "name": "Snowmaster 9000",
       "spell_id": 21940,
       "output_qty": 1,
       "skill": 190,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3475,14 +3609,15 @@
           "qty": 1,
           "name": "Frost Oil"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18168": {
       "name": "Force Reactive Disk",
       "spell_id": 22797,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3511,14 +3646,15 @@
           "qty": 8,
           "name": "Essence of Earth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18232": {
       "name": "Field Repair Bot 74A",
       "spell_id": 22704,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3547,14 +3683,15 @@
           "qty": 1,
           "name": "Elemental Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18282": {
       "name": "Core Marksman Rifle",
       "spell_id": 22795,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3583,14 +3720,15 @@
           "qty": 2,
           "name": "Thorium Tube"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18283": {
       "name": "Biznicks 247x128 Accurascope",
       "spell_id": 22793,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3619,14 +3757,15 @@
           "qty": 1,
           "name": "Thorium Tube"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18587": {
       "name": "Goblin Jumper Cables XL",
       "spell_id": 23078,
       "output_qty": 1,
       "skill": 265,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Goblin",
       "source": "wowhead-classic",
       "reagents": [
@@ -3655,14 +3794,15 @@
           "qty": 2,
           "name": "Star Ruby"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18588": {
       "name": "Ez-Thro Dynamite II",
       "spell_id": 23069,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3676,14 +3816,15 @@
           "qty": 2,
           "name": "Mageweave Cloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18594": {
       "name": "Powerful Seaforium Charge",
       "spell_id": 23080,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3707,14 +3848,15 @@
           "qty": 1,
           "name": "Refreshing Spring Water"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18631": {
       "name": "Truesilver Transformer",
       "spell_id": 23071,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3733,14 +3875,15 @@
           "qty": 1,
           "name": "Elemental Air"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18634": {
       "name": "Gyrofreeze Ice Reflector",
       "spell_id": 23077,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3774,14 +3917,15 @@
           "qty": 4,
           "name": "Icecap"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18637": {
       "name": "Major Recombobulator",
       "spell_id": 23079,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -3800,14 +3944,15 @@
           "qty": 2,
           "name": "Runecloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18638": {
       "name": "Hyper-Radiant Flame Reflector",
       "spell_id": 23081,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3836,14 +3981,15 @@
           "qty": 2,
           "name": "Azerothian Diamond"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18639": {
       "name": "Ultra-Flash Shadow Reflector",
       "spell_id": 23082,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3877,14 +4023,15 @@
           "qty": 2,
           "name": "Blue Sapphire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18641": {
       "name": "Dense Dynamite",
       "spell_id": 23070,
       "output_qty": 2,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3898,14 +4045,15 @@
           "qty": 3,
           "name": "Runecloth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18645": {
       "name": "Gnomish Alarm-o-Bot",
       "spell_id": 23096,
       "output_qty": 1,
       "skill": 265,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3934,14 +4082,15 @@
           "qty": 1,
           "name": "Fused Wiring"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18660": {
       "name": "World Enlarger",
       "spell_id": 23129,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -3970,14 +4119,15 @@
           "qty": 1,
           "name": "Citrine"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18984": {
       "name": "Dimensional Ripper - Everlook",
       "spell_id": 23486,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Goblin",
       "source": "wowhead-classic",
       "reagents": [
@@ -4006,14 +4156,15 @@
           "qty": 1,
           "name": "Le Mastoc"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18986": {
       "name": "Ultrasafe Transporter: Gadgetzan",
       "spell_id": 23489,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -4047,14 +4198,15 @@
           "qty": 1,
           "name": "Inlaid Mithril Cylinder"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19026": {
       "name": "Snake Burst Firework",
       "spell_id": 23507,
       "output_qty": 4,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4073,14 +4225,15 @@
           "qty": 1,
           "name": "Deeprock Salt"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19998": {
       "name": "Bloodvine Lens",
       "spell_id": 24357,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -4109,14 +4262,15 @@
           "qty": 4,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "19999": {
       "name": "Bloodvine Goggles",
       "spell_id": 24356,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": "Gnomish",
       "source": "wowhead-classic",
       "reagents": [
@@ -4145,14 +4299,15 @@
           "qty": 4,
           "name": "Enchanted Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21277": {
       "name": "Tranquil Mechanical Yeti",
       "spell_id": 26011,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4181,14 +4336,15 @@
           "qty": 1,
           "name": "Gold Power Core"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21557": {
       "name": "Small Red Rocket",
       "spell_id": 26418,
       "output_qty": 3,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4202,14 +4358,15 @@
           "qty": 1,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21558": {
       "name": "Small Blue Rocket",
       "spell_id": 26416,
       "output_qty": 3,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4223,14 +4380,15 @@
           "qty": 1,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21559": {
       "name": "Small Green Rocket",
       "spell_id": 26417,
       "output_qty": 3,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4244,14 +4402,15 @@
           "qty": 1,
           "name": "Medium Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21569": {
       "name": "Firework Launcher",
       "spell_id": 26442,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4275,14 +4434,15 @@
           "qty": 1,
           "name": "Mithril Casing"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21570": {
       "name": "Cluster Launcher",
       "spell_id": 26443,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4306,14 +4466,15 @@
           "qty": 1,
           "name": "Mithril Casing"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21571": {
       "name": "Blue Rocket Cluster",
       "spell_id": 26423,
       "output_qty": 3,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4327,14 +4488,15 @@
           "qty": 1,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21574": {
       "name": "Green Rocket Cluster",
       "spell_id": 26424,
       "output_qty": 3,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4348,14 +4510,15 @@
           "qty": 1,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21576": {
       "name": "Red Rocket Cluster",
       "spell_id": 26425,
       "output_qty": 3,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4369,14 +4532,15 @@
           "qty": 1,
           "name": "Thick Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21589": {
       "name": "Large Blue Rocket",
       "spell_id": 26420,
       "output_qty": 3,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4390,14 +4554,15 @@
           "qty": 1,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21590": {
       "name": "Large Green Rocket",
       "spell_id": 26421,
       "output_qty": 3,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4411,14 +4576,15 @@
           "qty": 1,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21592": {
       "name": "Large Red Rocket",
       "spell_id": 26422,
       "output_qty": 3,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4432,14 +4598,15 @@
           "qty": 1,
           "name": "Heavy Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21714": {
       "name": "Large Blue Rocket Cluster",
       "spell_id": 26426,
       "output_qty": 3,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4453,14 +4620,15 @@
           "qty": 1,
           "name": "Rugged Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21716": {
       "name": "Large Green Rocket Cluster",
       "spell_id": 26427,
       "output_qty": 3,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4474,14 +4642,15 @@
           "qty": 1,
           "name": "Rugged Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21718": {
       "name": "Large Red Rocket Cluster",
       "spell_id": 26428,
       "output_qty": 3,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4495,14 +4664,15 @@
           "qty": 1,
           "name": "Rugged Leather"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "22728": {
       "name": "Steam Tonk Controller",
       "spell_id": 28327,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -4521,7 +4691,8 @@
           "qty": 1,
           "name": "Gold Power Core"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     }
   }
 }

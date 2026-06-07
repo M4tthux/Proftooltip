@@ -945,12 +945,6 @@ ProfTooltip_Tailoring = {
             { id = 4304,   qty =  2, name = "Thick Leather" },
         },
     },
-    [6836] = { name = "Dress Shoes", skill = 250, spec = nil,
-        components = {
-            { id = 4339,   qty =  4, name = "Bolt of Mageweave" },
-            { id = 4304,   qty =  2, name = "Thick Leather" },
-        },
-    },
     [10036] = { name = "Tuxedo Jacket", skill = 250, spec = nil,
         components = {
             { id = 4339,   qty =  5, name = "Bolt of Mageweave" },

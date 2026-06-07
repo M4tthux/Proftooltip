@@ -11,7 +11,13 @@
       "Spell IDs are VERIFIED against Wowhead Classic.",
       "Entries with source=\"npm-only\" had no Wowhead <createdBy> section.",
       "Keyed by OUTPUT ITEM ID."
-    ]
+    ],
+    "skill_verification": {
+      "method": "Wowhead Classic spell XML learnedat",
+      "verified_count": 108,
+      "unverified_count": 0,
+      "corrections": 0
+    }
   },
   "recipes": {
     "118": {
@@ -19,7 +25,7 @@
       "spell_id": 2330,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -38,14 +44,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "858": {
       "name": "Lesser Healing Potion",
       "spell_id": 2337,
       "output_qty": 1,
       "skill": 55,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -59,14 +66,15 @@
           "qty": 1,
           "name": "Briarthorn"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "929": {
       "name": "Healing Potion",
       "spell_id": 3447,
       "output_qty": 1,
       "skill": 110,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -85,14 +93,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "1710": {
       "name": "Greater Healing Potion",
       "spell_id": 7181,
       "output_qty": 1,
       "skill": 155,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -111,14 +120,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2454": {
       "name": "Elixir of Lion's Strength",
       "spell_id": 2329,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -137,14 +147,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2455": {
       "name": "Minor Mana Potion",
       "spell_id": 2331,
       "output_qty": 1,
       "skill": 25,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -163,14 +174,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2456": {
       "name": "Minor Rejuvenation Potion",
       "spell_id": 2332,
       "output_qty": 1,
       "skill": 40,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -189,14 +201,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2457": {
       "name": "Elixir of Minor Agility",
       "spell_id": 3230,
       "output_qty": 1,
       "skill": 50,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -215,14 +228,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2458": {
       "name": "Elixir of Minor Fortitude",
       "spell_id": 2334,
       "output_qty": 1,
       "skill": 50,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -241,14 +255,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "2459": {
       "name": "Swiftness Potion",
       "spell_id": 2335,
       "output_qty": 1,
       "skill": 60,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -267,14 +282,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3382": {
       "name": "Weak Troll's Blood Elixir",
       "spell_id": 3170,
       "output_qty": 1,
       "skill": 15,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -293,14 +309,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3383": {
       "name": "Elixir of Wisdom",
       "spell_id": 3171,
       "output_qty": 1,
       "skill": 90,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -319,14 +336,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3384": {
       "name": "Minor Magic Resistance Potion",
       "spell_id": 3172,
       "output_qty": 1,
       "skill": 110,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -345,14 +363,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3385": {
       "name": "Lesser Mana Potion",
       "spell_id": 3173,
       "output_qty": 1,
       "skill": 120,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -371,14 +390,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3386": {
       "name": "Potion of Curing",
       "spell_id": 3174,
       "output_qty": 1,
       "skill": 120,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -397,14 +417,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3387": {
       "name": "Limited Invulnerability Potion",
       "spell_id": 3175,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -423,14 +444,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3388": {
       "name": "Strong Troll's Blood Elixir",
       "spell_id": 3176,
       "output_qty": 1,
       "skill": 125,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -449,14 +471,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3389": {
       "name": "Elixir of Defense",
       "spell_id": 3177,
       "output_qty": 1,
       "skill": 130,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -475,14 +498,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3390": {
       "name": "Elixir of Lesser Agility",
       "spell_id": 2333,
       "output_qty": 1,
       "skill": 140,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -501,14 +525,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3391": {
       "name": "Elixir of Ogre's Strength",
       "spell_id": 3188,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -527,14 +552,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3577": {
       "name": "Gold Bar",
       "spell_id": 3308,
       "output_qty": 1,
-      "skill": 225,
-      "skill_verified": false,
+      "skill": 155,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -548,14 +574,15 @@
           "qty": 1,
           "name": "Iron Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3823": {
       "name": "Lesser Invisibility Potion",
       "spell_id": 3448,
       "output_qty": 1,
       "skill": 165,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -574,14 +601,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3824": {
       "name": "Shadow Oil",
       "spell_id": 3449,
       "output_qty": 1,
       "skill": 165,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -600,14 +628,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3825": {
       "name": "Elixir of Fortitude",
       "spell_id": 3450,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -626,14 +655,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3826": {
       "name": "Major Troll's Blood Elixir",
       "spell_id": 3451,
       "output_qty": 1,
       "skill": 180,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -652,14 +682,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3827": {
       "name": "Mana Potion",
       "spell_id": 3452,
       "output_qty": 1,
       "skill": 160,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -678,14 +709,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3828": {
       "name": "Elixir of Detect Lesser Invisibility",
       "spell_id": 3453,
       "output_qty": 1,
       "skill": 195,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -704,14 +736,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3829": {
       "name": "Frost Oil",
       "spell_id": 3454,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -730,14 +763,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "3928": {
       "name": "Superior Healing Potion",
       "spell_id": 11457,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -756,14 +790,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4596": {
       "name": "Discolored Healing Potion",
       "spell_id": 4508,
       "output_qty": 1,
       "skill": 50,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -782,14 +817,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "4623": {
       "name": "Lesser Stoneshield Potion",
       "spell_id": 4942,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -808,14 +844,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5631": {
       "name": "Rage Potion",
       "spell_id": 6617,
       "output_qty": 1,
       "skill": 60,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -834,14 +871,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5633": {
       "name": "Great Rage Potion",
       "spell_id": 6618,
       "output_qty": 1,
       "skill": 175,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -875,14 +913,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5634": {
       "name": "Free Action Potion",
       "spell_id": 6624,
       "output_qty": 1,
       "skill": 150,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -901,14 +940,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5996": {
       "name": "Elixir of Water Breathing",
       "spell_id": 7179,
       "output_qty": 1,
       "skill": 90,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -927,14 +967,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "5997": {
       "name": "Elixir of Minor Defense",
       "spell_id": 7183,
       "output_qty": 1,
       "skill": 1,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -948,14 +989,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6037": {
       "name": "Truesilver Bar",
       "spell_id": 10098,
       "output_qty": 1,
-      "skill": 225,
-      "skill_verified": false,
+      "skill": 230,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -969,14 +1011,15 @@
           "qty": 1,
           "name": "Mithril Bar"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6048": {
       "name": "Shadow Protection Potion",
       "spell_id": 7256,
       "output_qty": 1,
       "skill": 135,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -995,14 +1038,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6049": {
       "name": "Fire Protection Potion",
       "spell_id": 7257,
       "output_qty": 1,
       "skill": 165,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1021,14 +1065,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6050": {
       "name": "Frost Protection Potion",
       "spell_id": 7258,
       "output_qty": 1,
       "skill": 190,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1047,14 +1092,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6051": {
       "name": "Holy Protection Potion",
       "spell_id": 7255,
       "output_qty": 1,
       "skill": 100,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1073,14 +1119,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6052": {
       "name": "Nature Protection Potion",
       "spell_id": 7259,
       "output_qty": 1,
       "skill": 190,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1099,14 +1146,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6149": {
       "name": "Greater Mana Potion",
       "spell_id": 11448,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1125,14 +1173,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6370": {
       "name": "Blackmouth Oil",
       "spell_id": 7836,
       "output_qty": 1,
       "skill": 80,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1146,14 +1195,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6371": {
       "name": "Fire Oil",
       "spell_id": 7837,
       "output_qty": 1,
       "skill": 130,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1167,14 +1217,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6372": {
       "name": "Swim Speed Potion",
       "spell_id": 7841,
       "output_qty": 1,
       "skill": 100,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1193,14 +1244,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6373": {
       "name": "Elixir of Firepower",
       "spell_id": 7845,
       "output_qty": 1,
       "skill": 140,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1219,14 +1271,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "6662": {
       "name": "Elixir of Giant Growth",
       "spell_id": 8240,
       "output_qty": 1,
       "skill": 90,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1245,14 +1298,15 @@
           "qty": 1,
           "name": "Empty Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7068": {
       "name": "Elemental Fire",
       "spell_id": 25146,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1261,14 +1315,15 @@
           "qty": 1,
           "name": "Heart of Fire"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7076": {
       "name": "Essence of Earth",
       "spell_id": 17560,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1282,14 +1337,15 @@
           "qty": 1,
           "name": "Living Essence"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7078": {
       "name": "Essence of Fire",
       "spell_id": 17559,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1298,14 +1354,15 @@
           "qty": 1,
           "name": "Essence of Air"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7080": {
       "name": "Essence of Water",
       "spell_id": 17561,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1319,14 +1376,15 @@
           "qty": 1,
           "name": "Essence of Undeath"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "7082": {
       "name": "Essence of Air",
       "spell_id": 17562,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1335,14 +1393,15 @@
           "qty": 1,
           "name": "Essence of Water"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "8949": {
       "name": "Elixir of Agility",
       "spell_id": 11449,
       "output_qty": 1,
       "skill": 185,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1361,14 +1420,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "8951": {
       "name": "Elixir of Greater Defense",
       "spell_id": 11450,
       "output_qty": 1,
       "skill": 195,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1387,14 +1447,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "8956": {
       "name": "Oil of Immolation",
       "spell_id": 11451,
       "output_qty": 1,
       "skill": 205,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1413,14 +1474,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9030": {
       "name": "Restorative Potion",
       "spell_id": 11452,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1439,14 +1501,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9036": {
       "name": "Magic Resistance Potion",
       "spell_id": 11453,
       "output_qty": 1,
       "skill": 210,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1465,14 +1528,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9061": {
       "name": "Goblin Rocket Fuel",
       "spell_id": 11456,
       "output_qty": 1,
       "skill": 210,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1491,14 +1555,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9088": {
       "name": "Gift of Arthas",
       "spell_id": 11466,
       "output_qty": 1,
       "skill": 240,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1517,14 +1582,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9144": {
       "name": "Wildvine Potion",
       "spell_id": 11458,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1543,14 +1609,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9149": {
       "name": "Philosopher's Stone",
       "spell_id": 11459,
       "output_qty": 1,
       "skill": 225,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1574,14 +1641,15 @@
           "qty": 4,
           "name": "Firebloom"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9154": {
       "name": "Elixir of Detect Undead",
       "spell_id": 11460,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1595,14 +1663,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9155": {
       "name": "Arcane Elixir",
       "spell_id": 11461,
       "output_qty": 1,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1621,14 +1690,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9172": {
       "name": "Invisibility Potion",
       "spell_id": 11464,
       "output_qty": 1,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1647,14 +1717,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9179": {
       "name": "Elixir of Greater Intellect",
       "spell_id": 11465,
       "output_qty": 1,
       "skill": 235,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1673,14 +1744,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9187": {
       "name": "Elixir of Greater Agility",
       "spell_id": 11467,
       "output_qty": 1,
       "skill": 240,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1699,14 +1771,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9197": {
       "name": "Elixir of Dream Vision",
       "spell_id": 11468,
       "output_qty": 1,
       "skill": 240,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1720,14 +1793,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9206": {
       "name": "Elixir of Giants",
       "spell_id": 11472,
       "output_qty": 1,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1746,14 +1820,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9210": {
       "name": "Ghost Dye",
       "spell_id": 11473,
       "output_qty": 1,
       "skill": 245,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1772,14 +1847,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9224": {
       "name": "Elixir of Demonslaying",
       "spell_id": 11477,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1798,14 +1874,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9233": {
       "name": "Elixir of Detect Demon",
       "spell_id": 11478,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1819,14 +1896,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "9264": {
       "name": "Elixir of Shadow Power",
       "spell_id": 11476,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1840,14 +1918,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "10592": {
       "name": "Catseye Elixir",
       "spell_id": 12609,
       "output_qty": 1,
       "skill": 200,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1866,14 +1945,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12190": {
       "name": "Dreamless Sleep Potion",
       "spell_id": 15833,
       "output_qty": 1,
       "skill": 230,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1887,14 +1967,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12360": {
       "name": "Arcanite Bar",
       "spell_id": 17187,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1908,14 +1989,15 @@
           "qty": 1,
           "name": "Arcane Crystal"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12803": {
       "name": "Living Essence",
       "spell_id": 17566,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1924,14 +2006,15 @@
           "qty": 1,
           "name": "Essence of Earth"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "12808": {
       "name": "Essence of Undeath",
       "spell_id": 17564,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1940,14 +2023,15 @@
           "qty": 1,
           "name": "Essence of Water"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13423": {
       "name": "Stonescale Oil",
       "spell_id": 17551,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1961,14 +2045,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13442": {
       "name": "Mighty Rage Potion",
       "spell_id": 17552,
       "output_qty": 1,
       "skill": 255,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -1982,14 +2067,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13443": {
       "name": "Superior Mana Potion",
       "spell_id": 17553,
       "output_qty": 1,
       "skill": 260,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2008,14 +2094,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13444": {
       "name": "Major Mana Potion",
       "spell_id": 17580,
       "output_qty": 1,
       "skill": 295,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2034,14 +2121,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13445": {
       "name": "Elixir of Superior Defense",
       "spell_id": 17554,
       "output_qty": 1,
       "skill": 265,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2060,14 +2148,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13446": {
       "name": "Major Healing Potion",
       "spell_id": 17556,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2086,14 +2175,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13447": {
       "name": "Elixir of the Sages",
       "spell_id": 17555,
       "output_qty": 1,
       "skill": 270,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2112,14 +2202,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13452": {
       "name": "Elixir of the Mongoose",
       "spell_id": 17571,
       "output_qty": 1,
       "skill": 280,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2138,14 +2229,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13453": {
       "name": "Elixir of Brute Force",
       "spell_id": 17557,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2164,14 +2256,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13454": {
       "name": "Greater Arcane Elixir",
       "spell_id": 17573,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2190,14 +2283,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13455": {
       "name": "Greater Stoneshield Potion",
       "spell_id": 17570,
       "output_qty": 1,
       "skill": 280,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2216,14 +2310,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13456": {
       "name": "Greater Frost Protection Potion",
       "spell_id": 17575,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2242,14 +2337,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13457": {
       "name": "Greater Fire Protection Potion",
       "spell_id": 17574,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2268,14 +2364,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13458": {
       "name": "Greater Nature Protection Potion",
       "spell_id": 17576,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2294,14 +2391,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13459": {
       "name": "Greater Shadow Protection Potion",
       "spell_id": 17578,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2320,14 +2418,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13461": {
       "name": "Greater Arcane Protection Potion",
       "spell_id": 17577,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2346,14 +2445,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13462": {
       "name": "Purification Potion",
       "spell_id": 17572,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2372,14 +2472,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13506": {
       "name": "Potion of Petrification",
       "spell_id": 17634,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2403,14 +2504,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13510": {
       "name": "Flask of the Titans",
       "spell_id": 17635,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2434,14 +2536,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13511": {
       "name": "Flask of Distilled Wisdom",
       "spell_id": 17636,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2465,14 +2568,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13512": {
       "name": "Flask of Supreme Power",
       "spell_id": 17637,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2496,14 +2600,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "13513": {
       "name": "Flask of Chromatic Resistance",
       "spell_id": 17638,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2527,14 +2632,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "17708": {
       "name": "Elixir of Frost Power",
       "spell_id": 21923,
       "output_qty": 1,
       "skill": 190,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2553,14 +2659,15 @@
           "qty": 1,
           "name": "Leaded Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18253": {
       "name": "Major Rejuvenation Potion",
       "spell_id": 22732,
       "output_qty": 1,
       "skill": 300,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2584,14 +2691,15 @@
           "qty": 1,
           "name": "Imbued Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "18294": {
       "name": "Elixir of Greater Water Breathing",
       "spell_id": 22808,
       "output_qty": 1,
       "skill": 215,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2610,14 +2718,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "20002": {
       "name": "Greater Dreamless Sleep Potion",
       "spell_id": 24366,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2636,14 +2745,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "20004": {
       "name": "Mighty Troll's Blood Elixir",
       "spell_id": 24368,
       "output_qty": 1,
       "skill": 290,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2662,14 +2772,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "20007": {
       "name": "Mageblood Elixir",
       "spell_id": 24365,
       "output_qty": 1,
       "skill": 275,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2688,14 +2799,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "20008": {
       "name": "Living Action Potion",
       "spell_id": 24367,
       "output_qty": 1,
       "skill": 285,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2719,14 +2831,15 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     },
     "21546": {
       "name": "Elixir of Greater Firepower",
       "spell_id": 26277,
       "output_qty": 1,
       "skill": 250,
-      "skill_verified": false,
+      "skill_verified": true,
       "spec": null,
       "source": "wowhead-classic",
       "reagents": [
@@ -2745,7 +2858,8 @@
           "qty": 1,
           "name": "Crystal Vial"
         }
-      ]
+      ],
+      "skill_source": "wowhead-learnedat"
     }
   }
 }

@@ -140,11 +140,6 @@ ProfTooltip_Cooking = {
             { id = 159,    qty =  1, name = "Refreshing Spring Water" },
         },
     },
-    [22645] = { name = "Crunchy Spider Surprise", skill = 60, spec = nil,
-        components = {
-            { id = 22644,  qty =  1, name = "Crunchy Spider Leg" },
-        },
-    },
     [733] = { name = "Westfall Stew", skill = 75, spec = nil,
         components = {
             { id = 729,    qty =  1, name = "Stringy Vulture Meat" },
